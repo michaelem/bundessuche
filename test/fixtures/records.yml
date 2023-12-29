@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  call_number: MyString
+  source_date: MyString
+  source_id: MyString
+
+two:
+  title: MyString
+  call_number: MyString
+  source_date: MyString
+  source_id: MyString
