@@ -1,0 +1,15 @@
+<form>
+  <input type="text" name="q" value="<%= @query %>" />
+  <input type="submit" value="Search" />
+</form>
+
+<% if @query %>
+  <% if @results.count > 0 %>
+    <h3>Found <%= @results.count =%> results.</h3>
+    <% @results.each do |result| %>
+      <p><b><%= result.call_number %>:</b> <%= result.title %></p>
+    <% end %>
+  <% else %>
+    <h3>No results found.</h3>
+  <% end %>
+<% end %>
