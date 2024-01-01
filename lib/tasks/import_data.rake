@@ -1,29 +1,54 @@
-namespace :import_data do
+RecordData = Struct.new(:title, :call_number, :source_date, :source_id)
+
+namespace :data do
   desc "Import data from XML files"
-  task :run => :environment do
+  task import: :environment do
     puts "Importing data from CSV files..."
     DIR = "data"
-    
-    xml_files = Dir.glob('*.xml', base: DIR)
+    start = Time.now
+    record_count = 0
+
+    xml_files = Dir.glob("*.xml", base: DIR)
     total = xml_files.count
 
     xml_files.each_with_index do |filename, index|
       path = File.join(DIR, filename)
-      doc = File.open(path) { |file| Nokogiri::XML(file) }
-      
+      doc = File.open(path) { |file| Nokogiri.XML(file) }
+
       # I can't figure out how these work in the documents I have, so out they go:
       doc.remove_namespaces!
 
-      puts "Now processing: #{filename} (#{index} of #{total}))"
-      doc.xpath("//c[@level='file']").each do |node|
-        r = Record.create(
-          title: node.xpath('did/unittitle').text,
-          call_number: node.xpath('did/unitid[@type="call number"]').text,
-          source_date: node.xpath('did/unitdate').text,
-          source_id: node.attr('id')
-        )
-      end
+      puts "Now processing: #{filename} (#{index + 1} of #{total}))"
+      doc
+        .xpath("//c[@level='file']")
+        .each do |node|
+          data =
+            RecordData.new(
+              node.xpath("did/unittitle").text,
+              node.xpath('did/unitid[@type="call number"]').text,
+              node.xpath("did/unitdate").text,
+              node.attr("id")
+            )
+          existing_record = Record.find_by(source_id: data.source_id)
+
+          if existing_record
+            existing_record.update(
+              title: data.title,
+              call_number: data.call_number,
+              source_date: data.source_date
+            )
+          else
+            Record.create(
+              title: data.title,
+              call_number: data.call_number,
+              source_date: data.source_date,
+              source_id: data.source_id
+            )
+          end
+          record_count += 1
+        end
     end
 
+    puts "Imported #{record_count} records in #{Time.now - start} seconds."
   end
 end
