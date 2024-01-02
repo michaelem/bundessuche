@@ -7,7 +7,13 @@
   <% if @results.count > 0 %>
     <h3>Found <%= @results.count =%> results.</h3>
     <% @results.each do |result| %>
-      <p><b><%= result.call_number %>:</b> <%= result.title %></p>
+      <hr />
+      <p>
+        <b><%= link_to_if(result.link.present?, result.call_number, result.link) %>:</b> <%= result.title %>
+      </p>
+      <p>
+        <%= result.summary %>
+      </p>
     <% end %>
   <% else %>
     <h3>No results found.</h3>

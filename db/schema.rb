@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_01_01_230133) do
+ActiveRecord::Schema[7.1].define(version: 2024_01_02_124435) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
@@ -21,7 +21,11 @@ ActiveRecord::Schema[7.1].define(version: 2024_01_01_230133) do
     t.string "source_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index "to_tsvector('german'::regconfig, (((title)::text || ' '::text) || (call_number)::text))", name: "records_search", using: :gin
+    t.string "link"
+    t.string "location"
+    t.string "language_code"
+    t.string "summary"
+    t.index "to_tsvector('german'::regconfig, (((((title)::text || ' '::text) || (call_number)::text) || ' '::text) || (summary)::text))", name: "records_search", using: :gin
     t.index ["source_id"], name: "index_records_on_source_id", unique: true
   end
 

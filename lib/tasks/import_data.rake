@@ -32,7 +32,13 @@ namespace :data do
                 title: node.xpath("did/unittitle").text,
                 call_number: node.xpath('did/unitid[@type="call number"]').text,
                 source_date: node.xpath("did/unitdate").text,
-                source_id: node.attr("id")
+                source_id: node.attr("id"),
+                link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
+                location: node.xpath("did/physloc").text,
+                language_code:
+                  node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
+                summary:
+                  node.xpath('scopecontent[@encodinganalog="summary"]/p').text
               }
             end
 

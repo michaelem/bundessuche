@@ -10,7 +10,7 @@ class SearchController < ApplicationController
 
   def lookup(query)
     Record.where(
-      "to_tsvector('german', title || ' ' || call_number) @@ plainto_tsquery(?)",
+      "to_tsvector('german', title || ' ' || call_number || ' ' || summary) @@ plainto_tsquery(?)",
       query
     )
   end
