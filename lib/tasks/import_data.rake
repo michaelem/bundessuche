@@ -18,7 +18,7 @@ namespace :data do
       # I can't figure out how these work in the documents I have, so out they go:
       doc.remove_namespaces!
 
-      puts "Now processing: #{filename} (#{index + 1} of #{total}))"
+      puts "Now reading: #{filename} (#{index + 1} of #{total}))"
       doc
         .xpath("//c[@level='file']")
         .each do |node|
@@ -29,26 +29,21 @@ namespace :data do
               node.xpath("did/unitdate").text,
               node.attr("id")
             )
-          existing_record = Record.find_by(source_id: data.source_id)
 
-          if existing_record
-            existing_record.update(
-              title: data.title,
-              call_number: data.call_number,
-              source_date: data.source_date
-            )
-          else
-            Record.create(
+          Record.upsert(
+            {
               title: data.title,
               call_number: data.call_number,
               source_date: data.source_date,
               source_id: data.source_id
-            )
-          end
+            },
+            unique_by: :source_id
+          )
+
           record_count += 1
         end
     end
 
-    puts "Imported #{record_count} records in #{Time.now - start} seconds."
+    puts "Finished. Imported #{record_count} records in #{Time.now - start} seconds."
   end
 end
