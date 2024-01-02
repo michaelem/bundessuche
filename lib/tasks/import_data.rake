@@ -8,6 +8,12 @@ namespace :data do
 
     xml_files = Dir.glob("*.xml", base: DIR).sort
     total = xml_files.count
+    progress_bar =
+      ProgressBar.create(
+        title: "Importing",
+        total: total,
+        format: "%t %p%% %a %e |%B|"
+      )
 
     xml_files.each_with_index do |filename, index|
       path = File.join(DIR, filename)
@@ -16,7 +22,7 @@ namespace :data do
       # I can't figure out how these work in the documents I have, so out they go:
       doc.remove_namespaces!
 
-      puts "Now reading: #{filename} (#{index + 1} of #{total})"
+      progress_bar.log "Now reading: #{filename} (#{index + 1} of #{total})"
       doc
         .xpath("//c[@level='file']")
         .each_slice(1000) do |slice|
@@ -34,6 +40,8 @@ namespace :data do
 
           record_count += data.count
         end
+
+      progress_bar.increment
     end
 
     puts "Finished. Imported #{record_count} records in #{Time.now - start} seconds."
