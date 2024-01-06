@@ -1,0 +1,8 @@
+.container__outer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container__inner {
+  max-width: 800pt;
+}

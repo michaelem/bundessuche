@@ -1,8 +1,7 @@
 <form>
-  <input type="text" name="q" value="<%= @query %>" />
+  <input type="text" name="q" value="<%= @query %>" placeholder="Search about <%= @total %> files"/>
   <input type="submit" value="Search" />
 </form>
-
 <% if @query %>
   <% if @results.count > 0 %>
     <h3>Found <%= @results.count =%> results.</h3>
