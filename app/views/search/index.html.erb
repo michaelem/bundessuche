@@ -1,5 +1,6 @@
+<h1>Bundessuche</h1>
 <form>
-  <input type="text" name="q" value="<%= @query %>" placeholder="Search about <%= @total %> files"/>
+  <input type="text" name="q" value="<%= @query %>" placeholder="Search about <%= @total %> objects"/>
   <input type="submit" value="Search" />
 </form>
 <% if @query %>
@@ -7,9 +8,10 @@
     <h3>Found <%= @results.count =%> results.</h3>
     <% @results.each do |result| %>
       <hr />
-      <p>
-        <b><%= link_to_if(result.link.present?, result.call_number, result.link) %>:</b> <%= result.title %>
-      </p>
+      <div class="result__header">
+        <p><%= link_to_if(result.link.present?, result.call_number, result.link) %>: <%= result.title %></p>
+        <p><%= result.source_date %></p>
+      </div>
       <p>
         <%= result.summary %>
       </p>

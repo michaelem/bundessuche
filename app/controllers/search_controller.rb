@@ -1,5 +1,6 @@
 class SearchController < ApplicationController
   def index
+    @total = Record.cached_all_count
     @query = params[:q]
 
     @results = @query.present? ? lookup(@query) : []

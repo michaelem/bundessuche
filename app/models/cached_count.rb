@@ -1,0 +1,2 @@
+class CachedCount < ApplicationRecord
+end

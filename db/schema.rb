@@ -10,9 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_01_02_124435) do
+ActiveRecord::Schema[7.1].define(version: 2024_01_06_125411) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "cached_counts", force: :cascade do |t|
+    t.string "model"
+    t.string "scope"
+    t.bigint "count"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["model", "scope"], name: "index_cached_counts_on_model_and_scope", unique: true
+  end
 
   create_table "records", force: :cascade do |t|
     t.string "title"

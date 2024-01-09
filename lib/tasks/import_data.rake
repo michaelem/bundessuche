@@ -50,6 +50,8 @@ namespace :data do
       progress_bar.increment
     end
 
+    Record.update_cached_all_count
+
     puts "Finished. Imported #{record_count} records in #{Time.now - start} seconds."
   end
 end
