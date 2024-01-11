@@ -4,8 +4,9 @@
   <input type="submit" value="Search" />
 </form>
 <% if @query %>
-  <% if @results.count > 0 %>
-    <h3>Found <%= @results.count =%> results.</h3>
+  <% if @results_count > 0 %>
+    <h3>Found <%= @results_count =%> results.</h3>
+    <%= paginate @results %>
     <% @results.each do |result| %>
       <hr />
       <div class="result__header">
@@ -16,6 +17,7 @@
         <%= result.summary %>
       </p>
     <% end %>
+    <%= paginate @results %>
   <% else %>
     <h3>No results found.</h3>
   <% end %>
