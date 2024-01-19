@@ -1,12 +1,22 @@
 class SearchController < ApplicationController
+  helper SearchHelper
+
   def fulltext
     @total = Record.cached_all_count
     @query = params[:q]
 
-    @results = @query.present? ? fulltext_search(@query) : Record.none
-    @results_count = @results.count
-
-    @results = @results.page(params[:page]).per(500)
+    @records = Record.fulltext_search(@query).page(params[:page]).per(500)
+    @pagination_cache =
+      Rails
+        .cache
+        .fetch(
+          "controllers/search/fulltext/pagination_cache_#{helpers.query_cache_key @query}"
+        ) do
+          {
+            total_count: @records.total_count,
+            total_pages: @records.total_pages
+          }
+        end
 
     render :index
   end
@@ -14,27 +24,18 @@ class SearchController < ApplicationController
   def index
     @total = Record.cached_all_count
     @query = params[:q]
-    clause = "%#{@query}%"
 
-    @results = @query.present? ? ilike_search(@query) : Record.none
-    @results_count = @results.count
-
-    @results = @results.page(params[:page]).per(500)
-  end
-
-  private
-
-  def fulltext_search(query)
-    Record.where(
-      "to_tsvector('german', title || ' ' || call_number || ' ' || summary) @@ plainto_tsquery(?)",
-      query
-    ).order(:call_number)
-  end
-
-  def ilike_search(query)
-    query = "%#{query}%"
-    Record.where("title ILIKE ? OR summary ILIKE ?", query, query).order(
-      :call_number
-    )
+    @records = Record.ilike_search(@query).page(params[:page]).per(500)
+    @pagination_cache =
+      Rails
+        .cache
+        .fetch(
+          "controllers/search/ilike/pagination_cache_#{helpers.query_cache_key @query}"
+        ) do
+          {
+            total_count: @records.total_count,
+            total_pages: @records.total_pages
+          }
+        end
   end
 end
