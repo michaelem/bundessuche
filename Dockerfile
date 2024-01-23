@@ -13,13 +13,27 @@ ENV RAILS_ENV="production" \
     BUNDLE_PATH="/usr/local/bundle" \
     BUNDLE_WITHOUT="development"
 
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y gnupg lsb-release curl
+
+# Create the file repository configuration for porstgresql:
+RUN sh -c 'echo "deb https://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+
+# Import the repository signing key or porstgresql:
+RUN curl -sS https://www.postgresql.org/media/keys/ACCC4CF8.asc | apt-key add -
+
+# Install postgres client headers for building and using pg gem
+RUN apt-get update -qq && \
+    apt-get install --no-install-recommends -y libpq-dev
+
+# Upgrade packages
+RUN apt-get upgrade -y
 
 # Throw-away build stage to reduce size of final image
 FROM base as build
 
 # Install packages needed to build gems
-RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y build-essential git pkg-config
+RUN apt-get install --no-install-recommends -y build-essential git pkg-config
 
 # Install application gems
 COPY Gemfile Gemfile.lock ./
@@ -40,10 +54,8 @@ RUN SECRET_KEY_BASE_DUMMY=1 ./bin/rails assets:precompile
 # Final stage for app image
 FROM base
 
-# Install packages needed for deployment
-RUN apt-get update -qq && \
-    apt-get install --no-install-recommends -y curl libsqlite3-0 && \
-    rm -rf /var/lib/apt/lists /var/cache/apt/archives
+# Remove build-time apt cache to reduce image size
+RUN rm -rf /var/lib/apt/lists /var/cache/apt/archives
 
 # Copy built artifacts: gems, application
 COPY --from=build /usr/local/bundle /usr/local/bundle
