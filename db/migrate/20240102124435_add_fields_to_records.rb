@@ -5,6 +5,7 @@ class AddFieldsToRecords < ActiveRecord::Migration[7.1]
     add_column :records, :language_code, :string
     add_column :records, :summary, :string
 
+    remove_index :records, name: "records_search"
     add_index :records,
               "to_tsvector('german', title || ' ' || call_number || ' ' || summary)",
               using: :gin,
