@@ -53,6 +53,11 @@ jobs:
     runs-on: buildjet-4vcpu-ubuntu-2204-arm
     if: github.ref == 'refs/heads/main'
 
+    # These permissions are needed to interact with GitHub's OIDC Token endpoint.
+    permissions:
+      id-token: write
+      contents: read
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
