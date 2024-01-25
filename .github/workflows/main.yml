@@ -62,6 +62,7 @@ jobs:
         with:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: eu-central-1
+          role-to-assume: arn:aws:iam::934812461087:role/BundessucheStack-githubActionsOidcdeployerRole22F56-Ym4iRyMvnk9d
 
       - name: Login to AWS ECR
         id: login-ecr
