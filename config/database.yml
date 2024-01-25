@@ -17,4 +17,5 @@ test:
 
 production:
   <<: *default
+  host: postgres
   database: bundessuche_production
