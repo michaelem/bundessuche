@@ -6,7 +6,7 @@ default: &default
   username: <%= ENV.fetch("POSTGRES_USERNAME") { 'postgres' } %>
   password: <%= ENV.fetch("POSTGRES_PASSWORD") { 'postgres' } %>
   port: 5432
-  host: localhost
+  host: <%= ENV.fetch("POSTGRES_HOST") { 'localhost' } %>
 
 development:
   <<: *default
@@ -21,5 +21,4 @@ test:
 
 production:
   <<: *default
-  host: postgres
   database: bundessuche_production
