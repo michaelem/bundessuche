@@ -28,4 +28,5 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  search_button: "search"
+  search_placeholder: "Search %{total} objects"

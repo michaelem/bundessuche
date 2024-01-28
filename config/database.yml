@@ -3,8 +3,6 @@ default: &default
   encoding: unicode
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  username: <%= ENV.fetch("POSTGRES_USERNAME") { 'postgres' } %>
-  password: <%= ENV.fetch("POSTGRES_PASSWORD") { 'postgres' } %>
   port: 5432
   host: <%= ENV.fetch("POSTGRES_HOST") { 'localhost' } %>
 
@@ -22,3 +20,5 @@ test:
 production:
   <<: *default
   database: bundessuche_production
+  username: <%= ENV.fetch("POSTGRES_USERNAME") { 'postgres' } %>
+  password: <%= ENV.fetch("POSTGRES_PASSWORD") { 'postgres' } %>
