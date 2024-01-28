@@ -3,8 +3,8 @@
   <input type="text" name="q" value="<%= @query %>" placeholder="Search about <%= @total %> objects"/>
   <input type="submit" value="Search" />
 </form>
-<% cache [controller.action_name, query_cache_key(@query), @records.current_page] do %>
-  <% if @query %>
+<% if @query %>
+  <% cache [controller.action_name, query_cache_key(@query), @records.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
       <h3>Found <%= @pagination_cache[:total_count] =%> results.</h3>
       <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
