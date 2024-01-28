@@ -15,7 +15,7 @@
       <% @records.each do |record| %>
         <hr />
         <div class="result__header">
-          <p><%= link_to_if(record.link.present?, record.call_number, record.link) %>: <%= highlight(@query, record.title) %></p>
+          <p><%= link_to_if(record.link.present?, record.call_number, record.link, target: "_blank") %>: <%= highlight(@query, record.title) %></p>
           <p><%= record.source_date %></p>
         </div>
         <p>
