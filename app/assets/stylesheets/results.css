@@ -6,3 +6,7 @@
 .pagination {
   text-align: center;
 }
+
+.result__highlight {
+  background-color: rgba(185, 255, 147, 0.717);
+}
