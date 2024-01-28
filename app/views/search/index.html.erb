@@ -1,13 +1,17 @@
-<h1>Bundessuche</h1>
-<form>
-  <input type="text" name="q" value="<%= @query %>" placeholder="<%= t("search_placeholder", total: @total) %>/>
-  <input type="submit" value="<%= t("search_button") %>"/>
+<h1 class="search__title">
+  <%= link_to "Bundessuche", :root %>
+</h1>
+<form class="<%= @query ? "" : "search__form--centered" %>">
+  <input type="text" name="q" value="<%= @query %>" placeholder="<%= t("search_placeholder", total: @total) %>" class="search__text-input" />
+  <input type="submit" value="<%= t("search_button") %>" class="search__button" />
 </form>
 <% if @query %>
   <% cache [controller.action_name, query_cache_key(@query), @records.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
       <h3><%= @pagination_cache[:total_count] =%> Akten gefunden.</h3>
-      <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
+      <div class="pagination">
+        <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
+      </div>
       <% @records.each do |record| %>
         <hr />
         <div class="result__header">
@@ -18,7 +22,9 @@
           <%= record.summary %>
         </p>
       <% end %>
-      <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
+      <div class="pagination">
+        <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
+      </div>
     <% else %>
       <h3>Keine Akten gefunden.</h3>
     <% end %>
