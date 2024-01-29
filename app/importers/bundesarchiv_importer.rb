@@ -1,12 +1,14 @@
-namespace :data do
-  desc "Import data from XML files"
-  task import: :environment do
+class BundesarchivImporter
+  def initialize(dir = "data")
+    @dir = dir
+  end
+
+  def run
     puts "Importing data from CSV files..."
-    DIR = "data"
     start = Time.now
     record_count = 0
 
-    xml_files = Dir.glob("*.xml", base: DIR).sort
+    xml_files = Dir.glob("*.xml", base: @dir).sort
     total = xml_files.count
     progress_bar =
       ProgressBar.create(
@@ -16,13 +18,14 @@ namespace :data do
       )
 
     xml_files.each_with_index do |filename, index|
-      path = File.join(DIR, filename)
+      path = File.join(@dir, filename)
       doc = File.open(path) { |file| Nokogiri.XML(file) }
 
       # I can't figure out how these work in the documents I have, so out they go:
       doc.remove_namespaces!
 
       progress_bar.log "Now reading: #{filename} (#{index + 1} of #{total})"
+
       doc
         .xpath("//c[@level='file']")
         .each_slice(1000) do |slice|
