@@ -1,60 +1,57 @@
-class BundesarchivImporter
-  def initialize(dir = "data")
-    @dir = dir
+class ArchiveObject
+  def initialize(parents, node)
+    @parents = parents
+    @node = node
   end
 
-  class ArchiveObject
-    def initialize(parents, node)
-      @parents = parents
-      @node = node
-    end
+  def process_files
+    record_count = 0
 
-    def process_files
-      record_count = 0
+    @node
+      .xpath("c[@level='file']")
+      .each_slice(1000) do |slice|
+        data =
+          slice.map do |node|
+            {
+              title: node.xpath("did/unittitle").text,
+              parents: @parents,
+              call_number: node.xpath('did/unitid[@type="call number"]').text,
+              source_date: node.xpath("did/unitdate").text,
+              source_id: node.attr("id"),
+              link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
+              location: node.xpath("did/physloc").text,
+              language_code:
+                node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
+              summary:
+                node.xpath('scopecontent[@encodinganalog="summary"]/p').text
+            }
+          end
+        Record.upsert_all(data, unique_by: :source_id)
+        record_count += data.count
+      end
 
-      @node
-        .xpath("c[@level='file']")
-        .each_slice(1000) do |slice|
-          data =
-            slice.map do |node|
-              {
-                title: node.xpath("did/unittitle").text,
-                parents: @parents,
-                call_number: node.xpath('did/unitid[@type="call number"]').text,
-                source_date: node.xpath("did/unitdate").text,
-                source_id: node.attr("id"),
-                link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
-                location: node.xpath("did/physloc").text,
-                language_code:
-                  node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
-                summary:
-                  node.xpath('scopecontent[@encodinganalog="summary"]/p').text
-              }
-            end
-          Record.upsert_all(data, unique_by: :source_id)
-          record_count += data.count
-        end
+    return record_count
+  end
 
-      return record_count
-    end
+  def descend
+    @node
+      .xpath("c[@level!='file']")
+      .map do |node|
+        descendent =
+          ArchiveObject.new(@parents + [node.xpath("did/unittitle").text], node)
+        descendent.descend + descendent.process_files
+      end
+      .sum
+  end
+end
 
-    def descend
-      @node
-        .xpath("c[@level!='file']")
-        .map do |node|
-          descendent =
-            ArchiveObject.new(
-              @parents + [node.xpath("did/unittitle").text],
-              node
-            )
-          descendent.descend + descendent.process_files
-        end
-        .sum
-    end
+class BundesarchivImporter
+  def initialize(dir)
+    @dir = dir || "data"
   end
 
   def run
-    puts "Importing data from CSV files..."
+    puts "Importing data from XML files in #{@dir}..."
     start = Time.now
     record_count = 0
 
