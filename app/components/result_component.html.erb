@@ -1,8 +1,11 @@
 <div class="result">
+  <div class="parents">
+    <%= parents %>
+  </div>
   <div class="result__header">
-    <p>
+    <h4>
       <%= link_to_if(@record.link.present?, @record.call_number, @record.link, target: "_blank") %>: <%= title %>
-    </p>
+    </h4>
     <p>
       <%= date %>
     </p>

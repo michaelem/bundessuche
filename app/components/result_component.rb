@@ -4,6 +4,15 @@ class ResultComponent < ViewComponent::Base
     @record = record
   end
 
+  def parents
+    @parents ||=
+      @record.parents.map do |parent|
+        '<div class="parents__item">' + CGI.escapeHTML(parent.strip) + "</div>"
+      end.join '<div class="parents__separator">/</div>'
+
+    @parents.html_safe
+  end
+
   def title
     highlight_query(@record.title)
   end
@@ -21,7 +30,7 @@ class ResultComponent < ViewComponent::Base
   def highlight_query(text)
     return text if @query.blank? || text.blank?
     text.gsub(
-      /(#{@query})/i,
+      /(#{CGI.escapeHTML(@query)})/i,
       '<span class="result__highlight">\1</span>'
     ).html_safe
   end

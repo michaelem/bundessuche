@@ -16,7 +16,7 @@ class Record < ApplicationRecord
     Record.where(
       "to_tsvector('german', title || ' ' || call_number || ' ' || summary) @@ plainto_tsquery(?)",
       query
-    ).order(:call_number)
+    ).order(:parents, :call_number)
   end
 
   def self.ilike_search(query)

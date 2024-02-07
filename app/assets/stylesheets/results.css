@@ -10,3 +10,24 @@
 .result__highlight {
   background-color: rgba(185, 255, 147, 0.717);
 }
+
+.parents {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parents__item {
+  border-radius: 2px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #f1f5ff;
+  color: #666666;
+}
+
+.parents__separator {
+  margin: 5px;
+  padding: 5px;
+  color: #666666;
+}
