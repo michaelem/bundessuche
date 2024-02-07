@@ -50,19 +50,21 @@ class BundesarchivImporter
     @dir = dir || "data"
   end
 
-  def run
-    puts "Importing data from XML files in #{@dir}..."
+  def run(show_progress: false)
+    puts "Importing data from XML files in #{@dir}..." if show_progress
     start = Time.now
     record_count = 0
 
     xml_files = Dir.glob("*.xml", base: @dir).sort
     total = xml_files.count
-    progress_bar =
-      ProgressBar.create(
-        title: "Importing",
-        total: total,
-        format: "%t %p%% %a %e |%B|"
-      )
+    if show_progress
+      progress_bar =
+        ProgressBar.create(
+          title: "Importing",
+          total: total,
+          format: "%t %p%% %a %e |%B|"
+        )
+    end
 
     xml_files.each_with_index do |filename, index|
       path = File.join(@dir, filename)
@@ -71,7 +73,9 @@ class BundesarchivImporter
       # I can't figure out how these work in the documents I have, so out they go:
       doc.remove_namespaces!
 
-      progress_bar.log "Now reading: #{filename} (#{index + 1} of #{total})"
+      if show_progress
+        progress_bar.log "Now reading: #{filename} (#{index + 1} of #{total})"
+      end
 
       record_count +=
         doc
@@ -82,11 +86,13 @@ class BundesarchivImporter
           end
           .sum
 
-      progress_bar.increment
+      progress_bar.increment if show_progress
     end
 
     Record.update_cached_all_count
 
-    puts "Finished. Imported #{record_count} records in #{Time.now - start} seconds."
+    if show_progress
+      puts "Finished. Imported #{record_count} records in #{Time.now - start} seconds."
+    end
   end
 end
