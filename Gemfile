@@ -44,8 +44,7 @@ group :development do
   gem "stackprof"
   gem "memory_profiler"
 
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
+  gem "syntax_tree"
 
   gem "htmlbeautifier", "~> 1.4.2"
 end
