@@ -27,4 +27,12 @@ class Record < ApplicationRecord
       :call_number
     )
   end
+
+  def source_date_years
+    if source_date_end.blank? || source_date_start.year == source_date_end.year
+      return source_date_start.year.to_s
+    end
+
+    "#{source_date_start.year} - #{source_date_end.year}"
+  end
 end
