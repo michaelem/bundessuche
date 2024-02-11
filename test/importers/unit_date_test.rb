@@ -48,4 +48,20 @@ class UnitDateTest < ActiveSupport::TestCase
     assert_nil date_parser.start_date
     assert_nil date_parser.end_date
   end
+
+  test "Fails gracefully when normalised date is not prsent" do
+    xml_string = <<~HEREDOC
+      <?xml version="1.0" encoding="UTF-8"?>
+        <unitdate encodinganalog="3.1.3">Kein Datum</unitdate>
+      </xml>
+    HEREDOC
+
+    node = Nokogiri.XML(xml_string).xpath("unitdate").first
+
+    date_parser = UnitDate.new(node)
+
+    refute date_parser.range?
+    assert_nil date_parser.start_date
+    assert_nil date_parser.end_date
+  end
 end

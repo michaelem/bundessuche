@@ -1,15 +1,12 @@
 class UnitDate
   def initialize(node)
-    @normal = node.attr("normal")
-    @start_string, @end_string = @normal.split("/")
     @text = node.text
+    @normal = node.attr("normal")
 
-    begin
-      @start_date = Date.iso8601(@start_string)
-      @end_date = Date.iso8601(@end_string) if @end_string.present?
-    rescue Date::Error
-      @start_date = nil
-    end
+    @start_string, @end_string = @normal&.split("/")
+
+    @start_date = parse_iso8601_string(@start_string)
+    @end_date = parse_iso8601_string(@end_string)
   end
 
   attr_reader :start_date, :text
@@ -20,5 +17,17 @@ class UnitDate
 
   def end_date
     @end_date || @start_date
+  end
+
+  private
+
+  def parse_iso8601_string(date_string)
+    return nil unless date_string.present?
+
+    begin
+      return Date.iso8601(date_string)
+    rescue Date::Error
+      return nil
+    end
   end
 end
