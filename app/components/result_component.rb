@@ -18,7 +18,7 @@ class ResultComponent < ViewComponent::Base
   end
 
   def date
-    @record.source_date
+    @record.source_date_text
   end
 
   def summary
