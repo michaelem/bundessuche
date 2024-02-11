@@ -15,7 +15,7 @@ class ResultComponentTest < ViewComponent::TestCase
     component =
       ResultComponent.new(
         query: "rechenzentrum",
-        record: OpenStruct.new(source_date: "1989")
+        record: OpenStruct.new(source_date_text: "1989")
       )
     assert_equal "1989", component.date
   end

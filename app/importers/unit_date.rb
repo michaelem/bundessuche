@@ -1,7 +1,7 @@
 class UnitDate
   def initialize(node)
-    @text = node.text
-    @normal = node.attr("normal")
+    @text = node&.text
+    @normal = node&.attr("normal")
 
     @start_string, @end_string = @normal&.split("/")
 
