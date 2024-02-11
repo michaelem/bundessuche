@@ -18,7 +18,9 @@ class ResultComponent < ViewComponent::Base
   end
 
   def date
-    @record.source_date_text
+    return @record.source_date_text if @record.source_date_text.present?
+
+    @record.source_date_years
   end
 
   def summary
