@@ -12,11 +12,14 @@ class ArchiveObject
       .each_slice(1000) do |slice|
         data =
           slice.map do |node|
+            date = UnitDate.new(node.xpath("did/unitdate").first)
             {
               title: node.xpath("did/unittitle").text,
               parents: @parents,
               call_number: node.xpath('did/unitid[@type="call number"]').text,
-              source_date: node.xpath("did/unitdate").text,
+              source_date_text: date.text,
+              source_date_start: date.start_date,
+              source_date_end: date.end_date,
               source_id: node.attr("id"),
               link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
               location: node.xpath("did/physloc").text,

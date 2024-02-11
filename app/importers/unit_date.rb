@@ -2,6 +2,7 @@ class UnitDate
   def initialize(node)
     @normal = node.attr("normal")
     @start_string, @end_string = @normal.split("/")
+    @text = node.text
 
     begin
       @start_date = Date.iso8601(@start_string)
@@ -11,7 +12,7 @@ class UnitDate
     end
   end
 
-  attr_reader :start_date, :end_date
+  attr_reader :start_date, :text
 
   def range?
     @end_date.present?
