@@ -80,8 +80,17 @@ class BundesarchivImporter
         progress_bar.log "Now reading: #{filename} (#{index + 1} of #{total})"
       end
 
+      archive_description = doc.xpath("/ead/archdesc")
+
+      if (archive_description.attr("type").value != "inventory")
+        if show_progress
+          puts "Skipping #{filename} because it's not an inventory"
+        end
+        next
+      end
+
       record_count +=
-        doc
+        archive_description
           .xpath("//c[@level='fonds']")
           .map do |fond|
             object = ArchiveObject.new([fond.xpath("did/unittitle").text], fond)
