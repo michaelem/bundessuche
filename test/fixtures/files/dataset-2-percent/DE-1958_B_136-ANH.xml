@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e936042c-bbb5-4df6-a23c-da85a5777f57/" identifier="DE-1958_e936042c-bbb5-4df6-a23c-da85a5777f57">DE-1958_e936042c-bbb5-4df6-a23c-da85a5777f57</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Sonderedition &quot;Deutsche Einheit&quot;</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2009">2009</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 136-ANH.</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1989-01-01/1990-12-31" encodinganalog="3.1.3">1989-1990</unitdate>
+      <unittitle encodinganalog="3.1.2">Sonderedition &quot;Deutsche Einheit&quot;</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>16 Aufbewahrungseinheiten</extent>
+        <extent>1,1 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Aufgaben und Organisation:</p>
+      <p>Nach Art. 65 GG, der in entsprechenden Formulierungen der Geschäftsordnung der Bundesregierung (BReg.) ausgeformt wurde, bestimmt der Bundeskanzler (BK) die Richtlinien der Politik und trägt dafür die Verantwortung. Darüber hinaus hat er auf die Einheitlichkeit der Geschäftsführung der BReg. hinzuwirken. Formal lassen sich die Funktionen des Amtes wie folgt beschreiben:</p>
+      <p>-Unterrichtung des BK über die laufenden Fragen der allgemeinen Politik und die Arbeit in den Bundesministerien,</p>
+      <p>-Vorbereitung der Entscheidungen des BK und Beachtung ihrer Durchführung,</p>
+      <p>-Koordinierung der Arbeit der Bundesministerien,</p>
+      <p>-Sekretariatsgeschäfte der BReg.,</p>
+      <p>-Planung und Durchführung der Sitzungen des Kabinetts und dessen Ausschüsse.</p>
+      <p>Die organisatorischen Anfänge des Kanzleramtes wirken diffus: Außerhalb der Gliederung in zwei Abteilungen (Zentralabteilung mit vier Referaten und einer Abteilung Koordinierungs- und Kabinettsangelegenheiten mit fünf Referaten) gab es eine dem Kanzler direkt unterstellte Abteilung &quot;Verkehr mit der Alliierten Hohen Kommission&quot;, auch &quot;Büro Blankenhorn&quot; benannt, die im Juni 1950 zur &quot;Dienststelle für auswärtige Angelegenheiten&quot; formiert und zur Keimzelle des Auswärtigen Amtes (AA) wurde. (Das AA wurde zum 15. März 1951 errichtet und bis Juni 1955 von Adenauer in Personalunion wahrgenommen). In der benannten Dienststelle gingen ferner auf das &quot;Organisationsbüro für die konsularisch-wirtschaftlichen Vertretungen im Ausland&quot; und das &quot;Deutsche Büro für Friedensfragen&quot; (Z 35).</p>
+      <p>Im Jan. 1950 wurden die Abteilungen I und II des Staatssekretariates des Innern zu einer Abteilung mit neun Referaten zusammengefasst; eine Lösung, die bis zum Jahre 1958 galt. Das dem Kanzler unmittelbar unterstellte Presse- und Informationsamt wurde als Abt. II des BK bezeichnet.</p>
+      <p>Vom Juni-Okt. 1950 gab es im Bereich des Bundeskanzleramtes das &quot;Büro Schwerin&quot;, das sich auch &quot;Zentrale für Heimatdienst&quot; nannte und für Fragen der inneren Sicherheit zuständig sein sollte. Ab Okt. 1950 wurde MdB Theodor Blank mit der Leitung einer neuen Dienststelle im Rahmen des Bundeskanzleramtes beauftragt: &quot;Der Beauftragte des BK für die mit der Vermehrung der Alliierten Truppen zusammenhängenden Fragen&quot;. Ihm wurde das Büro Schwerin unterstellt. Die Dienststelle Blank wurde bis zur Umwandlung in das Bundesministerium der Verteidigung (BMVg) im Juni 1955 als Einrichtung des Bundeskanzleramtes geführt.</p>
+      <p>Eine bedeutendere Umorganisation fand zum 1. Aug. 1958 statt: Die zu diesem Zeitpunkt auf 14 angewachsenen Referate wurden in drei Unterabteilungen gegliedert, eine Lösung, die jedoch nur bis zum 1. Jan. 1960 Bestand haben sollte. Aus den drei Unterabteilungen wurden wieder zwei Abteilungen errichtet. Für die Jahre1959-1966 gewann ein &quot;Außenpolitisches Büro&quot; besondere Bedeutung; Amtsinhaber war Dr. Franz-Joseph Bach, der ab Febr. 1959 zugleich persönlicher Referent des Bundeskanzleramtes wurde. Nachdem sein Nachfolger, Horst Osterheld im Jahre 1966 Abteilungsleiter wurde, verschwand das außenpolitische Büro wieder.</p>
+      <p>Unter BK Erhard wurde eine weitere Abteilung eingerichtet, in der u.a. die Planungsarbeiten und Informationsarbeit geleistet werden sollten.</p>
+      <p>In den späten sechziger Jahren wuchs die Anzahl der Abteilungen - unter vielfältigen Änderungen - von drei auf fünf bis sie sich seit 1972/1973 mit sechs Abteilungen stabilisierte. Zum 1. Febr. 1989 war das Amt wie folgt organisiert: Sechs Abteilungen, die wiederum jeweils in zwei bis drei Referatsgruppen untergliedert waren: 1. Recht und Verwaltung, 2. Auswärtige und innerdeutsche Beziehungen, Entwicklungspolitik, äußere Sicherheit; 3. Innere Angelegenheiten, Soziales, Umwelt; 4. Wirtschafts- und Finanzpolitik; 5. Gesellschaftliche und politische Analysen-Kommunikation und Öffentlichkeitsarbeit; 6. BND; Koordinierung der Nachrichtendienste des Bundes.</p>
+      <p>Diese Organisation hat im wesentlichen noch Bestand (2009).</p>
+      <p>Bem.: Quelle für die Zeit bis zum Ende der Amtszeit Adenauers insbes. eine Ausarbeitung von Hans Buchheim über die organisatorische Entwicklung des Bundeskanzleramtes während der Kanzlerschaft von Dr. Konrad Adenauer in: B 136/3994.</p>
+      <p>Nachgeordneter Bereich:</p>
+      <p>BND (B 206);</p>
+      <p>Stiftung Wissenschaft und Politik, Ebenhausen/Isar;</p>
+      <p>Von Dez. 1969-Sept. 1971 gab es einen Beauftragten der Bundesregierung für Angelegenheiten des Naturschutzes mit einem Büro im Kanzleramt (Prof. Dr. Grizmek).</p>
+      <p>Beauftragter der Bundesregierung für Kultur und Medien (1998 - ) (B 403)</p>
+      <p>Bundeskanzler:</p>
+      <p>Konrad Adenauer (CDU), Sept. 1949- Okt. 1963</p>
+      <p>Ludwig Erhard (CDU), Okt. 1963-Dez. 1966</p>
+      <p>Kurt Georg Kiesinger (CDU), Dez. 1966- Okt. 1969</p>
+      <p>Willy Brandt (SDP), Okt. 1969- Mai1974</p>
+      <p>Helmut Schmidt (SPD), Mai 1974-Okt. 1982</p>
+      <p>Helmut Kohl (CDU), Okt. 1982-Okt. 1998</p>
+      <p>Gerhard Schröder (SPD), Okt. 1998-Nov. 2005</p>
+      <p>Angela Merkel (CDU), Nov. 2005 -</p>
+      <p>Kabinette:</p>
+      <p>Adenauer (I) 20. Sept. 1949</p>
+      <p>Adenauer (II) 20. Okt. 1953, umgebildet am 16. Okt. 1956</p>
+      <p>Adenauer (III) 29. Okt. 1953</p>
+      <p>Adenauer (IV) 14. Nov. 1961, umgebildet am 13. Nov. 1962</p>
+      <p>Erhard (I) 16. Okt. 1963</p>
+      <p>Erhard (II) 26. Okt. 1965</p>
+      <p>Kiesinger 1. Dez. 1966</p>
+      <p>Brandt (I) 21. Okt. 1969</p>
+      <p>Brandt (II) 14. Dez. 1972</p>
+      <p>Schmidt (I) 16. Mai 1974</p>
+      <p>Schmidt (II) 15. Dez. 1976, umgebildet am 16. Febr. 1978</p>
+      <p>Schmidt (III) 5. Nov. 1980</p>
+      <p>Kohl (I) 1. Okt. 1982</p>
+      <p>Kohl (II) 29. März 1983</p>
+      <p>Kohl (III) 11. März 1987</p>
+      <p>Kohl (IV) 17. Jan. 1991</p>
+      <p>Kohl (V) 15. Nov. 1994</p>
+      <p>Schröder (I) 27. Okt. 1998</p>
+      <p>Schröder (II) 22. Okt. 2002</p>
+      <p>Merkel 22. Nov. 2005</p>
+      <p>Beamtete Staatssekretäre (StS)/ab Juni 1964 Chefs des Bundeskanzleramtes, teilweise auch Bundesminister für besondere Aufgaben</p>
+      <p>(Bem.: Die offizielle Bezeichnung für den Amtschef lautete zunächst &quot;Der Staatssekretär des Innern im Bundeskanzleramt&quot;, die Bezeichnung &quot;Chef des Bundeskanzleramtes&quot; wurde erst mit der Ernennung von StS Dr. Westrick zum Bundesminister eingeführt). Franz Joseph Wuermeling, mdWdGb (Okt. 1949-Febr. 1950)</p>
+      <p>Otto Lenz (Jan. 1951-Sept. 1953)</p>
+      <p>Hans Globke (Okt. 1953-Okt. 1963)</p>
+      <p>Ludger Westrick (Okt. 1963-Juni 1964, danach bis Dez. 1966 Bundesminister.)</p>
+      <p>Werner Knieper, Dez. 1966-Dez. 1967</p>
+      <p>Karl Carstens, Jan. 1968-Okt. 1969</p>
+      <p>Horst Ehmke, Okt. 1969-Dez. 1972</p>
+      <p>Horst Grabert, Dez. 1972-Mai 1974</p>
+      <p>Manfred Schüler, Mai 1974-Nov. 1980</p>
+      <p>Manfred Lahnstein, Dez. 1980-April 1982</p>
+      <p>Gerhard Konow, April 1982-Okt. 1982</p>
+      <p>Waldemar Schreckenberger, Okt. 1982-Nov. 1984</p>
+      <p>Wolfgang Schäuble, Nov. 1984-April 1989</p>
+      <p>Rudolf Seiters, April 1989-Nov. 1991</p>
+      <p>Friedrich Bohl, Nov. 1991-Okt. 1998</p>
+      <p>Bodo Hombach, Okt. 1998-Juli 1999</p>
+      <p>Frank-Walter Steinmeier, Juli 1999-Nov. 2005</p>
+      <p>Thomas de Maizière, Nov. 2005 -</p>
+      <p>Bevollmächtigte der Bundesregierung in Berlin:</p>
+      <p>Einrich Vockel, Febr. 1950-Juni 1962</p>
+      <p>Felix von Eckardt, Juli 1962-Okt. 1965</p>
+      <p>Carl Krautwig, Dez. 1965-Okt. 1969</p>
+      <p>Egon Bahr, Okt. 1969-Dez. 1972, Dez. 1972-Mai 1974</p>
+      <p>Dietrich Spangenberg, Juli 1974-28. Mai 1982</p>
+      <p>Hans-Jürgen Wischnewski, Mai- Okt. 1982</p>
+      <p>Peter Lorenz, Okt. 1982-März 1987</p>
+      <p>Lieselotte Berger, März 1987-Sept. 1989</p>
+      <p>Günter Straßmeir, Okt. 1989-Dez. 1990</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 136-ANH./...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_e936042c-bbb5-4df6-a23c-da85a5777f57" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Sonderedition &quot;Deutsche Einheit&quot;</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>16 Aufbewahrungseinheiten</extent>
+            <extent>1,1 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_96046ecb-8ac5-41a4-9a72-56a887340579" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 136 ANH. Bundeskanzleramt. - Sonderedition &quot;Deutsche Einheit&quot; aus den Akten des Bundeskanzleramtes 1989/1990</unittitle>
+          </did>
+          <c level="series" id="DE-1958_9977e649-b8df-441e-8b7f-f6941085c25a" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">In der Sonderedition &quot;Deutsche Einheit&quot; abgedruckte Dokumente</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fcaffc45-a8ae-49d2-98d0-7efc45227dba" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./1</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 1 Gespräch des Bundeskanzlers Kohl mit Präsident Bush in erweitertem Kreise in Bonn, 30. Mai 1989<lb/>Nr. 2 Gespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow in Bonn, 12. Juni 1989<lb/>Nr. 3 Gespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow in Bonn, 13. Juni 1989<lb/>Nr. 4 Delegationsgespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow in Bonn, 13. Juni 1989<lb/>Nr. 5 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 15. Juni 1989<lb/>Nr. 6 Telefongespräch des Bundeskanzlers Kohl mit Premierministerin Thatcher, 15. Juni 1989<lb/>Nr. 7 Telefongespräch des Bundeskanzlers Kohl mit Ministerpräsident Gonzáles, 15. Juni 1989<lb/>Nr. 8 Gespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterrand in Paris, 22. Juni 1989<lb/>Nr. 9 Deutschlandpolitisches Gespräch bei dem Chef des Bundeskanzleramtes Seiters in Bonn. - Deutschlandpolitik, Erweiterter Dreierkreis, 23. Juni 1989 (Original in B 136/20169)<lb/>Nr. 10 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 23. Juni 1989<lb/>Nr. 11 Innere Lage der DDR nach dem 8. ZK-Plenum am 22./23. Juni 1989. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 27. Juni 1989 (Original in B 288/124)<lb/>Nr. 12 Schreiben des Bundeskanzlers Kohl an Präsident Bush, 28. Juni 1989<lb/>Nr. 13 Offizieller Besuch des Bundesministers Seiters in Berlin (Ost), 3./4. Juli 1989 (Original in B 136/21328)<lb/>Nr. 13 A Zusammenstellung der von Generalsekretär Honecker übergebenen Reisezahlen<lb/>Nr. 14 Antrag der Deutschen Lufthansa auf Erweiterung des Flugverkehrs zur Leipziger Messe. - Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 6. Juli 1989 (Original in B 136/20241)<lb/>Nr. 14 A Antrag der Deutschen Lufthansa auf Erweiterung des Flugverkehrs zur Leipziger Messe. - Gesprächslinie<lb/>Nr. 15 Gespräch des Bundeskanzlers Kohl mit dem Fraktionsvorsitzenden des Bürgerkomitees &quot;Solidarität&quot;, Geremek, in Bonn, 7. Juli 1989<lb/>Nr. 16 Gemeinsame Pressekonferenz der Staatspräsidenten Mitterand und Gorbatschow am 5. Juli 1989 in Paris. - Vorlage des Vortragenden Legationsrats I Bitterlich an Bundeskanzler Kohl, 14. Juli 1989<lb/>Nr. 17 Antragsteller in den Bundesaufnahmestellen, 31. Juli 1989<lb/>Nr. 18 DDR-Ausreiseproblematik. - Fernschreiben des Ministerialdirigenten Staab an den Chef des Bundeskanzleramtes, 7. Aug. 1989 (Original in B 137/15797)<lb/>Nr. 19 Mitteilung des Rechtsanwalts Vogel, 8. Aug. 1989 (Original in B 137/15797)<lb/>Nr. 20 Schließung der Ständigen Vertretung in Berlin (Ost). - Vorlage des Ministerialdirigenten Stern an den Chef des Bundeskanzleramtes Seiters, 11. Aug. 1989 (Original in B 136/21859)<lb/>Nr. 21 Schließung der Ständigen Vertretung in Berlin (Ost). - Gespräch des Ministerialdirigenten Duisberg mit dem Stellvertretenden Außenminister Nier in Berlin (Ost), 11. Aug. 1989 (Original in B 136/21329)<lb/>Nr. 22 Schreiben des Bundeskanzlers Kohl an den Generalsekretär und Staatsratsvorsitzenden Honecker, 14.Aug. 1989 (Original in B 288/355)<lb/>Nr. 23 Schreiben des Generalsekretärs und Staatsratsvorsitzenden Honecker an Bundeskanzler Kohl, 17./30. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 24 Gespräch des Bundesministers Seiters mit dem Ersten Stellvertretenden Außenminister Krolikowski in Berlin (Ost), 18. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 25 Schreiben der Zufluchtsuchenden in der Ständigen Vertretung der Bundesrepublik Deutschland bei der DDR an Bundeskanzler Kohl, 20. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 26 Zufluchtsproblematik in der Ständigen Vertretung. - Fernschreiben des Staatssekretärs Bertele an Bundesminister Seiters, 23. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 27 Zufluchtsfälle in Ostblockbotschaften und in der Ständigen Vertretung. - Fernschreiben des Staatssekretärs Bertele an Bundesminister Seiters, 24. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 28 Vermerk des Bundesministers Genscher über das Gespräch des Bundeskanzlers Kohl mit Ministerpräsident Németh und Außenminister Horn auf Schloss Gymnich, 25. Aug. 2010<lb/>Nr. 29 Gespräch des Bundeskanzlers Kohl und des Bundesministers Genscher mit Ministerpräsident Németh und Außenminister Horn während des Mittagessens auf Schloss Gymnich<lb/>Nr. 30 Zufluchtsfälle in der Ständigen Vertretung und in der Botschaft der Bundesrepublik Deutschland in Prag. - Fernschreiben des Ministerialdirigenten Duisberg an Staatssekretär Bertele, 29. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 31 Telefongespräch des Bundeskanzlers Kohl mit Ministerpräsident Mazowiecki, 31. Aug. 1989<lb/>Nr. 32 Zufluchtsfälle in der Ständigen Vertretung in Berlin (Ost) und in der Botschaft in Prag. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 31. Aug. 1989 (Original in B 136/21860)<lb/>Nr. 33 Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes zur Stimmungslage in der Bevölkerung, 31. Aug. 1989 (Original in B 136/20282)<lb/>Nr. 34 Ausreisewillige DDR-Bürger; Lage in Ungarn und in der Ständigen Vertretung. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 1. Sept. 1989 (Original in B 136/21860)<lb/>Nr. 35 Zufluchtsfälle in der Ständigen Vertretung in Berlin (Ost) und in den Botschaften in Prag und Warschau. - Fernschreiben des Ministerialdirigenten Duisberg an Staatssekretär Bertele, 6. Sept. 1989 (Original in B 136/21860)<lb/>Nr. 36 Gespräch des Bundesministers Seiters mit dem Ständigen Vertreter der DDR, Neubauer, in Bonn, 7. Sept. 1989 (Original in B 136/21860)<lb/>Nr. 37 Gespräch des Bundesministers Seiters mit dem stellvertretenden Außenminister Eagleburger in Bonn, 7. Sept. 1989<lb/>Nr. 38 Gespräch des Bundeskanzlers Kohl mit dem Vorsitzenden der Gewerkschaft &quot;Solidarität&quot;, Walesa, in Bonn, 7. Sept. 1989<lb/>Nr. 39 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Mazowiecki, 8. Sept. 1989<lb/>Nr. 40 Telegramm des Bundeskanzlers Kohl an Ministerpräsident Németh, 12. Sept. 1989 (Original in B 136/30462)<lb/>Nr. 41 Gespräch des Bundesministers Seiters mit Botschafter Horváth in Bonn, 19. Sept. 1989<lb/>Nr. 42 Gespräch des Bundesministers Seiters mit Botschafter Walters in Bonn, 20. Sept. 1989<lb/>Nr. 43 Bildung von Oppositionsgruppen in der DDR. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 20. Sept. 1989 (Original in B 136/24338)<lb/>Nr. 44 Gespräch des Bundesministers Seiters mit Generalsekretär Wörner in Bonn, 21. Sept. 1989<lb/>Nr. 45 Die Krise in der DDR. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 22. Sept. 1989 (Original in B 288/116)<lb/>Nr. 46 Zwei Fernschreiben von Präsident Bush an den Bundeskanzler vom 22. und 25. Sept. 1989; Unterrichtung über Schreiben von Generalsekretär Gorbatschow an Präsident Bush, bevorstehende C[hemie]W[affen]-Initiative der USA. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 25. Sept. 1989<lb/>Nr. 47 Schreiben des Rechtsanwalts Vogel an Staatssekretär Priesnitz, 26. Sept. 1989 (Original in B 137/15797)<lb/>Nr. 48 Schreiben des Ministerpräsidenten Mazowiecki an Bundeskanzler Kohl, 27. Sept. 1989<lb/>Nr. 49 Gespräch des Ministerialdirektors Teltschik mit Botschafter Kwizinskij in Bonn, 29. Sept. 1989<lb/>Nr. 50 Gespräch des Ministerialdirektors Teltschik mit Botschafter Kwizinskij in Bonn, 29. Sept. 1989<lb/>Nr. 51 Gespräch des Ministerialdirigenten Duisberg mit dem Ständigen Vertreter der DDR, Neubauer, in Bonn, 1. Okt. 1989 (Original in B 136/21860)<lb/>Nr. 52 Ausreise der Zuflüchtigen mit dem Sonderzug Warschau - Helmstedt. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 2. Okt. 1989 (Original in B 136/21860)<lb/>Nr. 53 Gespräch des Bundesministers Seiters mit dem Ständigen Vertreter der DDR, Neubauer, in Bonn, 2. Okt. 1989 (Original in B 136/21860)<lb/>Nr. 54 Pressekonferenz; Ausreise der DDR-Flüchtlinge aus den Botschaften in Prag und Warschau. - Vorlage des Ministerialdirigenten Duisberg an Bundesminister Klein, 2. Okt. 1989</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fcaffc45-a8ae-49d2-98d0-7efc45227dba/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d9bfc8a9-4922-4bd0-ac75-bbc9cf9cca92" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./2</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 55 Telefongespräch des Bundeskanzlers Kohl mit Ministerpräsident Adamec, 3. Okt. 1989 (Original in B 136/21860)<lb/>Nr. 56 Gespräche und Kontakte des Chefs des Bundeskanzleramtes Seiters und des Ministerialdirigenten Duisberg. - Zufluchtsuchende in den Botschaften in Prag und Warschau, 3. - 5. Okt. 1989 (Originale in B 136/21329, 21860)<lb/>Nr. 57 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Némenth, 4. Okt. 1989<lb/>Nr. 58 Gespräch des Bundeskanzlers Kohl mit Präsident Delors in Bonn, 5. Okt. 1989<lb/>Nr. 59 Stand der Beziehungen zur DDR im Lichte der Zufluchtsproblematik. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 6. Okt. 1989 (Original in B 136/20224)<lb/>Nr. 60 Telefongespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow, 11. Okt. 1989<lb/>Nr. 61 Gespräche in London (FCO und Cabinet Office). - Vermerk des Ministerialdirigenten Hartmann, 13. Okt. 1989 (Original in B 136/30501)<lb/>Nr. 62 Gespräch des Bundeskanzlers Kohl mit Ministerpräsident Andreotti in Bonn, 18. Okt. 1989<lb/>Nr. 63 Führungswechsel in der DDR. - Vorlage des Ministerialdirigenten Duisberg an Bundeskanzler Kohl, 19. Okt . 1989 (Original in B 136/20295)<lb/>Nr. 64 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 23. Okt. 1989<lb/>Nr. 65 Gespräch des Bundesministers Seiters mit Botschafter Walters in Bonn, 23. Okt. 1989 (Original in B 136/20241)<lb/>Nr. 66 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 24. Okt. 1989 (Original in B 136/20241)<lb/>Nr. 67 Reden von US-Außenminister Baker insbesondere zum Verhältnis USA - UdSSR, auch zur deutschen Frage. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 24. Okt. 1989<lb/>Nr. 68 Telefongespräch des Bundeskanzlers Kohl mit dem Staatsratsvorsitzenden Krenz, 26. Okt. 1989<lb/>Nr. 69 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 31. Okt. 1989<lb/>Nr. 70 54. Deutsch-französische Konsultationen in Bonn, 2./3. Nov. 1989<lb/>Nr. 71 Gratulationscour des diplomatischen Korps bei Egon Krenz, Zufluchtsfälle in Prag. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 3. Nov. 1989 (Original in B 136/21861)<lb/>Nr. 72 Stimmungsumschwung in der Bevölkerung der DDR, Erkenntnisse des BND. - Vorlage des Ministerialdirigenten Jung an Bundeskanzler Kohl, 3. Nov. 1989<lb/>Nr. 73 Vorbereitung des offiziellen Besuchs des Bundeskanzlers in der Volksrepublik Polen. - Telefongespräch des Bundeskanzlers Kohl mit Ministerpräsident Mazowiecki, 6. Okt. 1989<lb/>Nr. 74 Deutschlandpolitische Fragen. - Besprechung der beamteten Staatssekretäre in Bonn, 6. Nov. 1989 (Original in B 136/20169)<lb/>Nr. 74 A Anlage 4: Vermerk des Ministerialdirigenten Stern<lb/>Nr. 75 Schreiben des Bundeskanzlers Kohl an Präsident Bush, 7. Nov. 1989 (Original in B 136/29806)<lb/>Nr. 76 Gespräch des Bundeskanzlers Kohl mit dem Vorsitzenden der Gewerkschaft &quot;Solidarität&quot;, Walesa, in Warschau, 9. Nov. 1989<lb/>Nr. 77 Delegationsgespräch des Bundeskanzlers Kohl mit Ministerpräsident Mazowiecki in Warschau, 10. Nov. 1989<lb/>Nr. 78 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 10. Nov. 1989 (Original in B 136/20241)<lb/>Nr. 79 Gespräch des Ministerialdirigenten Duisberg mit dem Stellvertretenden Ständigen Vertreter der DDR, Glienke, in Bonn, 10. Nov. 1989 (Original in B 136/20496)<lb/>Nr. 79 A Zur neuen Reiseregelung<lb/>Nr. 80 Mündliche Botschaft des Generalsekretärs Gorbatschow an Bundeskanzler Kohl, 10. Nov. 1989<lb/>Nr. 81 Telefongespräch des Bundeskanzlers Kohl mit Premierministerin Thatcher, 10. Nov. 1989<lb/>Nr. 82 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 10. Nov. 1989<lb/>Nr. 83 Schreiben des Premierministers Mulroney an Bundeskanzler Kohl, 10. Nov. 1989<lb/>Nr. 84 Schreiben des Bundesministers Waigel an Bundeskanzler Kohl, 10. Nov. 1989 (Original in B 136/26444)<lb/>Nr. 85 Telefongespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterand, 11. Nov. 1989<lb/>Nr. 86 Telefongespräch des Bundeskanzlers Kohl mit dem Staatsratsvorsitzenden Krenz, 11. Nov. 1989<lb/>Nr. 87 Telefongespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow, 11. Nov. 1989<lb/>Nr. 88 Reiseregelung in der DDR. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 11. Nov. 1989 (Original in B 136/20489)<lb/>Nr. 89 Gespräch des Bundeskanzlers Kohl mit Staatspräsident Jaruzelski in Warschau, 12. Nov. 1989<lb/>Nr. 90 Gespräch des Bundesministers Seiters mit Botschafter Kwizinskij in Bonn, 13. Nov. 1989 (Original in B 136/20241)<lb/>Nr. 91 Schreiben des Staatspräsidenten Jaruzelski an Bundeskanzler Kohl, 13. Nov. 1989<lb/>Nr. 92 Gespräch des Bundeskanzlers Kohl mit Ministerpräsidenten Mazowiecki in Warschau, 14. Nov. 1989<lb/>Nr. 93 Telefongespräch es Bundeskanzlers Kohl mit Präsident Bush, 17. Nov. 1989<lb/>Nr. 94 Sondertreffen der Staats- und Regierungschefs sowie der Außenminister der Europäischen Gemeinschaft und des Präsidenten der EG-Kommission auf Einladung des amtierenden Vorsitzenden des Europarates, des französischen Staatspräsidenten, am 18. Nov. 1989 im Elysée in Paris. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 17. Nov. 1989 (Original in B 136/30915)<lb/>Nr. 94 A Gesamtgesprächsführungsvorschlag<lb/>Nr. 94 B Haltung der drei Westmächte und der Sowjetunion zur deutschen Frage und zur Entwicklung in der DDR<lb/>Nr. 95 Zur Stimmung in der DDR-Bevölkerung. - Vorlage an Bundeskanzler Kohl, o.Dat.<lb/>Nr. 96 Gespräch des Bundesministers Seiters mit dem Staatsratsvorsitzenden Krenz und Ministerpräsident Modrow in Berlin (Ost), 20. Nov. 1989 (Original in B 136/21329)<lb/>Nr. 96 A Wirtschaftlichen Zusammenarbeit. - Aufzeichnung des Bundesministeriums für Wirtschaft<lb/>Nr. 97 Gespräch des Bundeskanzlers Kohl mit Präsident Roh Tae Woo in Bonn, 21. Nov. 1989<lb/>Nr. 98 Gespräch des Bundeskanzlers a.D. Willy Brandt mit Generalsekretär Gorbatschow am 10. Okt. 1989 in Moskau. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 21. Nov. 1989<lb/>Nr. 99 Gespräch des Bundesministers Seiters mit den Vertretern der Drei Mächte in Bonn, 23. Nov. 1989 (Original in B 136/20241)<lb/>Nr. 100 Schreiben des Bundeskanzlers Kohl an Staatspräsident Mitterand, 27. Nov. 1989 (Original in B 136/30916)<lb/>Nr. 100 A EG-Gipfel in Straßburg am 8. und 9. Dez. 1989. - Arbeitskalender für das weitere Vorgehen bis 1993</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d9bfc8a9-4922-4bd0-ac75-bbc9cf9cca92/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_17632b5f-c4bc-4486-bbda-e8dda0b223c6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./3</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1990-12-31">1989-1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 101 Schreiben des Bundeskanzlers Kohl an Präsident Bush, 28. Nov. 1989 (Original in B 136/29806)<lb/>Nr. 102 Reaktionen aus den wichtigsten Hauptstädten auf den Zehn-Punkte-Plan. - Vorlage des Ministerialdirektor Teltschik an Bundeskanzler Kohl, 30. Nov. 1989<lb/>Nr. 103 Gespräch des Bundeskanzlers Kohl mit dem Regierenden Bürgermeister Momper in Bonn, 1. Dez. 1989 (Original in B 136/21762)<lb/>Nr. 104 Gespräch des Bundeskanzlers Kohl mit Mitgliedern der Rüstungskontroll-Beobachtergruppe des amerikanischen Senats in Bonn, 1. Dez. 1989<lb/>Nr. 105 Vierertreffen in Brüssel am 13. Dez. 1989; Bericht über die DDR und innerdeutsche Beziehungen. - Fernschreiben der Ständigen Vertretung bei der DDR an den Chef des Bundeskanzleramtes, 1. Dez. 1989<lb/>Nr. 106 Schreiben des Bundeskanzlers Kohl an Premierminister Shamir, 1. Dez. 1989<lb/>Nr. 107 Italienische Äußerungen zur deutschen Frage. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 1. Dez. 1989<lb/>Nr. 108 Antwort von Staatspräsident Mitterand auf das Schreiben des Bundeskanzlers vom 27. Nov. 1989. - Vorlage des Vortragenden Legationsrats I Bitterlich an Bundeskanzler Kohl, 2./3. Dez. 1989 (Original in B 136/30916)<lb/>Nr. 108 A Schreiben des Staatspräsidenten Mitterand an Bundeskanzler Kohl vom 1. Dez. 1989<lb/>Nr. 109 Gespräch des Bundeskanzlers Kohl mit Präsident Bush in Laeken bei Brüssel, 3. Dez. 1989<lb/>Nr. 110 Gespräch des Bundesministers Seiters mit Ministerpräsident Modrow in Berlin (Ost), 5. Dez. 1989 (Original in B 136/20578)<lb/>Nr. 111 Schreiben des Bundeskanzlers Kohl an Staatspräsident Mitterand, 5. Dez. 1989 (Original in B 136/30916)<lb/>Nr. 112 Die Sowjetunion und die &quot;deutsche Frage&quot;. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 6. Dez. 1989<lb/>Nr. 112 A Sowjetunion und &quot;deutsche Frage&quot;<lb/>Nr. 113 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 7. Dez. 1989 (Original in B 136/20241)<lb/>Nr. 114 Gespannte innere Lage in der DDR. - Fernschreiben des Staatssekretärs Bertele an Bundesminister Seiters, 7. Dez. 1989 (Original in B 136/20283)<lb/>Nr. 115 Gespräch mit Bundesminister Genscher und US-Außenminister Baker am 3. Dez. 1989; Auswertung des Berichts über das Gespräch. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 7. Dez. 1989<lb/>Nr. 116 Vorbereitung des Besuchs des Bundeskanzlers in der DDR am 19. Dez. 1989; wirtschaftliche Hilfe für die DDR. - Vorlage des Ministerialrats Ludewig an den Chef des Bundeskanzleramtes Seiters, 7. Dez. 1989<lb/>Nr. 117 Arbeitsfrühstück des Bundeskanzlers Kohl mit Staatspräsident Mitterand in Straßburg, 9. Dez. 1989<lb/>Nr. 118 Schreiben des Premierministers Shamir an Bundeskanzler Kohl, 10. Dez. 1989<lb/>Nr. 119 Ausführungen des Bundesministers Genscher vor dem Auswärtigen und dem Innerdeutschen Ausschuss am 7. Dez. 1989. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 10. Dez. 1989<lb/>Nr. 120 Gespräch des Bundeskanzlers Kohl mit Außenminister Baker in Berlin (West), 12. Dez. 1989<lb/>Nr. 121 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 13. Dez. 1989 (Original in B 136/20241)<lb/>Nr. 122 Finanzielle Maßnahmen zugunsten der DDR. - Vorlage des Ministerialrats Ludewig an den Chef des Bundeskanzleramtes Seiters, 13. Dez. 1989<lb/>Nr. 122 A Maßnahmen zugunsten der DDR und Berlin (West), 12. Dez. 1989<lb/>Nr. 123 Schreiben des Bundeskanzlers Kohl an Generalsekretär Gorbatschow, 14. Dez. 1989<lb/>Nr. 124 Gespräch des Bundeskanzlers Kohl mit Ministerpräsident Németh in Budapest, 16. Dez. 1989<lb/>Nr. 125 Schreiben des Außenministers Baker an Bundeskanzler Kohl, o.Dat.<lb/>Nr. 126 Schreiben des Generalsekretärs Gorbatschow an Bundeskanzler Kohl, o.Dat.<lb/>Nr. 127 Brief von Generalsekretär Gorbatschow an den Bundeskanzler. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 18. Dez. 1989<lb/>Nr. 128 Gespräche des Bundeskanzlers in Dresden. - Vorlage des Ministerialdirigenten Duisberg an Bundeskanzler Kohl, 18. Dez. 1989 (Original in B 136/20578)<lb/>Nr. 128 A Vorschlag für Gesprächslinie<lb/>Nr. 129 Gespräch des Bundeskanzlers Kohl mit Ministerpräsident Modrow im erweiterten Kreis in Dresden, 19. Dez. 1989 (Original in B 136/20578)<lb/>Nr. 130 Gespräch des Bundeskanzlers Kohl mit Vertretern von Oppositionsgruppen in der DDR in Dresden, 20. Dez. 1989 (Original in B 136/20578)<lb/>Nr. 131 Äußerungen des sowjetischen Außenministers Schewardnadse vor dem Politischen Ausschuss des Europäischen Parlaments in Brüssel am 19. Dez. 1989; Deutschlandpolitische Passagen; Deutschlandpolitische Passagen. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 20. Dez. 1989<lb/>Nr. 132 Besuch des Bundeskanzlers in Dresden am 19./20. Dez. 1989; Unterrichtung der Drei Mächte. - Gespräch des Bundesministers Seiters mit den Vertretern der Drei Mächte in Bonn, 21. Dez. 1989 (Original in B 136/20241)<lb/>Nr. 133 Besprechung des Bundeskanzlers Kohl mit den Regierungschefs der Länder in Bonn, 21. Dez. 1989 (Original in B 136/29243)<lb/>Nr. 134 Gespräch des Bundeskanzlers Kohl mit Staatspräsident Havel in München, 2. Jan. 1990<lb/>Nr. 135 Gespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterand in Latché, 4. Jan. 1990<lb/>Nr. 136 Besprechung der beamteten Staatssekretäre in Bonn, 8. Jan. 1990 (Original in B 136/24370)<lb/>Nr. 137 Wirtschafts- und Währungsfragen der DDR. - Informelles Gespräch des Chefs des Bundeskanzleramtes Seiters mit Wirtschaftsexperten in Bonn, 9. Jan. 1990 (Original in B 136/21664)<lb/>Nr. 138 Schreiben des Staatspräsidenten Mitterand an Bundeskanzler Kohl, 17. Jan. 1990<lb/>Nr. 139 Vertrag zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik über Zusammenarbeit und gute Nachbarschaft. - Entwurf der Bundesregierung, 18. Jan. 1990 (Original in B 136/20635)<lb/>Nr. 140 Schreiben des Bundeskanzlers Kohl an Premierminister Mulroney, 23. Jan. 1990<lb/>Nr. 141 Gespräch des Bundeskanzlers Kohl mit Botschafter Walters in Bonn, 24. Jan. 1990<lb/>Nr. 142 Deutschlandpolitisches Gespräch bei dem Chef des Bundeskanzleramtes Seiters in Bonn. - Erweiterter Dreierkreis, 24. Jan. 1990 (Original in B 136/20169)<lb/>Nr. 143 Ergebnisse der Tagung der deutsch-deutschen Wirtschaftskommission am 23. Jan. 1990 in Berlin (Ost). - Vorlage des Ministerialrats Ludewig an den Chef des Bundeskanzleramtes Seiters, 24. Jan. 1990 (Original in B 136/20578)<lb/>Nr. 144 Beziehungen zwischen der Europäischen Gemeinschaft und der DDR. - Vermerk des Vortragenden Legationsrats I Bitterlich und des Ministerialdirigenten Thiele, 24. Jan. 1990 (Original in B 136/20578)<lb/>Nr. 145 Gespräch des Bundesministers Seiters mit Ministerpräsident Modrow in Berlin (Ost), 25. Jan. 1990 (Original in B 136/20579)<lb/>Nr. 145 A Vertrag über Zusammenarbeit und gute Nachbarschaft zwischen der Deutschen Demokratischen Republik und der Bundesrepublik Deutschland. - Entwurf der Regierung der DDR, 17. Jan. 1990<lb/>Nr. 146 Gespräch des Bundesministers Seiters mit Vertretern des Runden Tisches in Berlin (Ost), 25. Jan. 1990 (Original in B 288/116)<lb/>Nr. 147 Schreiben des Bundeskanzlers Kohl an Staatspräsident Mitterand, 25. Jan. 1990<lb/>Nr. 148 Interview der Premierministerin Thatcher mit dem Wall Street Journal am 25. Jan. 1990. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 25. Jan. 1990 (Original in B 136/30501)<lb/>Nr. 149 Nächste Besprechung des Chefs des Bundeskanzleramtes mit den Chefs der Staats- und Senatskanzleien am 30. Jan. 1990. - Schreiben des Staatssekretärs Clement an Bundesminister Seiters, 25. Jan. 1990 (Original in B 136/29247)<lb/>Nr. 149 A Beschlussvorschlag<lb/>Nr. 150 Stand und Perspektiven der deutsch-sowjetischen Beziehungen. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 29. Jan. 1990<lb/>Nr. 151 Deutschlandpolitik im gesamteuropäischen Rahmen nach den Wahlen in der DDR im März 1990. - Aufzeichnung des Ministerialdirigenten Hartmann, 29. Jan. 1990<lb/>Nr. 152 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chefs der Staats- und Senatskanzleien der Länder in Bonn, 30. Jan. 1990 (Originale in B 136/29245, 29246)<lb/>Nr. 153 Personalreduzierungsvorschlag Präsident Bushs für die Wiener Verhandlungen über Konventionelle Streitkräfte in Europa. - Gespräche des Bundeskanzlers mit dem stellvertretenden Außenminister Eagleburger und dem stellvertretenden Sicherheitsberater Gates, 30. Jan. 1990<lb/>Nr. 154 Schreiben des Ministerpräsidenten Mazowiecki an Bundeskanzler Kohl, 30. Jan. 1990<lb/>Nr. 155 Gespräch des Bundeskanzlers Kohl mit Botschafter Kwizinskij in Bonn, 2. Feb. 1990</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/17632b5f-c4bc-4486-bbda-e8dda0b223c6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c4371f84-c6f1-4b20-a837-4141780dbdce" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./4</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 156 Schreiben des Generalsekretärs Gorbatschow an Bundeskanzler Kohl, 2. Feb. 1990<lb/>Nr. 157 Vorlage des Regierungsdirektors Mertes an Bundeskanzler Kohl, 2. Feb. 1990 (Original in B 136/26447)<lb/>Nr. 157 A Statement<lb/>Nr. 157 B Schritte zur deutschen Wirtschaftseinheit<lb/>Nr. 158 Gespräch des Bundeskanzlers Kohl mit Ministerpräsident Modrow in Davos, 3. Feb. 1990<lb/>Nr. 159 Gespräch des Ministerialdirektors Teltschik mit Botschafter Walters in Bonn, 4. Feb. 1990<lb/>Nr. 160 Telefongespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterand, 5. Feb. 1990<lb/>Nr. 161 Tischvorlage des Chefs des Bundeskanzleramtes für die Kabinettsitzung am 7. Feb,. 1990. - TOP 2 Aussprache zu auslandpolitischen Fragen, 5. Feb. 1990 (Original in B 136/20170)<lb/>Nr. 162 Deutschlandpolitik; Beteiligung der Vier Mächte. - Vorlage des Ministerialdirigenten Hartmann an Ministerialdirektor Teltschik, 5. Feb. 1990<lb/>Nr. 163 Wirtschafts- und Währungsunion mit der DDR. - Vermerk des Regierungsdirektors Nehring, 6. Feb. 1990 (Original in B 136/26447)<lb/>Nr. 164 Gespräch des Bundeskanzlers Kohl mit Außenminister Skubiszewski in Bonn, 7. Feb. 1990<lb/>Nr. 165 Schreiben des Bundesministers Waigel an die Mitglieder der Fraktion der CDU/CSU im Deutschen Bundestag, 7. Feb. 1990<lb/>Nr. 165 A Nachtrag zum Bundeshaushalt 1990, 7.Feb. 1990<lb/>Nr. 165 B Währungsunion mit Wirtschaftsreform<lb/>Nr. 166 &quot;Gesamteuropäische Sicherheitsarchitektur&quot;; Sicherheitspolitik der Bundesregierung auf dem Weg zur deutschen Einheit. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, o.Dat.<lb/>Nr. 167 Beteiligung der Länder an Verhandlungen und Verträgen mit der DDR; Gespräch des Chefs des Bundeskanzleramtes Seiters mit dem Chef der Staatskanzlei von Nordrhein-Westfalen, Staatssekretär Clement. - Gespräch des Bundesministers Seiters mit Staatssekretär Clement in Bonn, 9. Feb. 1990 (Original in B 136/20634)<lb/>Nr. 168 Schreiben des Vorsitzenden des Sachverständigenrats zur Begutachtung der gesamtwirtschaftlichen Entwicklung, Schneider, an Bundeskanzler Kohl, 9. Feb. 1990<lb/>Nr. 169 Schreiben des Staatssekretärs Köhler an Ministerialdirigent Duisberg, 9. Feb. 1990 (Original in B 136/20579)<lb/>Nr. 169 A Angebot zur Schaffung eines gemeinsamen Währungs- und Wirtschaftsgebiets<lb/>Nr. 170 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 9. Feb. 1990<lb/>Nr. 171 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 9.Feb. 1990<lb/>Nr. 172 Sicherheitsbedürfnis europäischer Nachbarn, insbesondere der UdSSR. - Gesprächspunktation der Abteilung 2 für Bundeskanzler Kohl, o.Dat.<lb/>Nr. 173 Schreiben des Außenministers Baker an Bundeskanzler Kohl, 10. Feb. 1990<lb/>Nr. 174 Gespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow in Moskau, 10. Feb. 1990<lb/>Nr. 175 Delegationsgespräch des Bundeskanzlers Kohl mit Generalsekretär Gorbatschow in Moskau, 10. Feb. 1990<lb/>Nr. 176 Überflugbotschaft des Bundeskanzlers Kohl an Ministerpräsident Mazowiecki, 11. Feb. 1990<lb/>Nr. 177 Gespräch des Bundeskanzlers Kohl mit Ministerpräsident Modrow in Bonn, 13. Feb. 1990<lb/>Nr. 178 Gespräch des Bundesministers Seiters mit den Ministern ohne Geschäftsbereich der DDR in Bonn, 13. Feb. 1990 (Original in B 136/20579)<lb/>Nr. 179 Delegationsgespräch des Bundeskanzlers Kohl mit Ministerpräsident Modrow in Bonn, 13. Feb. 1990 (Original in B 136/20579)<lb/>Nr. 180 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 13. Feb. 1990<lb/>Nr. 181 Schreiben des Ministerpräsidenten Haughey an Bundeskanzler Kohl, 13. Feb. 1990<lb/>Nr. 182 Konstituierende Sitzung der Arbeitsgruppe Außen- und Sicherheitspolitik des Kabinettsauschusses Deutsche Einheit in Bonn, 14. Feb. 1990 (Original in B 136/20244)<lb/>Nr. 183 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 14. Feb. 1990 (Original in B 136/20241)<lb/>Nr. 184 Außen- und bündnispolitische Fragen der deutschen Einigung; Ressortbesprechung im Auswärtigen Amt. - Vermerk des Vortagenden Legationsrats I Kaestner, 15. Feb. 1990<lb/>Nr. 185 Besprechung des Bundeskanzlers Kohl mit den Regierungschefs der Länder in Bonn, 15. Feb. 1990 (Original in B 136/29246; Teilnehmerliste in B136/29247)<lb/>Nr. 185 A Anlage 1: Beschlussvorschlag der Länder<lb/>Nr. 185 B Anlage 2: Beschlussvorschlag des Bundes<lb/>Nr. 186 Gespräch des Bundeskanzlers Kohl mit Außenminister Arens in Bonn, 15. Feb. 1990<lb/>Nr. 187 Gespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterand in Paris, 15. Feb. 1990<lb/>Nr. 188 Gespräch des Ministerialdirigenten Hartmann und des Ministerialrats Ludewig mit Präsident Delors in Paris, 16. Feb. 1990<lb/>Nr. 189 Zweite Sitzung der Arbeitsgruppe Außen- und Sicherheitspolitik des Kabinettsausschusses deutsche Einheit in Bonn, 19. Feb. 1990 (Original in B 136/20244)<lb/>Nr. 190 Telefongespräch des Bundeskanzlers Kohl mit Premierminister Mulroney, 21. Feb. 1990<lb/>Nr. 191 Jüngste sowjetische Äußerungen zur deutschen Frage. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 22. Feb. 1990<lb/>Nr. 192 Gespräch des Bundeskanzlers Kohl mit Präsident Bush in Camp David, 24. Feb. 1990<lb/>Nr. 193 Tischgespräche des Bundeskanzlers Kohl mit Präsident Bush in Camp David, 14./25. Feb. 1990<lb/>Nr. 194 Gespräch des Bundeskanzlers Kohl mit Präsident Bush in Camp David, 15. Feb. 1990<lb/>Nr. 195 Polnische Westgrenze. - Vorlage des Ministerialdirektor Mertes und des Legationsrats I Hanz an Bundeskanzler Kohl, 27. Feb. 1990<lb/>Nr. 196 Überlegungen zu verfassungsrechtlichen Fragen im Zusammenhang mit der Einigung Deutschlands. - Aufzeichnung des Bundesministeriums des Innern, 27. Feb. 1990<lb/>Nr. 197 Gespräch des Bundeskanzlers Kohl mit dem Regierenden Bürgermeister Momper in Bonn, 28. Feb. 1990 (Original in B 136/21762)<lb/>Nr. 198 Das geeinte Deutschland und seine völkerrechtlichen Verträge. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 28. Feb. 1990<lb/>Nr. 199 Mitteilung des Sicherheitsberaters Scowcroft an Ministerialdirektor Teltschik, 28. Feb. 1990<lb/>Nr. 200 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chefs der Staats- und Senatskanzleien der Länder in Bonn, 3. März 1990 (Original in B 136/29247)<lb/>Nr. 200 A Anlage 1: Vereinbarung über die Bildung und Arbeitsweise einer Gemeinsamen Kommission der BRD und der DDR zur Förderung und Unterstützung regionaler Zusammenarbeit, 5. Feb. 1990<lb/>Nr. 200 B Anlage 2: Maßnahmen der Länder der Bundesrepublik Deutschland zur Zusammenarbeit mit der DDR, 1. März 1990<lb/>Nr. 201 Schreiben des Ministerpräsidenten Modrow an Bundeskanzler Kohl, 2. März 1990 (Original in B 136/26459)<lb/>Nr. 201 A Erklärung der Regierung der Deutschen Demokratischen Republik zu den Eigentumsverhältnissen, 1. März 1990</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c4371f84-c6f1-4b20-a837-4141780dbdce/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_819a8ca7-6dc9-4231-b74d-d0931806d927" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./5</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 202 Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 5. März 1990<lb/>Nr. 202 A Schreiben des Außenministers Schewardnadse an Bundesminister Genscher (Original in B 136/20244)<lb/>Nr. 203 Telefongespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterand, 5. März 1990<lb/>Nr. 204 Schreiben des Bundeskanzlers Kohl an Generalsekretär Gorbatschow, 6. März 1990<lb/>Nr. 204 A Entwurf des Entschließungsantrags der Fraktion der CDU/CSU und der FDP, o.Dat.<lb/>Nr. 205 Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 6. März 1990<lb/>Nr. 206 Polnische Entschädigungsansprüche. - Vorlage des Vortragenden Legationsrats I Ueberschaer an Ministerialdirektor Teltschik, 6. März 1990<lb/>Nr. 207 Arbeitsgruppe des Bundesministeriums des Innern &quot;Staatsstrukturen und Öffentliche Ordnung&quot;. - Vermerk des Ministerialdirigenten Busse, 6. März 1990 (Original in B 136/23744)<lb/>Nr. 208 Arbeitsgruppe des Bundesministeriums der Justiz &quot;Rechtsfragen, insbesondere Rechtsangleichung&quot;. - Vermerk des Ministerialdirigenten Busse, 6. März 1990 (Original in B 136/23744)<lb/>Nr. 209 Arbeitsgruppe &quot;Bildung einer Währungsunion, Finanzfragen&quot;. - Vermerk des Regierungsdirektors Stark, 6. März 1990 (Original in B 136/23744)<lb/>Nr. 210 Schreiben der Premierministerin Thatcher an Bundeskanzler Kohl, 7. März 1990<lb/>Nr. 211 Jüngste sowjetische Äußerungen zur deutschen Frage. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 9. März 1990<lb/>Nr. 212 Gespräch von Vertretern der Bundesregierung und der Regierung der DDR im rahmen des Mechanismus &quot;Zwei plus Vier&quot; in Berlin (Ost), 9. März 1990 (Original in B 136/20244)<lb/>Nr. 213 Gespräch des Bundeskanzlers Kohl mit Mitgliedern der Rüstungskontroll-Beobachtergruppe des amerikanischen Senats in Bonn, 12. März 1990<lb/>Nr. 214 Gespräch des Bundeskanzlers Kohl mit Außenminister Hurd in Bonn, 12. März 1990<lb/>Nr. 215 Schreiben des Bundeskanzlers Kohl an Präsident Delors, 13. März 1990<lb/>Nr. 216 Polnische Westgrenze; Sachstand, Bewertung und weiteres Vorgehen. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 13. März 1990<lb/>Nr. 217 Kabinettausschuss &quot;Deutsche Einheit&quot;; Arbeitsgruppe &quot;Außenpolitik und sicherheitspolitische Zusammenhänge&quot;. - Vorlage der Arbeitsgruppe &quot;Innenpolitische Grundsatzfragen&quot; im Bundesministerium des Innern an Bundesminister Schäuble, 13. März 1990<lb/>Nr. 218 Telefongespräch des Bundeskanzlers Kohl mit Staatspräsident Mitterand, 14. März 1990<lb/>Nr. 219 Schreiben des Staatsekretärs Köhler an Bundesminister Seiters, 14. März 1990 (Original in B 136/21664)<lb/>Nr. 219 A Zwischenbericht der Expertenkommission zur Vorbereitung einer Währungsunion und Wirtschaftsgemeinschaft zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik, 13. März 1990<lb/>Nr. 220 Erste Gesprächsrunde &quot;Zwei plus Vier&quot; auf Beamtenebene in Bonn, 14. März 1990<lb/>Nr. 221 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 15. März 1990<lb/>Nr. 222 Berechtigung eventueller Reparationsforderungen von Siegern des 2. Weltkriegs gegen ein vereintes Deutschland; Völkerrechtliche Bewertung. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 15. März 1990<lb/>Nr. 223 Gespräch des Ministerialdirektors Teltschik mit Botschafter Karski und dem stellvertretenden Abteilungsleiter Sulek in Bonn, 19. März 1990<lb/>Nr. 224 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 20. März 1990<lb/>Nr. 225 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 20. März 1990 (Original in B 136/20241)<lb/>Nr. 226 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 21. März 1990<lb/>Nr. 227 Gespräch des Bundeskanzlers Kohl mit Botschafter Kwizinskij in Bonn, 22. März 1990<lb/>Nr. 228 Sowjetische Position zum sicherheitspolitischen Status eines vereinten Deutschland, insbesondere zur NATO-Mitgliedschaft. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 23. März 1990<lb/>Nr. 229 Möglichkeit gesamtdeutscher Wahlen in der nächsten Legislaturperiode. - Vorlage des Ministerialdirigenten Busse an den Chef des Bundeskanzleramtes Seiters, 26. März 1990<lb/>Nr. 230 Sitzung der Arbeitsgruppe &quot;Außen- und Sicherheitspolitik&quot; des Kabinettausschusses Deutsche Einheit in Bonn, 27.März 1990 (Original in B 136/20244)<lb/>Nr. 231 Schreiben des Bundesministers Blüm an Bundeskanzler Kohl, 27. März 1990<lb/>Nr. 232 Gespräch des Ministerialdirektors Teltschik mit dem Berater der Abteilung für Internationale Beziehungen des Zentralkomitees der KPdSU, Portugalow, in Bonn, 28. März 1990<lb/>Nr. 233 Aktuelle Probleme in den Beziehungen zwischen der Bundesrepublik Deutschland und der DDR. - Gespräch des Staatssekretärs Bertele mit Ministerpräsident Modrow in Berlin (Ost), 28. März 1990 (Original in B 136/20579)<lb/>Nr. 234 Sitzung des Kabinettausschusses Deutsche Einheit am 28. März 1990; Bericht des Bundesministeriums der Finanzen und des Bundesministeriums für Wirtschaft zum Thema Währungsunion mit Wirtschafts- und Sozialgemeinschaft. - Vorlage des Ministerialrats Ludewig an den Chef des Bundeskanzleramtes Seiters, 28. März 1990<lb/>Nr. 235 Lage in Litauen; Telefongespräch zwischen Premierministerin Thatcher und Generalsekretär Gorbatschow. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 29. März 1990<lb/>Nr. 236 Kurzbericht über die zweite Sitzung der Expertengruppe &quot;Klärung offener Vermögensfragen&quot;, 29./30. März 1990 (Original in B 137/10879)<lb/>Nr. 236 A Sprachregelung zu den offenen Vermögensfragen<lb/>Nr. 237 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chef der Staats- und Senatskanzleien der Länder in Bonn, 30. März 1990 (Original in B 136/29248)<lb/>Nr. 238 20. Deutsch-britische Konsultationen in London, 30. März 1990<lb/>Nr. 239 Schreiben des Bundesbankpräsidenten Pöhl an Bundeskanzler Kohl, 30. März 1990<lb/>Nr. 239 A Entschließung des Zentralbankrats<lb/>Nr. 240 Schreiben des Ministerpräsidenten Mazowiecki an Bundeskanzler Kohl, 3. Apr. 1990<lb/>Nr. 241 Sondertagung des Europäischen Rates am 28. Apr. 1990 in Dublin; Deutsch-französische Initiative. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 3. Apr. 1990<lb/>Nr. 241 A Wesentliche Elemente von Schlussfolgerungen der Sondertagung des Europäischen Rates am 28. Apr. 1990 in Dublin zur Beschleunigung des europäischen Integrationsprozesses, o.Dat.<lb/>Nr. 242 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Mazowiecki, 4. Apr. 1990<lb/>Nr. 243 Vorbereitung der Sondertagung des Europäischen Rates am 28. Apr. 1990 in Dublin; deutsch-französische Initiative. - Vorlage des Vortragenden Legationsrats I Bitterlich an Ministerialdirektor Teltschik, 6. Apr. 1990<lb/>Nr. 244 Gespräch des Ministerialdirektors Teltschik mit Ministerpräsident de Maizière und Minister Reichenbach in Berlin (Ost), 16. Apr. 1990<lb/>Nr. 245 Regierungsbildung in der DDR; Koalitionsvereinbarung. - Vorlage des Ministerialdirigenten Duisberg an Bundeskanzler Kohl, 17. Apr. 1990 (Original in B 136/20225)<lb/>Nr. 246 Koalitionsvereinbarung der DDR-Regierung vom 12. Apr. 1990; Wirtschafts- und sozialpolitischen Aussagen. - Vorlage des Regierungsdirektors Nehring an Bundeskanzler Kohl, 17. Apr. 1990<lb/>Nr. 247 Bildung eines gesamtdeutschen Parlaments; Verfassungsrechtliche Problematik der Verkürzung oder Verlängerung der Wahlperiode. - Vorlage des Ministerialdirigenten Busse an den Chef des Bundeskanzleramtes Seiters, 17. Apr. 1990<lb/>Nr. 248 Regierungserklärung von Ministerpräsident de Maizière am 19. Apr. 1990. - Vorlage des Ministerialdirigenten Duisberg an Bundeskanzler Kohl, 19. Apr. 1990 (Original in B 136/20225)<lb/>Nr. 249 Regierungserklärung von Ministerpräsident de Maizière; Bewertung der außen- und sicherheitspolitischen Aussagen. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 19. Apr. 1990<lb/>Nr. 250 Non-Paper der Regierung der UdSSR, 19. Apr. 1990<lb/>Nr. 251 Vertrag über die Schaffung einer Währungsunion mit Wirtschafts- und Sozialgemeinschaft mit der DDR; Sowjetische Demarche vom 19. Apr. 1990. - Vorlage des Ministerialdirigenten Duisberg an Bundeskanzler Kohl, 19. Apr. 1990<lb/>Nr. 252 Wirtschaftsbeziehungen zwischen der DDR und der Sowjetunion im Zusammenhang mit der Währungsunion mit Wirtschafts- und Sozialgemeinschaft mit der DDR. - Vermerk des Ministerialrats Ludewig, 20. Apr. 1990<lb/>Nr. 253 Gespräch des Bundeskanzlers Kohl mit Botschafter Kwizinskij in Bonn, 23. Apr. 1990<lb/>Nr. 254 Koalitionsgespräch am 24. Apr. 1990; Wahltermin und gesamtdeutsche Wahlen. - Vorlage des Ministerialdirigenten Busse an den Chef des Bundeskanzleramtes Seiters, 23. Apr. 1990<lb/>Nr. 255 Schreiben des Bundeskanzlers Kohl an Präsident Gorbatschow, 24. Apr. 1990<lb/>Nr. 256 Arbeitspapier für die Gespräche mit der DDR für einen Vertrag über die Schaffung einer Währungsunion, Wirtschafts- und Sozialgemeinschaft zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik, 24. Apr. 1990<lb/>Nr. 256 A Gemeinsames Protokoll über Leitsätze zum Vertrag über die Schaffung einer Währungsunion, Wirtschafts- und Sozialgemeinschaft zwischen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik, 17. Apr. 1990<lb/>Nr. 256 B Anlage I: Bestimmungen über die Währungsunion und über die Währungsumstellung, o.Dat.</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/819a8ca7-6dc9-4231-b74d-d0931806d927/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4a7f4e08-4b67-4afa-81c3-87a2a5409fa7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./6</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 257 55. Deutsch-französische Konsultationen in Paris, 26. Apr. 1990<lb/>Nr. 258 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chefs der Staats- und Senatskanzleien der Länder in Bonn, 26. Apr. 1990 (Original in B 136/29248)<lb/>Nr. 259 Entschließung des Deutschen Bundestages und der DDR-Volkskammer zur polnischen Westgrenze. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 26. Apr. 1990<lb/>Nr. 259 A Anlage 1: Entschließung<lb/>Nr. 260 Gespräch des Bundesministers Seiters mit den Vertretern der Drei Mächte in Bonn, 30 Apr. 1990 (Original in B 136/20241)<lb/>Nr. 261 Schreiben des Staatssekretärs Clement an Bundesminister Seiters, 30. Apr. 1990 (Original in B 136/26285)<lb/>Nr. 262 Schreiben des Staatssekretärs Clement an Bundesministers Seiters, 30. Apr. 1990 (Original in B 136/26283)<lb/>Nr. 263 Polnische Westgrenze; Polnischer Vertragsentwurf. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 30. Apr. 1990<lb/>Nr. 263 A Vertrag zwischen der Republik Polen und der Bundesrepublik Deutschland über die Grundlagen ihrer gegenseitigen Beziehungen. - Entwurf<lb/>Nr. 264 Zweite Gesprächsrund &quot;Zwei plus Vier&quot; auf Beamtenebene in Berlin-Niederschönhausen, 30. Apr. 1990<lb/>Nr. 265 Fernschreiben von Präsident Bush an den Bundeskanzler vom 3. Mai 1990, insbesondere zum NATO-Gipfel. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 3. Mai 1990<lb/>Nr. 266 Gespräch des Bundeskanzlers Kohl mit Außenminister Baker in Bonn, 4. Mai 1990<lb/>Nr. 267 Gespräch des Bundeskanzlers Kohl mit Außenminister Schewardnadse in Bonn, 4. Mai 1990<lb/>Nr. 268 Erstes Treffen der Außenminister der &quot;Zwei plus Vier&quot; in Bonn, 5. Mai 1990<lb/>Nr. 269 Besprechung der beamteten Staatssekretäre in Bonn, 7. Mai 1990 (Original in B 136/24370)<lb/>Nr. 270 Deutsch-sowjetische Gespräche über Wirtschaftsfragen auf dem Weg zur deutschen Einheit. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 8. Mai 1990<lb/>Nr. 271 Koalitionsgespräch am 9. Mai 1990 zum Thema Währungs-, Wirtschafts- und Sozialunion mit der DDR, Offene Fragen und Zeitplan. - Vermerk des Beauftragten des Bundeskanzlers, Tietmeyer, und des Ministerialdirektors Ludewig, 8. Mai 1990<lb/>Nr. 272 Gespräch des Bundeskanzlers Kohl mit Vertretern der Evangelischen Kirche in Deutschland in Bonn, 9. Mai 1990<lb/>Nr. 273 Schreiben des Außenministers Baker an Bundeskanzler Kohl, 10. Mai 1990<lb/>Nr. 274 Gespräch des Bundeskanzlers Kohl mit Ministerpräsidentin Pruskiene in Bonn, 11. Mai 1990<lb/>Nr. 275 Westgrenze der Republik Polen; Regierungserklärung von Bundesminister Genscher vom 10. Mai 1990. - Vorlage des Vortragenden Legationsrats I Kaestner an Bundeskanzler Kohl, 11. Mai 1990<lb/>Nr. 276 Tagung der CDU-Gremien sowie Gespräch des Bundeskanzlers mit Ministerpräsident de Maizière; Stand der Verhandlungen zum Staatsvertrag und Eigentumsfragen. - Vorlage des Beauftragten des Bundeskanzlers, Tietmeyer, und des Ministerialrats Ludewig an Bundeskanzler Kohl, 13. Mai 1990<lb/>Nr. 277 A Anlage 1: Zusammenstellung der wichtigsten Kompromisspunkte im Staatsvertrag<lb/>Nr. 276 B Anlage 2: Möglichkeiten des Eigentumserwerbs an Grundstücken in der DDR zur Förderung gewerblicher, arbeitsplatzschaffender Investitionen<lb/>Nr. 276 C Anlage 3: Entwurf einer gemeinsamen Erklärung der Regierungen der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik zu offenen Vermögensfragen<lb/>Nr. 277 Gespräch des Ministerialdirektors Teltschik mit Präsident Gorbatschow in Moskau, 14. Mai 1990<lb/>Nr. 278 Gespräch des Bundeskanzlers Hurd in Bonn, 15. Mai 1990<lb/>Nr. 279 Schreiben des Bundeskanzlers Kohl an Staatspräsident Mitterand, 15. Mai 1990<lb/>Nr. 280 Besprechung des Bundeskanzlers Kohl mit den Regierungschefs der Länder in Bonn, 16. Mai 1990 (Original in B 136/29249)<lb/>Nr. 281 Delegationsgespräch des Bundeskanzlers Kohl mit Präsident Bush in Washington, 17. Mai 1990<lb/>Nr. 282 Gesamtdeutsche Wahlen am 1. Dez. 1990 oder 13. Jan. 1991; Umsetzung. - Vorlage des Regierungsdirektors Lehnguth an den Chef des Bundeskanzleramtes Seiters, 17. Mai 1990<lb/>Nr. 283 Abschließende Veränderungen im Staatsvertrag. - Vermerk der Abteilung 4, 17. Mai 1990<lb/>Nr. 284 Schreiben des Bundeskanzlers Kohl an Präsident Gorbatschow, 22. Mai 1990<lb/>Nr. 285 Dritte Gesprächsrunde &quot;Zwei plus Vier&quot; auf Beamtenebene in Bonn, 22. Mai 1990<lb/>Nr. 286 Schreiben des Bundeskanzlers Kohl an Staatspräsident Mitterand, 23. Mai 1990<lb/>Nr. 287 Prozess &quot;Zwei plus Vier&quot; und Fragen der militärischen Präsenz der UdSSR in der DDR; Gespräche mit dem Minister für Abrüstung und Verteidigung, Eppelmann, und Staatssekretär Ablass. - Fernschreiben des Staatssekretärs Bertele an den Chef des Bundeskanzleramtes, 25. Mai 1990<lb/>Nr. 288 Polnische Westgrenze. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 25. Mai 1990<lb/>Nr. 288 A Entschließung<lb/>Nr. 289 Besprechung der beamteten Staatssekretäre in Bonn, 28. Mai 1990 (Original in B 136/24370)<lb/>Nr. 290 Grundstrukturen eines Staatsvertrages zur Herstellung der Deutschen Einheit. - Aufzeichnung des Bundesministeriums des Innern, 28. Mai 1990<lb/>Nr. 291 Gespräch des Bundeskanzlers Kohl mit Vertretern der &quot;Studiengruppen über Deutschland&quot; des amerikanischen Kongresses in Bonn, 29. Mai 1990<lb/>Nr. 292 Sowjetische Vorstellungen zur Institutionalisierung der KSZE. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 29. Mai 1990<lb/>Nr. 293 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 30. Mai 1990<lb/>Nr. 294 Treffen zwischen Staatspräsident Mitterand und Generalsekretär Gorbatschow am 25. Mai 1990 in Moskau; Unterrichtung durch den Elysée. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 30. Mai 1990<lb/>Nr. 295 Schreiben des Staatspräsidenten Mitterand an Bundeskanzler Kohl, 30. Mai 1990<lb/>Nr. 296 Polnische Westgrenze; Entwurf der Regierung der DDR für eine &quot;feierliche Erklärung&quot; und einen Grenzvertrag. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 30. Mai 1990<lb/>Nr. 296 A Anlage 1: Entschließung<lb/>Nr. 296 B Anlage 2: Entwurf Vereinbarung/Protokoll<lb/>Nr. 296 C Anlage zu Anlage 2: Entwurf Note<lb/>Nr. 297 Gespräch des Bundeskanzlers Kohl mit Premierminister Lee Kuan Yew in Bonn, 31. Mai 1990<lb/>Nr. 298 Schreiben des Bundeskanzlers Kohl an Ministerpräsident de Maizière, 31. Mai 1990<lb/>Nr. 299 Fernschreiben des Präsidenten Bush an Bundeskanzler Kohl, 4. Juni 1990<lb/>Nr. 300 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 6. Juni 1990 (Original in B 136/20241)<lb/>Nr. 301 Staatsvertrag mit der DDR. - Gespräch des Bundesministers Schäuble und des Bundesministers Waigel mit Vertretern der SPD in Bonn, 6. Juni 1990<lb/>Nr. 302 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chef der Staats- und Senatskanzleien der Länder in Bonn, 7. Juni 1990 (Original in B 136/29230)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4a7f4e08-4b67-4afa-81c3-87a2a5409fa7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_50b1108c-4790-4301-b6c6-6a0001f53486" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./7</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 303 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 7. Juni 1990<lb/>Nr. 304 Schreiben des Bundesministers Haussmann an Bundesminister Seiters, 7. Juni 1990<lb/>Nr. 305 Gespräch des Bundeskanzlers Kohl mit Präsident Bush in Washington, 8. Juni 1990<lb/>Nr. 306 Schreiben des Präsidenten Gorbatschow an Bundeskanzler Kohl, 9. Juni 1990<lb/>Nr. 307 Gespräch des Ministerialdirektors Teltschik mit Botschafter Terechow in Bonn, 11. Juni 1990<lb/>Nr. 308 Entwurf einer gemeinsamen Erklärung zu offenen Vermögensfragen; Expertensitzung im Bundesministerium der Justiz am 11. Juni 1990. - Vorlage des Regierungsdirektors Vogel an Ministerialdirektor Wagner, 11. Juni 1990 (Original in B 136/26459)<lb/>Nr. 308 A Anlage 2: Entwurf einer gemeinsamen Erklärung der Regierung der Bundesrepublik Deutschland und der Deutschen Demokratischen Republik zur Regelung von Vermögensfragen<lb/>Nr. 308 B Anlage 3: Gesprächskonzeption zum Thema &quot;Offene Vermögensfragen&quot;<lb/>Nr. 309 Schreiben des Bundeskanzlers Kohl an Präsident Gorbatschow, 12. Juni 1990<lb/>Nr. 310 Überlegungen für Verfassungsänderungen im Zusammenhang mit dem Beitritt der DDR; Gespräch zwischen Bundesministerium des Innern, Bundesministerium der Justiz, Bundesministerium der Finanzen und Bundeskanzleramt am 11. Juni 1990. - Vorlage des Regierungsdirektors Lehnguth an den Chef des Bundeskanzleramtes Seiters, 12. Juni 1990<lb/>Nr. 311 Amerikanisch-sowjetischer Gipfel; Neun-Punkte-Konzept des US-Außenministeriums vom 2. Juni 1990. - Vorlage des Majors im Generalstabsdienst Domröse an Ministerialdirektor Teltschik, 12. Juni 1990<lb/>Nr. 312 Botschaft des Bundeskanzlers Kohl an die Staats- und Regierungschefs der Mitgliedsstaaten der Europäischen Gemeinschaften und der G 7-Staaten, 13. Juni 1990<lb/>Nr. 313 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 13. Juni 1990<lb/>Nr. 314 Staatsvertrag/Überleitungsvertragsgesetzgebung im Zusammenhang mit einem Beitritt der DDR gemäß Artikel 23 Grundgesetz. - Aufzeichnung der Arbeitsgruppe Kabinettausschuss &quot;Deutsche Einheit&quot; für Bundesminister Schäuble, 13. Juni 1990<lb/>Nr. 314 A Anlage 2: Wesentliche Mängel der gegenwärtigen bzw. in der DDR vorgesehenen Ländergliederung<lb/>Nr. 314 B Anlage 4: Einheit Deutschlands. - Beitritt der DDR nach Artikel 23 Grundgesetz für die Bundesrepublik Deutschland<lb/>Nr. 314 C Anlage 5: Standpunkt zum Material des Bundesministers des Innern der Bundesrepublik Deutschland. - Grundstrukturen eines Staatsvertrages zur Herstellung der Deutschen Einheit<lb/>Nr. 315 Schreiben des Präsidenten Gorbatschow an Bundeskanzler Kohl, 14. Juni 1990<lb/>Nr. 316 Schreiben des Präsidenten Gorbatschow an Bundeskanzler Kohl, 15. Juni 1990<lb/>Nr. 317 Scheiben des Ministers Clement an Bundesminister Seiters, 15. Juni 1990 (Original in B 136/26287)<lb/>Nr. 318 Entwurf des Internationalen Stabes der NATO für die Gipfelerklärung in London. - Vorlage des Vortragenden Legationsrats Westdickenberg an Ministerialdirektor Teltschik, 18. Juni 1990<lb/>Nr. 319 NATO-Gipfelerklärung. - Gespräch des Ministerialdirektors Teltschik mit Botschafter von Ploetz und Vertretern des Auswärtigen Amtes in Bonn, 18. Juni 1990<lb/>Nr. 320 Finanzierungsfragen der Westgruppe der sowjetischen Streitkräfte in der DDR; 3. Konsultationsrund Staatssekretär Lautenschlager/stellvertretender Außenminister Obminskij in Bonn. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 19. Juni 1990<lb/>Nr. 321 Fernschreiben des Präsidenten Bush an Bundeskanzler Kohl, 21. Juni 1990<lb/>Nr. 321 A Gipfelerklärung. - Entwurf<lb/>Nr. 322 Tischgespräch des Bundeskanzlers Kohl mit Ministerpräsident Antall in Bonn, 21. Juni 1990<lb/>Nr. 323 Gespräch des Bundeskanzlers Kohl mit dem stellvertretenden Ministerpräsidenten und Finanzminister Balcerowicz in Bonn, 22. Juni 1990<lb/>Nr. 324 Gespräche des Bundeskanzlers Kohl mit Staatspräsident Mitterrand in Assmannshausen und auf dem Rhein. - Überblick über die wesentlichen Themen und Ereignisse, 22. Juni 1990<lb/>Nr. 325 Zweites Treffen der Außenminister der &quot;Zwei plus Vier&quot; in Berlin-Niederschönhausen, 22. Juni 1990 (Original in B 136/20244)<lb/>Nr. 325 A Anlage1: Prinzipien für die Diskussion unter Tageordnungspunkt 1<lb/>Nr. 325 B Anlage 2: Eine vorläufige Gliederung für Elemente einer abschließenden Regelung<lb/>Nr. 325 C Anlage 3: Grundprinzipien für eine abschließende völkerrechtliche Regelung mit Deutschland<lb/>Nr. 326 Bewertung und Ergänzung des amerikanischen Entwurfs einer NATO-Gipfelerklärung (Bush-Brief). - Vorlage des Oberstleutnants im Generalstabsdienst Ludwigs und des Vortragenden Legationsrats Westdickenberg an Ministerialdirektor Teltschik, 25. Juni 1990<lb/>Nr. 327 Außenministertreffen im Rahmen der &quot;Zwei plus Vier&quot;-Gespräche am 22. Juni in Berlin (Ost); Sowjetischer Entwurf betreffend Grundprinzipien für eine abschließende völkerrechtliche Regelung mit Deutschland. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 26. Juni 1990<lb/>Nr. 328 Sitzung des Kabinettausschusses &quot;Deutsche Einheit&quot; am 4. Juli 1990. - Rundschreiben des Bundesministers Schäuble an die ständigen Mitglieder des Kabinettausschusses &quot;Deutsche Einheit&quot;, o.Dat.<lb/>Nr. 328 A Anlage 1: Diskussionspapier des Bundesministers des Innern mit Elementen einer zur Herstellung der deutschen Einheit zu treffenden Regelung<lb/>Nr. 328 B Anlage 2: Kriterien für die Überleitung von Bundesrecht in die DDR im Zusammenhang mit einem Beitritt gemäß Artikel 23 Satz 2 Grundgesetz<lb/>Nr. 328 C Anlage 3: Möglicher Ablaufplan<lb/>Nr. 329 Finanzierungsfragen der Westgruppe der sowjetischen Streitkräfte in der DDR; Verhandlungen zwischen Staatssekretär Lautenschlager und dem Stellvertretenden Außenminister Obminskij sowie dem stellvertretendem Ministerpräsidenten Sitarjan am 25. Juni 1990 in Moskau. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 27. Juni 1990<lb/>Nr. 330 Schreiben des Ministerialdirektors Teltschik an Sicherheitsberater Scowcroft, 28. Juni 1990<lb/>Nr. 330 A NATO-Gipfelerklärung. - Entwurf<lb/>Nr. 331 Haltung der DDR zu den äußeren Aspekten der deutschen Einheit; Rede von Außenminister Meckel auf der Außenministerkonferenz im &quot;Zwei plus Vier&quot;-Rahmen in Berlin (Ost) am 22. Juni 1990. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 28. Juni 1990<lb/>Nr. 332 Polnische Reaktion auf die Entschließung der Deutschen Bundestages vom 21. Juni 1990. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 28. Juni 1990<lb/>Nr. 333 Note der Regierung der DDR an die Bundesregierung, 30. Juni 1990 (Original in B 136/21666)<lb/>Nr. 334 Schreibe des Ministers Clement an Bundesminister Seiters, 30. Juni 1990<lb/>Nr. 335 Schreiben des Sicherheitsberaters Scowcroft an Ministerialdirektor Teltschik, 30. Juni 1990<lb/>Nr. 336 Ministerpräsidentenkonferenz am 22. Juni 1990 in Bonn; Deutschlandpolitik. - Schreiben des Ministerialdirigenten Hessing an Bundesminister Seiters, 3. Juli 1990 (Original in B 136/26286)<lb/>Nr. 337 Umsetzung des Staatsvertrages zur Schaffung einer Währungs-, Wirtschafts- und Sozialunion mit der DDR. - Punktation des Ministerialrats Ludewig, des Referatsleiters Westerhoff und des Regierungsdirektors Stark, 3. Juli 1990<lb/>Nr. 338 Stand der Überlegungen zu Staatsvertrag und Überleitung des Grundgesetzes im Zusammenhang mit dem Beitritt der DDR. - Vermerk der Abteilung 3, 3. Juli 1990 (Original in B 136/26285)<lb/>Nr. 339 Sechste Gesprächsrunde &quot;Zwei plus Vier&quot; auf Beamtenebene unter Beteiligung Polens in Berlin-Niederschönhausen, 3./4. Juli 1990<lb/>Nr. 339 A Anlage 1: Liste<lb/>Nr. 340 Innere Lage in der Sowjetunion nach Beginn des 28. Parteitages der KPdSU. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 4. Juli 1990<lb/>Nr. 341 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chefs der Staats- und Senatskanzleien der Länder in Bonn, 5. Juli 1990 (Original in B 136/29251)<lb/>Nr. 342 Schreiben des Ministerpräsidenten Rau an Bundeskanzler Kohl, 5. Juli 1990<lb/>Nr. 342 A Eckpunkte der Länder für die bundesstaatliche Ordnung im vereinten Deutschland<lb/>Nr. 343 Schreiben des Ministerpräsidenten Wallmann an Bundesminister Seiters, 5. Juli 1990<lb/>Nr. 344 Gesprächsunterlagen des Bundeskanzlers Kohl für das Gipfeltreffen der Staats- und Regierungschefs der Mitgliedstaaten der NATO in London, 5./6. Juli 1990<lb/>Nr. 344 A Vorbemerkung<lb/>Nr. 344 B Wirtschaftlich-finanzielle Hilfsmaßnahmen für die Sowjetunion<lb/>Nr. 344 C Entwicklung in Mittel- und Osteuropa, westliche Hilfsmaßnahmen<lb/>Nr. 344 D KSZE<lb/>Nr. 344 E Gemeinsame Erklärung der Mitgliedsstaaten von NATO und Warschauer Pakt<lb/>Nr. 344 F &quot;Zwei plus Vier&quot;-Gespräche<lb/>Nr. 344 G Fortgang des deutschen Einigungsprozesses<lb/>Nr. 344 H Rüstungskontrolle und Abrüstung<lb/>Nr. 344 I NATO-Militärstrategie</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/50b1108c-4790-4301-b6c6-6a0001f53486/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1aeae70f-3e1d-45c1-96c5-d08a4860578a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./8</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 345 Erste Verhandlungsrunde über den Vertrag zur Herstellung der Einheit Deutschlands (Einigungsvertrag) in Berlin, 6. Juli 1990<lb/>Nr. 345 A Abgestimmter Katalog der Verhandlungsthemen zum Vertrag über die Herstellung der Einheit Deutschlands (Einigungsvertrag)<lb/>Nr. 346 Schreiben des Präsidenten des Bundesverfassungsgerichts Herzog an Bundeskanzler Kohl, 10. Juli 1990<lb/>Nr. 347 Gespräch des Bundesministers Seiters mit den Botschaftern der Drei Mächte in Bonn, 11. Juli 1990 (Original in B 136/20241)<lb/>Nr. 348 Schreiben des Staatssekretärs Menz an Bundesminister Seiters und an Bundesminister Schäuble, 12. Juli 1990<lb/>Nr. 348 A Stellungnahme der Landesregierung von Baden-Württemberg zu Eckpunkten des Zweiten Staatsvertrags mit der DDR<lb/>Nr. 349 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Mazowiezki, 13. Juli 1990<lb/>Nr. 350 Gespräch des Bundeskanzlers Kohl mit Präsident Gorbatschow in Moskau, 15. Juli 1990<lb/>Nr. 351Überlegungen zum Inhalt eines Vertrages über Partnerschaft und Zusammenarbeit zwischen der Union der Sozialistischen Sowjetrepubliken und Deutschland, 15. Juli 1990<lb/>Nr. 352 Delegationsgespräch des Bundeskanzlers Kohl mit Präsident Gorbatschow in Moskau, 15. Juli 1990<lb/>Nr. 353 Gespräch des Bundeskanzlers Kohl mit Präsident Gorbatschow im erweiterten Kreis in Archys/Bezik Stawropol, 16. Juli 1990<lb/>Nr. 354 Drittes Treffen der Außenminister der &quot;Zwei plus Vier&quot; unter zeitweiliger Beteiligung Polens in Paris, 17. Juli 1990<lb/>Nr. 354 A Anlage 1: Pariser Text zu Grenzfragen<lb/>Nr. 354 B Anlage 2: Protokoll des französischen Vorsitzenden<lb/>Nr. 355 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 17. Juli 1990<lb/>Nr. 356 Schreiben des Bundeskanzlers Kohl an Staatspräsident Mitterand, 17. Juli 1990<lb/>Nr. 357 Schreiben der Premierministerin Thatcher an Bundeskanzler Kohl, 17. Juli 1990<lb/>Nr. 358 Schreiben des Ministerpräsidenten Streibl an Bundeskanzler Kohl, 17. Juli 1990<lb/>Nr. 358 A Vorschlag zur Neuverteilung der Stimmen<lb/>Nr. 359 Sitzung von Vertretern des Bundes, der Deutschen Demokratischen Republik und der Länder in Bonn, 18. Juli 1990<lb/>Nr. 359 A Anlage 2 a: Präambel. - Vorschlag des Bundes<lb/>Nr. 359 B Anlage 3: Präambel. - Vorschlag des Landes Nordrhein-Westfalen<lb/>Nr. 359 C Anlage 4: Artikel 29 Grundgesetz. - Vorschlag des Bundesministeriums des Innern<lb/>Nr. 359 D Anlage 5: Vereinfachtes Verfahren für eine Neugliederung der Länder Brandenburg und Berlin. - Beschluss des Abgeordnetenhauses von Berlin<lb/>Nr. 359 E Anlage 6: Artikel 29 Grundgesetz. - Redigierter Vorschlag des Bundes<lb/>Nr. 359 F Anlage 6: Artikel 29 Grundgesetz. - Alternative des Bundesministers der Justiz<lb/>Nr. 359 G Anlage 7: Föderative Elemente im Einigungsvertrag, Formulierungsvorschläge zur Umsetzung der Eckpunkte der Länder. - Vorschlag der Länder<lb/>Nr. 359 H Anlage 8: Zusätzlicher Artikel des Grundgesetzes. - Vorschlag des Bundesministers des Innern<lb/>Nr. 359 I Anlage 9 Ergänzung Artikel 26 Grundgesetz. - Vorschlag Nordrhein-Westfalens<lb/>Nr. 359 J Anlage 10: Einfügung Artikel 146 a Grundgesetz. - Vorschlag Nordrhein-Westfalens<lb/>Nr. 359 K Anlage 11: Staatszielbestimmungen Umweltschutz, Arbeit, Wohnen, soziale Sicherheit, Gesundheit, Bildung und Kultur. - Vorschlag Nordrhein-Westfalens<lb/>Nr. 359 L Anlage 12: Präambel Einigungsvertrag. - Vorschlag des Bundesministers des Innern<lb/>Nr. 359 M Anlage 13: Entwurf Präambel. - Vorschlag der DDR<lb/>Nr. 359 N Anlage 14: Überlegungen zur Struktur des Einigungsvertrages. - Vorschlag des Bundesministers des Innern<lb/>Nr. 360 Schreiben des Ministerpräsidenten Ryschkow an Bundeskanzler Kohl, 18. Juli 1990<lb/>Nr. 361 Schreiben des Bundeskanzlers Kohl an Präsident Bush, 19. Juli 1990<lb/>Nr. 362 Schreiben des Bundeskanzlers Kohl an Präsident Delors, 20. Juli 1990<lb/>Nr. 363 Schreiben des Bundeskanzlers Kohl an Vizepräsident Bangemann, 20. Juli 1990<lb/>Nr. 364 Schreiben des Bundeskanzlers Kohl an Bundesminister Blüm, 20. Juli 19990<lb/>Nr. 365 Schreiben des Präsidenten Bush an Bundeskanzler Kohl, 20. Juli 1990<lb/>Nr. 366 Implementierung des Wirtschaftsgipfels in Houston; Brief von Präsident Bush an den Bundeskanzler vom 20. Juli 1990; Brief von Präsident Bush an Präsident Gorbatschow. - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 23. Juli 1990<lb/>Nr. 367 Vertrag über die Herstellung der Einheit Deutschlands (Einigungsvertrag). - Vermerk des Regierungsdirektors Lehnguth für die Sitzung des Kabinettausschusses &quot;Deutsche Einheit&quot; am 24. Juli 1990, 23. Juli 1990<lb/>Nr. 368 Schreiben der Premierministerin Thatcher an Bundeskanzler Kohl, 24. Juli 1990<lb/>Nr. 369 Besprechung des Bundesministers Schäuble mit den Chefs der Staats- und Senatskanzleien der Länder in Bonn, 25. Juli 1990 (Original in B 136/29252)<lb/>Nr. 369 A Vorschlag der Regierung des Saarlandes<lb/>Nr. 370 Botschaft der Premierministerin Thatcher an Bundeskanzler Kohl, 25. Juli 1990<lb/>Nr. 371 Schreiben des Ministerpräsidenten Mazowiecki an Bundeskanzler Kohl, 25. Juli 1990<lb/>Nr. 372 Schreiben des Staatssekretärs Schlecht an Bundesminister Seiters, 26. Juli 1990<lb/>Nr. 373 Zur Wirtschaftslage in der DDR. - Vorlage des Regierungsdirektors Nehring an Bundeskanzler Kohl, 30. Juli 1990<lb/>Nr. 374 Zusammenstellung der Textvorschläge aus den Ressortverhandlungen für den Einigungsvertrag. - Aufzeichnungen des Arbeitsstabes &quot;Deutsche Einheit&quot; im Bundesministerium des Innern, 30. Juli 1990<lb/>Nr. 374 A Erklärung zu Protokoll<lb/>Nr. 374 B Anlage 1: Neufassung der Präambel des Grundgesetzes</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1aeae70f-3e1d-45c1-96c5-d08a4860578a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2345fec4-2328-40bc-b4fd-a47006593dcf" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./9</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Nr. 375 Deutsche Einheit. - Vorlage des Ministerialdirigenten Stern an den Chef des Bundeskanzleramtes Seiters, 31. Juli 1990<lb/>Nr. 376 Schreiben des Präsidenten Delors an Bundeskanzler Kohl, 1. Aug. 1990<lb/>Nr. 377 Zweite Verhandlungsrunde über den Vertrag zur Herstellung der deutschen Einheit (Einigungsvertrag) in Berlin (Ost), 1. - 3. Aug. 1990<lb/>Nr. 378 Außenpolitischer Regelungsbedarf im Hinblick auf die neue deutschlandpolitische Lage (mögliche gesamtdeutsche Wahlen und Beitritt im Oktober). - Vorlage des Ministerialdirigenten Hartmann an Bundeskanzler Kohl, 3. Aug. 1990<lb/>Nr. 379 Wahltag für die Wahlen des 12. Deutschen Bundestages. - Tischvorlage des Bundesministers Schäuble für die Sitzung des Bundeskabinetts, 9. Aug. 1990<lb/>Nr. 380 Rundschreiben des Staatssekretärs Schlecht an die Mitglieder des Kabinettausschusses &quot;Deutsche Einheit&quot;, 9. Aug. 1990<lb/>Nr. 380 A Zur wirtschaftlichen Situation der DDR<lb/>Nr. 381 Gespräch des Ministerialdirigenten Teltschik mit Ministerialdirektor Kastrup in Bonn, 15. Aug. 1990<lb/>Nr. 382 Schreiben des Bundesministers Seiters an Bundesminister Schäuble, 16. Aug. 1990<lb/>Nr. 382 A Fusion gemäß § 13 a Parteiengesetz. - Beschluss der Unabhängigen Kommission vom 1. Aug. 1990<lb/>Nr. 383 Dritte Verhandlungsrunde zum Einigungsvertrag. - Vorlage des Ministerialdirigenten Busse an den Chef des Bundeskanzleramtes Seiters, 17. Aug. 1990 (Original in B 136/29254)<lb/>Nr. 384 Entwurf des Einigungsvertrages. - Vermerk des Regierungsdirektors Lehnguth, 17. Aug. 1990 (Original in B 136/29254)<lb/>Nr. 385 Einigungsvertrag. - Vorlage des Regierungsdirektors Lehnguth an den Chef des Bundeskanzleramtes Seiters, 17. Aug. 1990 (Original in B 136/26286)<lb/>Nr. 386 Regelung des Schwangerschaftsabbruchs nach Beitritt der DDR. - Vermerk des Ministerialrats Hegerfeldt, 17. Aug. 1990 (Original in B 136/29254)<lb/>Nr. 387 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chefs der Staats- und Senatskanzleien der Länder in Bonn, 20. Aug. 1990 (Original in B 136/29255)<lb/>Nr. 387 A Anlage 1: Formulierungsvorschlag des Bundes für Artikel 13 a und 13 b Einigungsvertrag<lb/>Nr. 387 B Anlage 2: Abgestimmte Fassung der Artikel 13 a und 13 b Einigungsvertrag<lb/>Nr. 387 C Anlage 3: Erklärung der Regierungschefs der SPD-geführten Länder vom 19. Aug. 1990<lb/>Nr. 388 Telefongespräch des Bundeskanzlers Kohl mit Präsident Delors, 20. Aug. 1990<lb/>Nr. 389 Vorlage des Ministerialdirektors Kabel an den Chef des Bundeskanzleramtes Seiters, 20. Aug. 1990<lb/>Nr. 389 A Schreiben der amtierenden Bundestagspräsidentin Renger an Bundesminister Schäuble<lb/>Nr. 389 B Schreiben der Volkskammerpräsidentin Bergmann-Pohl an den Parlamentarischen Staatssekretär Krause<lb/>Nr. 389 C Beratung des Wahlrechtsvertrages mit der DDR im Deutschen Bundestag. - Vorlage an die amtierende Bundestagspräsidentin Renger<lb/>Nr. 390 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 22. Aug. 1990<lb/>Nr. 391 Schreiben des Bundeskanzlers Kohl an Premierministerin Thatcher, 22. Aug. 1990<lb/>Nr. 392 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Ryschkow, 22. Aug. 1990<lb/>Nr. 393 Dritte Verhandlungsrunde zum Einigungsvertrag. - Vorlage des Ministerialdirigenten Busse und des Ministerialdirigenten Stern an den Chef des Bundeskanzleramtes Seiters, 22. Aug. 1990<lb/>Nr. 394 Einigungsvertrag; Internes Gespräch mit den Vertretern der Bundesländer. - Vorlage des Ministerialdirigenten Busse und des Ministerialdirigenten Stern an den Chef des Bundeskanzleramtes Seiters, 22. Aug. 1990<lb/>Nr. 395 Gespräch des Bundesministers Genscher mit dem Ministerpräsidenten de Maizière in Berlin (Ost), 24. Aug. 1990<lb/>Nr. 396 Reduzierung der Streitkräfte Deutschlands. - Vorlage des Kapitäns zur See Lange an Ministerialdirektor Teltschik, 24. Aug. 1990<lb/>Nr. 396 A Anlage 1: Erklärung der Bundesregierung über die Reduzierung der Streitkräfte Deutschlands<lb/>Nr. 396 B Anlage 5: Neuformulierung der Erklärung der Bundesregierung über die Reduzierung der Streitkräfte Deutschlands<lb/>Nr. 397 Schreiben der Volkskammerpräsidentin Bergmann-Pohl an Bundeskanzler Kohl, 25. Aug. 1990<lb/>Nr. 397 A Beschluss der Volkskammer der Deutschen Demokratischen Republik über den Beitritt der Deutschen Demokratischen Republik zum Geltungsbereich des Grundgesetzes der Bundesrepublik Deutschland vom 23. Aug. 1990<lb/>Nr. 398 Verhandlungen mit der Sowjetunion über den Aufenthalts-/Abzugsvertrag; Sachstand. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 27. Aug. 1990<lb/>Nr. 399 Verhandlungen der Bundesminister Waigel und Haussmann in Moskau (24./25. Aug. 1990). - Vorlage des Vortragenden Legationsrats I Kaestner an Ministerialdirektor Teltschik, 27. Aug. 1990<lb/>Nr. 400 Schreiben des Bundeskanzlers Kohl an Ministerpräsident de Maizière, 28. Aug. 1990<lb/>Nr. 401 Finanzfragen des Einigungsvertrages. - Gespräch des Bundesministers Waigel mit den den Finanzministerien der Länder, 28. Aug. 1990 (Original in B 136/26286)<lb/>Nr. 401 A Finanzfragen (Bund/Länder) im Zusammenhang mit dem Einigungsvertrag. - Beschluss der Finanzministerkonferenz der Länder<lb/>Nr. 402 Gespräch des Ministerialdirektors Teltschik mit dem stellvertretenden Außenminister Kwizinskij in Bonn, 28. Aug. 1990<lb/>Nr. 403 Besprechung des Bundeskanzlers Kohl mit den Regierungschefs der Länder in Bonn, 29. Aug. 1990 (Original in B 136/29254)<lb/>Nr. 404 Schreiben des Bundespräsidenten a.D. Carstens an Bundeskanzler Kohl, 29. Aug. 1990<lb/>Nr. 405 Regelung offener Vermögensfragen mit der DDR; Gesetzentwurf der DDR. - Vorlage des Ministerialrats Zilch an den Chef des Bundskanzleramtes Seiters, 29. Aug. 1990<lb/>Nr. 406 Telefongespräch des Bundeskanzlers Kohl mit Präsident Bush, 30. Aug. 1990<lb/>Nr. 407 Schreiben des Ministerialdirektors Teltschik an Staatssekretär Sudhoff, 30. Aug. 1990<lb/>Nr. 408 Note der Regierung der DDR an die Bundesregierung, 3. Sept. 1990<lb/>Nr. 409 Regelung offener Vermögenfrsgen mit der DDR. - Vorlage des Ministerialrats Zilch an den Chef des Bundeskanzleramtes Seiters, 3. Sept. 1990<lb/>Nr. 410 Deutsch-sowjetische Verhandlungen über den Abzugsvertrag; Ergebnis Zweite Runde am 31. Aug./1. Sept. 1990 in Moskau. - Vorlage des Vortragenden Legationsrats Westdickenberg an Ministerialdirektor Teltschik, 3. Sept. 1990<lb/>Nr. 411 Überlegungen zur Beteiligung breiter Bevölkerungsschichten in der DDR am ehemals &quot;volkseigenen Vermögen&quot;. - Vorlage des Ministerialrats Ludewig an Bundeskanzler Kohl, 5. Sept. 1990<lb/>Nr. 412 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Mazowiecki. 6. Sept. 1990<lb/>Nr. 413 Deutsch-sowjetischer Vertrag über einige überleitende Maßnahmen. - Schreiben des Bundesministers Waigel an Bundeskanzler Kohl, 6. Sept. 1990 (Original in B 136/26701)<lb/>Nr. 414 Überleitungsabkommen mit der UdSSR; Ergebnis der gestrigen Sitzung im Bundeskanzleramt. - Notiz des Referatsleiters Westerhoff für den Chef des Bundeskanzleramtes Seiters, 6. Sept. 1990 (Original in B 136/26869)<lb/>Nr. 415 Telefongespräch des Bundeskanzlers Kohl mit Präsident Gorbatschow, 7. Sept. 1990<lb/>Nr. 416 Stand der &quot;Zwei plus Vier&quot;-Gespräche in Berlin. - Vorlage des Vortragenden Legationsrats I Kaestner an Ministerialdirektor Teltschik, 7. Sept. 1990<lb/>Nr. 417 Verhandlungen mit der Sowjetunion über den Aufenthalts-/Abzugsvertrag; Verhandlungsstand nach der dritten Runde. - Vorlage des Ministerialdirektors Teltschik anBundeskanzler Kohl, 8. Sept. 1990<lb/>Nr. 418 Schreiben des Staatssekretärs Köhler an Bundeskanzler Kohl, 9. Sept. 1990<lb/>Nr. 418 A Argumentation für Überleitungsvertrag<lb/>Nr. 418 B Finanztableau<lb/>Nr. 419 Besprechung des Chefs des Bundeskanzleramtes Seiters mit den Chefs der Staats- und Senatskazleien der Länder in Bonn, 10. Sept. 1990<lb/>Nr. 420 &quot;Zwei plus Vier&quot;-Verhandlungen; Problem &quot;crossing the line&quot;. - Vorlage des Vortragenden Legationsrats I Kaestner an Ministerialdirektor Teltschik<lb/>Nr. 421 Gespräch des Chefs des Bundeskanzleramtes Seiters mit den Vertretern der Drei Mächte in Bonn, 13. Sept. 1990 (Original in B 136/20241)<lb/>Nr. 422 Kreditanfrage der Sowjetunion über den sowjetischen Botschafter. - Gespräch des Ministerialdirektors Teltschik mit Botschafter Terechow in Bonn, 15. Sept. 1990<lb/>Nr. 423 Gespräch des Bundeskanzlers Kohl mit Außenminister Baker in Ludwigshafen, 15. Sept. 1990<lb/>Nr. 424 56. Deutsch-französische Konsultationen in München, 17./18. Sept. 1990<lb/>Nr. 425 Verhandlungen mit der Sowjetunion über den Aufenthalts-/Abzugsvertrag; sich abzeichnendes Endergebnis. - Vorlage des Vortragenden Legationsrats Westdickenberg an Ministerialdirektor Teltschik, 20. Sept. 1990<lb/>Nr. 426 Schreiben des Bundeskanzlers Kohl an Ministerpräsident Antall, 25. Sept. 1990<lb/>Nr. 427 Überleitungsabkommen mit der UdSSR; zinsloser, ungebundener Kredit in Höhe von drei Milliarden DM für fünf Jahre an die Sowjetunion. - Vorlage des Ministerialdirektors Teltschik an Bundeskanzler Kohl, 25. Sept. 1990<lb/>Nr. 428 Schreiben des Präsidenten Gorbatschow an Bundeskanzler Kohl, 26. Sept. 1990<lb/>Nr. 429 Gespräch des Bundeskanzlers Kohl mit Präsident Delors in Bonn, 28. Sept. 1990<lb/>Nr. 430 Inkraftsetzung des Einigungsvertrages mit der DDR. - Vorlage des Ministerialdirigenten Duisberg an Bundeskanzler Kohl, 1. Okt. 1990<lb/>Nr. 430 A Note der Regierung der DDR an die Bundesregierung vom 29. Sept. 1990</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2345fec4-2328-40bc-b4fd-a47006593dcf/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="series" id="DE-1958_c6343ec2-e83b-44f6-b6b9-02cffbf3b2df" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">In den Fußnoten zitierte Dokumente</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_01694eff-7659-48e1-92ef-7fa0958d08fb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./10</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1990-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/01694eff-7659-48e1-92ef-7fa0958d08fb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_41c8fb4e-be5f-4918-bcd2-47d02d2919f2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./11</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1990-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/41c8fb4e-be5f-4918-bcd2-47d02d2919f2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cb4ecf6b-2e66-454d-912f-618f779005e8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./12</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1990-12-31">1989-1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cb4ecf6b-2e66-454d-912f-618f779005e8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2c2e2c2e-bc4d-4c4f-bd0f-d1fc3a16dff6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./13</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1990-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2c2e2c2e-bc4d-4c4f-bd0f-d1fc3a16dff6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b54cd2f3-cd86-4e1f-9156-e728d8c33377" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./14</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b54cd2f3-cd86-4e1f-9156-e728d8c33377/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_be7364aa-bf1b-40ee-a14f-201808271887" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./15</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/be7364aa-bf1b-40ee-a14f-201808271887/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_84528f1c-feb1-4c4a-9c27-dbbd47c5f2ac" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 136-ANH./16</unitid>
+                <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskanzleramt (BK)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/84528f1c-feb1-4c4a-9c27-dbbd47c5f2ac/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

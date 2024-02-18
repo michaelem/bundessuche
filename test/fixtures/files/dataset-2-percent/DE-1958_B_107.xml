@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d5de3be2-5bcd-4c7c-8bf7-fb8e1c3bb5c3/" identifier="DE-1958_d5de3be2-5bcd-4c7c-8bf7-fb8e1c3bb5c3">DE-1958_d5de3be2-5bcd-4c7c-8bf7-fb8e1c3bb5c3</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 107</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1961-01-01/1961-12-31" encodinganalog="3.1.3">1961-offen</unitdate>
+      <unittitle encodinganalog="3.1.2">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>174 Aufbewahrungseinheiten</extent>
+        <extent>3,4 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Die Deutsche Gesellschaft für Publizistik und Kommunikationswissenschaft (DGPUK) ging aus der 1951 entstandenen Deutschen Gesellschaft für Publizistik hervor, die 1963 als Deutsche Gesellschaft für Publizistik und Zeitungswissenschaft neu gegründet wurde. Sie ist eine Vereinigung von Hochschullehrern und Forschern zur Vertretung und Förderung publizistik- und kommunikationswissenschftlicher Interessen.</p>
+      <p>Stand: 2013</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Die bislang ins Bundesarchiv gelangten Akten der DGPUK enthalten neben allgemeinem Schriftwechsel Unterlagen zu Grundsatzangelegenheiten, Tagungsberichte sowie laufende Erhebungen von publizistikwissenschaftlichen Forschungsarbeiten. Vorhanden sind ferner Redaktionsunterlagen der seit 1956 vierteljährlich erscheinenden Fachzeitschrift Publizistik.</p>
+      <p>Stand: 2015</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 107/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_d5de3be2-5bcd-4c7c-8bf7-fb8e1c3bb5c3" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>174 Aufbewahrungseinheiten</extent>
+            <extent>3,4 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_e53beb7d-1b88-4596-95d9-fea7238875da" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 107 Deutsche Gesellschaft für Publizistik und Kommunikationswissenschaft e. V.</unittitle>
+          </did>
+          <c level="class" id="DE-1958_087735d9-f37e-4be6-a2fb-780cf5ee3211" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Vorstand</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_503ede41-d1e9-4d0f-94a3-03366188ecb0" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Publizistik. Vierteljahreshefte für Kommunikationsforschung</unittitle>
+            </did>
+            <c level="class" id="DE-1958_a9ef2ac4-3d4e-4a4b-8ce9-0ac419185e4b" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Herausgeber</unittitle>
+              </did>
+              <c level="class" id="DE-1958_070bf938-a2b8-4fcc-b93c-d12b3b7e2740" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Prof. Dr. Arnulf Kutsch, Leipzig</unittitle>
+                </did>
+                <c level="series" id="DE-1958_2855da26-c48d-48f9-98e6-bab28db774ff" encodinganalog="3.1.4">
+                  <did>
+                    <unittitle encodinganalog="3.1.2">Autoren</unittitle>
+                  </did>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3af5b2bb-e900-4fcb-9c97-7a289a5b8a1a" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/105</unitid>
+                      <unittitle encodinganalog="3.1.2">A-L</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1960-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3af5b2bb-e900-4fcb-9c97-7a289a5b8a1a/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_90484087-a3ce-4a37-ad0a-f5d4da323b22" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/106</unitid>
+                      <unittitle encodinganalog="3.1.2">M-Z</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1960-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/90484087-a3ce-4a37-ad0a-f5d4da323b22/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dbd55d18-a817-4add-884a-3568c1c01484" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/107</unitid>
+                    <unittitle encodinganalog="3.1.2">PUBLIZISTIK. Vierteljahreshefte für Kommunikationsforschung Verlag Heye &amp; Co., Bremen</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1960-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dbd55d18-a817-4add-884a-3568c1c01484/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cf2bcef0-ae23-44af-9c23-353bd9d4171c" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/108</unitid>
+                    <unittitle encodinganalog="3.1.2">Protokolle, Kommentare</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1999-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cf2bcef0-ae23-44af-9c23-353bd9d4171c/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b2094b9b-05c2-4202-bb8e-435ed5263c06" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/111</unitid>
+                    <unittitle encodinganalog="3.1.2">Schriftwechsel, Tagungen</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2007-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b2094b9b-05c2-4202-bb8e-435ed5263c06/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7c610d17-a3d8-4169-872d-bcf5364ed583" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/115</unitid>
+                    <unittitle encodinganalog="3.1.2">Finanzierung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/2009-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7c610d17-a3d8-4169-872d-bcf5364ed583/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_053a054e-0fa6-4874-9e81-22a58bd7d1a7" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/116</unitid>
+                    <unittitle encodinganalog="3.1.2">Auflagenentwicklung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/2009-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/053a054e-0fa6-4874-9e81-22a58bd7d1a7/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_803f843a-45f7-4919-8ff5-a726f22ff734" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/117</unitid>
+                    <unittitle encodinganalog="3.1.2">Buchredaktion</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/2009-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/803f843a-45f7-4919-8ff5-a726f22ff734/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a4d9a6e6-35d6-4801-a6bc-86e8aff88fa0" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/118</unitid>
+                    <unittitle encodinganalog="3.1.2">Tagesordnungen und Protokolle</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2011-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a4d9a6e6-35d6-4801-a6bc-86e8aff88fa0/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="subseries" id="DE-1958_cc7f911c-d4ec-4be3-80ac-8f61e549debb" encodinganalog="3.1.4">
+                  <did>
+                    <unittitle encodinganalog="3.1.2">Prof. Dr. Arnulf Kutsch.- Schriftwechsel</unittitle>
+                  </did>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_27f7a990-029e-432f-93da-1223fd100c78" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/109</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1996-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/27f7a990-029e-432f-93da-1223fd100c78/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bad44087-523d-456c-a5fd-3f1eca483f63" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/110</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/2001-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bad44087-523d-456c-a5fd-3f1eca483f63/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7f043310-af8c-49a2-9ed4-64afec03e795" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/119</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2011-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7f043310-af8c-49a2-9ed4-64afec03e795/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d7a74ae3-e8f9-4d4f-81c3-7922c2f6a5c8" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/123</unitid>
+                    <unittitle encodinganalog="3.1.2">Prof. Dr. Arnulf Kutsch, Leipzig.- Korrespondenz</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2015-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d7a74ae3-e8f9-4d4f-81c3-7922c2f6a5c8/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_44124a81-c1d7-46fb-8a6e-13f9946ad777" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/124</unitid>
+                    <unittitle encodinganalog="3.1.2">Prof. Dr. Arnulf Kutsch, Leipzig.- Gutachten, Reviews</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2015-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/44124a81-c1d7-46fb-8a6e-13f9946ad777/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8b884d33-77d9-4a97-8e35-ac836b549404" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 107/125</unitid>
+                    <unittitle encodinganalog="3.1.2">Prof. Dr. Arnulf Kutsch, Leipzig.- Rezension, Herausgebertreffen, Finanzen, Förderanträge, Buchredaktion</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2015-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u. a.<lb/>Marc Jan Eumann, Medienstaatssekretär in NRW.- Eigenplagiat</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8b884d33-77d9-4a97-8e35-ac836b549404/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="subseries" id="DE-1958_f01997ab-2aa0-45aa-913d-de15f64d71a1" encodinganalog="3.1.4">
+                  <did>
+                    <unittitle encodinganalog="3.1.2">Prof. Dr. Arnulf Kutsch.- Reviews</unittitle>
+                  </did>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_950c3b84-5a95-4f6c-b297-175f1486ee4a" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/112</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2008-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/950c3b84-5a95-4f6c-b297-175f1486ee4a/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dd9b4ba8-5c60-4f97-a4a7-3040c46fc4ba" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/113</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2011-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dd9b4ba8-5c60-4f97-a4a7-3040c46fc4ba/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f630c15e-ae9e-425d-8aae-322a08d27721" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 107/114</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2011-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutsche Gesellschaft für Publizistik- und Kommunikationswissenschaft (DGPUK)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f630c15e-ae9e-425d-8aae-322a08d27721/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_f95b4f57-7c99-40ca-aa8d-938cd75b1f3a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Redaktion</unittitle>
+              </did>
+              <c level="class" id="DE-1958_2a63bf62-a6d4-4b9f-b16d-bb742604571e" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Dr. Joachim Pöhls, Hofgeismar</unittitle>
+                  <note>
+                    <p>Es können keine Archivalien angezeigt werden.</p>
+                  </note>
+                </did>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

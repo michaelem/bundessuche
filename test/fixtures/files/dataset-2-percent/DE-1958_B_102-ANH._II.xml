@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/da182fd0-6f2e-435e-a3ea-efcc7e5c56fc/" identifier="DE-1958_da182fd0-6f2e-435e-a3ea-efcc7e5c56fc">DE-1958_da182fd0-6f2e-435e-a3ea-efcc7e5c56fc</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Kommission zur Untersuchung der Gefährdung der wirtschaftl. Existenz von Presseunternehmen und der Folgen der Konzentration</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2000">2000</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 102-ANH. II</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1966-01-01/1968-12-31" encodinganalog="3.1.3">1966-1968</unitdate>
+      <unittitle encodinganalog="3.1.2">Kommission zur Untersuchung der Gefährdung der wirtschaftl. Existenz von Presseunternehmen und der Folgen der Konzentration</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>25 Aufbewahrungseinheiten</extent>
+        <extent>1,1 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Bezeichnung</p>
+      <p>1946-1949: Verwaltungsamt für Wirtschaft</p>
+      <p>1949-1971: Bundesministerium für Wirtschaft</p>
+      <p>1971-1972: Bundesministerium für Wirtschaft und Finanzen - Unterscheidung des bisherigen BMWi durch Zusatz &quot;Bereich Wirtschaft&quot;</p>
+      <p>1972-1998: Bundesministerium für Wirtschaft</p>
+      <p>1998-2002: Bundesministerium für Wirtschaft und Technologie</p>
+      <p>2002-2005: Bundesministerium für Wirtschaft und Arbeit</p>
+      <p>ab 2005: Bundesministerium für Wirtschaft und Technologie</p>
+      <p>Verteilung der Fachaufgaben auf die Abteilungen nach dem Organisationsplan von 1952</p>
+      <p>I Wirtschaftspolitik</p>
+      <p>I A Wirtschaftspolitische Grundsatzfragen, Marshallplan</p>
+      <p>I B Preise, Monopole, Kartelle, Betriebsanalysen, Steuern u. Abgaben</p>
+      <p>II Wirtschaftsordnung und -förderung</p>
+      <p>II A Wirtschaftsordnung</p>
+      <p>II B Handwerk</p>
+      <p>II C Handel, Fremdenverkehr, Gewerberecht, Verbraucherpolitik</p>
+      <p>II D Leistungssteigerung und Technik</p>
+      <p>III Bergbau, Energie- und Wasserwirtschaft, Eisen und Stahl, Europäische Gemeinschaft</p>
+      <p>III A Bergbau</p>
+      <p>III B Energie- und Wasserwirtschaft</p>
+      <p>III C Eisen und Stahl</p>
+      <p>III D Europäische Gemeinschaft für Kohle und Stahl</p>
+      <p>IV Gewerbliche Wirtschaft</p>
+      <p>IV A Eisen- und Metallwirtschaft</p>
+      <p>IV B Chemie</p>
+      <p>IV C Sonstige Industrien</p>
+      <p>V Außenwirtschaft</p>
+      <p>V A Allg. Fragen der Außenwirtschaft, Ein- und Ausfuhr, Zollpolitik</p>
+      <p>V B Handelspolitik mit dem Ausland</p>
+      <p>V C Zahlungsverkehr mit dem Ausland</p>
+      <p>VI Geld und Kredit (ohne Unterabteilungen)</p>
+      <p>Abteilungen und Unterabteilungen 1989</p>
+      <p>Z Zentralabteilung</p>
+      <p>ZB Wirtschaftliche Fragen der Verteidigung</p>
+      <p>ZC ERP-Sondervermögen, Inlandsbürgschaften und -finanzierungen</p>
+      <p>ZD Wirtschaftliche Fragen des Umweltschutzes; Betriebswirtschaft</p>
+      <p>E Europapolitik (mit Verfassungsentwicklung)</p>
+      <p>EA Beziehungen zu Mitgliedstaaten und Drittländern, Europarecht</p>
+      <p>EB Gemeinsamer Markt</p>
+      <p>I Wirtschaftspolitik</p>
+      <p>I A Grundsatzfragen, Konjunktur- und Wachstumspolitik</p>
+      <p>I B Wettbewerbs- und Preispolitik</p>
+      <p>I C Strukturpolitik, Sozial- und Arbeitsmarktpolitik</p>
+      <p>I D Gesamtwirtschaftliche Analysen und Projektionen, Konjunkturbeobachtung, Wirtschaftsstatistik</p>
+      <p>II Mittelstandspolitik, Dienstleistungswirtschaft, Forschung und Technik, Bildungspolitik</p>
+      <p>II A Grundsatzfragen der Mittelstandspolitik, Freie Berufe, Dienstleistungen, Bildungs- und</p>
+      <p>Tourismuspolitik</p>
+      <p>II B Handwerk, Handel, Gewerberecht, Kulturwirtschaft</p>
+      <p>II C Innovationsförderung, Verbraucherpolitik</p>
+      <p>III Energiepolitik, mineralische Rohstoffe</p>
+      <p>III A Bergbau, Europäische Gemeinschaft für Kohle und Stahl, rationelle Energieverwendung</p>
+      <p>III B Versorgungswirtschaft (Recht, Elektrizität), Kernenergie, mineralische Rohstoffe</p>
+      <p>III C Mineralöl, Gaswirtschaft, industrielle Beteiligung des Bundes</p>
+      <p>III D Allgemeine Fragen der Energiepolitik</p>
+      <p>IV Gewerbliche Wirtschaft, Wirtschaftsförderung Berlin (mit innerdeutschen Wirtschaftsbeziehungen)</p>
+      <p>IV A Industriepolitik, Informations- und Kommunikationstechnik, Elektro-, Luft- und</p>
+      <p>Raumfahrtindustrie</p>
+      <p>IV B Investitionsgüterwirtschaft, Chemie</p>
+      <p>IV C Verbrauchsgüterwirtschaft, Eisen und Stahl</p>
+      <p>IV D Wirtschaftsförderung Berlin, Bauwirtschaft, Außenwirtschaftsfragen der Industrie</p>
+      <p>V Außenwirtschaftspolitik und Entwicklungshilfe</p>
+      <p>V A Allgemeine Fragen der Außenwirtschaftspolitik, Handelspolitik</p>
+      <p>V B Außenwirtschaftsrecht, Entwicklungspolitik, bilaterale wirtschaftliche Zusammenarbeit</p>
+      <p>V C Multilaterale Außenwirtschaftsfragen, Finanzierungen, Ost-West-Wirtschaftsbeziehungen</p>
+      <p>15.05.1970 Behandlung von Projekten der Kapitalhilfe in Entwicklungsländern von/zu</p>
+      <p>BMZ</p>
+      <p>15.12.1972 Fremdenverkehr von BMV</p>
+      <p>Förderung von Forschung und Entwicklung in der gewerblichen Wirtschaft von/zu</p>
+      <p>BMFT</p>
+      <p>Geld-, Kredit- und Währungswesen zu BMF</p>
+      <p>Bank-, Börsen- und Versicherungspolitik zu BMF</p>
+      <p>Deutsche Industrie-Anlagen-Gesellschaft AG zu BMF</p>
+      <p>Wettbewerbsrechtliche Medienfragen zu BMI</p>
+      <p>Sprengstoffrecht zu BMI</p>
+      <p>Kapitalhilfe zu BMZ</p>
+      <p>Förderung der elektronischen Datenverarbeitung zu BMFT</p>
+      <p>Berufliche Bildung zu BMBW</p>
+      <p>01.01.1973 Berufliche Bildung von/zu BMBV</p>
+      <p>April 1973 Entwicklungshilfe (u.a. multilaterale Umschuldungsverhandlungen bei</p>
+      <p>verbürgten Exportkrediten u./oder Finanzkrediten, Gesamtkonzeption der</p>
+      <p>Assoziierungs- und Präferenzpolitik der EG) von/zu BMZ</p>
+      <p>Berufliche Bildung (u.a. im Rahmen der Gewerbeförderung) von/zu BMBW</p>
+      <p>02.10.1973(?) Recht der Übertragung von Aufgaben an die Bundesanstalt für Materialprüfung</p>
+      <p>und die Physikalisch-Technische Bundesanstalt zu BMI</p>
+      <p>Medienfragen von/zu BMI</p>
+      <p>19.12.1973 Waffenrecht zu BMI</p>
+      <p>Dez. 1978 Zusammenarbeit mit der Bundesanstalt für Geowissenschaften und Rohstoffe</p>
+      <p>von/zu BMFT</p>
+      <p>Aug. 1982 Bundesinstituts für chemisch-technische Untersuchungen, Überleitung in</p>
+      <p>den Geschäftsbereich des BMVg von/zu BMVg</p>
+      <p>April 1993 Erweiterung der Aufgaben der Bundesanstalt für Geowissenschaften und</p>
+      <p>Rohstoffe von BMZ</p>
+      <p>Jan. 1994 Getränkeschankanlagenverordnung zu BMA</p>
+      <p>Dez. 1997 Zusammenarbeit bei der Vergabe von Aufträgen für den Bedarf der Bundeswehr</p>
+      <p>von/zu BMVg</p>
+      <p>Okt. 1998 Medien- und Filmwirtschaft, Verlagswesen zu BKM</p>
+      <p>Beratung/Technische Hilfe zugunsten Osteuropas und GUS zu BMF,</p>
+      <p>BMZ</p>
+      <p>Angelegenheiten des Lomé-Abkommens zu BMZ</p>
+      <p>Indirekte Forschungsförderung, Förderung technologieorientierter Unternehmensgründungen,</p>
+      <p>angewandte Energieforschung von BMBF</p>
+      <p>Teile der Grundsatzabteilung und Europaabteilung zu BMF</p>
+      <p>1998 Telekommunikation und Post von BMPT</p>
+      <p>Sept. 2002 Bereich Sozialordnung zu BMG</p>
+      <p>2005 Erneute Selbständigkeit des Bundesministeriums für Arbeit und Soziales (BMAS)</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Bestandsgeschichte</p>
+      <p>Die in das BArch gelangten Unterlagen der Kommission wurden vermutlich gezielt für die Abgabe im Jahr 1969 zusammengestellt und sind nicht als geordnete Ablage der Geschäftsvorfälle der Arbeitsgruppe im BKartA erwachsen. Sie dürften gleichwohl den zentralen Kern der Überlieferung umfassen: Korrespondenz, Sitzungsunterlagen und Berichtsentwürfe des Plenums (7), Wortprotokolle der Plenarsitzungen (9) sowie Unterlagen der Ausschüsse (9).</p>
+      <p>Archivische Bewertung und Bearbeitung</p>
+      <p>Wegen des geringen Umfangs von wenig mehr als einem Gefach wurde trotz vereinzelter Doppelablage nicht kassiert. Die erste, nicht transskribierte Plenarsitzung ist als Tonaufzeichnung überliefert.</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 102-ANH. II/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_da182fd0-6f2e-435e-a3ea-efcc7e5c56fc" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Kommission zur Untersuchung der Gefährdung der wirtschaftl. Existenz von Presseunternehmen und der Folgen der Konzentration</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>25 Aufbewahrungseinheiten</extent>
+            <extent>1,1 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_dc1fe796-ef2b-48b2-87bb-a01923f63da8" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 102 ANH. II (Kommission zur Untersuchung der Gefährdung der wirtschaftlichen Existenz von Presseunternehmen und den Folgen der Konzentration für die Meinungsfreiheit in der Bundesrepublik [Pressekommission])</unittitle>
+          </did>
+          <c level="class" id="DE-1958_5d8ce957-3cfb-4f55-b172-86da77cc39db" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Plenum</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_3de893ae-e20c-49dd-a207-97240456ba15" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Plenum.- Korrespondenz, Sitzungsunterlagen, Berichtsentwürfe</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_311e495e-5cfb-4be9-aa90-b147580b233c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/1</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Ergebnisprotokolle der 1. und 2. Sitzung<lb/>Geschäftsordnung der Kommission<lb/>Aufgaben und Besetzung der Unterausschüsse</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/311e495e-5cfb-4be9-aa90-b147580b233c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d8aaa719-6dc9-408a-838a-46d8277a876c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/2</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Ergebnisprotokolle der 3. und 4. Plenarsitzung<lb/>Liste der Kommissionsmitglieder, ihrer ständigen Vertreter und Assistenten</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d8aaa719-6dc9-408a-838a-46d8277a876c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4eeea2fd-6e64-42c2-bf7f-8b538e0ca587" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/3</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Ergebnisprotokolle der 4., 5. und 6. Plenarsitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4eeea2fd-6e64-42c2-bf7f-8b538e0ca587/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3407e97c-ce5a-4520-abe5-2a963f80b20d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/4</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Ergebnisprotokolle der 7., 8. und 9. Sitzung<lb/>Presseberichtsgesetz</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3407e97c-ce5a-4520-abe5-2a963f80b20d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_870e2dd2-7fcd-4861-8787-75aacbeb36db" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/5</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/870e2dd2-7fcd-4861-8787-75aacbeb36db/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6212ecc7-dffd-4914-a44b-6fdfe84f57dd" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/6</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6212ecc7-dffd-4914-a44b-6fdfe84f57dd/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2f84ad6a-df28-4657-9a26-2bf36952f845" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/7</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Ergebnisprotokoll der 10. Plenarsitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2f84ad6a-df28-4657-9a26-2bf36952f845/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_5509fad6-3886-4862-85cd-bc5ed3735108" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Plenarsitzungen.- Wortprotokolle</unittitle>
+                <note>
+                  <p>Transskribiertes Wortprotokoll der 1. Sitzung fehlt; Tonbandaufnahme im BArch-Tonarchiv (Signatur: B 65) nach Voranmeldung benutzbar.</p>
+                </note>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b9d3a4ca-e51f-47e9-8d6d-4ea8800c3c71" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/17</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b9d3a4ca-e51f-47e9-8d6d-4ea8800c3c71/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2af4d1e-1821-4a03-b482-f1320a13dcfb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/18</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2af4d1e-1821-4a03-b482-f1320a13dcfb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_061e8888-92c8-421b-8170-bc83bd098848" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/19</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/061e8888-92c8-421b-8170-bc83bd098848/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_78c6bf40-df27-4614-9e1a-8691edc1ae04" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/20</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/78c6bf40-df27-4614-9e1a-8691edc1ae04/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9fd4000a-e835-4b0a-bb59-96baee0e6aa7" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/21</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9fd4000a-e835-4b0a-bb59-96baee0e6aa7/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f9310079-c517-47fe-ab88-b25330b36be4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/22</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f9310079-c517-47fe-ab88-b25330b36be4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_999ac7ac-60c0-4035-bfe3-c43d0e8fd57f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/23</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/999ac7ac-60c0-4035-bfe3-c43d0e8fd57f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4f6ade04-6757-431b-8474-bb74018731b3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/24</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4f6ade04-6757-431b-8474-bb74018731b3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b1ecacb1-c8a8-474a-872d-fc83ffa84070" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/25</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b1ecacb1-c8a8-474a-872d-fc83ffa84070/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_9e98d3e0-008d-40ab-acb6-1df6c29cba9a" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Ausschüsse</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c965ad3c-308d-4fac-a462-db98ecd15266" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/8</unitid>
+                <unittitle encodinganalog="3.1.2">Unterausschüsse I und II</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält v.a.:<lb/>Wortprotokoll der gemeinsamen Sitzung</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c965ad3c-308d-4fac-a462-db98ecd15266/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6dfc96a5-5308-4fcd-af17-744702683a6e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/9</unitid>
+                <unittitle encodinganalog="3.1.2">Unterausschuß III</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Wortprotokoll der Sitzung</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6dfc96a5-5308-4fcd-af17-744702683a6e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_ae8a06cc-b91d-4e12-a773-c89f97578d9b" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Unterausschuß IV.- Sitzungsunterlagen, Wort- und Ergebnisprotokolle der Sitzungen</unittitle>
+                <note>
+                  <p>Protokolle der 3. Sitzung fehlen .</p>
+                </note>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_673ac4da-f4a2-47b1-ba53-dd382bd38072" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/10</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Entwurf eines Gesetzes zum Schutz der Pressefreiheit<lb/>Stellungnahme des Bundes deutscher Zeitungsverleger zu den Empfehlungen der Kommission</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/673ac4da-f4a2-47b1-ba53-dd382bd38072/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eb9b0821-0a01-48e5-8d9e-27fba255fc7e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/11</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eb9b0821-0a01-48e5-8d9e-27fba255fc7e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_726945c3-7214-4427-b482-753d87576661" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Unteraussschuß V.- Arbeitsunterlagen, Wort- und Ergebnisprotokolle der Sitzungen, Berichtsentwürfe</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_83f962de-f09f-4d9c-a623-dc11460c3ef7" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/12</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/83f962de-f09f-4d9c-a623-dc11460c3ef7/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f873d611-108c-4767-b8cb-7ed5aecb6f3d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/13</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f873d611-108c-4767-b8cb-7ed5aecb6f3d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d5cdeb5a-5a7a-44af-a142-223ce6b2468f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/14</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Wortprotokolle der 1. und 2. Sitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d5cdeb5a-5a7a-44af-a142-223ce6b2468f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fa0f9343-c42d-4cfe-877a-a4c836f125a0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/15</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fa0f9343-c42d-4cfe-877a-a4c836f125a0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ec69df73-7cfb-4e1b-921c-be4495351337" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. II/16</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundeskartellamt (BKartA)</origination>
+                  <origination encodinganalog="3.2.1" label="organisational unit">Arbeitsgruppe P (1967)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ec69df73-7cfb-4e1b-921c-be4495351337/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

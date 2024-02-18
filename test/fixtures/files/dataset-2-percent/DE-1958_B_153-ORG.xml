@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4a9eff0f-a982-4751-b5f5-44efae64f2ae/" identifier="DE-1958_4a9eff0f-a982-4751-b5f5-44efae64f2ae">DE-1958_4a9eff0f-a982-4751-b5f5-44efae64f2ae</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesministerium für Familie und Jugend.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 153-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1950-01-01/1970-12-31" encodinganalog="3.1.3">1950-1970</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesministerium für Familie und Jugend.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>21 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familie und Jugend (BMFa)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Im Rahmen der Kabinettsbildung der zweiten Legislaturperiode wurde mit Wirkung vom 20. Okt. 1953 (Ernennung des ersten Ministers) ein BM für Familienfragen (BMFa) mit zunächst vier Referaten errichtet: 1. Allgemeine und grundsätzliche Fragen der Familien- und Bevölkerungspolitik, 2. Sozialpolitik einschließlich Wohnungsbau, 3. Steuer- und Wirtschaftspolitik, 4. Ehe- und Familienrecht. Im Dez. 1957 kam als zusätzliche Aufgabe der Bereich Jugendfragen vom BMI hinzu (ohne Bundesprüfstelle für jugendgefährdende Schriften). Seitdem hieß das Ministerium BM für Familien- und Jugendfragen. Vom BMA kam zum 01.02.1966 der Bereich Kindergeld hinzu (in Zusammenarbeit mit dem BMA), zum 01.02.1966 die Förderung der Studentenverbände sowie studentisches Jugendarbeitsprogramm und Studentenwohnheimbau vom BMI. Ebenso vom BMI wurden zum 01.05.1966 der Schutz der Jugend vor jugendgefährdenden Schriften, einschließlich der Zuständigkeit für die Bundesprüfstelle, sowie die Zuständigkeit für die Bundesjugendspiele übernommen.</p>
+      <p>Neue Aufgaben führten auch zu organisatorischen Veränderungen. Bereits im Februar 1954 wurde ein Zentralbüro für Personal-, Haushalts- und Organisationsangelegenheiten sowie den Inneren Dienst geschaffen. 1958 gab es drei Abteilungen: die Zentralabteilung mit drei Referaten, die Abteilung Familienfragen mit fünf Referaten und die Abteilung Jugendfragen mit zwei Referaten und einer Unterabteilung mit vier Referaten. Ab 1960 bestand die Abteilung Jugendfragen nur noch aus fünf Referaten. Bis zu seiner Auflösung am 11. Nov. 1969 erhöhte sich die Anzahl der Referate noch in allen Abteilungen. Zum Zeitpunkt seiner weitesten Kompetenzen (Stand: 1966) nahm das Ministerium folgende Aufgaben wahr: Familienlastenausgleich und Kindergeldgesetzgebung, familienpolitische Aufgaben bei der Steuer-, Wirtschafts-, Sozial-, Wohnungsbau- und Eigentumspolitik sowie beim Ehe- und Familienrecht, Aufgaben nach dem Jugendwohlfahrtsgesetz, Bundesjugendplan zur Förderung der freien und öffentlichen Jugendhilfe, Mitwirkung an der Bildungsplanung, politische Verantwortung für das Deutsch-französische Jugendwerk. Beiräte und Ausschüsse waren: Der Wissenschaftliche Beirat für Familienfragen, das Bundesjugendkuratorium mit Unterausschüssen, das Kuratorium für die Bundesjugendspiele, der Fachausschuss für Familienerholung, der Fachausschuss für Ehe- und Elternberatung und der Prämierungsausschuss für den Kinder- und Jugendfilmpreis. Mit Wirkung vom 11. November 1969 wurde das Ministerium mit dem BM für Gesundheitswesen zum BM für Familie, Jugend und Gesundheit vereinigt (siehe Bestand B 189).</p>
+      <p>Minister:</p>
+      <p>Franz-Josef Wuermeling (CDU), Okt. 1953 - Dez. 1962,</p>
+      <p>Bruno Heck (CDU), Dez. 1962 - Okt. 1968,</p>
+      <p>Aenne Brauksiepe (CDU), Okt. 1968 - Okt. 1969</p>
+      <p>Staatssekretäre:</p>
+      <p>Gabriele Wülker, Dez. 1957 - Sept. 1959,</p>
+      <p>Heinrich Barth, 1963-1969.</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 153-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_4a9eff0f-a982-4751-b5f5-44efae64f2ae" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesministerium für Familie und Jugend.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>21 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_a92c547c-df4d-4fbf-ad31-ad734b7b4dec" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 153 ORG Bundesministerium für Familie und Jugend.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_0f2dcb9e-18a6-410a-9e4c-06970478ff6e" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b7237365-7293-4374-86fa-5b34f7e2c167" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b7237365-7293-4374-86fa-5b34f7e2c167/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_aa777e74-38d7-4c20-a082-d05dd799ab64" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan für das Rechnungsjahr 1954, Stand: 6. Febr. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/aa777e74-38d7-4c20-a082-d05dd799ab64/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fa3e0543-5102-4ed3-abc7-507830694e60" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan für das Rechnungsjahr 1955, Stand: 1. Juli 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fa3e0543-5102-4ed3-abc7-507830694e60/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f6bbce0e-4fe0-4a84-9746-6a0d230118b6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f6bbce0e-4fe0-4a84-9746-6a0d230118b6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0f6a5ffd-2142-4522-ad4d-10b91f8fb999" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1956</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0f6a5ffd-2142-4522-ad4d-10b91f8fb999/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dc1664b6-886e-4d10-90af-d749c93b117b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1957, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1957</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dc1664b6-886e-4d10-90af-d749c93b117b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2832d8a4-f2e0-431b-b73c-e3fb440152d7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1958 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2832d8a4-f2e0-431b-b73c-e3fb440152d7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_18e3498a-4148-4d56-94a2-cd16d6d1fde9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1958, Stand: 1. Aug. 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1958</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/18e3498a-4148-4d56-94a2-cd16d6d1fde9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a3d4908-7698-4755-9a54-c8dd30eea926" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1959 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a3d4908-7698-4755-9a54-c8dd30eea926/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3348549a-9072-48bf-b7bc-0e115e331c10" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1960</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1960</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3348549a-9072-48bf-b7bc-0e115e331c10/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b1208501-50d3-49aa-9da1-835828cf2e84" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1961 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b1208501-50d3-49aa-9da1-835828cf2e84/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_723a644d-1c01-4cfe-a654-fb9002d65d1a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1962 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/723a644d-1c01-4cfe-a654-fb9002d65d1a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1b7df49d-14ef-4e39-a155-4ee546d68ba3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1b7df49d-14ef-4e39-a155-4ee546d68ba3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_44105e1d-f768-419e-b031-2e0bca698087" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1963</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/44105e1d-f768-419e-b031-2e0bca698087/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7bdb1b89-47ec-4e94-8a28-b4663b4c838e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1964 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7bdb1b89-47ec-4e94-8a28-b4663b4c838e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7fc14eef-dc3a-49ae-aec1-c8897b0c742c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 17. Aug. 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7fc14eef-dc3a-49ae-aec1-c8897b0c742c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7149d5d2-9992-4483-bdcb-8f48605e86a4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1966 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7149d5d2-9992-4483-bdcb-8f48605e86a4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c33dea02-32f3-4d8d-a4f3-7d7600aaca43" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Jan. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c33dea02-32f3-4d8d-a4f3-7d7600aaca43/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2fc2b290-b3b8-4bd8-b6b2-9cd121116009" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 14. Okt. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familien- und Jugendfragen (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2fc2b290-b3b8-4bd8-b6b2-9cd121116009/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3f139fc3-e6bf-41af-acf2-7cd0f73a1811" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 153-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Familie und Jugend (BMFa)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3f139fc3-e6bf-41af-acf2-7cd0f73a1811/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

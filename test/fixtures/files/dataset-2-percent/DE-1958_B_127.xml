@@ -1,0 +1,2202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d0024d6e-7076-49a0-aab4-eca9de6e0f71/" identifier="DE-1958_d0024d6e-7076-49a0-aab4-eca9de6e0f71">DE-1958_d0024d6e-7076-49a0-aab4-eca9de6e0f71</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2009">2009</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 127</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1942-01-01/1963-12-31" encodinganalog="3.1.3">(1942) 1946 - 1956 (-1963)</unitdate>
+      <unittitle encodinganalog="3.1.2">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>91 Aufbewahrungseinheiten</extent>
+        <extent>2,3 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Nach Gründung der Bundesrepublik wurde die zum 1. April 1949 errichtete Dienststelle für Sonderverpflegung des Vereinigten Wirtschaftsgebietes (DfS) wurde durch Erlaß vom 14. Aug. 1951 in Dienststelle für besondere Versorgungsaufgaben des BML (DbV) umbenannt. In ihren Aufgaben trat rechtlich keine Änderung ein. Tatsächlich aber befand sie sich, nach Überwindung der Lebensmittelnot, bereits weitgehend in stiller Abwicklung, das die zentrale Schulspeisung bereits mit dem 1. Juli 1950 beendet war. Allerdings wurden auch einige neue Aufgaben übernommen, so Lebensmittellieferungen für alliierte Truppen und ab 1951 die Verpflegung des Bundesgrenzschutzes. Am 4. Juli 1952 verlegte die DbV ihren Sitz von Hamburg nach Frankfurt/Main, wo ihr vom 1. Juli 1949 bis zum 30. Juni 1950 eine Außenstelle als &quot;Büro für Sondereinfuhren&quot; unterstanden hatte, das vor- und nachher der Außenhandelsstelle für Erzeugnisse der Ernährung und Landwirtschaft in Frankfurt/Main angegliedert war. In Hamburg blieb eine Außenstelle bestehen. Weitere Außenstellen unterhielt die DbV in Duisburg (1950 aufgehoben) und in Bremen, ein Lagerbetrieb und eine Fahrbereitschaft in Hamburg-Wandsbek (biede 1953/54 aufgelöst), schließlich seit 1952 in Bonn eine Verbindungsstelle. Als letzte Aufgabe wurde der DbV die Sonderaktion &quot;Lebensmittelhilfe Ost-Berlin und sowjetische Besatzungszone&quot; übertragen. Nach deren Abschluß wurde sie durch Bekanntmachung des Bundesministeriums für Ernährung, Landwirtschaft und Forsten vom 30. Sept. 1955 (MinBlELF S. 285) aufgelöst. Die Abwicklung erfolgte durch die Außenhandelsstelle für Erzeugnisse der Ernährung und Landwirtschaft in Frankfurt (vgl. Bestand B 256).</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>a) Bestandsgeschichte</p>
+      <p>Das Schriftgut wurde von der Außenhandelsstelle für Erzeugnisse der Ernährung und Landwirtschaft in Frankfurt/Main 1963 dem Bundesarchiv übergeben.</p>
+      <p>b) Archivische Bewertung und Bearbeitung</p>
+      <p>Mangelnde Ordnung der Akten sowie unzureichende Aktenbetreffe erschwerten die Entscheidung über die Auswahl des archivwürdigen Teils der Überlieferung, die 1963 in den Räumen der Außenhandelsstelle getroffen wurde. Aufbewahrt wurden die Akten, die Aufschluß über die Tätigkeit der Dienststelle geben konnten, hier vor allem sämtliche Rechtsangelegenheiten. Dagegen wurde der größte Teil des Schriftgutes kassiert, da es hier lediglich um die Durchführung der Aufgaben und Geschäfte im einzelnen handelte. Das ins Bundesarchiv übernommene Schriftgut, hier vor allem die im Rechtsreferat angefallenen chronologisch abgelegten Vorgänge, wurde nach Sachbetreffen zusammengefaßt und zum Teil mit anderen Akten gleichen Inhalts vereinigt. Unterlagen militärischer Art, z. B. Militärpapiere des Personals, wurden an die Zentralnachweisstelle in Kornelimünster bzw. an das Militärarchiv in Freiburg abgegeben.</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Verwandtes Archivgut</head>
+      <p>B 116</p>
+    </relatedmaterial>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 127/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_d0024d6e-7076-49a0-aab4-eca9de6e0f71" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>91 Aufbewahrungseinheiten</extent>
+            <extent>2,3 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_990c18f9-7158-44f1-b470-ac01ce93e640" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 127 Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (Online-Findbuch)</unittitle>
+          </did>
+          <c level="class" id="DE-1958_b23b56ee-2936-4550-abf8-e04c23df1dae" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Dienststellenverwaltung</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b97f5885-60cf-4302-99a9-493357d2339a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/1</unitid>
+                <unittitle encodinganalog="3.1.2">Einrichtung und Aufgaben der Dienststelle, Geschäftsverteilungspläne</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1955-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Luftversorgung Berlins, 1948 - 1949<lb/>Geschäftsbericht, Stand: 1. Apr. 1950<lb/>Dienstanweisung, 1952</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b97f5885-60cf-4302-99a9-493357d2339a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d7cb5596-5f02-4ab7-a0aa-b4b317a40604" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/2</unitid>
+                <unittitle encodinganalog="3.1.2">Überführung der Hilfsernährungslager auf die Großeinkaufsgesellschaft Deutscher Konsumgenossenschaften (GEG)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1947-12-31">1947</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Aufstellungen von Schulspeisungsbeständen der Hilfsernährungslager</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d7cb5596-5f02-4ab7-a0aa-b4b317a40604/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_224921fc-e3f1-41f3-9161-1a810cd6291a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/3</unitid>
+                <unittitle encodinganalog="3.1.2">Überführung des Büros für Sondereinfuhren auf die Außenhandelsstelle für Erzeugnisse der Ernährung und Landwirtschaft</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1951-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/224921fc-e3f1-41f3-9161-1a810cd6291a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_55a826b2-b69a-4e50-aa05-78590f2e7422" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/4</unitid>
+                <unittitle encodinganalog="3.1.2">Verlegung der Dienststelle von Hamburg nach Frankfurt am Main und Neubau eines Verwaltungsgebäudes</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1953-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/55a826b2-b69a-4e50-aa05-78590f2e7422/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_5c4f613b-e30f-4aa2-8746-1b2c7c0f3d7e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bau- und Mietangelegenheiten der Dienststelle und ihrer Lagerräume.- Allgemeines und Einzelfälle</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b2ed8abb-1b13-4ef6-887c-3762be062a8d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/5</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1954-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b2ed8abb-1b13-4ef6-887c-3762be062a8d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eefd1944-a68a-4dfd-a99d-1acfbd3a652a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/6</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1955-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eefd1944-a68a-4dfd-a99d-1acfbd3a652a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d9cf7e46-04b8-47dd-a4d3-55562551bdfa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/7</unitid>
+                <unittitle encodinganalog="3.1.2">Verwaltungsbelege</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1954-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Mietverträge</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d9cf7e46-04b8-47dd-a4d3-55562551bdfa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ce0ece10-4427-4ed8-b820-a7c7e01bdee1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/8</unitid>
+                <unittitle encodinganalog="3.1.2">Außenstelle Hamburg. - Bau- und Mietangelegenheiten</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ce0ece10-4427-4ed8-b820-a7c7e01bdee1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eb9172b1-2744-4b01-9efc-6cd3ad0b946a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/9</unitid>
+                <unittitle encodinganalog="3.1.2">Lager Wandsbek der Außenstelle Hamburg.- Auflösung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1955-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eb9172b1-2744-4b01-9efc-6cd3ad0b946a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_6505f2c6-6c2c-440c-aac4-151eaa81a389" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Außenstelle Duisburg.- Schriftwechsel</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_644e713b-2b53-4cef-9a46-73d20d6c9487" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/10</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1949-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/644e713b-2b53-4cef-9a46-73d20d6c9487/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_de563d81-5d45-4c4b-a038-3e0f188542dd" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/11</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/de563d81-5d45-4c4b-a038-3e0f188542dd/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5c33266e-1a40-4ecc-9ba2-38f74e98709a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/12</unitid>
+                <unittitle encodinganalog="3.1.2">Einrichtung eines Laboratoriums</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1954-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5c33266e-1a40-4ecc-9ba2-38f74e98709a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5ff2a009-6569-4335-a4c0-4e3c6a345db5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/13</unitid>
+                <unittitle encodinganalog="3.1.2">Verschiedenes</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1955-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Anmietung von Büroräumen, 1947 - 1948<lb/>Anmietung von Büroräumen in Hamburg-Wandsbek, 1948 - 1949<lb/>Rechts- und Parteifähigkeit der Dienststelle, 1949<lb/>Zeichnungsberechtigung bei Verpflichtungserklärungen der Dienststelle, 1949<lb/>Herausgabe einer Dienstanweisung für die Außenstellen, 1949<lb/>Errichtung eines Einkaufsbüros für die Schulspeisung, 1949<lb/>Abwicklung der Hilfsernährungslager, (1949) 1950<lb/>Überlassung des Omnibusses der Dienststelle an den Hamburger Schulverein für Kinderlandverschickung, 1950<lb/>Einrichtung und Aufgaben eines selbständigen Revisionsreferates, 1951<lb/>Geschäftsordnung und Dienstanweisung, (1949) 1951-1952<lb/>Rechtstellung des Regional Food Office, (1949) 1953<lb/>Aufhebung von Versicherungsverträgen bei Auflösung der Dienststelle, 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5ff2a009-6569-4335-a4c0-4e3c6a345db5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_144237e1-f799-4c39-ac08-da0837da73c3" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalangelegenheiten</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_557e5e43-4d26-4b6d-b598-cf4372c2d396" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/14</unitid>
+                <unittitle encodinganalog="3.1.2">Personalangelegenheiten</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1953-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Zahlung von Wohnungsgeldzuschuss an verheiratete weibliche Angestellte, 1950 - 1951<lb/>Nebentätigkeit des Leiters der Außenstelle Duisburg, 1950 - 1953<lb/>Kündigung von Bediensteten infolge Auflösung der Außenstellen, 1950 - 1951</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/557e5e43-4d26-4b6d-b598-cf4372c2d396/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_00849943-608f-402c-b113-704919d6508e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/15</unitid>
+                <unittitle encodinganalog="3.1.2">Auflösung des Dienstverhältnisses von Konrad Jerosch als kommissarischer Leiter der Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/00849943-608f-402c-b113-704919d6508e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3b4e0ef3-aa7a-438a-a3b8-0e8ef8ff27da" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/16</unitid>
+                <unittitle encodinganalog="3.1.2">Personelle Besetzung des kommissarischen Leiters der Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten durch Dr. Max Zwicknagel</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1953-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3b4e0ef3-aa7a-438a-a3b8-0e8ef8ff27da/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_5d2e68b9-f63b-4515-b437-69814d956154" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Haushaltswesen, Prüfungen, Bilanzen</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_be461726-4538-4ea5-97be-f367b4f484ed" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Haushaltsvoranschläge, Erfolgspläne (dabei Organisations-, Stellen- und Geschäftsverteilungspläne), Rechnungsnachweisungen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c13aaa05-3084-402c-97dd-70a0a8609f26" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/17</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Anforderung von Haushaltsmitteln für das Rechnungsjahr 1950/51</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c13aaa05-3084-402c-97dd-70a0a8609f26/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2fd0e230-9393-4aea-a405-511265c429f8" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/18</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1955-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2fd0e230-9393-4aea-a405-511265c429f8/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_96c5801e-0465-4e5a-8822-53e1075a2584" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/19</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über den Jahresabschluss der Importabteilung zum 31. März 1947</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Geschäftsverteilungsplan der Dienststelle, 3.12.1948<lb/>Stellungnahme der Dienststelle zu dem Prüfungsbericht, 1949</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/96c5801e-0465-4e5a-8822-53e1075a2584/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bd002a3d-7084-4e06-9294-c70736944c96" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/20</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über den Reichsmark-Abschluss zum 20. Juni 1948 und die D-Mark-Eröffnungsbilanz zum 21. Juni 1948</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bd002a3d-7084-4e06-9294-c70736944c96/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_36ee06ae-2d3c-4d03-b1b2-88021e2fe2fd" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/21</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über den Jahresabschluss zum 31. März 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/36ee06ae-2d3c-4d03-b1b2-88021e2fe2fd/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_91f0197b-e118-431c-a7c9-8c3672dca64c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/22</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über die Jahresabschlüsse zum 31. März 1950, 31. März 1951 und 31. März 1952</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/91f0197b-e118-431c-a7c9-8c3672dca64c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_68ae05d9-318f-4009-91df-3b3b92092f1c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/23</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über die Jahresabschlüsse zum 31. März 1950, 31. März 1951 und 31. März 1952. - Anhang I</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/68ae05d9-318f-4009-91df-3b3b92092f1c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a57f119e-a6fb-4f75-9f56-069d81a244ac" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/24</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über die Jahresabschlüsse zum 31. März 1950, 31. März 1951 und 31. März 1952. - Anhang II</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a57f119e-a6fb-4f75-9f56-069d81a244ac/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59856cb6-6e01-4437-b660-8d94a514c957" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/25</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungsbericht der Deutschen Revisions- und Treuhand AG über die Jahresabschlüsse zum 31. März 1950, 31. März 1951 und 31. März 1952. - Anhang III und IV</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59856cb6-6e01-4437-b660-8d94a514c957/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_abb780e3-f9a0-4daf-8154-1b77d1e59c05" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/26</unitid>
+                <unittitle encodinganalog="3.1.2">Rechnungsprüfung (Vorprüfung)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1955-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/abb780e3-f9a0-4daf-8154-1b77d1e59c05/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_71a11155-14bf-4f0e-bdbf-e48a0c506501" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/27</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungen. - Verschiedenes</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Jahresabschluss 1947/48<lb/>Rechnungsprüfungen</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/71a11155-14bf-4f0e-bdbf-e48a0c506501/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f7174c3b-e9d7-4fa6-a034-a633b0780fe3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/28</unitid>
+                <unittitle encodinganalog="3.1.2">Währungsreform 1948</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Umwandlung und Freigabe der Konten, 1948 - 1949<lb/>Bezahlung von vor der Währungsreform durchgeführten Einfuhren, 1948<lb/>Auswirkung der Währungsreform auf Forderungen, 1948 - 1951<lb/>Rückerstattung von am Tage der Währungsreform erloschenen Reichsmarkeinzahlungen für Globaleinfuhren, 1952</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f7174c3b-e9d7-4fa6-a034-a633b0780fe3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8923b94d-d5fd-4b22-93f3-569dd87c0c73" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/29</unitid>
+                <unittitle encodinganalog="3.1.2">Rückstellungen in den Bilanzen zum 31. März 1949 und 31. März 1950</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8923b94d-d5fd-4b22-93f3-569dd87c0c73/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_6accba8c-b90c-4739-b4cc-21e3cc837dcc" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Einfuhr</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8c4921f3-c5c2-49d8-84ca-4a7f8f514601" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/30</unitid>
+                <unittitle encodinganalog="3.1.2">Einfuhren. - Allgemeines</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1955-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Ausgleich von Dollarkurs-Differenzen bei Milchpulvereinfuhren aus Dänemark, 1949 - 1951<lb/>Abrechnung von aus amerikanischen Beständen übernommenen Lebens-, Genuss- und Futtermitteln mit der Staatlichen Erfassungsgesellschaft (StEG), München, 1949 - 1953<lb/>Versicherungskosten und Frachtdifferenzbeträge bei Reisimporten aus Italien, 1950<lb/>Nichterfüllung eines Kaufvertrages über Trockenvollei durch eine amerikanische Militärdienststelle, 1950 - 1951<lb/>Abwicklung von Lebensmitteleinfuhren aus den Vereinigten Staaten von Amerika durch die Außenhandelsstelle für Erzeugnisse der Ernährung und Landwirtschaft, 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8c4921f3-c5c2-49d8-84ca-4a7f8f514601/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_e0a794cd-0e4d-40e8-8299-af7004839d40" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Einfuhren für die Schulspeisung</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_70153c82-4591-4ff2-a6da-f0c51a111fa1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/31</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1951-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Einfuhr und Verarbeitung von Getreide und Zucker</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/70153c82-4591-4ff2-a6da-f0c51a111fa1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_25b9ddca-2ed6-4afe-bc1b-53ed16c8f47b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/32</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Bedingungen für die Ausschreibung von Schulspeisungseinfuhren, 1949<lb/>Rechtsverhältnisse bei Individualeinfuhren für die Schulspeisung, 1949<lb/>Kakaobohnen ,1950 - 1951<lb/>Importeurvergütung bei Schokoladeeinfuhren, 1949 - 1952<lb/>Zinsforderung von Importeuren, 1950</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/25b9ddca-2ed6-4afe-bc1b-53ed16c8f47b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9a3bdb59-d0e2-4c42-8f93-cc1e14d1008c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/33</unitid>
+                <unittitle encodinganalog="3.1.2">Einfuhren für die Bergarbeiterversorgung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Durchführung, 1948 - 1949<lb/>Forderungen aus der Einfuhr von Rindergefrierfleisch, 1949 - 1952<lb/>Verfügungsgewalt über eingeführte Waren, 1951</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9a3bdb59-d0e2-4c42-8f93-cc1e14d1008c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_1aebc89b-b297-45f1-861b-66448b3248d5" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Versicherungsangelegenheiten</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8fa6e10f-13d8-4fa9-b041-5e481b8f7f2d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/34</unitid>
+                <unittitle encodinganalog="3.1.2">Versicherungsangelegenheiten</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1949-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Abschluss von Versicherungsverträgen durch die Dienststelle, 1949<lb/>Transportversicherung und Transportverlust von Kuba-Zucker, 1948 - 1949<lb/>Transportversicherung von über Bremen importierten Waren, 1949</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8fa6e10f-13d8-4fa9-b041-5e481b8f7f2d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_dd481c5c-4d14-4d77-8f62-11106a224427" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Lagerung</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_c9e72707-6778-4286-92f8-68f301084239" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Lagerung.- Allgemeines</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9fe609e0-15ed-447f-aba0-4ae43c25bdc1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/35</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Lagerverträge und Lagerversicherung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9fe609e0-15ed-447f-aba0-4ae43c25bdc1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9e9c3276-8771-402f-b169-e28045163869" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/36</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Beschaffung von Nissenhütten zur Einlagerung von Lebensmitteln, 1949<lb/>Einlagerung von Getreide für die Außenstelle Hamburg der Einfuhr- und Vorratsstelle für Getreide und Futtermittel, 1951<lb/>Marshallplan-Mittel zur Verbilligung der Lager- und Finanzierungskosten für eingelagerten Zucker, 1952<lb/>Hochwasserschaden an Trockenmilch in Köln, 1948 - 1949<lb/>Haftungsbestimmungen in Verträgen über die Einlagerung von Trockenmilch, 1950<lb/>Einlagerung von Tee, 1949<lb/>Einlagerung von Rohkakao, 1949</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9e9c3276-8771-402f-b169-e28045163869/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_2cd88aab-72d4-4370-b467-eec20bab455a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Lagerung von Schulspeisungswaren</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61fd035b-a4f3-4a2d-ab04-87649ff65422" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/37</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                  <note>
+                    <p>Handakten Franke.</p>
+                  </note>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Berichte über die Prüfung der Verbuchung und Lagerung von Lebensmittelbeständen</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61fd035b-a4f3-4a2d-ab04-87649ff65422/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6d5950d7-ab54-4e99-8dc3-312f92d6ef41" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/38</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1951-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Einlagerungsbedingungen für Schulspeisungsbestände, 1949<lb/>Lagerverträge mit Zentrallagerhaltern. - Wahrung der Hoheitsrechte der Länder, 1949<lb/>Pachtung eines ehemaligen Marinegerätelagers in Brunsbüttelkoog, 1950 - 1951</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6d5950d7-ab54-4e99-8dc3-312f92d6ef41/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6af37a4e-354c-4cef-9020-397712a687b6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/39</unitid>
+                <unittitle encodinganalog="3.1.2">Lagerung von Beständen der Bergarbeiterversorgung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6af37a4e-354c-4cef-9020-397712a687b6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_a3065184-99c6-4928-9680-6e42250e1030" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Verarbeitung</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5008f478-3420-464f-ac93-f1e36fdc3906" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/40</unitid>
+                <unittitle encodinganalog="3.1.2">Verarbeitung. - Allgemeines</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1951-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Schiedsgerichtsklausel in Verarbeitungsverträgen, 1950<lb/>Verarbeitung von Kokosöl zu Kokosfett, 1949<lb/>Umwandlung eines Vertrages über Herstellung von Tafelschokolade in einen solchen über Herstellung von Couverture, 1950<lb/>Aufhebung von Verarbeitungsverträgen mit Schokoladenherstellern infolge des Handelsvertrages mit den Vereinigten Staaten von Amerika vom 29. Dez. 1949, 1950 - 1951</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5008f478-3420-464f-ac93-f1e36fdc3906/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_ba4b4247-12b2-439e-97f1-3841b98917e5" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verarbeitung von Lebensmitteln für die Schulspeisung</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_27f7c861-f85b-4a34-ac63-48b2d705a62c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/41</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1955-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Vorzeitige Beendigung von Aufträgen zur Verarbeitung von Kakao, 1949 - 1953<lb/>Vorzeitiges Auslaufen eines Auftrages zur Herstellung von Kakaopulver, 1950 - 1951<lb/>Abweichung von der vorgeschriebenen Rezeptur bei der Herstellung von Schokolade, 1950 - 1953<lb/>Herstellung von Teigwaren, 1951<lb/>Verletzung eines Vertrages über die Verarbeitung von Hafer, 1951 - 1952</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/27f7c861-f85b-4a34-ac63-48b2d705a62c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bbc31773-9db2-4d0d-85f0-370b139bce4f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/42</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1955-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Nichtrücklieferung von Zucker und Kakaobutter</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bbc31773-9db2-4d0d-85f0-370b139bce4f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_d02d9f30-b0f0-4217-9136-f7e61371c817" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Mängel und Schäden</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_53e36d4c-56dd-4aba-a7da-50a094071657" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Mängel und Schäden.- Allgemeines</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_161dfba3-4700-41d3-9e75-6a508c253e75" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/43</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Schadenregelung bei Waren, die von der International Refugee Organization (IRO) geliefert wurden, 1949 - 1950<lb/>Verweigerung der Abnahme von minderwertigen amerikanischen Heeresverpflegungsrationen, 1950<lb/>Schadenersatzforderungen für Lagerverluste durch Unterschlagung und Wertminderung, 1950<lb/>Begutachtung von importiertem Kaffee, 1950<lb/>Ausgleich von Transportschäden an importierten Kakaobohnen, 1950<lb/>Beanstandung von Rauchgeruch bei Kakaobutter, 1950<lb/>Enthält u.a.:<lb/>Schadenersatzforderung, u.a. an den Magistrat von Groß-Berlin, wegen Lieferung unbrauchbarer Trockenzwiebeln, 1950</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/161dfba3-4700-41d3-9e75-6a508c253e75/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_824f10c7-40ed-4753-8251-96b2bf2358ee" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/44</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Rückgabepflicht aus einem Lieferungsvertrag über Tee</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/824f10c7-40ed-4753-8251-96b2bf2358ee/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0332a3e6-0090-4f7d-9c20-cb67b59392e3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/45</unitid>
+                <unittitle encodinganalog="3.1.2">Bergarbeiterversorgung. - Mängel und Schäden an Lebensmitteln</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Schadenersatzansprüche gegen die Joint Export Import Agency (JEIA) aus Mängeln an eingeführten Lebensmitteln, 1948 - 1949<lb/>Neubewertung notleidend gewordener italienischer Gefrierschweine, 1950<lb/>Minderwertigkeit von Gefrierfleisch aus Mexiko, 1950 - 1952</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0332a3e6-0090-4f7d-9c20-cb67b59392e3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_4b2413de-5813-4b2b-9ff0-d5f0ec511835" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Zölle, Steuern, Abgaben</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_85074242-7a99-4cf4-99b4-5fbb1e266e34" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Zollangelegenheiten</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_54a0cdd2-ea30-4649-a96f-3a9aa2c1ddb9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/46</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1951-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Zollvergünstigungen bei Lebensmitteleinfuhren für Bergarbeiter, 1949<lb/>Beschwerden gegen Maßnahmen von Polizei- und Zollfahndungsstellen, 1949 - 1950<lb/>Zollermäßigung beim allgemeinen Verkauf von beschädigten und minderwertigen Lebensmitteln, 1949<lb/>Zollmäßige Behandlung von Waren, die infolge Beschädigung oder Wertminderung zu herabgesetzten Preisen verkauft werden müssen, 1950<lb/>Zollerlass aus Billigkeitsgründen für niederländische Biskuits, 1950<lb/>Zoll und Umsatzausgleichssteuer beim Verkauf von für die Schulspeisung bestimmtem, unterschlagenen Magermilchpulver sowie eingeführtem Zimt und eingeführten Lebensmitteln, 1950 - 1951<lb/>Enthält u.a.:<lb/>Verzollung von Leder, 1951</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/54a0cdd2-ea30-4649-a96f-3a9aa2c1ddb9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_309fe00f-434e-4767-83c6-ff4a771ffebb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/47</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Nachträgliche Verzollung von für die Schulspeisung importierten Waren beim allgemeinen Verkauf</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/309fe00f-434e-4767-83c6-ff4a771ffebb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c44b0f9e-2604-4419-b9ba-1cd47710efdf" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/48</unitid>
+                <unittitle encodinganalog="3.1.2">Sonstige Einfuhrabgaben</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Einfuhrabgaben auf Waren für die Schulspeisung, 1947 - 1952<lb/>Einfuhrabgaben auf Waren für die Bergarbeiterversorgung, 1949 - 1952</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c44b0f9e-2604-4419-b9ba-1cd47710efdf/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9444f9b6-cd82-42d3-b61e-7450ec50690f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/49</unitid>
+                <unittitle encodinganalog="3.1.2">Steuerangelegenheiten</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1952-12-31">1947-1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Steuerliche Zulassung der Dienststelle als Gruppenverteiler, (1942) 1948-1951<lb/>Umsatzsteuer für Schulspeisungslieferungen in Württemberg-Baden, 1947-1949<lb/>Steuernachforderung für Kaffee aus amerikanischen Heeresverpflegungsrationen, (1949) 1950-1951<lb/>Versteuerung von Kaffeepulver, 1950-1951<lb/>Nachversteuerung von Kaffee aus amerikanischen Standard-Lebensmittelpaketen für die Bergarbeiterversorgung, (1950) 1951<lb/>Zuckersteuer auf für die Schulspeisung eingeführten Zucker, 1951-1952<lb/>Erlass und Stundung von Beförderungssteuer beim Transport von Waren für die Schulspeisung und für den Bundesgrenzschutz, 1952<lb/>Körperschaftssteuer für Molkerein, die Milchmischgetränke herstellen, 1950</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9444f9b6-cd82-42d3-b61e-7450ec50690f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cb5b36b9-089c-4261-820b-6eb34a37d3b9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/50</unitid>
+                <unittitle encodinganalog="3.1.2">Sonstige Abgaben</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1953-12-31">1949-1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Kommunale Ausgleichsabgabe auf Fleisch für die Bergarbeiterversorgung, 1949<lb/>Kommunale Ausgleichsabgabe auf Fleisch für die Schulspeisung, 1949<lb/>Nachforderung einer Ausgleichsabgabe für Schweinefleisch durch die Stadt Gelsenkirchen, 1950-1951<lb/>Lastenausgleichsabgabe für Schulspeisungswaren. - Währungsgewinne der Dienststelle, 1949-1953<lb/>Heranziehung von Zentrallagerhaltern für die Schulspeisung zur Lastenausgleichsabgabe, 1952<lb/>Hafengebühren und ähnliche Kosten bei Einfuhr von Lebensmitteln für die Schulspeisung, 1950<lb/>Verwaltungsgebühren bei der Abwicklung von Lebensmitteleinfuhren für Schulspeisung und Bergmannsversorgung, (1948) 1949-1951</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cb5b36b9-089c-4261-820b-6eb34a37d3b9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_21008150-70d8-4ce7-84fe-cc5a794803df" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Schulspeisung</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9cd4bf64-2028-478e-be97-5ac2f910329b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/51</unitid>
+                <unittitle encodinganalog="3.1.2">Allgemeines</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1951-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9cd4bf64-2028-478e-be97-5ac2f910329b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_20d16f64-e57b-4b81-a3a1-7a7c7605416e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Rückkauf von Lebensmittelbeständen infolge Umstellung der Schulspeisung auf Unentgeltlichkeit.- Grundsätzliches und Einzelfälle</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c5168b4c-5d90-49c5-a672-ea8c7f09d2dc" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/52</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Gesamtübersicht über Mengen und Werte der Schulspeisungsbestände, 28. Febr. 1949</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c5168b4c-5d90-49c5-a672-ea8c7f09d2dc/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_67864312-6957-48d3-8644-41f2221dfa25" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/53</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/67864312-6957-48d3-8644-41f2221dfa25/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_8d37ace0-6cc9-49c2-a46a-e0525a927479" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Rückkauf von Lebensmittelbeständen infolge Umstellung der Schulspeisung auf Unentgeltlichkeit.- Abrechnung mit einzelnen Lagerhaltern</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_db5369f8-ed97-4e42-b801-6c84c53a8b6f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/54</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/db5369f8-ed97-4e42-b801-6c84c53a8b6f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f20ba315-fad9-447e-9a55-6a85280d7c83" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/55</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1951-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f20ba315-fad9-447e-9a55-6a85280d7c83/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e3bc0989-9225-43f5-9dc4-bfc63a3091f8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/56</unitid>
+                <unittitle encodinganalog="3.1.2">Fehlbetrag bei gelagertem Käse für die Schulspeisung; deren Umstellung auf Unentgeltlichkeit 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e3bc0989-9225-43f5-9dc4-bfc63a3091f8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_573a48f9-e1a9-45bb-9f1a-07328c3b4b16" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bereitstellung von Mitteln für die Schulspeisung; Abrechnung mit einzelnen Lagerhaltern für Schulspeisungsbestände</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c3906f2c-0628-41aa-b25f-f35f52e06a54" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/57</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c3906f2c-0628-41aa-b25f-f35f52e06a54/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e9c00d53-8a7f-4d73-b066-7bf2da93c7df" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/58</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e9c00d53-8a7f-4d73-b066-7bf2da93c7df/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ede67692-8d62-4a60-afd6-3216f9da6c70" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/59</unitid>
+                <unittitle encodinganalog="3.1.2">Herstellung, Verleih und Aufführung von Schulspeisungsfilmen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1953-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ede67692-8d62-4a60-afd6-3216f9da6c70/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_676ad379-e58c-4bec-9ada-0b4da0383802" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verschiedenes</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_90665c7e-bc1c-49cd-8560-3106e8630492" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/60</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/90665c7e-bc1c-49cd-8560-3106e8630492/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_46d20a32-5e3e-46f7-8a59-233973d80e17" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/61</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/46d20a32-5e3e-46f7-8a59-233973d80e17/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_95d4dddf-813c-4757-a74a-27fb43fc507e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/62</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1946-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Schadenersatzanspruch gegen die britische Besatzungsmacht wegen Inanspruchnahme von Zucker, der für die Schulspeisung bestimmt war</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/95d4dddf-813c-4757-a74a-27fb43fc507e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c8733a99-7660-476f-b1b8-3a38e445c24e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/63</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1953-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Lieferung von Zigaretten für die Studentenspeisung, 1949<lb/>Übernahme von Fleischkonserven von der Vorrats- und Einfuhrstelle für Vieh und Fleisch, 1950<lb/>Forderung aus Lieferung von Schmalz und Rosinen, 1951 - 1953<lb/>Entwendung einer Kiste amerikanischer Kampfrationen bei Transport nach Berlin, 1950<lb/>Weiterleitungspauschale für Waren, die teils für verschleppte Personen bestimmt waren, teils aus amerikanischen Militärbeständen stammten und für die Schulspeisung verwendet wurden, 1950 - 1951<lb/>Frachtermäßigung beim Transport von Schulspeisungswaren, 1951<lb/>Enthält u.a.:<lb/>Unberechtigte Verfügung über Kakaobutter, 1949<lb/>Freigabe von Lebensmitteln zum allgemeinen Verkauf, 1949<lb/>Allgemeiner Verkauf von Milchpulver aus Schulspeisungsbeständen, 1949-1950<lb/>Begünstigung der für die Schulspeisung eingeführten Waren bei deren Umstellung auf entgeltliche Abgabe, 1949</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c8733a99-7660-476f-b1b8-3a38e445c24e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_22db85bc-519d-4bfb-8531-1f0e23cb01af" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Zusatzversorgung der Bergarbeiter</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c730eb92-7e8d-40b2-ba3d-0b24a123be9c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/64</unitid>
+                <unittitle encodinganalog="3.1.2">Zusatzversorgung für Bergarbeiter</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1950-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Vertrag der Dienststelle mit der Deutschen Kohlenbergbauleitung - Bergbaubedarf-Beschaffungszentrale, 1948<lb/>Geschäftsbedingungen der Dienststelle für Lieferungen für die Bergarbeiterversorgung, 1949<lb/>Vergütung für Inlandsfinanzierung bei Ausschreibung von Fleischeinfuhren, 1949<lb/>Sonderversorgung der bayerischen Bergarbeiter aus Lebensmitteleinfuhren, 1950</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c730eb92-7e8d-40b2-ba3d-0b24a123be9c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_5d3425bd-ac09-4f8a-be8b-8b71e382e1fe" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktion &quot;Lebensmittelhilfe Ost-Berlin und sowjetische Besatzungszone&quot;</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_4f4d5776-4182-405f-921c-6935f0abff3e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Allgemeines und Grundsätzliches</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2b4774a3-ca1b-4f20-ae2e-0b1554f09962" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/65</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2b4774a3-ca1b-4f20-ae2e-0b1554f09962/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_74706bf7-9660-4582-9c2a-67b5ee73c528" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/66</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Geschäftsverteilungsplan der für die Aktion zuständigen Referate, 2. Nov. 1953</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/74706bf7-9660-4582-9c2a-67b5ee73c528/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_03e54bdf-208c-44db-9ce6-ad1ce5a5051b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/67</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1955-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Grundsätze für die Vergabe öffentlicher Aufträge und Zusammenstellung der als notleidend anerkannten Gebiete, 1954</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/03e54bdf-208c-44db-9ce6-ad1ce5a5051b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dce2b552-8833-4ad7-9954-cc16ca752758" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/67a</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dce2b552-8833-4ad7-9954-cc16ca752758/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7eef6f56-8912-4957-9a2a-43fe083e6f68" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/70</unitid>
+                <unittitle encodinganalog="3.1.2">Berichte der Warenrevisionsstelle über die Kontrolle der Lebensmittelhilfe</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1956-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7eef6f56-8912-4957-9a2a-43fe083e6f68/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_51a3f5fb-fbc2-4dd4-812f-b5d813956aea" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/71</unitid>
+                <unittitle encodinganalog="3.1.2">Bereitstellung von Haushalts- und Betriebsmitteln, finanzieller Status der Waren- und Kostenseite (Aufstellungen zu verschiedenen Stichtagen), Abrechnungen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/51a3f5fb-fbc2-4dd4-812f-b5d813956aea/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_b96513a7-454d-416a-944d-377dba816a99" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Lieferungsunterlagen; finanzieller Status der Waren- und Kostenseite (Aufstellungen zu verschiedenen Stichtagen)</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cbed4ff3-6b6a-4eb4-ab44-b86578d0c65d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/72</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Anforderung von Betriebsmitteln, 1953<lb/>Abwicklung der Aktion, 1953</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cbed4ff3-6b6a-4eb4-ab44-b86578d0c65d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3cc9d0ef-935f-4bbe-8330-04c129a8c037" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/73</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3cc9d0ef-935f-4bbe-8330-04c129a8c037/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_39b9548f-4889-4d79-bbdb-b57cb3bf3d09" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/74</unitid>
+                <unittitle encodinganalog="3.1.2">Finanzieller Status der Aktion. - Aufstellungen zu verschiedenen Stichtagen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1956-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/39b9548f-4889-4d79-bbdb-b57cb3bf3d09/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_79b2403f-1b18-44e9-9aa4-4f71dc2e03b3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/75</unitid>
+                <unittitle encodinganalog="3.1.2">Übernahme und Abwicklung einer amerikanischen Lebensmittelspende im Auftrag der Dienststelle</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1955-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/79b2403f-1b18-44e9-9aa4-4f71dc2e03b3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a9cf8e06-eeae-4a0a-8383-5508ed665228" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/76</unitid>
+                <unittitle encodinganalog="3.1.2">Rücktransport von in Berlin gelagertem amerikanischem Schweineschmalz</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Bericht des Deutschen Instituts für Fettforschung über die Prüfung der Schmalzläger der Einfuhr- und Vorratsstelle für Fette in Westberlin</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a9cf8e06-eeae-4a0a-8383-5508ed665228/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_0cda1145-22ec-4c3c-af09-1a8b4f31dcd2" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonderaktionen und -programme</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5e1f79b7-28f0-48ec-8fb1-98507a400c1d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/77</unitid>
+                <unittitle encodinganalog="3.1.2">Lieferung von Süßstoff in die sowjetische Besatzungszone</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1948-12-31">1948</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5e1f79b7-28f0-48ec-8fb1-98507a400c1d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f917d131-8300-4470-abbf-617f2fc1b72f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/78</unitid>
+                <unittitle encodinganalog="3.1.2">Versorgung der Seeschiffer mit Lebensmitteln</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f917d131-8300-4470-abbf-617f2fc1b72f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_bb664fef-0f2d-4c3f-b66a-ef698773e9af" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hilfsprogramm des Weltkinderhilfswerkes der Vereinten Nationen (Unicef) für Westdeutschland.- Abwicklung von Wollspenden: Verarbeitung, Verteilung, Abrechnung</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5dbf5e61-c98f-44a5-ac92-ed2b6cfce9b5" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/79</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1950-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5dbf5e61-c98f-44a5-ac92-ed2b6cfce9b5/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ae70bf21-2157-4922-81a4-87d300d9131c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/80</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ae70bf21-2157-4922-81a4-87d300d9131c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1f6480c9-1f7f-4158-95db-fe908efdac5e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/81</unitid>
+                <unittitle encodinganalog="3.1.2">Hilfsprogramm des Weltkinderhilfswerkes der Vereinten Nationen (Unicef) für Westdeutschland. - Abwicklung von sonstigen Unicef-Lieferungen, insbesondere Transport- und Zollabwicklung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1952-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>&quot;Entwicklung der Unicef-Arbeit in Deutschland&quot; (Auszug aus dem Tätigkeitsbericht der Unicef-Mission für Deutschland)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1f6480c9-1f7f-4158-95db-fe908efdac5e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fb1ac324-214d-4fd0-acb5-56e2e68aadb0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/82</unitid>
+                <unittitle encodinganalog="3.1.2">Lebensmittellieferungen an die britische Rheinarmee</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1954-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fb1ac324-214d-4fd0-acb5-56e2e68aadb0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_58fbfeee-c32a-433b-9c1a-a90d7f59503d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/83</unitid>
+                <unittitle encodinganalog="3.1.2">Zusammenstellungen über die Teigwarenfabriken, Knäcke- und Dauerbrothersteller, Schäl- und Getreidemühlen im Bundesgebiet</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/58fbfeee-c32a-433b-9c1a-a90d7f59503d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3853c85f-ea56-4822-bd3b-69817efc7049" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/84</unitid>
+                <unittitle encodinganalog="3.1.2">Erfassung von Standorten und Kapazitäten der Ernährungsindustrie und des Ernährungshandels sowie von Lagerraum für Lebensmittelvorräte</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3853c85f-ea56-4822-bd3b-69817efc7049/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="subseries" id="DE-1958_35f40916-b866-427e-a698-8e42454b61bb" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Beschaffung von Lebensmitteln für Einsatzverpflegung und Verpflegungsreserve des Bundesgrenzschutzes.- Allgemeines</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f3efd4ff-ccb8-4292-9b83-c2251df6e1d0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/85</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1953-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f3efd4ff-ccb8-4292-9b83-c2251df6e1d0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_089b4781-e98e-4724-87d4-7c9eb65f179d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 127/86</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1955-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/089b4781-e98e-4724-87d4-7c9eb65f179d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a37bbefd-3b9e-4581-be5e-8313944ea5b3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/87</unitid>
+                <unittitle encodinganalog="3.1.2">Bildung einer Welt-Notstands-Lebensmittelreserve durch die Ernährungs- und Landwirtschaftsorganisationen der Vereinten Nationen (FAO)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1953-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a37bbefd-3b9e-4581-be5e-8313944ea5b3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3fb44725-cf41-4229-8f85-8c32b9492aa8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/88</unitid>
+                <unittitle encodinganalog="3.1.2">Beschaffung von Milch- und Fleischkonserven sowie Kindernährmitteln für Katastrophenspenden des Deutschen Roten Kreuzes</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Amerikanische Spende zugunsten von Hochwassergeschädigten in Bayern</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3fb44725-cf41-4229-8f85-8c32b9492aa8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cbf463f3-8022-424f-b041-6cbe0c186a08" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/89</unitid>
+                <unittitle encodinganalog="3.1.2">Zuweisung von Lebensmitteln für Teilnehmer am 76. Deutschen Katholikentag in Fulda und am Bundessängertreffen des Deutschen Allgemeinen Sängerbundes in Hannover</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cbf463f3-8022-424f-b041-6cbe0c186a08/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_05adca24-fa57-487d-8352-4c89aa5d9334" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Verschiedenes</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b50d3181-87be-475a-9d09-f95494dfda2f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/90</unitid>
+                <unittitle encodinganalog="3.1.2">Einzelne Angelegenheiten</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1948-01-01/1950-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Verträge über den Verkauf von Lebensmitteln an öffentliche Stellen, 1948<lb/>Errichtung der Transportgesellschaft deutscher Länder mbH (nur Vertragsentwurf), 1948<lb/>Unberechtigte Verwendung des Warenzeichens &quot;Nescafe&quot;, 1950</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b50d3181-87be-475a-9d09-f95494dfda2f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d2be10ea-8ebe-45c5-8d7e-e223fad83c76" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/91</unitid>
+                <unittitle encodinganalog="3.1.2">Gutachten über die ernährungswirtschaftliche Situation Deutschlands auf den Versorgungsgebieten Fische, Kaffee und Kaffee-Ersatz sowie Tee</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d2be10ea-8ebe-45c5-8d7e-e223fad83c76/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_ea0a88d0-1b8a-467f-821a-986f0e73a493" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Anhang</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0ff48e61-88dd-4284-96f9-dd5697996be5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 127/92</unitid>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnis</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dienststelle für besondere Versorgungsaufgaben des Bundesministeriums für Ernährung, Landwirtschaft und Forsten (DbV)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0ff48e61-88dd-4284-96f9-dd5697996be5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

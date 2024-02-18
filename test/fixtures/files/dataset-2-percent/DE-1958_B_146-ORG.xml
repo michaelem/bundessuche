@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f3e3be37-40f3-483e-a4cc-0747ac06bb09/" identifier="DE-1958_f3e3be37-40f3-483e-a4cc-0747ac06bb09">DE-1958_f3e3be37-40f3-483e-a4cc-0747ac06bb09</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesministerium für den Marshallplan/Bundesministerium für wirtschaftliche Zusammenarbeit (bis 1957).- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 146-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1950-01-01/1957-12-31" encodinganalog="3.1.3">1950-1957</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesministerium für den Marshallplan/Bundesministerium für wirtschaftliche Zusammenarbeit (bis 1957).- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>23 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Das Bundesministerium für den Marshallplan (BMM) wurde im September 1949 gegründet. Ihm oblag die zentrale Durchführung des Marshallplans und der Nachweis der zur Verfügung stehenden Mittel. Die Aufgaben umgriffen auch die europäische wirtschaftliche Zusammenarbeit und die völkerrechtlichen Fragen des Europäischen Wiederaufbauprogramms (European Recovery Programm - ERP).Von November 1949 - April 1950 führte es die Bezeichnung BM für Angelegenheiten des Marshall-Plans. Das Ministerium bestand zunächst aus drei Abteilungen (Stand Februar 1950): Zentralabteilung mit zwei Referaten, Volkswirtschaftliche Abteilung mit fünf Referaten sowie ERP-Politik und Durchführung mit sechs Referaten, darin seit 1. Januar 1950 das ERP-Kontor (Abwicklung der Marshallplan-Einfuhren) und die Warenrevisionsstelle (Lieferungs-, Mängel- und Verbleibkontrolle der Marshallplan-Waren). Sein Aufgabenbereich erstreckte sich auf folgende Felder: Deutsche Beteiligung am europäischen Wiederaufbau, europäische Zusammenarbeit, fachliche ERP-Organisation, Wirtschaftsbeobachtung, Koordinierung von Angelegenheiten von ECA, ERP- und Dollarhilfe, Vertretung der Bundesrepublik bei der OEEC (seit 1. November 1949) und der ECA. Aus Anlass der Weiterentwicklung des Marshallplans zum System der Mutual Security Aid (MSA) kamen im Februar 1953 folgende Aufgaben hinzu: Abstimmung der Fragen der volkswirtschaftlichen Gesamtrechnung, Grundsatzfragen der Finanzierung und der Banktechnik in bezug auf Einsatz und Verwaltung der ERP-Mittel, Pflege des zwischenstaatlichen Wirtschafts- und Zahlungsverkehrs durch Verbindungen zu EZU, Währungsfonds, Weltbank, Schuman-Plan und Europarat. 1953 wurde das Ministerium in Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ) umgenannt. Mit der Umbenennung im Zuge der Regierungsumbildung im Oktober 1953 waren wesentliche Veränderungen im Geschäftsbereich nicht verbunden. In den ersten vier Jahren seines Bestehens war das Ministerium auf vier Abteilungen angewachsen (plus Abteilung K: Rechts-, Kabinetts- und Parlamentsangelegenheiten). Im Februar 1957 wurden die Aufgaben der Sonderminister Dr. H. Schäfer und W. Kraft übernommen: Prüfung des unselbständigen Mittelstandes und der geistig freischaffenden Berufe (Gruppe A: Bundesbeauftragter für Fragen der Angestellten und der freien Berufe; Gruppe B: Koordinierung wasserwirtschaftlicher und wasserrechtlicher Fragen). Noch 1957 wurde das BMZ aufgelöst. Die Verwaltung des ERP-Sondervermögens ging an das neugebildete Bundesministerium für wirtschaftlichen Besitz des Bundes (BMBes), die Aufgaben der europäischen wirtschaftlichen Zusammenarbeit gingen an das Bundesministerium für wirtschaftlichen Besitz des Bundes (BMBes), das Bundesministerium für Wirtschaft (BMWi) und zum Auswärtigen Amt. Die Aufgaben der ehemaligen Bundesminister Schäfer und Kraft gingen an das Bundesministerium für Arbeit und Sozialordnung (BMA) sowie das Bundesministerium für Atomfragen (BMAt). Da mit den Aufgaben auch Akten an andere Ministerien übergingen, findet sich nur ein Teil der ursprünglichen Überlieferung im Bestand B 146. Andererseits liegen in geringerem Umfang Unterlagen in B 146 vor, die über das Jahr 1957 hinausgehen. Im Bestand B 146 finden sich vor allem Akten über den inneren Dienstbetrieb, zu Kabinettsangelegenheiten (oftmals nur mitwirkende Tätigkeit), zu internationalen Abkommen und Verträgen (insbesondere Londoner Schuldenkonferenz), zur OEEC und anderen internationalen Organisationen.</p>
+      <p>Minister:</p>
+      <p>Vizekanzler Franz Blücher (FDP/DP), 1949-1957</p>
+      <p>Staatssekretäre:</p>
+      <p>Walter Ernst Gase, 1950-1952</p>
+      <p>Rolf Dahlgrün (mdWdGb), 1956-1957</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 146-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_f3e3be37-40f3-483e-a4cc-0747ac06bb09" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesministerium für den Marshallplan/Bundesministerium für wirtschaftliche Zusammenarbeit (bis 1957).- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>23 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_8adc2fc6-00a5-4e02-a9a2-aba7365b56d8" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 146 ORG Bundesministerium für den Marshallplan/Bundesministerium für wirtschaftliche Zusammenarbeit (bis 1957).- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_f20733db-3525-4e95-9c52-127d908aaacf" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8043774a-2b50-4e1c-b2e0-9c5af50d8435" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1951</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8043774a-2b50-4e1c-b2e0-9c5af50d8435/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ba95d684-393e-4033-ab7a-39c7da11f542" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1952</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ba95d684-393e-4033-ab7a-39c7da11f542/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_74a3005e-4392-4e7b-89a7-6387945dbb02" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/74a3005e-4392-4e7b-89a7-6387945dbb02/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5ad198f9-f2aa-48f7-91ba-7a1c731fb46f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5ad198f9-f2aa-48f7-91ba-7a1c731fb46f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_be54904d-d387-4c34-8992-c6fafb748ae7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/be54904d-d387-4c34-8992-c6fafb748ae7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3193f182-d717-41ec-ac95-6a64ab8629a1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations und Stellenplan, Stand: 1. Juli 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Vertretung der Bundesrepublik Deutschland beim Europäischen Wirtschaftsrat in Paris und der Vertretung der Bundesrepublik Deutschland bei der FOA in Washington 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3193f182-d717-41ec-ac95-6a64ab8629a1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b090c341-d7b3-4ad4-a9d4-b5ede73ebb28" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Organisations-und Stellenplan des BM für wirtschaftliche Zusammenarbeit für Rechnungsjahr 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b090c341-d7b3-4ad4-a9d4-b5ede73ebb28/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_76d3e9bf-588c-48d9-b178-197d84dd230f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 21. Okt. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/76d3e9bf-588c-48d9-b178-197d84dd230f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3c1af87f-1af3-4d05-9c14-d7c255d35ddf" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3c1af87f-1af3-4d05-9c14-d7c255d35ddf/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_869935b0-ca44-4be9-9b0c-15454cc86de6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 5. Jan. 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/869935b0-ca44-4be9-9b0c-15454cc86de6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59a5ddd0-0e34-4e75-a5eb-82235583e60f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 3. Nov. 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59a5ddd0-0e34-4e75-a5eb-82235583e60f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_14a93a9a-5adc-4bc8-b04d-e569027e3265" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1956</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/14a93a9a-5adc-4bc8-b04d-e569027e3265/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b358010f-5d1e-4961-90ff-b40d0df033f3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Feb. 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b358010f-5d1e-4961-90ff-b40d0df033f3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_68f9164c-939f-4410-8335-7289241fca6f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1957, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1957</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/68f9164c-939f-4410-8335-7289241fca6f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_230f6e94-8382-4353-b46d-f3f9911ff327" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/230f6e94-8382-4353-b46d-f3f9911ff327/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e37e15f6-414e-4250-ac5e-e062e8fb32d1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e37e15f6-414e-4250-ac5e-e062e8fb32d1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e372254f-cea4-4eab-b68c-c0adc071d596" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 146-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für wirtschaftliche Zusammenarbeit (BMZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e372254f-cea4-4eab-b68c-c0adc071d596/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_64283f3e-817c-49a0-b3d1-b1e39e9353af" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_c3210e50-b479-4784-aa5b-bb7472db60e9" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_70c69d51-e8e0-4c29-9632-af1c778b2642" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_244764af-c100-4010-bae6-f883b7841361" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_a94c5799-fb43-44f5-b291-60c16ce432af" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_7f58d67f-77ad-498b-aaa3-db1c725a2d14" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_4f01b2f5-c684-4f32-82e4-603200402e13" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_6f34beb0-6dd7-453d-827a-f9c1f305ff18" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_d1250bab-a52b-456f-b548-a96a774fdae8" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_d5882582-4fbc-4fe4-8bda-742837f9703d" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_e14e47e0-65ca-4c24-b76e-cc9b77557aa9" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_04841b33-1b47-4305-8f9e-5a1827acd0b1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_7154b35b-d736-4626-94ee-9971c80b51e6" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_e99550fb-03dc-48fc-9fbc-677926fc0dd1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

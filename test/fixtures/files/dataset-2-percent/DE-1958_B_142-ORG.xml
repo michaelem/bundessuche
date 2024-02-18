@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5973b894-8cb9-44f4-9641-10d980d2153a/" identifier="DE-1958_5973b894-8cb9-44f4-9641-10d980d2153a">DE-1958_5973b894-8cb9-44f4-9641-10d980d2153a</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesministerium für Gesundheitswesen.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 142-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1962-01-01/1969-12-31" encodinganalog="3.1.3">1962-1969</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesministerium für Gesundheitswesen.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>216 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>In dem durch Organisationserlass des Bundeskanzlers vom 29. Jan. 1962 errichteten Bundesministerium für das Gesundheitswesen (BMGes) wurden erstmals alle gesundheitspolitischen Aufgaben der Bundesregierung in einem Ressort vereinigt. Den Kern des neuen Ministeriums bildete die frühere Gesundheitsabteilung (Abteilung IV) des BMI, die sich in eine Unterabteilung für Humanmedizin, das Arzneimittel- und Apothekenwesen und eine Unterabteilung für Veterinärmedizin gegliedert hatte. Den zweiten Aufgabenschwerpunkt bildete die Kompetenz für Wasserwirtschaft, die zuvor beim BM für Wirtschaft (bis 1955), beim BM für besondere Aufgaben (bis Febr. 1957), beim BM für wirtschaftliche Zusammenarbeit (bis Okt. 1957) und schließlich beim BM für Atomkernenergie und Wasserwirtschaft ressortierte. An diese beiden Aufgabenschwerpunkte, die organisatorisch als zwei Fachabteilungen mit jeweils zwei Unterabteilungen bzw. Gruppen ausgebildet waren, wurden weitere Kompetenzen angegliedert. So wurde die Zuständigkeit für die medizinischen und gesundheitspolitischen Grundsatzfragen der Reinhaltung der Luft und der Lärmbekämpfung sowie die Aufgaben der Rehabilitation und des Bäderwesens aus dem BM für Arbeit und Sozialordnung übernommen. Aus dem BM für Ernährung, Landwirtschaft und Forsten wurden die Zuständigkeiten für Fleischbeschau, für Fragen der Milchhygiene und der gesundheitlichen Ernährungsberatung in das BMGes verlagert. Im Juni 1963 wurde die Abteilung I in zwei neue Abteilungen mit jeweils zwei Unterabteilungen aufgegliedert: Die neue Abteilung I wurde für Humanmedizin, Arzneimittel- und Apothekenwesen und die Abteilung II für Lebensmittelwesen und Veterinärmedizin zuständig. In Abteilung III Wasserwirtschaft, Reinhaltung der Luft und Lärmbekämpfung blieben die Aufgabenbereiche unverändert. In dieser Organisationsstruktur blieb das BMGes bis zu seiner Fusion mit dem BM für Familie und Jugend (BMFa) zum BM für Jugend, Familie und Gesundheit (BMJFG) am 11. Nov. 1969, bei der die Abteilung III in die Abteilung Umwelt des BMI verlagert wurde, unverändert bestehen. Zum nachgeordneten Bereich gehören: Bundesgesundheitsamt (B 208) und Bundeszentrale für gesundheitliche Aufklärung (B 310).</p>
+      <p>Minister:</p>
+      <p>Elisabeth Schwarzhaupt (CDU), Jan. 1961- Dez. 1966</p>
+      <p>Käte Strobel (SPD), Dez. 1966 - Okt. 1969</p>
+      <p>Staatsekretäre:</p>
+      <p>Walter Bargatzky, Jan. 1963 - Dez. 1966</p>
+      <p>Prof. Ludwig v. Manger-Koenig, Jan. 1967 - Nov. 1969</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 142-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_5973b894-8cb9-44f4-9641-10d980d2153a" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesministerium für Gesundheitswesen.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>216 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_4ca095f3-34e6-48de-8d96-edf49b9b5340" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 142 ORG Bundesministerium für Gesundheitswesen.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_25c3e3c9-a7a0-401e-b983-9dab24298928" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4ba6731b-dab8-4a5d-a6f9-9bcaef7ca3cb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1962 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4ba6731b-dab8-4a5d-a6f9-9bcaef7ca3cb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2b0a00b4-da12-4eb2-8a68-54a94058e6e2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 17. Apr. 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2b0a00b4-da12-4eb2-8a68-54a94058e6e2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fce48656-bf59-496d-b232-8c1f0a539843" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 8. Nov. 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fce48656-bf59-496d-b232-8c1f0a539843/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4ccd650e-b002-451d-879f-deee73efcad6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Jan. 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4ccd650e-b002-451d-879f-deee73efcad6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0a7471e2-a08f-4377-8dfc-be387117efb9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Juni 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0a7471e2-a08f-4377-8dfc-be387117efb9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7de5de57-7cff-4968-9bb3-1ab6b7e3c531" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1964 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7de5de57-7cff-4968-9bb3-1ab6b7e3c531/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3e875e96-c043-4c30-ab99-dc62a734aee3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Apr. 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3e875e96-c043-4c30-ab99-dc62a734aee3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cd34b626-86d3-43a9-85b7-df6973900163" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Febr. 1965</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cd34b626-86d3-43a9-85b7-df6973900163/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fdd381ff-bbdc-4ee1-bff1-075c7e336408" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Sept. 1965</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fdd381ff-bbdc-4ee1-bff1-075c7e336408/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c361e046-17ce-4ac9-922d-0e02f21657e2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1966 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c361e046-17ce-4ac9-922d-0e02f21657e2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_02c9343b-424b-4c37-b0eb-6df386f34c64" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/02c9343b-424b-4c37-b0eb-6df386f34c64/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ecd294aa-75a7-49c0-80ca-eb179d11b800" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Sept. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ecd294aa-75a7-49c0-80ca-eb179d11b800/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9d5700ef-80ad-4de3-8ce6-e51fe9604e1c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 5. Jan. 1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9d5700ef-80ad-4de3-8ce6-e51fe9604e1c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b0847f97-024e-48e3-afce-abbea2a8b8a7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 30. Apr. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b0847f97-024e-48e3-afce-abbea2a8b8a7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_651f30af-50bc-4100-99c2-fb6b44c349f2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 142-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Dez. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Gesundheitswesen (BMGes)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/651f30af-50bc-4100-99c2-fb6b44c349f2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_f86e1f65-3edd-4dec-b994-67bf6d25c9e4" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_18c7eddc-6e96-4ebd-b819-a3c650ab0b20" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_a535cc1a-6717-479d-94f3-1f10adbe637c" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_e9f03894-0df0-4825-9b4e-b8b493141fac" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_14e9ed2a-5fc0-4a2c-9c21-849cb39e3531" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_8f05127c-8275-4962-b7c1-16566f3337e6" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_b4c0d690-26d5-4014-94a9-0ab3d7adc5e3" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_da5c32f1-d5f7-43ac-a4fb-3c75f9205aba" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_eca591b4-73da-4856-987f-4d737d1f874b" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_1a98d2cb-5c81-4116-b6d1-777caaa95a08" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_4769c10b-152b-4020-84f0-814279876216" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_ed8949d2-68f6-461c-83e1-74664154ce6e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_c1b10159-ffe6-4b72-acd5-5a54371e07d1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_cb5fe2df-9a12-4731-b725-a52be44678e4" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

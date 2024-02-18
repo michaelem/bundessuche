@@ -1,0 +1,2739 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fb1e0a38-3f95-4bcf-96fd-df56632dca62/" identifier="DE-1958_fb1e0a38-3f95-4bcf-96fd-df56632dca62">DE-1958_fb1e0a38-3f95-4bcf-96fd-df56632dca62</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Deutscher Ausschuss für das Erziehungs- und Bildungswesen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2010">2010</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 154</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1953-01-01/1965-12-31" encodinganalog="3.1.3">1953-1965</unitdate>
+      <unittitle encodinganalog="3.1.2">Deutscher Ausschuss für das Erziehungs- und Bildungswesen</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>120 Aufbewahrungseinheiten</extent>
+        <extent>8,0 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Der Deutsche Ausschuss für das Erziehungs- und Bildungswesen wurde am 22. September 1953 durch den Bundespräsidenten, den Bundesminister des Innern und den Präsidenten der Ständigen Konferenz der Kultusminister der Länder (KMK) konstituiert. Er sollte in Fragen, des Erziehungs- und Bildungswesens beraten und langfristig eine Reform des deutschen Schulwesens vorbereiten.</p>
+      <p>Er bestand aus zwanzig ehrenamtlichen Mitgliedern, die vom BMI und dem Präsidenten der KMK als unabhängige Persönlichkeiten und nicht als &quot;Vertreter&quot; von Institutionen oder Verbänden berufen wurden. Der Ausschuss war bei seiner Arbeit nicht an Weisungen anderer Instanzen gebunden, vielmehr bestimmte er innerhalb der allgemeinen Aufgabenstellung sein Arbeitsprogramm selbst. Soweit erforderlich, konnten Sachverständige hinzugezogen werden.</p>
+      <p>Seine Rechtsform war die eines nicht eingetragenen Vereins; er führte ein Sekretariat in Bonn.</p>
+      <p>Vorsitzende des Ausschusses waren Prof. Dr. Hans Wenke, Rektor der Universität Tübingen (Sept. 1953 bis März 1954) sowie der Oberbürgermeister der Stadt Ulm, Theodor Pfizer (März 1954 bis Juli 1965).</p>
+      <p>Während der zwölfjährigen Tätigkeit des Ausschusses von September 1953 bis Juli 1965 geriet die Bildungs- und Schulpolitik zu einem wichtigen Diskussionsthema in der öffentlichen Meinung der Bundesrepublik Deutschland. Dazu haben die &quot;Empfehlungen und Gutachten&quot; des Ausschusses nicht wenig beigetragen. Sie sind in zehn Folgen in einer Gesamtausgabe (1966) im Ernst Klett-Verlag Stuttgart im Druck erschienen.</p>
+      <p>Funktionsnachfolger des Ausschusses war der durch Abkommen zwischen Bund und Ländern vom 15. Juli 1965 begründete Deutsche Bildungsrat, der bis 1975 existierte (siehe Bundesarchiv-Bestand B 251 bzw. Provenienz-Nr. 2189).</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>Für den Bestand B 154 liegt ein abschließendes Findbuch vor. Die Signaturen sind seit 2015 in Basys-S nachgehalten.</p>
+    </processinfo>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Der Deutsche Ausschuss für das Erziehungs- und Bildungswesen (DA) wurde am 22.09.1953 als nicht eingetragener Verein durch den Bundespräsidenten, den Bundesminister des Innern und den Präsidenten der ständigen Konferenz der Kultusminister mit dem Auftrag konstituiert, in aktuellen bildungspolitischen Fragen beratend tätig zu sein und zugleich durch seine Empfehlungen eine Neuordnung des deutschen Schulwesens auf lange Sicht vorzubereiten. Während der zwölfjährigen Tätigkeit des DA unter seinen beiden Vorsitzenden, dem Rektor der Universität Tübingen Hans Wenke (September 1953-März 1954) und dem Oberbürgermeister der Stadt Ulm Theodor Pfizer (März 1954-Juli 1965), beschäftigte die Bildungs- und Schulpolitik die öffentliche Meinung in der Bundesrepublik Deutschland in starkem Maße. Funktionsnachfolger des DA wurde der durch Abkommen zwischen Bund und Ländern vom 15. Juli 1965 begründete Deutsche Bildungsrat (vgl. Bestand B 251).</p>
+      <p>Die Überlieferung des DA ist in zwei Zugängen 1967 und 1970 vom Max-Planck-Institut für Bildungsforschung, Düsseldorf, bzw. vom ehemaligen Vorsitzenden Theodor Pfizer an das Bundesarchiv abgegeben worden. Sie besteht aus Unterlagen, die aus der unmittelbaren Arbeit an den Empfehlungen und Gutachten entstanden sind (Sitzungsprotokolle, Tagungsunterlagen, Entwürfe und Beiträge zu den Empfehlungen und Gutachten), weiter aus Schriftwechsel, in dem die Zusammenarbeit unter den Mitgliedern, mit Verbänden, Organisationen und Ministerien sowie Verwaltungsangelegenheiten und das Wirken des DA in der Öffentlichkeit dokumentiert werden. Der Bestand besteht aus nur 120 archivwürdigen AE.</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Verwandtes Archivgut</head>
+      <p>Deutscher Bildungsrat (B 251)</p>
+    </relatedmaterial>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 154/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_fb1e0a38-3f95-4bcf-96fd-df56632dca62" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Deutscher Ausschuss für das Erziehungs- und Bildungswesen</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>120 Aufbewahrungseinheiten</extent>
+            <extent>8,0 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_7d2ef506-8a23-4a85-a855-3c9010543b15" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 154 Deutscher Ausschuss für das Erziehungs- und Bildungswesen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_d80da2af-4f73-4e1f-bc5e-1167246a3bc3" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Plenarsitzungen</unittitle>
+            </did>
+            <c level="series" id="DE-1958_8da0dc2a-5654-48a1-8472-53045370d545" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Tagungsunterlagen; u.a. Sitzungsprotokolle (bis 1956 teilweise Wortprotokolle), Entwürfe von Empfehlungen und Gutachten (mit Bearbeitungsvermerken), Stellungnahme von Sachverständigen und Mitgliedern; auch organisatorische Vorbereitung der Tagungen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1869d521-268b-4f04-b4f3-4e3ae9118f75" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/70</unitid>
+                  <unittitle encodinganalog="3.1.2">1. - 9. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1954-12-31">1953-1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Konstituierung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1869d521-268b-4f04-b4f3-4e3ae9118f75/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_46465477-4282-4f8a-8415-6fae15acbc66" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/71</unitid>
+                  <unittitle encodinganalog="3.1.2">10. - 13. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/46465477-4282-4f8a-8415-6fae15acbc66/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f4e3c759-7b30-48dc-ac22-a639f48e2213" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/72</unitid>
+                  <unittitle encodinganalog="3.1.2">14. - 16. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1956-12-31">1955-1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f4e3c759-7b30-48dc-ac22-a639f48e2213/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_82fa7b1d-a57b-4c93-b46b-a95a4dddb3fc" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/73</unitid>
+                  <unittitle encodinganalog="3.1.2">17. - 21. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/82fa7b1d-a57b-4c93-b46b-a95a4dddb3fc/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e4bd2363-5307-4aba-91ad-8241d27762f9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/74</unitid>
+                  <unittitle encodinganalog="3.1.2">22. - 25. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e4bd2363-5307-4aba-91ad-8241d27762f9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dcc99ddb-ce37-4eb3-b677-198108a71f33" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/75</unitid>
+                  <unittitle encodinganalog="3.1.2">26. - 30. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dcc99ddb-ce37-4eb3-b677-198108a71f33/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1da17ac9-688c-4ba2-b5a3-7a806cf690b1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/76</unitid>
+                  <unittitle encodinganalog="3.1.2">31. - 34. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1da17ac9-688c-4ba2-b5a3-7a806cf690b1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_34060d30-a018-4eef-bdbd-1a350b60c35b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/77</unitid>
+                  <unittitle encodinganalog="3.1.2">35. - 36. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1959-12-31">1958-1959</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/34060d30-a018-4eef-bdbd-1a350b60c35b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2f0457a0-947f-4a52-805c-367257120032" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/78</unitid>
+                  <unittitle encodinganalog="3.1.2">37. - 39. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>1. Sonderkonferenz Tutzing</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2f0457a0-947f-4a52-805c-367257120032/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4fc7958a-135c-498c-9307-d73ac5069542" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/79</unitid>
+                  <unittitle encodinganalog="3.1.2">40. - 42. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4fc7958a-135c-498c-9307-d73ac5069542/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_740bfd10-4974-4865-824c-cb9f431acbfe" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/80</unitid>
+                  <unittitle encodinganalog="3.1.2">43. - 46. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1961-12-31">1960-1961</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/740bfd10-4974-4865-824c-cb9f431acbfe/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_30f1ab4c-91f2-4b4e-b7e6-cbfb6db01fa9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/81</unitid>
+                  <unittitle encodinganalog="3.1.2">47. - 52. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1962-12-31">1961-1962</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/30f1ab4c-91f2-4b4e-b7e6-cbfb6db01fa9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a085bce-2398-4924-ba9d-594f1d4e205e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/82</unitid>
+                  <unittitle encodinganalog="3.1.2">53. - 59. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1963-12-31">1962-1963</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a085bce-2398-4924-ba9d-594f1d4e205e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_17f54fb4-fdeb-49bd-850d-9537e47fc117" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/83</unitid>
+                  <unittitle encodinganalog="3.1.2">60. - 63. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/17f54fb4-fdeb-49bd-850d-9537e47fc117/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4ff4d7d1-f54e-4b0f-9148-814cc1ddd26b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/84</unitid>
+                  <unittitle encodinganalog="3.1.2">64. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4ff4d7d1-f54e-4b0f-9148-814cc1ddd26b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2e93c214-f839-45a5-a715-2cd7cea239a5" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/85</unitid>
+                  <unittitle encodinganalog="3.1.2">65. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2e93c214-f839-45a5-a715-2cd7cea239a5/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d3a704fe-5f0b-43c5-a41e-4ad292bd5623" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/86</unitid>
+                  <unittitle encodinganalog="3.1.2">66. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d3a704fe-5f0b-43c5-a41e-4ad292bd5623/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6c63e915-8e9a-454c-b8cf-ec0129bb4613" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/87</unitid>
+                  <unittitle encodinganalog="3.1.2">67. - 71. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1965-12-31">1964-1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Schlusssitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6c63e915-8e9a-454c-b8cf-ec0129bb4613/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_6ced474b-69ca-4951-8471-ba802035b4ea" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Protokolle (&quot;Tagungsberichte&quot;), mit Anlagen in Form von Entwürfen und Stellungnahmen zu einzelnen Empfehlungen und Gutachten und ausgewählter Korrespondenz (Vervielfältigungen)</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4d2e84b7-24d4-41b3-a0ba-a3c0eb8752cc" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/88</unitid>
+                  <unittitle encodinganalog="3.1.2">1. - 14. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1955-12-31">1953-1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Konstituierung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4d2e84b7-24d4-41b3-a0ba-a3c0eb8752cc/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c0d1154f-c962-48f9-b953-2aea04344ae4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/89</unitid>
+                  <unittitle encodinganalog="3.1.2">15. - 25. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1957-12-31">1955-1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c0d1154f-c962-48f9-b953-2aea04344ae4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_45446c5b-811c-4357-bae8-7f55f8af7035" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/90</unitid>
+                  <unittitle encodinganalog="3.1.2">26. - 44. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1960-12-31">1957-1960</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/45446c5b-811c-4357-bae8-7f55f8af7035/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_587bd058-41ed-46b8-86a7-6fa151e2d734" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/91</unitid>
+                  <unittitle encodinganalog="3.1.2">45. - 60. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1963-12-31">1960-1963</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/587bd058-41ed-46b8-86a7-6fa151e2d734/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f5178321-45a5-489a-9439-66a4de0259c4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/92</unitid>
+                  <unittitle encodinganalog="3.1.2">61. - 71. Tagung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1965-12-31">1963-1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Schlusssitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f5178321-45a5-489a-9439-66a4de0259c4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_b7bfa9f3-0251-46ee-b685-617e38da74b3" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Empfehlungen und Gutachten des DA.- Unterausschüsse, Kommissionen und Unterkommissionen</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d1a649ec-b862-418d-a436-974da04d6c56" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/93</unitid>
+                <unittitle encodinganalog="3.1.2">1. Folge.- Soziologische Gutachten; Gutachten zur Politischen Bildung und Erziehung; Gutachten über die Ausbildung der Lehrer an Volksschulen; Empfehlungen zu Fragen des Privatschulwesens; Empfehlung zur Errichtung von Musischen Höheren Schulen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1958-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d1a649ec-b862-418d-a436-974da04d6c56/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6abfefdc-d09d-4fbd-b0ca-51a354182c5f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/94</unitid>
+                <unittitle encodinganalog="3.1.2">2. Folge.- Osteuropa in der deutschen Bildung; Empfehlungen aus Anlass des Aufbaues der Bundeswehr; Gutachten über Selbstkontrolle illustrierter Zeitschriften; Die Volksschule auf dem Lande; Empfehlungen zum Ausbau der Volksschule; Schulreife und Schulkindergarten; Gutachten zur Erziehung im frühen Kindesalter; Vorwort zur 2. Folge der &quot;Empfehlungen und Gutachten&quot;</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1957-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6abfefdc-d09d-4fbd-b0ca-51a354182c5f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="series" id="DE-1958_f0717596-92b2-458d-b4f4-16f2dbeaa116" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">3. Folge.- Rahmenplan zur Umgestaltung und Vereinheitlichung des allgemeinbildenden öffentlichen Schulwesens</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2c743d36-7023-4537-bd2a-2036b02ab8da" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/95</unitid>
+                  <unittitle encodinganalog="3.1.2">Gutachten und sonstige Materialien aus dem Kreis der Mitglieder des DA</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1959-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2c743d36-7023-4537-bd2a-2036b02ab8da/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f8bbbbdb-b041-42dc-ba27-56d0328efa29" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/96</unitid>
+                  <unittitle encodinganalog="3.1.2">Gutachten und sonstige Materialien aus dem Kreis der Nichtmitglieder</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1957-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f8bbbbdb-b041-42dc-ba27-56d0328efa29/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0ef7d80d-094e-4639-8ddc-de9006b4e0fa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/97</unitid>
+                <unittitle encodinganalog="3.1.2">4. Folge.- Zur Situation und Aufgabe der deutschen Erwachsenenbildung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1960-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0ef7d80d-094e-4639-8ddc-de9006b4e0fa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_74450833-53cf-4fc2-b98a-67933bab2669" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/98</unitid>
+                <unittitle encodinganalog="3.1.2">5. Folge.- Zur Diskussion des Rahmenplans.- Kritik und Antwort</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/74450833-53cf-4fc2-b98a-67933bab2669/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="series" id="DE-1958_c3f709a9-d216-4b0a-a974-25c9d1bb8757" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">6. Folge</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_12115256-0c80-4024-9be2-4a36d22d5415" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/99</unitid>
+                  <unittitle encodinganalog="3.1.2">Religiöse Erziehung und Bildung in den Schulen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1962-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/12115256-0c80-4024-9be2-4a36d22d5415/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_526da926-a612-4210-b807-3d1937d28674" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/100</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeit der Grundschule</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1962-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/526da926-a612-4210-b807-3d1937d28674/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a74bb80a-ab5b-49cd-a631-e7c7d5ddc43f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/101</unitid>
+                  <unittitle encodinganalog="3.1.2">Sitzungsberichte und Materialien zu Empfehlungen zum Aufbau der Förderstufe</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1962-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a74bb80a-ab5b-49cd-a631-e7c7d5ddc43f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_782f53de-8df0-4f6a-9dec-7cbbda436138" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">7. und 8. Folge.- Kommission Berufsbildendes Schulwesen.- Über das Berufliche Ausbildungs- und Schulwesen</unittitle>
+                <note>
+                  <p>Bd. 1 kassiert</p>
+                </note>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_775226a6-f9d7-481a-9dc9-7ce748fe4f70" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/105</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1961-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/775226a6-f9d7-481a-9dc9-7ce748fe4f70/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7bdae928-ff90-4b09-b9c6-722ce0cee99e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/106</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7bdae928-ff90-4b09-b9c6-722ce0cee99e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_560d5bf4-86fb-4218-aeb1-b51328fe2df1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/107</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/560d5bf4-86fb-4218-aeb1-b51328fe2df1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fc85a4a3-3f07-47e9-8114-0e9268a1b0d4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/108</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fc85a4a3-3f07-47e9-8114-0e9268a1b0d4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_fdaa782b-e3c2-4e23-93f3-768dbeb35eb0" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">9. Folge.- Kommission Höhere Schule.- Empfehlungen für die Neuordnung der Höheren Schule</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_105a7857-6af0-4693-8d2e-8f0b618476b0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/109</unitid>
+                  <unittitle encodinganalog="3.1.2">Sitzungsberichte und Materialien</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/105a7857-6af0-4693-8d2e-8f0b618476b0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_afa36dd4-f4dd-40e1-b50d-0fb57cb208de" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/110</unitid>
+                  <unittitle encodinganalog="3.1.2">Entwürfe</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/afa36dd4-f4dd-40e1-b50d-0fb57cb208de/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a482d7d6-509f-40fc-bb15-8ccf925fc327" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/111</unitid>
+                  <unittitle encodinganalog="3.1.2">Unterkommission Philosophie, Unterkommission Mathematik</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1963-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a482d7d6-509f-40fc-bb15-8ccf925fc327/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b5b043eb-856b-4900-bb6c-fd617cbf5b43" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/112</unitid>
+                  <unittitle encodinganalog="3.1.2">Unterkommission Deutschunterricht, Unterkommission Naturwissenschaft</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1963-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b5b043eb-856b-4900-bb6c-fd617cbf5b43/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7204954b-c265-490e-9af8-74f4b230a016" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/113</unitid>
+                  <unittitle encodinganalog="3.1.2">Unterkommission Geschichtlich-politische Bildung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7204954b-c265-490e-9af8-74f4b230a016/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c8f6d2b4-c6c0-4cac-ac3a-2646bbbb3bd9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/114</unitid>
+                  <unittitle encodinganalog="3.1.2">Unterkommission Fremdsprachen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c8f6d2b4-c6c0-4cac-ac3a-2646bbbb3bd9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0e09f5c3-546f-4394-a895-6c53e1870506" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/115</unitid>
+                  <unittitle encodinganalog="3.1.2">Unterkommission Musische Bildung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0e09f5c3-546f-4394-a895-6c53e1870506/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_8b11b30f-476f-4800-8f59-8cea96db63fc" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Entwürfe.- 1. Archivexemplar</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1300f444-96f1-43ee-95b4-69411aa9430f" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/116</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1964-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1300f444-96f1-43ee-95b4-69411aa9430f/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f061c75a-2896-4ab4-8215-b4aa175adc74" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/117</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f061c75a-2896-4ab4-8215-b4aa175adc74/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_38cf90e9-6598-41e5-8cbb-0d46a20f1ce2" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/118</unitid>
+                  <unittitle encodinganalog="3.1.2">Anhang: Unterrichtsbeispiele</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/38cf90e9-6598-41e5-8cbb-0d46a20f1ce2/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_dd1980eb-e042-4e8f-a0c3-e43e7ebf7f75" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">10. Folge</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2486681e-dbc6-4d89-9375-1fb7655cad6b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/119</unitid>
+                  <unittitle encodinganalog="3.1.2">Gutachten zur Ausbildung von Lehrern</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2486681e-dbc6-4d89-9375-1fb7655cad6b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ee9e57a9-2082-4186-b28b-9d570c9bd389" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/120</unitid>
+                  <unittitle encodinganalog="3.1.2">Erklärung des DA zum Abschluss der Ausschussarbeit, Empfehlungen für eine Wehrakademie der Bundeswehr, Erklärung aus Anlass der antisemitischen Ausschreitungen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ee9e57a9-2082-4186-b28b-9d570c9bd389/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_986b4538-ec61-4fdb-9f03-11d307d5833e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/27</unitid>
+                <unittitle encodinganalog="3.1.2">Kommission Religiöse Erziehung.- Korrespondenz mit den Mitgliedern.- Erlinghagen, Karl, Prof. Dr.; Heckmann, Gustav, Prof. Dr.; Kittel, D. Helmuth, Prof.; Krisinger, Joseph und Niemeier, Gottfried Dr. Dr.</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1965-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Gutachten Kittel, D. Helmuth, Prof. &quot;Schule in evangelischer Verantwortung&quot;</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/986b4538-ec61-4fdb-9f03-11d307d5833e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8d77c6e8-4261-4812-8f85-ffd078f2911f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/19</unitid>
+                <unittitle encodinganalog="3.1.2">Kommission Förderstufe.- Korrespondenz mit den Mitgliedern.- Brandau, Heinrich-Wilhelm, Dr.; Jürgens, Fr.; Keeser, Georg Dr.; Ketzler, Lore, Dr.; Kress, Gerhard; Lichtenstein-Rother, Ilse, Prof.; Roth, Heinrich, Prof. Dr.; Schramm, Herbert; Specht, Werner, Dr.; Uplegger, Fritz, Dr. und Winkel, Gerhard</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1965-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8d77c6e8-4261-4812-8f85-ffd078f2911f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_be1ab2f5-1159-4037-bab3-70618bcc4764" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/20</unitid>
+                <unittitle encodinganalog="3.1.2">Kommission Hauptschule.- Korrespondenz mit den Mitgliedern.- Heimann, Paul, Prof.; Horney, W.; Joppich, Gerhard, Prof. Dr.; Lenartz, Werner, Prof. Dr.; Lichtenstein-Rother, Ilse, Prof.; Roth, Heinrich, Prof. Dr. und Wehle, Gerhard, Dr.</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1965-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Gutachten Rother, Ilse &quot;Arbeitsweise und Möglichkeiten der Differenzierung in der Grundschule&quot;</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/be1ab2f5-1159-4037-bab3-70618bcc4764/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8fe63800-c5df-4aaf-9840-77850271f0f1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 154/26</unitid>
+                <unittitle encodinganalog="3.1.2">Kommission Berufsbildung.- Korrespondenz mit den Mitgliedern.- Blankenagel, R.; Deckers, Hans, Dr.; Gärtner, Günther, Dr.; Rosenthal, Hans-Joachim, Dr. und Schrader, Heinrich</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1965-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8fe63800-c5df-4aaf-9840-77850271f0f1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="series" id="DE-1958_20bd0578-6d6d-4628-9b85-8df6d71231b7" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Kommission Realschule</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4f6149c9-b3ba-4584-b78c-01d26fcc75c4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/21</unitid>
+                  <unittitle encodinganalog="3.1.2">Korrespondenz mit den Mitgliedern.- Böhm, Wilhelmine, Dr.; Grüter, Helmut; Keeser, Georg, Prof. Dr.; Kieser, Karl Theodor; Maskus, Rudi, Dr. und Wienkamp, Heinrich</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1961-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Gutachten zur Realschule von Böhm, Wilhelmine</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4f6149c9-b3ba-4584-b78c-01d26fcc75c4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b93a2f1a-c4ee-44f3-888a-b243b19c5fdd" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/123</unitid>
+                  <unittitle encodinganalog="3.1.2">Gutachten über Realschulwesen und Sonderschulen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1947-01-01/1960-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b93a2f1a-c4ee-44f3-888a-b243b19c5fdd/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_e26cda31-0dda-4a30-b344-611537670c87" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Kommission Berufsbildendes Schulwesen.- Korrespondenz mit den Mitgliedern</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2a958a92-4945-4230-8ded-7ac7bd42b8a6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/24</unitid>
+                  <unittitle encodinganalog="3.1.2">A - Ho: Abraham, Karl, Prof. Dr.; Behler, Dr.; Blankertz, Herwig, Prof. Dr.; Blümer, Hans, Dr.; Fielmann, Wilhelm, Dr.; Fintelmann, Klaus J., Dr.; Hampe, Dr. und Holtzendorff, H., von</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Gutachten Behler, Dr. &quot;Prinzipien und Methoden der Berufserziehung in der Wirtschaft&quot;;<lb/>Blankertz, Herwig, Prof. Dr. &quot;Theorie der Berufsbildung&quot;; &quot;Diskussionsthesen zum Zweiten Bildungsweg&quot;;<lb/>Fielmann, Wilhelm, Dr. &quot;Bildungsaufgabe der berufsbegleitenden Schule&quot;; &quot;Die Wirtschaftslehre in der berufsbegleitenden Schule&quot;</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2a958a92-4945-4230-8ded-7ac7bd42b8a6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7b18f174-3f97-4d67-84d4-4bb0ee636a3c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/25</unitid>
+                  <unittitle encodinganalog="3.1.2">Hu - Z: Hudde, Prof. Dr.; Kemler, Heinrich; Magdeburg, E., Prof. Dr.; Peters, Heinrich; Thyssen, Simon, Prof. Dr. und Zintl, Martin, Prof. Dr.</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7b18f174-3f97-4d67-84d4-4bb0ee636a3c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_a6021d01-f891-40f7-afd2-52f222aebb28" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Kommission Höhere Schule.- Korrespondenz mit Mitgliedern und Sachverständigen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2f587407-199c-4851-896c-094d78f3e2a6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/33</unitid>
+                  <unittitle encodinganalog="3.1.2">A - Ha: Bertsch, Karl, Binkowski, Bernhard; Brandt, Dore; Dittrich, Manfred; Flügge, Johannes; Frey, Emmy; Geipel, Robert, Dr. und Haas, Rudolf, Prof. Dr.</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2f587407-199c-4851-896c-094d78f3e2a6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59dc0dbb-598b-43c8-9e68-1cc6c5c71598" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/22</unitid>
+                  <unittitle encodinganalog="3.1.2">E - P: Erbe, Hans Walter, Dr.; Flitner, Wilhelm, Prof. Dr. und Pröbsting, Günter, Dr.</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Gutachten Pröbsting, Günter &quot;Gestaltung der Unterrichts-Organisation der Oberstufe der höheren Schule Klasse 11-13&quot;; &quot;Mathematik&quot;; &quot;Die Naturwissenschaft auf der Oberstufe der Höheren Schule (12. und 13. Klasse)&quot;; &quot;Vorschlag zur Organisation des Unterrichts in den Primen&quot;; &quot;Der Lehrgang Mathematik in den Primen&quot;; &quot;Die Reifeprüfung&quot;; &quot;Voraussetzungen für eine Umgestaltung der Oberstufe&quot;</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59dc0dbb-598b-43c8-9e68-1cc6c5c71598/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f429952e-a9f1-43c5-a26a-69cd578bce75" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/23</unitid>
+                  <unittitle encodinganalog="3.1.2">S - W: Stumpff, Klara und Wagenschein, Martin, Prof. Dr.</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f429952e-a9f1-43c5-a26a-69cd578bce75/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_6cf9b39c-218b-445b-98ed-3d6bc565c74d" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Korrespondenzakten nach Korrespondenzpartnern</unittitle>
+            </did>
+            <c level="class" id="DE-1958_72c128cb-1a7a-4991-8bfc-4706b1de8b5d" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Vorsitzender, Sekretariat</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cd597034-4138-4efe-b4f3-e676b103634e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/121</unitid>
+                  <unittitle encodinganalog="3.1.2">Vorsitzender.- Private Korrespondenz</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cd597034-4138-4efe-b4f3-e676b103634e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_10b326ed-dc66-459d-9d45-91e2d821d64b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/122</unitid>
+                  <unittitle encodinganalog="3.1.2">Vorsitzender; Sekretariat</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/10b326ed-dc66-459d-9d45-91e2d821d64b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_7a9f77d5-45d7-46b3-aee4-18d0c530f83e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Mitglieder des DA</unittitle>
+              </did>
+              <c level="series" id="DE-1958_7473224b-40a5-4420-8cdc-702033eac7df" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Mitglieder</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5f093264-082f-4632-a2bd-9eb45f95d732" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/1</unitid>
+                    <unittitle encodinganalog="3.1.2">Abel, Heinrich, Prof. Dr., Bartning, Otto, Prof. Dr. und Becker, Curt, Dr., Bennholdt-Thomsen, Carl</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5f093264-082f-4632-a2bd-9eb45f95d732/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="subseries" id="DE-1958_c8b71180-c9df-4ef3-8da3-02683ac3eeb5" encodinganalog="3.1.4">
+                  <did>
+                    <unittitle encodinganalog="3.1.2">Bohnenkamp, Hans, Prof.</unittitle>
+                  </did>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2e1382e7-556e-455c-8ef5-79ebc0c2d12e" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 154/2</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1960-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2e1382e7-556e-455c-8ef5-79ebc0c2d12e/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f998971b-f10a-4b04-b3c3-a97dd505a90f" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 154/3</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1965-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <scopecontent encodinganalog="summary">
+                      <p>Enthält:<lb/>Gutachten &quot;Zur religiösen Bildung und Erziehung in den Schulen&quot;</p>
+                    </scopecontent>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f998971b-f10a-4b04-b3c3-a97dd505a90f/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_13c77fb5-95f3-47f5-9979-e6213ded65c2" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/4</unitid>
+                    <unittitle encodinganalog="3.1.2">Borinski, Fritz, Prof. Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/13c77fb5-95f3-47f5-9979-e6213ded65c2/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2b1fa92d-178f-4471-9309-af30f4e0a337" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/29</unitid>
+                    <unittitle encodinganalog="3.1.2">Brakemeier-Lisop, Ingrid, Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2b1fa92d-178f-4471-9309-af30f4e0a337/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_40e3845a-9f9a-40a1-8d97-cd7161a25536" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/5</unitid>
+                    <unittitle encodinganalog="3.1.2">Brunotte, Heinz und Butenandt, Adolf, Prof.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/40e3845a-9f9a-40a1-8d97-cd7161a25536/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8b3426ac-24e2-4f4c-b3b5-868c5b8cec62" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/6</unitid>
+                    <unittitle encodinganalog="3.1.2">Dirks, Walter</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält:<lb/>Gutachten &quot;Religiöse Freiheit und Bindung in der Erwachsenenbildung&quot;</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8b3426ac-24e2-4f4c-b3b5-868c5b8cec62/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_34358617-5ae0-4664-8f68-f19d8e10fc86" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/7</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">-</unitid>
+                    <unittitle encodinganalog="3.1.2">Dudek, Walter; Ederer, Karl Anton und Fischer, Hubert</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <origination encodinganalog="3.2.1" label="organisational unit">-</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/34358617-5ae0-4664-8f68-f19d8e10fc86/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a245b188-9624-465a-badb-374709cb5eee" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/8</unitid>
+                    <unittitle encodinganalog="3.1.2">Franken, Anne und Hahn, Wilhelm, Prof.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1964-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a245b188-9624-465a-badb-374709cb5eee/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7264dcae-dbe7-426a-b1b0-6e1e16c7d78a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/9</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">-</unitid>
+                    <unittitle encodinganalog="3.1.2">Henry, Grete ; Hübinger, Paul Egon , Prof. und Kampmann, Wanda</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <origination encodinganalog="3.2.1" label="organisational unit">-</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7264dcae-dbe7-426a-b1b0-6e1e16c7d78a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_179696e8-6bed-4fb0-8f39-4b22cad00960" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/28</unitid>
+                    <unittitle encodinganalog="3.1.2">Knab, Doris, Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/179696e8-6bed-4fb0-8f39-4b22cad00960/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b8a42338-01c9-4eba-a45a-d296e54bf705" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/10</unitid>
+                    <unittitle encodinganalog="3.1.2">Lichtenstein, Ernst, Prof.; Löffler, Eugen und Merck, Walther, Prof.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b8a42338-01c9-4eba-a45a-d296e54bf705/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="subseries" id="DE-1958_67fdd588-c926-43a6-8267-00a59c5a80e3" encodinganalog="3.1.4">
+                  <did>
+                    <unittitle encodinganalog="3.1.2">Messerschmid, Felix</unittitle>
+                  </did>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a215febf-e9aa-40b5-b1cc-ac55ab21d09a" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 154/11</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1959-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a215febf-e9aa-40b5-b1cc-ac55ab21d09a/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                  <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_12e0e709-37a0-40c8-a82d-640877efc5d4" encodinganalog="3.1.4">
+                    <did>
+                      <unitid type="call number" encodinganalog="3.1.1">BArch B 154/12</unitid>
+                      <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                      <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1965-12-31"/>
+                      <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                      <physdesc>
+                        <genreform>Schriftgut, Akten</genreform>
+                      </physdesc>
+                      <physloc>Koblenz</physloc>
+                      <langmaterial>
+                        <language langcode="ger" scriptcode="Latn">deutsch</language>
+                      </langmaterial>
+                    </did>
+                    <otherfindaid>
+                      <p>
+                        <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/12e0e709-37a0-40c8-a82d-640877efc5d4/"/>
+                      </p>
+                    </otherfindaid>
+                  </c>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_faad004b-b089-4b15-9e59-47c192156a2a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/13</unitid>
+                    <unittitle encodinganalog="3.1.2">Neundörfer, Ludwig, Prof.; Nold, Liselotte und Paulmann, Christian</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/faad004b-b089-4b15-9e59-47c192156a2a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ed8a6667-dae1-4e5b-b90d-65dca8f8cd42" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/14</unitid>
+                    <unittitle encodinganalog="3.1.2">Picht, Georg, Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ed8a6667-dae1-4e5b-b90d-65dca8f8cd42/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_20d8861b-46d9-49d1-8b85-e8dc28d66540" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/15</unitid>
+                    <unittitle encodinganalog="3.1.2">Pünder, Marianne, Dr.; Rest, Walter, Prof. Dr.; Schmaus, Michael, Prof. Dr. und Vaupel, Karl</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/20d8861b-46d9-49d1-8b85-e8dc28d66540/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_17d7f2a5-f6df-490d-b2bc-1c6051e63681" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/16</unitid>
+                    <unittitle encodinganalog="3.1.2">Wende, Erich, Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/17d7f2a5-f6df-490d-b2bc-1c6051e63681/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f8fef9c6-d7e9-496f-82fa-976e7d9029a0" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/17</unitid>
+                    <unittitle encodinganalog="3.1.2">Weniger, Erich, Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1961-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f8fef9c6-d7e9-496f-82fa-976e7d9029a0/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c7977c95-b4f9-42f3-98bf-79c8ba866680" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/18</unitid>
+                    <unittitle encodinganalog="3.1.2">Wenke, Hans, Dr. und Wingerath, Emmy, Prof. Dr.</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c7977c95-b4f9-42f3-98bf-79c8ba866680/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_f8839e78-45f2-414c-a51d-41db3ebf98d5" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Rundschreiben an Ausschuss- und Unterausschussmitglieder</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3d3a2e76-9c7f-430d-9837-0849fbcb755e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/124</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1958-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3d3a2e76-9c7f-430d-9837-0849fbcb755e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7bd0c3a1-a0a8-4d46-961a-000016a5d496" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/126</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1961-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7bd0c3a1-a0a8-4d46-961a-000016a5d496/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fd146408-0324-4f77-8cd5-0312c45dfda5" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/125</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fd146408-0324-4f77-8cd5-0312c45dfda5/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_e2f39c53-a623-4be0-8954-1cbdb9d68b37" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gutachter, Sachverständige</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dbdc3e4f-a85f-489a-ac37-10b1b3116a75" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/31</unitid>
+                  <unittitle encodinganalog="3.1.2">Gutachter des DA</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1960-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Gutachten Lemberg, Eugen, Prof. Dr. &quot;Der deutsche Osten in Unterricht und Erziehung&quot;;<lb/>Löbner, Walther, Prof. Dr. &quot;Die Probleme der kaufmännischen Berufsausbildung&quot;;<lb/>Magdeburg, E., Prof. Dr. &quot;Möglichkeiten einer Grundausbildung in der berufsbegleitenden Schule beim gegenwärtigen Gesellschaftswandel&quot;;<lb/>Paul, Prof. Dr. &quot;Notwendigkeit und Aufgabe der Hilfsschule&quot;;<lb/>Schelsky, H., Prof. Dr. &quot;Soziologische Bemerkungen Rolle der Schule in unserer Gesellschaft&quot;;<lb/>Walter, Piers, Dr. &quot;Erfahrungen und Gedanken zum gemeinsamen Unterrichten verschiedener Begabter&quot;;<lb/>Weippert, Georg, Prof. &quot;Die Sozialstruktur auf dem Lande&quot;</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dbdc3e4f-a85f-489a-ac37-10b1b3116a75/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f9b717cd-9815-4189-944e-aa79a1a677c7" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/32</unitid>
+                  <unittitle encodinganalog="3.1.2">Sachverständige des DA</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1961-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Grundschule: Buck, Maria; Denzel, F. und Jeziorski, Walter;<lb/>10. Vollschuljahr: Kriegs; Lambrecht; Reinermann, Wilhelm; Taenzler, Hans Wagner, Karl und Werner;<lb/>Berufsbildendes Schulwesen: Bauer, Hellmut; Goldschmidt, Dr. und Großmann, Rolf<lb/>Thema Berufserziehung: Monsheimer, Otto, Prof. Dr.;<lb/>Mädchenbildung: Heep, Martha, Dr.;<lb/>Mittelschulfragen: Brandau, Heinrich-Wilhelm, Dr. und Keeser, Georg, Dr.;<lb/>Volksschuloberstufe und Wirtschaft: Blümer, Dr.; Döscher, Martin; Heimerer, L.; Keyser, Th.; Saurbier, Werner und Wagner, Otto;<lb/>Ost-Sachverständige für Berlin: Giesberts, Johannes; Mehnert, Klaus, Dr.; Möbus, Gerhard, Prof. Dr.; Silex, Karl, Dr.; Weber und Zimmermann, Walter, Dr.;<lb/>Mittelbau-Sachverständige für Arnoldshain: Banaschewski, A., Dr.; Böhm, W., Dr.; Ellwanger, P.; Fiedler, Rudolf und Wiese, Johannes Gerhard</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f9b717cd-9815-4189-944e-aa79a1a677c7/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_5f650006-7155-4953-ab4f-757cf06cf76a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bundesebene</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_664ac20c-90ce-40c8-9210-2d9f113ef215" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/39</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundestag, Präsident des Deutschen Bundestages Kulturpolitischer Ausschuss, einzelne Abgeordnete: Eppler, Erhard, Dr.; Stoltenberg, Gerhard, Dr.</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/664ac20c-90ce-40c8-9210-2d9f113ef215/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3bb897a3-c71e-43f0-86dc-5876a325770a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/40</unitid>
+                  <unittitle encodinganalog="3.1.2">Politische Parteien und Organisationen.- CDU; SPD; FDP; Gesamtdeutscher Block/BHE; Kuratorium Unteilbares Deutschland</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1963-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Verband der Landsmannschaften.- Richtlinien für den Tag der deutschen Heimat am 12. Sept. 1954</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3bb897a3-c71e-43f0-86dc-5876a325770a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_0006a475-6751-45b8-a07c-38b8ee80a1d9" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Bundesministerium des Innern</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1eddaa58-495a-4ebe-a981-a9ffeaec2e7d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/41</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1957-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1eddaa58-495a-4ebe-a981-a9ffeaec2e7d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_26a350ee-289b-4914-a278-a2756dd7353c" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/42</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/26a350ee-289b-4914-a278-a2756dd7353c/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d46fafe1-a14a-4d33-809d-c62f4c1c3332" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/43</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundesministerium für Verteidigung und weitere Bundesministerien bzw. nachgeordnete Bundesbehörden</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>&quot;Der Staatsbürger in Uniform - Das Leitbild des zukünftigen Soldaten&quot;</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d46fafe1-a14a-4d33-809d-c62f4c1c3332/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_4a57f887-a70f-4b2d-b9b3-de23ad4fae6d" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Länderebene</unittitle>
+              </did>
+              <c level="subseries" id="DE-1958_2b9338aa-be2d-4a72-af05-427c66b4aca9" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Ständige Konferenz der Kultusminister der Länder (KMK)</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5223808f-3229-4641-9c5e-419c3c0a2ce2" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/44</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1958-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5223808f-3229-4641-9c5e-419c3c0a2ce2/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_36934678-ec6f-4b5e-a6e5-e0c1d51e600d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/45</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/36934678-ec6f-4b5e-a6e5-e0c1d51e600d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="series" id="DE-1958_b90215ef-f7bb-4f7a-a8b0-d79d8dc93f26" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Korrespondenz mit den Ländern</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d647041a-97b3-4727-ba78-5ba4960c0167" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/46</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">-</unitid>
+                    <unittitle encodinganalog="3.1.2">Baden-Württemberg; Bayern; Berlin; Bremen</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <origination encodinganalog="3.2.1" label="organisational unit">-</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält:<lb/>Gutachten und Empfehlungen, Folge 7/8.- Reaktionen aus den Bundesländern</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d647041a-97b3-4727-ba78-5ba4960c0167/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_90fdb1a5-9186-41ef-a3f5-f8de3fc1f2e5" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/47</unitid>
+                    <unittitle encodinganalog="3.1.2">Hamburg; Hessen; Niedersachsen</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält:<lb/>Gutachten und Empfehlungen, Folge 7/8.- Reaktionen aus den Bundesländern</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/90fdb1a5-9186-41ef-a3f5-f8de3fc1f2e5/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3e23484b-94c2-4842-a34f-90ffca095d52" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/48</unitid>
+                    <unittitle encodinganalog="3.1.2">Nordrhein-Westfalen; Rheinland-Pfalz; Saarland; Schleswig-Holstein</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3e23484b-94c2-4842-a34f-90ffca095d52/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_5d335fe8-98ad-4194-a1c8-06c59d9659af" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Wissenschaftsinstitutionen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1e45b3a5-f401-476a-8575-b2fa5df9a65e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/49</unitid>
+                  <unittitle encodinganalog="3.1.2">Wissenschaftsrat</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1e45b3a5-f401-476a-8575-b2fa5df9a65e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_597e27fd-6900-4e04-b056-83a1da350bd1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/50</unitid>
+                  <unittitle encodinganalog="3.1.2">Westdeutsche Rektorenkonferenz</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1960-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/597e27fd-6900-4e04-b056-83a1da350bd1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f033ac07-a3af-42f8-ab00-befc251f4fc8" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/51</unitid>
+                  <unittitle encodinganalog="3.1.2">Universitäten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f033ac07-a3af-42f8-ab00-befc251f4fc8/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_69f94aae-03e6-4eaa-b6fb-d3b3fc813271" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/52</unitid>
+                  <unittitle encodinganalog="3.1.2">Pädagogischen Hochschulen, Akademien u.ä.</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/69f94aae-03e6-4eaa-b6fb-d3b3fc813271/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dac04be7-5283-4b2c-8e4d-3e1571ff7a14" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/53</unitid>
+                  <unittitle encodinganalog="3.1.2">Akademische Verbände, Stiftungen, evangelische Akademien</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dac04be7-5283-4b2c-8e4d-3e1571ff7a14/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_ca3fcf57-9cea-43a9-b853-54e3521689ce" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verbände</unittitle>
+              </did>
+              <c level="subseries" id="DE-1958_cdd3391c-60a0-4b00-b003-c0a1bd6b9d71" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Lehrerverbände</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_45d20e9d-478a-4a96-b59c-3c02b36f5017" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/54</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/45d20e9d-478a-4a96-b59c-3c02b36f5017/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e225ff00-8ebb-4e62-aa7d-d0555ad85987" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/55</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e225ff00-8ebb-4e62-aa7d-d0555ad85987/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0032a9ff-d514-4c83-aaa8-30257e695eac" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/56</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1963-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0032a9ff-d514-4c83-aaa8-30257e695eac/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4897307b-c493-48ff-a753-2455ec95c4ed" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/57</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1963-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4897307b-c493-48ff-a753-2455ec95c4ed/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2d23cac7-5cce-4a9f-a77c-ee9a4223d1b7" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 154/58</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1963-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2d23cac7-5cce-4a9f-a77c-ee9a4223d1b7/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_09636e3f-eead-46dc-abb7-7f7532a64b48" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/59</unitid>
+                  <unittitle encodinganalog="3.1.2">Schulverbände</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/09636e3f-eead-46dc-abb7-7f7532a64b48/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_be2517c0-72a1-446a-bb9d-f49afaf73532" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/60</unitid>
+                  <unittitle encodinganalog="3.1.2">Eltern- und Schülervertretungen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1962-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/be2517c0-72a1-446a-bb9d-f49afaf73532/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e9a52e6a-b6e0-46da-97bd-1d79f8286234" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/61</unitid>
+                  <unittitle encodinganalog="3.1.2">Jugendpflegeorganisationen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1960-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e9a52e6a-b6e0-46da-97bd-1d79f8286234/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d3d47914-ce4f-40e1-957e-29bd4704e5b3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/62</unitid>
+                  <unittitle encodinganalog="3.1.2">Kommunale und berufsständige Verbände</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Deutscher Landkreistag; Deutscher Städtebund; Deutscher Städtetag; Deutscher Industrie und Handelstag; Industrie- und Handelskammer und Deutscher Handwerkstag</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d3d47914-ce4f-40e1-957e-29bd4704e5b3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_959dab46-4fc7-4cc3-93f8-dcca1476a4a1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/63</unitid>
+                  <unittitle encodinganalog="3.1.2">Gewerkschaften und Arbeitgeberverbände</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>DGB; IG Chemie Papier Keramik; Deutsche Angestellten-Gewerkschaft; Bundesvereinigung der Deutschen Arbeitgeberverbände; Bundesverband der Deutschen Industrie e.V. und Deutsches Industrieinstitut</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/959dab46-4fc7-4cc3-93f8-dcca1476a4a1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ececbb85-192c-4753-9b09-c3e798e88c08" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/64</unitid>
+                  <unittitle encodinganalog="3.1.2">Verein Deutscher Ingenieure (VDI)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1963-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ececbb85-192c-4753-9b09-c3e798e88c08/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2657a3ff-23f9-402a-a802-5052cde3dc23" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/65</unitid>
+                  <unittitle encodinganalog="3.1.2">Verbände der Erwachsenenbildung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Deutscher Volkshochschulverband; VHS-Landesverbände; Arbeitsgemeinschaft für ländliche Erwachsenenbildung e.V.; Bundesarbeitsgemeinschaft für Katholische Erwachsenenbildung und Arbeitsgemeinschaft der Kirchlichen Büchereiverbände</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2657a3ff-23f9-402a-a802-5052cde3dc23/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_e4658abe-2fc3-40fb-b0da-45cec190f4c8" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Medien</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_47d27d78-6382-47b9-a93d-4cade5b123c4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/66</unitid>
+                  <unittitle encodinganalog="3.1.2">Deutscher Forschungsdienst und Deutsche Presse-Agentur GmbH</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1961-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/47d27d78-6382-47b9-a93d-4cade5b123c4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e6fea693-377d-46e9-9f96-9034e5fab79a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/67</unitid>
+                  <unittitle encodinganalog="3.1.2">Verschiedene Zeitungen und Zeitschriften</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e6fea693-377d-46e9-9f96-9034e5fab79a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_182fa008-a5ff-456e-84c8-2111ad068154" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/68</unitid>
+                  <unittitle encodinganalog="3.1.2">Fachzeitschriften</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1963-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/182fa008-a5ff-456e-84c8-2111ad068154/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ff0b211e-a601-4776-9970-750e05af4e45" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/36</unitid>
+                  <unittitle encodinganalog="3.1.2">Selbstkontrolle der Illustrierten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Gutachten &quot;Selbstkontrolle illustrierter Zeitschriften&quot;</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ff0b211e-a601-4776-9970-750e05af4e45/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8c763db0-c149-4a79-b488-c7efc82a2a6c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/69</unitid>
+                  <unittitle encodinganalog="3.1.2">Rundfunkanstalten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8c763db0-c149-4a79-b488-c7efc82a2a6c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_7998ce77-9fd7-4679-9352-ae456b8e33c4" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Sonstige Korrespondenz</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7e1e9feb-87c4-43d3-8563-4a485f3dbee3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/37</unitid>
+                  <unittitle encodinganalog="3.1.2">Allgemeiner Schriftwechsel.- A - L</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1964-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7e1e9feb-87c4-43d3-8563-4a485f3dbee3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_beab6972-fe98-4fd6-a921-48ef5a25313b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 154/38</unitid>
+                  <unittitle encodinganalog="3.1.2">Allgemeiner Schriftwechsel.- M - Z</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1965-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Deutscher Ausschuss für das Erziehungs- und Bildungswesen (DA)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Entwurf einer Denkschrift; Schwenk, Johannes &quot;Aufbauzüge, Aufbaukurse und Aufbauklassen an Dorfschulen mit dem Ziel eines geschlossenen, eigenständigen dörflichen Schulaufbaus&quot;</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/beab6972-fe98-4fd6-a921-48ef5a25313b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

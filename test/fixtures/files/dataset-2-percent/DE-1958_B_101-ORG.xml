@@ -1,0 +1,1681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/68f0df20-c2e9-4e31-ab32-8d09671a27da/" identifier="DE-1958_68f0df20-c2e9-4e31-ab32-8d09671a27da">DE-1958_68f0df20-c2e9-4e31-ab32-8d09671a27da</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesrat.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 101-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1949-01-01/1949-12-31" encodinganalog="3.1.3">1949-</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesrat.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>248 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>Der Schriftgutbestand B 101 (Laufzeit 1949-1998) wurde 1993 aufgelöst. Der Datenbestand hat die Laufzeit 1998.</p>
+    </processinfo>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 101-ORG/...</p>
+    </prefercite>
+    <relatedmaterial>
+      <head>Fremde Archive</head>
+      <p>Parlamentsarchiv, Bonn</p>
+    </relatedmaterial>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_68f0df20-c2e9-4e31-ab32-8d09671a27da" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesrat.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>248 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_194161b9-7ab7-402c-8b3e-85a75df64fbd" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 101 ORG Bundesrat.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_01394ef7-279d-4da5-9903-f88aba866a73" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b7d76238-8a95-4e10-b3bf-a9924f80021e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan für das Rechnungsjahr 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b7d76238-8a95-4e10-b3bf-a9924f80021e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61efcab0-bbf9-4712-8cc8-8ff4cc1ed7aa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan für das Rechnungsjahr 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61efcab0-bbf9-4712-8cc8-8ff4cc1ed7aa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_88cd4303-5ec1-4325-bee7-ba37066d3bf7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/88cd4303-5ec1-4325-bee7-ba37066d3bf7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4e463203-8135-4918-a3d0-98b7b90c8fa2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1956</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4e463203-8135-4918-a3d0-98b7b90c8fa2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b1dc2e37-fada-4ae6-b910-a89cd8759d22" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1957, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1957</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b1dc2e37-fada-4ae6-b910-a89cd8759d22/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_63636039-40b0-4144-9bb5-6de4a5dea3ad" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1958 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/63636039-40b0-4144-9bb5-6de4a5dea3ad/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bbbbb4a7-d8ce-4456-b1ae-abb3f8977f88" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Auszug aus dem Bundeshaushaltsplan 1959 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bbbbb4a7-d8ce-4456-b1ae-abb3f8977f88/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f8698dba-2413-4178-b00a-a5e16a9a7d74" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1960</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f8698dba-2413-4178-b00a-a5e16a9a7d74/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_46e7b2b6-5b5f-4466-a88a-bb11b48127b7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1961 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/46e7b2b6-5b5f-4466-a88a-bb11b48127b7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0a167d47-ffb9-49ac-8797-98049bd56f0a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1962 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0a167d47-ffb9-49ac-8797-98049bd56f0a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_492d0286-f998-4969-b072-3427f286c9f5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 21. Dez. 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/492d0286-f998-4969-b072-3427f286c9f5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0149d21b-729c-4d97-afc3-f518b259823d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0149d21b-729c-4d97-afc3-f518b259823d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_facc43db-a55d-4f35-a457-a1ae4351efb3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1964 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/facc43db-a55d-4f35-a457-a1ae4351efb3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a5da3b14-aa0f-4757-9b85-fcfedf73481e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a5da3b14-aa0f-4757-9b85-fcfedf73481e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dcf3b164-26e4-4969-b2ae-a18437297d2e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Jan. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dcf3b164-26e4-4969-b2ae-a18437297d2e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d441fb8f-444e-4636-8d6b-bd2871b74334" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d441fb8f-444e-4636-8d6b-bd2871b74334/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_100402c6-80d0-4ab2-b889-9e3741948270" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1969</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/100402c6-80d0-4ab2-b889-9e3741948270/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b222f8d4-53a4-48be-ace4-29f0a758d12c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b222f8d4-53a4-48be-ace4-29f0a758d12c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c28cd18d-2008-42cf-b7c1-ea61a2cfb2d4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1971-12-31">1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c28cd18d-2008-42cf-b7c1-ea61a2cfb2d4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9d94053d-4ced-4ea5-984b-c092e479809d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9d94053d-4ced-4ea5-984b-c092e479809d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ebe4f0ff-fc67-4bea-bdea-e0bcceceb384" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/21</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ebe4f0ff-fc67-4bea-bdea-e0bcceceb384/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_afb72fe2-ccb1-4fc4-bb67-598754082be9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/22</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1976</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1976-01-01/1976-12-31">1976</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/afb72fe2-ccb1-4fc4-bb67-598754082be9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eed64926-a69c-4fff-8b22-3ada58724bc7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/23</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eed64926-a69c-4fff-8b22-3ada58724bc7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c0de6fad-49e1-4474-b67b-a5caafbd9e4f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/24</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c0de6fad-49e1-4474-b67b-a5caafbd9e4f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a3154b10-fa52-4194-aa98-d3a053188ddd" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/25</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1978</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1978-01-01/1978-12-31">1978</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a3154b10-fa52-4194-aa98-d3a053188ddd/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1481adb4-fc8d-451a-97bf-bfb66915a6b8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/26</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1978</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1978-01-01/1978-12-31">1978</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1481adb4-fc8d-451a-97bf-bfb66915a6b8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a2ddd9d-d3f5-430f-8855-b4e69fc00a5a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/27</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a2ddd9d-d3f5-430f-8855-b4e69fc00a5a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_443cab74-d13a-4ed2-8477-90952f8fbc61" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/28</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/443cab74-d13a-4ed2-8477-90952f8fbc61/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ea376c75-e25d-4c7d-9e2c-c30b382dcd99" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/29</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1986</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1986-01-01/1986-12-31">1986</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ea376c75-e25d-4c7d-9e2c-c30b382dcd99/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_40251139-a3a2-437a-8cfe-a0d8f8804ca3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/30</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1988</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1988-01-01/1988-12-31">1988</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/40251139-a3a2-437a-8cfe-a0d8f8804ca3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cfe4ec1d-81e7-4b5e-8f56-c0eafdf093eb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/31</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cfe4ec1d-81e7-4b5e-8f56-c0eafdf093eb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61fb8fa8-2391-43cd-ae41-2178b300810d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/32</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61fb8fa8-2391-43cd-ae41-2178b300810d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1397ced7-9ac8-4a7b-91d3-99445f0b0b0f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/33</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1397ced7-9ac8-4a7b-91d3-99445f0b0b0f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_260a2f3a-69e0-4335-8d96-19e41e9ed8c8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/34</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/260a2f3a-69e0-4335-8d96-19e41e9ed8c8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_797a6068-e9e3-47f2-b2da-25d22510d36c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/35</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/797a6068-e9e3-47f2-b2da-25d22510d36c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bd268853-89d1-44bf-ba5b-989212ab4015" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/36</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1997</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/1997-12-31">1997</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bd268853-89d1-44bf-ba5b-989212ab4015/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_66a94619-535a-4ca1-b961-46f2e55219e4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/37</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/66a94619-535a-4ca1-b961-46f2e55219e4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4c4ab46c-c09d-4e05-a736-a1fc61fec66c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/38</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4c4ab46c-c09d-4e05-a736-a1fc61fec66c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1cff0347-dbac-4904-8f8f-c00d8c021afc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/39</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1cff0347-dbac-4904-8f8f-c00d8c021afc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c84fd571-28f3-404a-b41e-7859e322b30a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/40</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c84fd571-28f3-404a-b41e-7859e322b30a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e574d162-f2a3-49cd-9fbf-0fe21e20fa7d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/41</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 2002</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2002-01-01/2002-12-31">2002</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e574d162-f2a3-49cd-9fbf-0fe21e20fa7d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3bb970b9-b0b5-4c65-9648-296ce4d3ff7e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/42</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3bb970b9-b0b5-4c65-9648-296ce4d3ff7e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2e47316-e38b-480a-a395-04a852ebe405" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/43</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2e47316-e38b-480a-a395-04a852ebe405/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_309f0237-1fe9-438a-b2dc-954d5f66f9b7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/44</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 19. Febr. 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/309f0237-1fe9-438a-b2dc-954d5f66f9b7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cbf52f9c-240c-4e81-a41a-e6d4c9cf974d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/45</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cbf52f9c-240c-4e81-a41a-e6d4c9cf974d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_366ae7a3-9bc4-467c-a501-b10e77865362" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/46</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2005</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2005-12-31">2005</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/366ae7a3-9bc4-467c-a501-b10e77865362/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cefd3236-f89a-4b6d-bcaf-942c8ba94c3a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/47</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cefd3236-f89a-4b6d-bcaf-942c8ba94c3a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6046ad9b-6db9-4247-b4e1-dcb9a89d5237" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100000</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6046ad9b-6db9-4247-b4e1-dcb9a89d5237/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4abe0147-0f27-4b12-a8c3-a955363b8f8f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100001</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Mai 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4abe0147-0f27-4b12-a8c3-a955363b8f8f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0b207032-c7dd-4c28-b51f-e58d4bcf81b0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100002</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0b207032-c7dd-4c28-b51f-e58d4bcf81b0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_452fb745-865c-4e7f-8795-1a16e82edf6e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100003</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 21. Jan. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/452fb745-865c-4e7f-8795-1a16e82edf6e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c14459bb-b4aa-47dd-94ca-cee88e9081cc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100004</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 4. Juni 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c14459bb-b4aa-47dd-94ca-cee88e9081cc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_204b4eec-5242-4e56-a21d-c880a5380977" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100005</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/204b4eec-5242-4e56-a21d-c880a5380977/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c6e391e1-e9d3-4c77-94d1-31f7842add2d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100006</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Febr. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c6e391e1-e9d3-4c77-94d1-31f7842add2d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b17378a3-6510-44c9-8d2e-89d8b4ca9dda" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100007</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 26. Mai 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b17378a3-6510-44c9-8d2e-89d8b4ca9dda/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7e1f9864-2d0b-4855-b611-7dc0da3ea5b5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100008</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Aug. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7e1f9864-2d0b-4855-b611-7dc0da3ea5b5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b688ac03-8658-422f-895a-2dd2fbe87beb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100009</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b688ac03-8658-422f-895a-2dd2fbe87beb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6bbb5da1-9098-44fc-8f1e-b99f7a202182" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100010</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6bbb5da1-9098-44fc-8f1e-b99f7a202182/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9f87d65c-c9ef-4c6e-ae2c-1e194b4fe992" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100011</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Mai 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9f87d65c-c9ef-4c6e-ae2c-1e194b4fe992/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e6233280-434a-4d02-a609-6e04c1a85591" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100012</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e6233280-434a-4d02-a609-6e04c1a85591/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b06f4a73-ee45-4450-8838-35a1be9bcc94" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100013</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b06f4a73-ee45-4450-8838-35a1be9bcc94/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_69c0c71a-278d-47e6-b15b-64d4d27e51cb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100014</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/69c0c71a-278d-47e6-b15b-64d4d27e51cb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e452952f-b25f-4727-8949-b48e2e48d599" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100015</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e452952f-b25f-4727-8949-b48e2e48d599/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a2300878-9f31-4b81-bab8-df17c1b80f32" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100016</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a2300878-9f31-4b81-bab8-df17c1b80f32/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_15e6e87f-ec87-4827-9425-14cc689d0a8a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100017</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/15e6e87f-ec87-4827-9425-14cc689d0a8a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_998aef29-9728-4997-99de-c87551071936" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100018</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/998aef29-9728-4997-99de-c87551071936/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2b8de65d-bf51-4c9f-b17c-62be30ff8ed6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100019</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2b8de65d-bf51-4c9f-b17c-62be30ff8ed6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a4d01cf3-39cc-40fb-a1de-d8ca51bb1ed7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100020</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Mai 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a4d01cf3-39cc-40fb-a1de-d8ca51bb1ed7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ce41a4f8-342c-4067-9b0c-62d81f4873fe" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100021</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ce41a4f8-342c-4067-9b0c-62d81f4873fe/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fe4ce185-2b4d-4f27-bc3f-652b007b23d6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100022</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 6. Aug. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fe4ce185-2b4d-4f27-bc3f-652b007b23d6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_66d2298e-4337-4524-a97a-f1061b758eb3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100023</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/66d2298e-4337-4524-a97a-f1061b758eb3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cf1d5aa2-b578-451c-baea-ed6335700cc3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100024</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 2015</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2015-01-01/2015-12-31">2015</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cf1d5aa2-b578-451c-baea-ed6335700cc3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_29521423-569d-4cb0-952e-f7690b61002d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 101-ORG/100025</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2017</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2017-01-01/2017-12-31">2017</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrat (BR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/29521423-569d-4cb0-952e-f7690b61002d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_e4a8a485-81af-4ec0-b373-a54e17fde86f" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_b8ebe5a7-9df2-41ca-b4f8-021760ce5ede" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_be8a8ee3-c933-4cbc-a600-d76fdba9f8d4" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_ccf337ed-f2a3-4de0-9b34-3537ceed176b" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_9cf86866-55e1-4261-9eef-89d9ce679414" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_2ff18454-f281-4451-8199-88546280ff82" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_7a49c3b9-2302-4970-b482-579064c01bbf" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_13aac03d-974b-4d84-8330-421eae5e0dcf" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_33b8d864-8982-4bd9-b2c0-e04365346cab" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_b8bac0ee-221a-4c91-92d5-35155d7fbaf1" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_da635054-e30c-443c-81d2-bec11a2162d9" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_b015eaf2-3602-4dfb-9406-8e0c320a1b5a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_b77fb019-f559-473b-bc47-aaa92803d38c" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_e5f60595-5f10-49c2-b7ed-5d68c23b05ca" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

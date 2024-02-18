@@ -1,0 +1,1836 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a4470e71-2afe-44a9-93c7-ba06eab6c9fe/" identifier="DE-1958_a4470e71-2afe-44a9-93c7-ba06eab6c9fe">DE-1958_a4470e71-2afe-44a9-93c7-ba06eab6c9fe</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundeskriminalamt.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 131-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1952-01-01/1952-12-31" encodinganalog="3.1.3">1952 -</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundeskriminalamt.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>173 Aufbewahrungseinheiten</extent>
+        <extent>0,0 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Errichtet wurde das Bundeskriminalamt (BKA) durch Gesetz über die Errichtung eines Bundeskriminalpolizeiamtes (Bundeskriminalamtes) vom 8. März 1951 (BGBl I S. 165). Funktionsvorgänger war das Kriminalpolizeiamt für die Britische Zone in Hamburg, das zum 31. Okt. 1951 als Außenstelle Hamburg übernommen wurde.</p>
+      <p>Im Juni 1952 tritt die Bundesrepublik der Internationalen Kriminalpolizeilichen Organisation (IKPO-Interpol) bei. Das BKA wird Nationales Zentralbüro. 1972 wird die Abt. Datenverarbeitung gebildet und 1973 das INPOL-Fahndungssystem in Betrieb genommen. 1975 wird die Abt. Terrorismusbekämpfung in Bonn-Bad Godesberg eingerichtet. Im Okt. 1981 zieht die Hauptabteilung Bonn mit den Abt. Sicherungsgruppe, Staatsschutz und Technische Dienste nach Meckenheim. 1986 wird eine Abt. zur Bekämpfung der Rauschgiftkriminalität errichtet. 1991 wird eine Außenstelle der Abt. Personenschutz und im Dez. 2004 eine Gemeinsame Terrorismusabwehrzentrale (GTAZ) in Berlin eingerichtet.</p>
+      <p>Das BKA betreibt ab 1993 das Automatisierte Fingerabdruck-Identifizierungs-System (AFIS) und ab 1995 das Schengener Informationssystem.</p>
+      <p>Das BKA-Gesetz wird 1973 mit erheblichen Kompetenzerweiterungen neugefasst. Gültige Rechtsgrundlage bildet das Gesetz über das Bundeskriminalamt und die Zusammenarbeit des Bundes und der Länder in kriminalpolizeilichen Angelegenheiten (Bundeskriminalamtgesetz - BKAG) vom 7. Juli 1997, geändert durch Artikel 1 des Gesetzes zur Abwehr von Gefahren des Internationalen Terrorismus durch das Bundeskriminalamt vom 25. Dez. 2008 (BGBl. I S. 3083), zuletzt geändert durch Art. 121 der Verordnung vom 31. August 2015</p>
+      <p>(BGBl. I S. 1474, 1494)</p>
+      <p>Die Kernaufgaben des BKA bestehen in einer Zentralstellen- und Ermittlungsfunktion, in internationalen Funktionen, in Schutzaufgaben und Prävention sowie in Verwaltungsaufgaben.</p>
+      <p>Das Bundeskriminalamt koordiniert die Kriminalitätsbekämpfung auf nationaler und internationaler Ebene und fungiert als polizeiliche Zentralstelle für das polizeiliche Auskunfts- und Nachrichtenwesen und für die Kriminalpolizei. Es unterstützt als Informations- und Kommunikationszentrale der deutschen Polizei die Polizeien des Bundes und der Länder bei der Verhütung und Verfolgung von Straftaten mit länderübergreifender, internationaler oder sonst erheblicher Bedeutung. Das BKA betreibt zentrale (erkennungsdienstliche) Einrichtungen und Sammlungen für die deutsche Polizei. Es erforscht und entwickelt neue Methoden und Arbeitsweisen der Kriminalitätsbekämpfung, betreibt kriminalistisch-kriminologische sowie die kriminaltechnische Forschungen, erstellt kriminalpolizeiliche Analysen und Statistiken. Das BKA übernimmt Funktionen bei der polizeilichen Kooperation in Europa und bei der weltumspannenden Zusammenarbeit und koordiniert den Dienstverkehr der deutschen Polizei mit dem Ausland. Das BKA dient als nationale Zentralstelle für Interpol, Europol und das Schengener Informationssystem und ermittelt in gesetzlich festgelegten, herausragenden internationalen Kriminalitätsfällen selbst oder immer dann, wenn wegen der Bedeutung der Straftat ein entsprechender Auftrag einer Staatsanwaltschaft vorliegt.</p>
+      <p>Als Zentralstelle hat das BKA</p>
+      <p>- alle Nachrichten und Unterlagen für die polizeiliche Verbrechensbekämpfung zu sammeln und auszuwerten. Es ist insoweit auch Zentralstelle für den elektronischen Datenverbund zwischen Bund und Ländern;</p>
+      <p>- die Strafverfolgungsbehörden des Bundes und der Länder unverzüglich über die sie betreffenden Nachrichten und die in Erfahrung gebrachten Zusammenhänge von Straftaten zu unterrichten;</p>
+      <p>- erkennungsdienstliche Einrichtungen zu unterhalten;</p>
+      <p>- die erforderlichen Einrichtungen für alle Bereiche kriminaltechnischer Untersuchungen und für kriminaltechnische Forschung zu unterhalten sowie die Zusammenarbeit der Polizei auf diesem Gebiet zu koordinieren;</p>
+      <p>- die Entwicklung der Kriminalität zu beobachten und daraus kriminalpolizeiliche Analysen und Statistiken zu erstellen;</p>
+      <p>- Forschung zur Entwicklung polizeilicher Methoden und Arbeitsweisen der Verbrechensbekämpfung zu betreiben;</p>
+      <p>- die Polizei der Länder in der Vorbeugungsarbeit zur Verbrechensbekämpfung zu unterstützen;</p>
+      <p>- Fortbildungsveranstaltungen auf kriminalpolizeilichen Spezialgebieten durchzuführen.</p>
+      <p>Des weiteren erstattet das BKA erkennungsdienstliche und kriminaltechnische Gutachten für Strafverfahren auf Anforderung von Polizeidienststellen, Staatsanwaltschaften und Gerichten.</p>
+      <p>Auf dem Gebiet der Strafverfolgung nimmt das BKA die polizeilichen Aufgaben wahr</p>
+      <p>- in Fällen des international organisierten Handels mit Waffen, Munition, Sprengstoffen oder Betäubungsmitteln und der international organisierten Herstellung oder Verbreitung von Falschgeld, die eine Sachaufklärung im Ausland erfordern, sowie damit im Zusammenhang begangener Straftaten einschließlich der international organisierten Geldwäsche;</p>
+      <p>- in Fällen von Straftaten, die sich gegen das Leben oder die Freiheit des Bundespräsidenten, von Mitgliedern der Bundesregierung, des Bundestages und des Bundesverfassungsgerichtes oder der Gäste der Verfassungsorgane des Bundes aus anderen Staaten oder der Leiter und Mitglieder der bei der BRD beglaubigten diplomatischen Vertretungen richten, wenn anzunehmen ist, daß der Täter aus politischen Motiven gehandelt hat und die Tat bundes- oder außenpolitische Belange berührt.</p>
+      <p>Darüber hinaus nimmt das BKA polizeilichen Aufgaben auf dem Gebiet der Strafverfolgung wahrwahr, wenn</p>
+      <p>- eine zuständige Landesbehörde darum ersucht oder</p>
+      <p>- der BMI es aus schwerwiegenden Gründen anordnet oder</p>
+      <p>- der Generalbundesanwalt darum ersucht oder einen Auftrag erteilt.</p>
+      <p>Die Abteilung SG (Sicherungsgruppe) des BKA nimmt ferner Aufgaben des Schutzes und der Sicherung der Mitglieder der Verfassungsorgane des Bundes und in besoneren Fällen von deren auswärtigen Gästen, den Schutz von Zeugen, deren Angehörigen und nahestehenden Personen in eigenen Ermittlungsverfahren wahr.Das BKA ist zugleich Nationales Zentralbüro der BRD für die Internationale Kriminalpolizeiliche Organisation (Interpol).</p>
+      <p>Abteilungs-Gliederung (Juni 1999):</p>
+      <p>OA Organisierte und Allgemeine Kriminalität</p>
+      <p>ZD Zentrale kriminalpolizeiliche Dienste, Personenerkennung</p>
+      <p>KT Kriminaltechnisches Institut</p>
+      <p>ZV Zentral- und Verwaltungsaufgaben</p>
+      <p>IT Informationstechnik</p>
+      <p>KI Kriminalistisches Institut</p>
+      <p>ST Polizeilicher Staatsschutz</p>
+      <p>SG Schutz- und Begleitdienste (Sicherungsgruppe)</p>
+      <p>TD Technische Dienste, Verwaltung</p>
+      <p>Abteilungs-Gliederung (Januar 2008):</p>
+      <p>Internationale Koordinierung (IK)</p>
+      <p>Polizeilicher Staatsschutz (ST)</p>
+      <p>Schwere und Organisierte Kriminalität (SO)</p>
+      <p>Sicherungsgruppe (SG)</p>
+      <p>Zentrale kriminalpolizeiliche Dienste (ZD)</p>
+      <p>Kriminalistisches Institut (KI)</p>
+      <p>Kriminaltechnisches Institut (KT)</p>
+      <p>Informationstechnik (IT)</p>
+      <p>Zentrale Verwaltungsaufgaben (ZV)</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 131-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_a4470e71-2afe-44a9-93c7-ba06eab6c9fe" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundeskriminalamt.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>173 Aufbewahrungseinheiten</extent>
+            <extent>0,0 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_ad042081-34ac-4c7a-9a9c-16fbcba6ca1f" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 131 ORG Bundeskriminalamt.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_613138e7-858c-4132-b538-06b0fde2e52f" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f404eef7-d0c7-4d46-a2c4-e5c7c38cbcd4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f404eef7-d0c7-4d46-a2c4-e5c7c38cbcd4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f69044c3-ef9a-4c1f-9cb9-43a8bfb6795f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Mai 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f69044c3-ef9a-4c1f-9cb9-43a8bfb6795f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3b1b164c-c0b9-4279-b19f-88960a42066a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 31. Mai 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3b1b164c-c0b9-4279-b19f-88960a42066a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1091d1cc-3ef0-4f46-ad8e-dd9e493e2800" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1091d1cc-3ef0-4f46-ad8e-dd9e493e2800/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0c49d1ae-2f77-4999-9c73-83233ace63fc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Dez. 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0c49d1ae-2f77-4999-9c73-83233ace63fc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5bb7d743-f398-4622-b6d0-569faa809585" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1950</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5bb7d743-f398-4622-b6d0-569faa809585/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d9f15770-5cdf-4883-983f-4e2245b6d274" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 7. März 1950</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d9f15770-5cdf-4883-983f-4e2245b6d274/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c8e24bdd-af6d-4f66-a5d0-5448032c51a1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: o. D.</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/2015-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c8e24bdd-af6d-4f66-a5d0-5448032c51a1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6fcb60ca-b464-47ab-86af-8acc3b7c9460" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1951</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6fcb60ca-b464-47ab-86af-8acc3b7c9460/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3eeeeea8-93c6-46b5-ab34-4c83c83cc586" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1952-1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1962-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3eeeeea8-93c6-46b5-ab34-4c83c83cc586/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9462b82c-a1f8-409c-a1ea-21448b46b7d4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1954, Stand: 31. Okt. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9462b82c-a1f8-409c-a1ea-21448b46b7d4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8e136ec5-95a9-409a-b86a-cc153199a957" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 31. Okt. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8e136ec5-95a9-409a-b86a-cc153199a957/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4b94fc91-0c2f-4c55-ab94-78fec6b2b8fa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4b94fc91-0c2f-4c55-ab94-78fec6b2b8fa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cc9c7bc4-0b13-4ce6-89bb-a424a210d034" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cc9c7bc4-0b13-4ce6-89bb-a424a210d034/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6af4897b-e5d5-4874-b09b-b7587b31e9ad" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6af4897b-e5d5-4874-b09b-b7587b31e9ad/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_14daa4d4-cc91-4231-a460-99487e1749e8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/14daa4d4-cc91-4231-a460-99487e1749e8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_033c28a0-45a5-44f9-bffb-3b8ab750960a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/033c28a0-45a5-44f9-bffb-3b8ab750960a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2b56e1b-128a-464b-ad1f-9cfccdb39d7d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1962-1969</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1969-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2b56e1b-128a-464b-ad1f-9cfccdb39d7d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b3099d11-2f01-4674-8b7d-6bc02fe5b6be" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b3099d11-2f01-4674-8b7d-6bc02fe5b6be/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_60ec2398-18f4-4f0d-b2ca-710cba843e99" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/60ec2398-18f4-4f0d-b2ca-710cba843e99/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e17726fe-3544-4c65-940d-5a23699e8f3d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/21</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1965</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e17726fe-3544-4c65-940d-5a23699e8f3d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59f9b6e8-5647-479e-9637-d705c3f92087" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/22</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59f9b6e8-5647-479e-9637-d705c3f92087/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a673615a-1e9d-4244-914f-be843bdf546a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/23</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a673615a-1e9d-4244-914f-be843bdf546a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ec8b75a8-393b-46f3-9bab-a04ad425b6a6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/24</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ec8b75a8-393b-46f3-9bab-a04ad425b6a6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e0826285-5950-4a90-98b9-6ba33d271d4d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/25</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e0826285-5950-4a90-98b9-6ba33d271d4d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4a878a64-25a7-4e7c-a70c-8602cdf21497" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/26</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1969</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4a878a64-25a7-4e7c-a70c-8602cdf21497/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_07be3291-b5b1-470e-8fd7-8b41da33e159" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/27</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1970-1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1971-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/07be3291-b5b1-470e-8fd7-8b41da33e159/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_60021254-edff-4a77-88a4-0768a216521d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/28</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/60021254-edff-4a77-88a4-0768a216521d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_29ade134-41f0-44a8-acc2-4dc48ad48a5c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/29</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1971-12-31">1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/29ade134-41f0-44a8-acc2-4dc48ad48a5c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_52f9512c-4286-409f-b17b-73b406d969f8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/30</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1972-1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1973-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/52f9512c-4286-409f-b17b-73b406d969f8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a75f7739-5ae0-418c-86ba-6ade22dd1a18" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/31</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 5. Jan. 1972</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1972-12-31">1972</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a75f7739-5ae0-418c-86ba-6ade22dd1a18/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1a977f80-75ab-40d5-b476-8a36a5be4508" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/32</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1a977f80-75ab-40d5-b476-8a36a5be4508/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_416c9282-d896-414f-b178-442fedb0a682" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/33</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/416c9282-d896-414f-b178-442fedb0a682/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9cfdb2af-eef1-467b-a90d-8a1e3362f12a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/34</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 21. Juni 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9cfdb2af-eef1-467b-a90d-8a1e3362f12a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e4067419-bf06-40d8-a54d-61e9b9a2ef2a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/35</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Juli 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e4067419-bf06-40d8-a54d-61e9b9a2ef2a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a62bcd5e-7bfe-40c8-9ffe-07eb763a4703" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/36</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a62bcd5e-7bfe-40c8-9ffe-07eb763a4703/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_138b1412-c92f-425a-a236-a19ab45cbd62" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/37</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/138b1412-c92f-425a-a236-a19ab45cbd62/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cda6fb75-ec4d-4dcf-85a0-6e699b3125cb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/38</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Aug. 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cda6fb75-ec4d-4dcf-85a0-6e699b3125cb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_09944063-30cf-4985-bfd2-437806282b3d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/39</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1976</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1976-01-01/1976-12-31">1976</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/09944063-30cf-4985-bfd2-437806282b3d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_90b4aca7-7def-4db9-a559-642d20821e12" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/40</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/90b4aca7-7def-4db9-a559-642d20821e12/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2fd10370-2aa6-4674-8032-d0d94c4ef073" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/41</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2fd10370-2aa6-4674-8032-d0d94c4ef073/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_16a23006-9d1e-4e74-9b12-c8f4918aed72" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/42</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/16a23006-9d1e-4e74-9b12-c8f4918aed72/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6c79ba0e-3db2-4e20-a82d-2671fb353d75" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/43</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1983</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1983-01-01/1983-12-31">1983</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6c79ba0e-3db2-4e20-a82d-2671fb353d75/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_976762f1-3a60-4902-922d-6a6e5b10ada0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/44</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/976762f1-3a60-4902-922d-6a6e5b10ada0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b4b23bef-d06d-40f4-bfac-7faeba3bf3b2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/45</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Mai 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b4b23bef-d06d-40f4-bfac-7faeba3bf3b2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f84f7946-67bc-40a7-90f7-722014b08abd" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/46</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1986</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1986-01-01/1986-12-31">1986</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f84f7946-67bc-40a7-90f7-722014b08abd/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8f73ba91-89ec-4c08-8adb-f3fc49bc62d6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/47</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1988</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1988-01-01/1988-12-31">1988</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8f73ba91-89ec-4c08-8adb-f3fc49bc62d6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4960dcd7-4c37-41b2-871d-f002042313ec" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/48</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Juni 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4960dcd7-4c37-41b2-871d-f002042313ec/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cfbe7ac1-0d07-43d5-93f4-e9a398261db9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/49</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cfbe7ac1-0d07-43d5-93f4-e9a398261db9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7a701cf7-5cac-43b5-a598-04c54cd54d33" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/50</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Aug. 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7a701cf7-5cac-43b5-a598-04c54cd54d33/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_450cb694-f19f-4ff8-b193-6f9af345523d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/51</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Juni 1991</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1991-01-01/1991-12-31">1991</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/450cb694-f19f-4ff8-b193-6f9af345523d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_37f07c71-6abb-4fd8-9794-6fd78082a846" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/52</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 22. Jan. 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/37f07c71-6abb-4fd8-9794-6fd78082a846/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6e0a916d-5fcd-4c20-b406-7e15eeeee715" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/53</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 18. Aug. 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6e0a916d-5fcd-4c20-b406-7e15eeeee715/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3b53b1cf-4ce7-4faa-8c3f-97289983dd1e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/54</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3b53b1cf-4ce7-4faa-8c3f-97289983dd1e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_347b5ae0-d062-4839-810c-38ea51921c6f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/55</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/347b5ae0-d062-4839-810c-38ea51921c6f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9a1906dd-2ff4-4f4b-90ed-d658c21850a7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/56</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9a1906dd-2ff4-4f4b-90ed-d658c21850a7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e7a03013-8c22-4e01-9d0d-60a3c324579f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/57</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e7a03013-8c22-4e01-9d0d-60a3c324579f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1cae5647-d243-49d1-8195-72c9ae2eaec0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/58</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1997</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/1997-12-31">1997</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1cae5647-d243-49d1-8195-72c9ae2eaec0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0be5d7e9-78df-4a69-af0f-d7b40a43f967" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/59</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0be5d7e9-78df-4a69-af0f-d7b40a43f967/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0582549d-b31b-4903-9605-eb4cf3e4ebe2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/60</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 3. Mai 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0582549d-b31b-4903-9605-eb4cf3e4ebe2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_02ef422a-07a5-40bb-89d3-a634729cca80" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/61</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 3. Mai 2000</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2000-01-01/2000-12-31">2000</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/02ef422a-07a5-40bb-89d3-a634729cca80/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b324435e-8c5f-4395-8d82-7e69278cae24" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/62</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Apr. 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b324435e-8c5f-4395-8d82-7e69278cae24/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a0ce57a2-d8f9-43e0-b0d2-c82fad99d5a4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/63</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 2002</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2002-01-01/2002-12-31">2002</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a0ce57a2-d8f9-43e0-b0d2-c82fad99d5a4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8c496dbb-0a0a-4f59-94db-1489d1fb6bb2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/64</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8c496dbb-0a0a-4f59-94db-1489d1fb6bb2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5de66548-a061-4e34-b4e2-ab593bd4c305" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/65</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5de66548-a061-4e34-b4e2-ab593bd4c305/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e593d0f8-fa14-4106-91d4-f1021a215ad2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/66</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Jan. 2005</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2005-12-31">2005</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e593d0f8-fa14-4106-91d4-f1021a215ad2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_652568ea-47d8-44d9-97a8-74c756c1d632" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/67</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 2005</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2005-12-31">2005</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/652568ea-47d8-44d9-97a8-74c756c1d632/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_74ffc379-4615-414f-8562-db59dfd1b438" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/68</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 4. Mai 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/74ffc379-4615-414f-8562-db59dfd1b438/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59138e7d-b901-4295-a8a1-215c705c08ae" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/69</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Mai 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59138e7d-b901-4295-a8a1-215c705c08ae/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_db01a6a4-f8be-4434-b7d1-7030c9bbab02" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/70</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Mai 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/db01a6a4-f8be-4434-b7d1-7030c9bbab02/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b8eb38d1-914f-4310-ae17-6f407dbbf425" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/71</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b8eb38d1-914f-4310-ae17-6f407dbbf425/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_15be3342-2bc7-49c4-a004-4cbd3cc55ec2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/72</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/15be3342-2bc7-49c4-a004-4cbd3cc55ec2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_878d6ef3-b760-4e00-ad64-23e07596eaf1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100000</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/878d6ef3-b760-4e00-ad64-23e07596eaf1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4e884f82-3fa0-4b7b-b845-a7cd0a06cf4a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100001</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4e884f82-3fa0-4b7b-b845-a7cd0a06cf4a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_77a5d9da-e0ab-448e-9472-b8e8b8a7c211" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100002</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/77a5d9da-e0ab-448e-9472-b8e8b8a7c211/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b6cb71d6-6646-4444-b9df-80a1f8b8a76d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100003</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b6cb71d6-6646-4444-b9df-80a1f8b8a76d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4d085b7f-ebfb-46f4-8d5a-891bb9c8fbab" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100004</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4d085b7f-ebfb-46f4-8d5a-891bb9c8fbab/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_40ee2da5-b947-42b7-b1e9-7fc17b2caae4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100005</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/40ee2da5-b947-42b7-b1e9-7fc17b2caae4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f0cd5109-b277-4be6-adc5-26e66f8efda6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100006</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f0cd5109-b277-4be6-adc5-26e66f8efda6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_916b26fc-7bda-4e81-90ad-c0f8d713385d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100007</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/916b26fc-7bda-4e81-90ad-c0f8d713385d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ecac0611-3ed6-4d36-ad46-116ea8c42fe0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100008</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ecac0611-3ed6-4d36-ad46-116ea8c42fe0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e2f7a774-490d-4809-b97c-e506df9e3535" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100009</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e2f7a774-490d-4809-b97c-e506df9e3535/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a47e0fd1-ad74-4af9-aa65-a7955b10ee21" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100010</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a47e0fd1-ad74-4af9-aa65-a7955b10ee21/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fbb6debf-f476-4ee0-859e-7a3dfaab5a1c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100011</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fbb6debf-f476-4ee0-859e-7a3dfaab5a1c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4af649f9-99d4-4235-8ad1-7c6dd7787dbf" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 131-ORG/100012</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 2015</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2015-01-01/2015-12-31">2015</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundeskriminalamt (BKA)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4af649f9-99d4-4235-8ad1-7c6dd7787dbf/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

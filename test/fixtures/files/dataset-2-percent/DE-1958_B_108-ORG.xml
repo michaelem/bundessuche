@@ -1,0 +1,2631 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9ecc67cf-0d5e-4069-9889-b7659a423dd9/" identifier="DE-1958_9ecc67cf-0d5e-4069-9889-b7659a423dd9">DE-1958_9ecc67cf-0d5e-4069-9889-b7659a423dd9</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesministerium für Verkehr.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 108-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1948-01-01/1948-12-31" encodinganalog="3.1.3">1948-</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesministerium für Verkehr.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>301 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Für die dem Bund zustehenden Aufgaben des Verkehrs wurde im Rahmen der ersten Regierungsbildung das Bundesministerium für Verkehr (BMV) errichtet. Es ging aus der Verwaltung für Verkehr des Vereinigten Wirtschaftsgebietes hervor, deren Abteilungsstruktur im Grundsatz übernommen wurde.</p>
+      <p>Im Januar 1950 setze sich das Ministerium aus folgenden Abteilungen zusammen:</p>
+      <p>- Abteilung A (Allgemeine Abteilung, auch Verwaltung)</p>
+      <p>- Abteilung B (Binnenschifffahrt)</p>
+      <p>- Abteilung E (Eisenbahnen)</p>
+      <p>- Abteilung L (Luftfahrt)</p>
+      <p>- Abteilung See (Seeverkehr mit bis 1989 Sitz in Hamburg)</p>
+      <p>- Abteilung StB (Straßenbau)</p>
+      <p>- Abteilung StV (Straßenverkehr)</p>
+      <p>- Abteilung W (Wasserbau).</p>
+      <p>Zum 1. Januar 1953 wurde die Verwaltung aus der Abteilung A herausgelöst und als Abteilung Z verselbstständigt. Zum 1. April 1977 erfolgte die Zusammenlegung der Abteilungen Binnenschifffahrt und Wasserstraßen zur Abteilung BW (Binnenschifffahrt und Wasserstraßen), nachdem die Abteilung Wasserbau zum 1. Februar 1964 in Abteilung Wasserstraßen umbenannt worden war. Zum 1. Februar 1986 wurde die Abteilung Luftverkehr zur Abteilung Luft- und Raumfahrt umgewandelt, zum 1. Februar 1988 wurden die Abteilungen S (Schifffahrt) und W (Wasserstraßen) gegründet, nachdem der Bereich Binnenschifffahrt mit der Abteilung Seeverkehr vereinigt wurde.</p>
+      <p>Die Ressortbesprechung vom 21. Mai 1953 brachte dem Bundesministerium für Verkehr die Zuständigkeit für die Flugpreise im Luftverkehr mit Berlin ein, die zuvor vom Bundesministerium des Innern wahrgenommen wurde. Zum 11.November 1969 übernahm das Bundesministerium für Verkehr vormals vom Bundesministerium für die Angelegenheiten des Bundesrates und der Länder wahrgenommenen Aufgaben der Verkehrspolitik. Aus dem Zuständigkeitsbereich des Bundesministeriums für Verkehr gingen im Jahre 1972 die für Luftsicherheit im Sinne der polizeilichen Gefahrenabwehr an das Bundesministerium des Innern, die für den Fremdenverkehr an das Bundesministerium für Wirtschaft über. Die Zuständigkeit für die Verhütung der Meeresverschmutzung durch das Einbringen von Abfällen und anderen Stoffen in das Meer übernahm nach Organisationserlass des Bundeskanzlers vom 25. Oktober 1989 das Bundesministerium für Umwelt, Naturschutz und Reaktorsicherheit.</p>
+      <p>Die Abteilungsstruktur gestaltete sich im Jahre 1989 wie folgt:</p>
+      <p>- Abteilung Z (Zentralabteilung)</p>
+      <p>- Abteilung A (Verkehrspolitische Grundsatzabteilung, hierzu gehörten neben Grundsatzfragen fachliche Querschnittsaufgaben wie internationale Verkehrsangelegenheiten, Beförderung gefährlicher Güter, kombinierter Verkehr, Investitionsprogramme, Verkehrsforschung und - seit März 1973 im Organisationsplan genannt - der Umweltschutz</p>
+      <p>- Abteilung BW (Binnenschifffahrt und Wasserstraßen)</p>
+      <p>- Abteilung E (Eisenbahnen)</p>
+      <p>- Abteilung LR (Luft- und Raumfahrt, seit 1. Februar 1986 auch Wetterdienst),</p>
+      <p>- Abteilung See (Seeverkehr) sowie die</p>
+      <p>- Abteilungen StB (Straßenbau) und</p>
+      <p>- StV (Straßenverkehr).</p>
+      <p>Mit Organisationserlass des Bundeskanzlers vom 27. Oktober 1998 wurden das Bundesministerium für Verkehr und das Bundesministerium für Raumordnung, Bauwesen und Städtebau zum Bundesministerium für Verkehr, Bau und Wohnungswesen (BMVBS) zusammengelegt. Dem Bundesministerium für Verkehr, Bau- und Wohnungswesen oblagen fortan die Aufgaben, das gesamte Verkehrswesen der Bundesrepublik zu leiten, wobei sich der Geschäftsbereich auf die Bereiche Eisenbahnwesen, Straßenverkehr, Binnenschifffahrt, Seeverkehr, Luftfahrt, Straßenbau, Wasserstraßen und den Wetterdienst, soweit der Bund nach dem Grundgesetz zuständig ist, erstreckt. Darüber hinaus nimmt das Ministerium die Zuständigkeit des Bundes in den Bereichen Raumordnung, Städtebau und Wohnungswesen wahr. Der Bundesminister für Verkehr, Bau- und Wohnungswesen ist gleichzeitig Beauftragter der Bundesregierung für den Berlin-Umzug und für den Bonn-Ausgleich. Nach Zusammenlegung beider Ministerien verfügte das neu gegründete Bundesministerium für Verkehr, Bau- und Wohnungswesen über folgende Abteilungen:</p>
+      <p>Zentralabteilung, Grundsatzabteilung, Abteilung EW (Eisenbahnen, Wasserstraßen), Abteilung S (Straßenbau, Straßenverkehr), Abteilung LS (Luft- und Raumfahrt, Schifffahrt), Abteilung W (Wohnungswesen) sowie Abteilung BS (Bauwesen und Städtebau).</p>
+      <p>Mit der Bildung des Kabinetts Merkel III erfolgte die Umbenennung in Bundesministerium für Verkehr und digitale Infrastruktur (BMVI) und die Zuständigkeit für Stadtentwicklung und Wohnungsbau wurde an das Bundesumweltministerium abgegeben.</p>
+      <p>Die Bundesminister in chronologischer Reigenfolge:</p>
+      <p>Hans-Christoph Seebohm (September 1949 - November 1966)</p>
+      <p>Georg Leber (Dezember 1966 - Juli 1972)</p>
+      <p>Laurtiz Lauritzen (Juli 1972 - Mai 1974)</p>
+      <p>Kurt Gscheidle (Mai 1974 - November 1980)</p>
+      <p>Volker Hauff (November 1980 - Oktober 1982)</p>
+      <p>Werner Dollinger (Oktober 1982 - März 1987)</p>
+      <p>Jürgen Warnke (März 1987 - April 1989)</p>
+      <p>Friedrich Zimmermann (April 1989 - Januar 1991)</p>
+      <p>Günther Krause (Januar 1991 - Mai 1993)</p>
+      <p>Matthias Wissmann (Mai 1993 - Oktober 1998)</p>
+      <p>Franz Müntefering (Oktober 1998 - September 1999)</p>
+      <p>Reinhard Klimmt (September 1999 - November 2000)</p>
+      <p>Kurt Bodewig (November 2000 - Oktober 2002)</p>
+      <p>Dr. Manfred Stolpe (Oktober 2002 - November 2005)</p>
+      <p>Wolfgang Tiefensee (November 2005 - Oktober 2009)</p>
+      <p>Dr. Peter Ramsauer (ab Oktober 2009 - Dezember 2013)</p>
+      <p>Alexander Dobrindt (seit Dezember 2013).</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 108-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_9ecc67cf-0d5e-4069-9889-b7659a423dd9" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesministerium für Verkehr.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>301 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_8a60c1d8-4041-4350-b35d-29a66606cebd" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 108 ORG Bundesministerium für Verkehr.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_924d23c8-081d-4469-a7e8-3d549d86d3cc" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a2730f99-178a-4b25-9e28-ca4a627847ad" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 6. Dez. 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Organisationsplan in Form eines Gliederungsplans</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a2730f99-178a-4b25-9e28-ca4a627847ad/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dee8831f-e2d3-4e5a-9e7e-c1dada4c39bc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Jan. 1950</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Organisationsplan in Form eines Gliederungsplans</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dee8831f-e2d3-4e5a-9e7e-c1dada4c39bc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_75cfa8ed-9fd1-42d6-8bd3-45b857db7de3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 19. Apr. 1951</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Organisationsplan in Form eines Gliederungsplans</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/75cfa8ed-9fd1-42d6-8bd3-45b857db7de3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a48f1deb-9767-42c2-a39e-e663588fbe02" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a48f1deb-9767-42c2-a39e-e663588fbe02/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f398d4bf-b2bc-4e93-9a17-2162df6a573b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f398d4bf-b2bc-4e93-9a17-2162df6a573b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_85532f06-4151-437d-bb17-550b684cd0db" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/85532f06-4151-437d-bb17-550b684cd0db/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_563fcfd5-242f-4f45-844f-140cf2653379" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Voranschlag für den Stellenplan</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/563fcfd5-242f-4f45-844f-140cf2653379/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_37f54c8c-d661-42c7-8008-a8223be319da" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/37f54c8c-d661-42c7-8008-a8223be319da/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59b4aefc-65b3-46c7-b14d-13fccae993ac" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1956</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59b4aefc-65b3-46c7-b14d-13fccae993ac/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_97fff303-46db-4073-a590-ba079403cf01" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1957, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1957</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/97fff303-46db-4073-a590-ba079403cf01/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1f91a71e-0bd6-4ffc-8be3-d1b917c53077" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1f91a71e-0bd6-4ffc-8be3-d1b917c53077/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dbf54e39-1e25-4156-8bef-c5b62916a4ca" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1958 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dbf54e39-1e25-4156-8bef-c5b62916a4ca/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cc988a37-9460-478e-bf6a-80824a08afc2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cc988a37-9460-478e-bf6a-80824a08afc2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d7b867d8-9ae0-492b-bd59-ab443b6eff28" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1959 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d7b867d8-9ae0-492b-bd59-ab443b6eff28/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eceea2d1-dc68-4251-8dec-3343ee0fe45a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1.Nov. 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eceea2d1-dc68-4251-8dec-3343ee0fe45a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_21139e5e-9d2a-4ac5-bb7a-bcdbd9fae3d1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1960</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/21139e5e-9d2a-4ac5-bb7a-bcdbd9fae3d1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_567be198-55d2-436e-a114-7da8064ec690" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/567be198-55d2-436e-a114-7da8064ec690/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6acd0708-6b7d-41cb-a33d-0981841214f4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/21</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1963</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6acd0708-6b7d-41cb-a33d-0981841214f4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a7348757-37b3-46e1-852d-8d4063b034ef" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/22</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1964 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a7348757-37b3-46e1-852d-8d4063b034ef/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4d85ffec-fb39-4777-b32b-b6caba09fb52" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/23</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4d85ffec-fb39-4777-b32b-b6caba09fb52/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2bf7adaf-604c-4b68-9445-84f9a17f24a1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/24</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1965</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2bf7adaf-604c-4b68-9445-84f9a17f24a1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_33a643d7-a1c0-4526-9926-2c6bc5fe9b8b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/25</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1966 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/33a643d7-a1c0-4526-9926-2c6bc5fe9b8b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8c33cc1b-dbe4-4ff0-92f3-f96dc834f06a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/26</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Sept. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8c33cc1b-dbe4-4ff0-92f3-f96dc834f06a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3c437349-d3e6-4b1e-b9bb-5192e3ea94f5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/27</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Mai 1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3c437349-d3e6-4b1e-b9bb-5192e3ea94f5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4b4b40d3-145f-4fe9-a4a0-17f068dfaa73" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/28</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4b4b40d3-145f-4fe9-a4a0-17f068dfaa73/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b50aca53-4be3-4f09-bc37-e62f27fd8e40" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/29</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1969</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b50aca53-4be3-4f09-bc37-e62f27fd8e40/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7014bd62-d824-4d11-8e91-b5bec27ef315" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/30</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7014bd62-d824-4d11-8e91-b5bec27ef315/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_48a7cd3e-9eec-4dc4-a09e-3baf81e0ea55" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/31</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1971-12-31">1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/48a7cd3e-9eec-4dc4-a09e-3baf81e0ea55/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_693a3352-feee-4323-8d1a-23d182fe7228" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/32</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Febr. 1972</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1972-12-31">1972</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/693a3352-feee-4323-8d1a-23d182fe7228/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_954e0434-257a-43cd-bacc-5691848b0b4d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/33</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Sept. 1972</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1972-12-31">1972</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/954e0434-257a-43cd-bacc-5691848b0b4d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d2cb4f1e-c924-40c2-8a63-14627fecc456" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/34</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Apr. 1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d2cb4f1e-c924-40c2-8a63-14627fecc456/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5f5156a2-4aba-4fb6-b74e-b85809d4a74b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/35</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5f5156a2-4aba-4fb6-b74e-b85809d4a74b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9d855592-465c-4a16-b692-dc9d793180c9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/36</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Apr. 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9d855592-465c-4a16-b692-dc9d793180c9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_95c5e586-893b-40ba-a0af-90379e1d77e5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/37</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1976</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1976-01-01/1976-12-31">1976</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/95c5e586-893b-40ba-a0af-90379e1d77e5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_deec9057-333c-4eee-86ba-d61993fad7b9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/38</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 22. März 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/deec9057-333c-4eee-86ba-d61993fad7b9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a3bc058f-a8a6-479c-9c82-432a0b82e12b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/39</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Gliederungsplan der Bundesverkehrsverwaltung</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a3bc058f-a8a6-479c-9c82-432a0b82e12b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e201fe25-e31e-4d88-a781-350ff3c355c5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/40</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e201fe25-e31e-4d88-a781-350ff3c355c5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_571aa7f6-4d5d-47aa-900f-1c7483ab4d60" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/41</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1979</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1979-01-01/1979-12-31">1979</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/571aa7f6-4d5d-47aa-900f-1c7483ab4d60/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6581822e-2946-422b-bd85-b8401189d29f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/42</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1979</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1979-01-01/1979-12-31">1979</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6581822e-2946-422b-bd85-b8401189d29f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3396704e-8a0b-4369-87cd-88cc6319c673" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/43</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3396704e-8a0b-4369-87cd-88cc6319c673/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_42d65cd0-65c7-4244-bb87-7fec91bb7b50" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/44</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/42d65cd0-65c7-4244-bb87-7fec91bb7b50/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_de3035d2-62f5-4afb-9ed4-7a0f2275e7fb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/45</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/de3035d2-62f5-4afb-9ed4-7a0f2275e7fb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b3c063c1-7893-40bb-820d-ddb353c01d8e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/46</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b3c063c1-7893-40bb-820d-ddb353c01d8e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9a970cb6-28d6-41c0-9b1b-93eaed5472de" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/47</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9a970cb6-28d6-41c0-9b1b-93eaed5472de/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6f22c3bc-7b2c-4151-a1cb-3051c64c9cca" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/48</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Aug. 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6f22c3bc-7b2c-4151-a1cb-3051c64c9cca/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_80f17e8f-b762-47d0-a86b-d1032dd23d03" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/49</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/80f17e8f-b762-47d0-a86b-d1032dd23d03/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d55658ee-c6db-4a3f-80b6-cfc3ad239537" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/50</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d55658ee-c6db-4a3f-80b6-cfc3ad239537/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c73cfb4b-a351-4bca-80b2-eb94dea088ce" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/51</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Okt. 1986</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1986-01-01/1986-12-31">1986</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c73cfb4b-a351-4bca-80b2-eb94dea088ce/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dfaf6f48-8f05-4272-a172-5e51e1427e32" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/52</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1987</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1987-12-31">1987</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dfaf6f48-8f05-4272-a172-5e51e1427e32/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8aaa51db-0c16-4784-951a-72f01b8cde5e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/53</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Juli 1987</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1987-12-31">1987</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8aaa51db-0c16-4784-951a-72f01b8cde5e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_971d89f6-f90e-40ac-97f2-771a7185b508" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/54</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1987</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1987-12-31">1987</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/971d89f6-f90e-40ac-97f2-771a7185b508/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_05e4ab43-6db9-4903-9f36-f26c431d015e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/55</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1988</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1988-01-01/1988-12-31">1988</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/05e4ab43-6db9-4903-9f36-f26c431d015e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d6b0ece3-fc44-4ef7-ba59-3b5d701d52cd" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/56</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 1988</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1988-01-01/1988-12-31">1988</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d6b0ece3-fc44-4ef7-ba59-3b5d701d52cd/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dc21ea2a-013d-4785-904a-be7606af9f0a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/57</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dc21ea2a-013d-4785-904a-be7606af9f0a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b49113be-ad52-45eb-b09a-ec3c3a53c5b8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/58</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Juni 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b49113be-ad52-45eb-b09a-ec3c3a53c5b8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_83fd7c54-84d0-4066-a8a5-2a32ebf026fb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/59</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 25. Sept. 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/83fd7c54-84d0-4066-a8a5-2a32ebf026fb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d71bc051-50fa-49aa-a551-e4654bff3ab8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/60</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 28. Mai 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d71bc051-50fa-49aa-a551-e4654bff3ab8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_366bb3e4-e60e-40a7-a210-86d8236eb167" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/61</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Okt. 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/366bb3e4-e60e-40a7-a210-86d8236eb167/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f0f7482a-2add-416a-9d5c-346a3eed00fa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/62</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1991</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1991-01-01/1991-12-31">1991</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f0f7482a-2add-416a-9d5c-346a3eed00fa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b18b71a2-1224-4245-9cf3-959abb3fb5cf" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/63</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Juli 1991</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1991-01-01/1991-12-31">1991</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b18b71a2-1224-4245-9cf3-959abb3fb5cf/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4e735ac0-7f23-4f22-9f5f-9ffa5c77a65c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/64</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 24. März 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4e735ac0-7f23-4f22-9f5f-9ffa5c77a65c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5f0d1750-3a58-4bfa-b3fa-cb3baa02857a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/65</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 5. Febr. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5f0d1750-3a58-4bfa-b3fa-cb3baa02857a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7d5de3f4-64d4-4c51-9aec-5de521d3be6f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/66</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 26. Mai 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7d5de3f4-64d4-4c51-9aec-5de521d3be6f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d7ec37ef-539d-48c9-8da2-46a04fcf3454" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/67</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin (ASB)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d7ec37ef-539d-48c9-8da2-46a04fcf3454/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1c6ae391-a64b-4620-add2-9bd09a415cb0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/68</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1c6ae391-a64b-4620-add2-9bd09a415cb0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d81849cf-dd1f-4452-87d7-25022adf04c9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/69</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d81849cf-dd1f-4452-87d7-25022adf04c9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d651d9c4-d9e6-42a5-9fe4-b30b8ff65ed9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/70</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin (ASB)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d651d9c4-d9e6-42a5-9fe4-b30b8ff65ed9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dabaecff-ded8-4150-87b3-95e5aae559aa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/71</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin (ASB)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dabaecff-ded8-4150-87b3-95e5aae559aa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3a61020f-79b6-4371-b1c4-4311b53f185f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/72</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3a61020f-79b6-4371-b1c4-4311b53f185f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_81d33ef5-61c8-42fd-a3d4-c389074d4afc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/73</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/81d33ef5-61c8-42fd-a3d4-c389074d4afc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_15cd5114-dc34-48ac-8331-99274c1c68a8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/74</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin (ASB)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/15cd5114-dc34-48ac-8331-99274c1c68a8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6137257b-4c3c-4c27-8c09-79fcc23ac039" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/75</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6137257b-4c3c-4c27-8c09-79fcc23ac039/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ec1146ef-8672-4a85-8f16-c8390c3137fe" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/76</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1997</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/1997-12-31">1997</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin (ASB)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ec1146ef-8672-4a85-8f16-c8390c3137fe/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b9a80888-b7c6-4d5e-a4c6-c94e292a60ee" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/77</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1997</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/1997-12-31">1997</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b9a80888-b7c6-4d5e-a4c6-c94e292a60ee/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2c696e2-ed54-4344-a151-983575fabce2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/78</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin (ASB)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2c696e2-ed54-4344-a151-983575fabce2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_013d6214-a1ca-4ada-b0ca-9895f7dd2724" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/79</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/013d6214-a1ca-4ada-b0ca-9895f7dd2724/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4118089b-5018-4a5b-b99d-11dafcacb448" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/80</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 25. Nov. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4118089b-5018-4a5b-b99d-11dafcacb448/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f076dd31-12a0-45ec-9f23-577249687b05" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/81</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f076dd31-12a0-45ec-9f23-577249687b05/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_44110cf6-acd3-4e3f-997e-44ba07b016ce" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/82</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/44110cf6-acd3-4e3f-997e-44ba07b016ce/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_26701cdd-8aa5-425f-b20b-58d92ab5e2b3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/83</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 2000</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2000-01-01/2000-12-31">2000</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/26701cdd-8aa5-425f-b20b-58d92ab5e2b3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_37c4d893-56b6-4207-9f67-d52b0d0b9af0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/84</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/37c4d893-56b6-4207-9f67-d52b0d0b9af0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6cbc3a78-ea7e-4674-9329-9d37f0fca7fc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/85</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6cbc3a78-ea7e-4674-9329-9d37f0fca7fc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b097081a-79cd-491a-9578-9603ba653f1c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/86</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 2002</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2002-01-01/2002-12-31">2002</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b097081a-79cd-491a-9578-9603ba653f1c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_394cd3e6-e017-4dfd-b80c-09d41253c288" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/87</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/394cd3e6-e017-4dfd-b80c-09d41253c288/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_06adf9fa-3814-40be-82a2-935742d205fa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/88</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Juli 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/06adf9fa-3814-40be-82a2-935742d205fa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5b4d50fc-0041-4b2f-9ff5-e27108db89e4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/89</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5b4d50fc-0041-4b2f-9ff5-e27108db89e4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_acbb4da1-9469-4e39-bd36-f814f421a47e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/90</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/acbb4da1-9469-4e39-bd36-f814f421a47e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4cb74cf3-a099-439d-93ff-bdfe6d4e8d79" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/91</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4cb74cf3-a099-439d-93ff-bdfe6d4e8d79/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5dbf53b5-00d2-4ab9-8893-e29022c3da5c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/92</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 12. Nov. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5dbf53b5-00d2-4ab9-8893-e29022c3da5c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b229131b-a116-44c4-9272-40a96446543b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/93</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 7. Mai 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b229131b-a116-44c4-9272-40a96446543b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3121ba8d-54c8-44c5-bb41-8f38955dd4af" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100000</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Mai 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3121ba8d-54c8-44c5-bb41-8f38955dd4af/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_af3993cb-30ac-476d-8db3-6c6cc33f9f32" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100001</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/af3993cb-30ac-476d-8db3-6c6cc33f9f32/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bd249c16-9f53-40ee-af9e-6028d92179ef" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100002</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bd249c16-9f53-40ee-af9e-6028d92179ef/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e91503e9-be2c-4c9e-ae49-1e59fd0c066d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100003</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e91503e9-be2c-4c9e-ae49-1e59fd0c066d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_011f7c80-d611-4679-92a8-7a3759b7c167" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100004</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Febr. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/011f7c80-d611-4679-92a8-7a3759b7c167/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c01d6c1c-606b-4ae6-856d-e791c90c907c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100005</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c01d6c1c-606b-4ae6-856d-e791c90c907c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ab770434-b6ec-48fb-abb9-0475e40b7832" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100006</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ab770434-b6ec-48fb-abb9-0475e40b7832/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fd0b0cdf-77c0-4775-a5b7-a222506db79e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100007</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fd0b0cdf-77c0-4775-a5b7-a222506db79e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a3914ef-e0d1-4941-9d4d-47b6715e7f60" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100008</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Jan. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a3914ef-e0d1-4941-9d4d-47b6715e7f60/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f09eec9c-3633-48d4-bd62-137b48ffc973" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100009</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f09eec9c-3633-48d4-bd62-137b48ffc973/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_81a217dc-afac-4334-8c50-dd4632d814d3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100010</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 16. Juni 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/81a217dc-afac-4334-8c50-dd4632d814d3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e5d8d988-23cd-4330-bf05-1d7bb5f1c5be" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100011</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Nov. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e5d8d988-23cd-4330-bf05-1d7bb5f1c5be/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_53133808-ee24-4817-a7e8-e42ca081f97c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100012</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 2. Jan. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/53133808-ee24-4817-a7e8-e42ca081f97c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2f771f08-04c7-46c9-8715-360059a70ab2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100013</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2f771f08-04c7-46c9-8715-360059a70ab2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_68865672-3769-4dbd-8ad5-e70e521e17d0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100014</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Nov. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/68865672-3769-4dbd-8ad5-e70e521e17d0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_afa40e34-3b84-4884-a612-2fc989fccee0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100015</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 27. Juni 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/afa40e34-3b84-4884-a612-2fc989fccee0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d6cd5984-c176-4b03-86d2-48fce3db3ac8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100016</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 17. Juli 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d6cd5984-c176-4b03-86d2-48fce3db3ac8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2d899bd-2916-4456-9fff-9fa6f0029d19" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100017</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 10. Sept. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2d899bd-2916-4456-9fff-9fa6f0029d19/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9e9c8abb-b532-4e17-941c-815c563953a3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100018</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 12. Sept. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9e9c8abb-b532-4e17-941c-815c563953a3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_da39b9da-4fdd-4fa5-bd7c-1182b1258a3a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100019</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 19. Sept. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/da39b9da-4fdd-4fa5-bd7c-1182b1258a3a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f5635f41-aea8-42b1-82d1-991615d3fae1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100020</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f5635f41-aea8-42b1-82d1-991615d3fae1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ef646d64-1090-4968-9a25-5a79b18a4606" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100021</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 22. Apr. 2016</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2016-01-01/2016-12-31">2016</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ef646d64-1090-4968-9a25-5a79b18a4606/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b16a1857-02c2-408e-8617-88bde019c0bc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100022</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 2016</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2016-01-01/2016-12-31">2016</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b16a1857-02c2-408e-8617-88bde019c0bc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6a0d717a-a8ea-4654-b30d-e1dcc8bb8342" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100023</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 8. Juni 2017</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2017-01-01/2017-12-31">2017</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6a0d717a-a8ea-4654-b30d-e1dcc8bb8342/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_24cd5637-5427-40ac-bb66-4ac6344580eb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100024</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Juli 2017</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2017-01-01/2017-12-31">2017</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/24cd5637-5427-40ac-bb66-4ac6344580eb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_89431f5a-12e8-42ff-8c60-a3b8c7eead62" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100025</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 16. Febr. 2018</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2018-01-01/2018-12-31">2018</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/89431f5a-12e8-42ff-8c60-a3b8c7eead62/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2a4600a8-2d05-4672-9ae6-afd7558a755d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 108-ORG/100026</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 16. März 2018</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2018-01-01/2018-12-31">2018</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Verkehr, Bau und Stadtentwicklung (BMVBS)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2a4600a8-2d05-4672-9ae6-afd7558a755d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_441af42a-b607-4d9d-855a-86fc1dc3bdf2" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_c581e065-a236-4b92-af8e-c610b69bc788" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_c11e9fb3-71e0-49f3-9128-1bf78d20df71" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_651fe007-8f82-44a0-8dca-04f4f8203a96" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_0f2d6902-c1d7-4cd3-bc89-f9a7c5a46014" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_10abab28-db65-441b-8dac-9ad9456d0a16" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_7989f56e-a11e-4b6a-b556-eac8074838fb" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_07c73a14-9537-463e-97c5-00c3a5739fb5" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_d5fefcc6-78d0-4262-873b-5da1c74a0de2" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_46b77df7-6225-44ab-a6d3-b70a5eca3390" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_12ed4189-e0af-4bcd-b640-45519b3f33dc" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_aac99ac5-09b4-46d5-a9e4-53eaa54cdba9" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_5c8e76c0-b00c-47d1-8462-f0e914a143b1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_3700d7df-c16b-408a-a56a-b0e4a736fda1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

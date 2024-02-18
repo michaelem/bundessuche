@@ -1,0 +1,1616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ebea8b9a-9065-478e-9ce4-40e9ee41fe90/" identifier="DE-1958_ebea8b9a-9065-478e-9ce4-40e9ee41fe90">DE-1958_ebea8b9a-9065-478e-9ce4-40e9ee41fe90</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen                                              </titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2000">2000</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 145-I</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1949-01-01/1959-12-31" encodinganalog="3.1.3">1949-1959</unitdate>
+      <unittitle encodinganalog="3.1.2">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen                                              </unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>73 Aufbewahrungseinheiten</extent>
+        <extent>2,3 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Zur Geschichte des BPA vergl. Bestandsbeschreibung bei B 145.</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>Die Pressekonferenzen sind im Bundesarchiv nur als Mikrofiches vorhanden (Bestand B 145 I F). Lediglich dieser Bestand, B 145 I, enthält auszugsweise Pressekonferenzen der Jahre 1958 bis 1966 in Papierform. Dabei handelt es sich um Kopien. Die Originale hat das BPA behalten.</p>
+    </processinfo>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Der Bestand enthält Kopie bzw. Mehrfertigung der im &quot;Pressearchiv&quot; des BPA unter der Signatur F 30 gebildeten Serie der Pressekonferenzen /Jahrgänge 1949-1959 in gelumbeckter Form. Dabei handelt es sich um Ausführungen von Politikern, Ministerialreferenten u.a. vor der Bundespressekonferenz, insbesondere um Berichte des Chefs des BPA über Kabinettssitzungen. Im Bestand B 145 I F liegen auch diese Pressekonferenzen als Mikrofiche für die Benutzung vor.</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 145-I/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_ebea8b9a-9065-478e-9ce4-40e9ee41fe90" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen                                              </unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>73 Aufbewahrungseinheiten</extent>
+            <extent>2,3 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_fdf2aa2d-41dc-4206-9e79-aa87bf89e417" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 145 I Presse- und Informationsamt der Bundesregierung.- Hausdienst Pressekonferenzen</unittitle>
+          </did>
+          <c level="series" id="DE-1958_e8e05587-5484-4206-af26-0a0db6cd4c71" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Pressekonferenzen .- Ausführungen von Politikern, Ministerialreferenten u.a. vor der Bundespressekonferenz, insbesondere Berichte des Chefs des BPA über Kabinettssitzungen</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_f31860b6-4298-408c-b2e0-05a386e6f427" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1949</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d568e3e6-d8c5-4a54-99b1-afbab973f7ac" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/1</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d568e3e6-d8c5-4a54-99b1-afbab973f7ac/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_5ab4a227-c716-484b-93df-25e492eba9d4" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1950</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a206aea1-b97c-4321-817b-287bc9d69c0e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/2</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a206aea1-b97c-4321-817b-287bc9d69c0e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_88b48c74-4dd8-4b8a-ba56-ae701e3e0dcb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/3</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/88b48c74-4dd8-4b8a-ba56-ae701e3e0dcb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_738a3d94-a3d7-4f0b-9ead-dba050f3b009" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/4</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/738a3d94-a3d7-4f0b-9ead-dba050f3b009/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c9e814b8-0cdb-4c5d-8b3e-5359a23d60ac" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/5</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c9e814b8-0cdb-4c5d-8b3e-5359a23d60ac/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7fe6a996-5fb3-499c-b083-a0a843fd05be" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/6</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7fe6a996-5fb3-499c-b083-a0a843fd05be/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d1e1199c-ab33-44e1-af81-b4eccbfa8140" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/7</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d1e1199c-ab33-44e1-af81-b4eccbfa8140/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d9753a6c-c829-4411-997e-d47de50f6558" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/8</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d9753a6c-c829-4411-997e-d47de50f6558/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_29e9bf45-e582-4d24-9221-5526fc0ca122" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/9</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/29e9bf45-e582-4d24-9221-5526fc0ca122/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5694bc69-fab7-45b2-b473-84e8b521e7b0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/10</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5694bc69-fab7-45b2-b473-84e8b521e7b0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_3ce4bd1e-863c-4380-a272-2328dc21057c" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1951</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2280f52c-3085-4824-9afc-72c2321c6ba0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/11</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2280f52c-3085-4824-9afc-72c2321c6ba0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cba56d18-60a1-4542-82da-ff6eeb15691e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/12</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cba56d18-60a1-4542-82da-ff6eeb15691e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1e49695f-b171-482b-80cc-0b406a278de0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/13</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1e49695f-b171-482b-80cc-0b406a278de0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7de68b95-1789-46ce-ac65-5e506cfa64d7" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/14</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7de68b95-1789-46ce-ac65-5e506cfa64d7/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dec7191a-9801-44ea-950c-1d45f96c33c6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/15</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dec7191a-9801-44ea-950c-1d45f96c33c6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_31201406-469a-4f2f-adfb-e808c3a34852" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/16</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/31201406-469a-4f2f-adfb-e808c3a34852/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0f00b957-8819-46f3-80b0-7adf865ebac4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/17</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0f00b957-8819-46f3-80b0-7adf865ebac4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_12267fb2-0368-4c23-899c-27820ffd3209" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/18</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/12267fb2-0368-4c23-899c-27820ffd3209/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2956c64d-e97e-4cdd-b8e0-10bdb8570172" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/19</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2956c64d-e97e-4cdd-b8e0-10bdb8570172/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_24653420-320d-46a2-8f16-ecc9fa0075fb" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1952</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b82a477d-5193-4bfc-91d7-429bf883dfad" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/20</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b82a477d-5193-4bfc-91d7-429bf883dfad/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f9333bc7-3d9f-41dc-9717-802035d7a863" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/21</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f9333bc7-3d9f-41dc-9717-802035d7a863/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9315ff50-f59b-49d4-99eb-b8b6a5c53529" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/22</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9315ff50-f59b-49d4-99eb-b8b6a5c53529/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cb8f9e52-74e6-402a-9a93-c6765b93ccbf" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/23</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cb8f9e52-74e6-402a-9a93-c6765b93ccbf/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_81230990-65fe-433e-8757-7b61b3e532b4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/24</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/81230990-65fe-433e-8757-7b61b3e532b4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3b9b21d5-378d-4a9f-ad96-7f850718bad2" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/25</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3b9b21d5-378d-4a9f-ad96-7f850718bad2/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_ee9cd755-43a1-44cc-8ccd-7f8ad97a9bb7" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1953</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_590b6f27-7c44-4ca2-b74c-93050859d9e5" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/26</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/590b6f27-7c44-4ca2-b74c-93050859d9e5/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_89cd274a-4b56-4601-b03f-786219a2411a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/27</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/89cd274a-4b56-4601-b03f-786219a2411a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9c85afed-4ea8-45e2-a549-57f113368f12" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/28</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9c85afed-4ea8-45e2-a549-57f113368f12/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b262b9df-a402-4bdd-b4cc-ec66c3a5f87e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/29</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b262b9df-a402-4bdd-b4cc-ec66c3a5f87e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c522f460-4af0-40e9-9091-43f3ee911c3e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/30</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c522f460-4af0-40e9-9091-43f3ee911c3e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0c2943d6-ccad-4d79-98c1-eb855c2f8747" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/31</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0c2943d6-ccad-4d79-98c1-eb855c2f8747/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b206dbc1-d223-4396-a133-9a1fd25f5f8e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/32</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b206dbc1-d223-4396-a133-9a1fd25f5f8e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_22a0d041-2f10-493d-9dc2-21d4a78cca59" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/33</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/22a0d041-2f10-493d-9dc2-21d4a78cca59/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7df31375-c2f4-4b01-a351-46c27c6615bb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/34</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7df31375-c2f4-4b01-a351-46c27c6615bb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5fbe48d2-1f4e-4113-ad25-70eed6c4afc9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/35</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 10</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5fbe48d2-1f4e-4113-ad25-70eed6c4afc9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_e2b9e1be-55e1-4459-ae5b-a338e11ec8f7" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1954</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2a9005b0-d001-4c66-8bf3-bbd2bf4a35d6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/36</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2a9005b0-d001-4c66-8bf3-bbd2bf4a35d6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_abb3c004-5e6f-4f1b-b439-7d3ea158efbf" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/37</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/abb3c004-5e6f-4f1b-b439-7d3ea158efbf/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a431759c-9e74-42ff-9127-dc62fe1168e9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/38</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a431759c-9e74-42ff-9127-dc62fe1168e9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_543a50d0-7699-4397-94aa-19e73a3a4492" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/39</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/543a50d0-7699-4397-94aa-19e73a3a4492/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_89ece4d0-18a4-4f1e-92ac-b7e835fd2441" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/40</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/89ece4d0-18a4-4f1e-92ac-b7e835fd2441/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ae6429fb-61cf-4e3e-a130-c63c6ae2170a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/41</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ae6429fb-61cf-4e3e-a130-c63c6ae2170a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e608d647-0c9e-402b-b1e9-a14f9ad1ef3e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/42</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e608d647-0c9e-402b-b1e9-a14f9ad1ef3e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_91d15e5b-88aa-42c9-b449-1f02663c81cf" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/43</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/91d15e5b-88aa-42c9-b449-1f02663c81cf/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3265d9c9-e236-4b40-a90d-46e2653095be" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/44</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3265d9c9-e236-4b40-a90d-46e2653095be/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_02bb18f8-8ae5-42c2-a27c-24cd35c36e63" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/45</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 10</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/02bb18f8-8ae5-42c2-a27c-24cd35c36e63/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_0b1fe794-fb28-41e8-b2bc-d26ef56d63fd" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1955</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cd8b2810-51af-46e2-b5cb-f096336202af" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/46</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cd8b2810-51af-46e2-b5cb-f096336202af/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_309da9da-28f4-49be-8e34-c7a4018a2424" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/47</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/309da9da-28f4-49be-8e34-c7a4018a2424/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_86bc1ff5-7db0-4574-adf9-0c348923b074" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/48</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/86bc1ff5-7db0-4574-adf9-0c348923b074/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1638e2de-c8db-4d11-b5eb-4fb6dab5598b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/49</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1638e2de-c8db-4d11-b5eb-4fb6dab5598b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e7a1ed41-9817-41ef-bd8b-631e48073cce" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/50</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e7a1ed41-9817-41ef-bd8b-631e48073cce/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_77d50ac8-2630-496d-bbbf-b8a89a6a74d4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/51</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/77d50ac8-2630-496d-bbbf-b8a89a6a74d4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b32889ec-f7f6-4b71-acec-848af5bea2e5" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/52</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b32889ec-f7f6-4b71-acec-848af5bea2e5/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5ae74bfc-6a7b-49c7-91cd-5f1119944513" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/53</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5ae74bfc-6a7b-49c7-91cd-5f1119944513/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b0fd775d-500d-4a4b-8755-08c722a7aa00" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/54</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b0fd775d-500d-4a4b-8755-08c722a7aa00/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9b1ac3a4-ded4-4d5f-a6a0-b772e8c26520" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/55</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 10</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9b1ac3a4-ded4-4d5f-a6a0-b772e8c26520/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_65e410a4-93c1-4a7d-af89-7006244918f4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/56</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 11</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/65e410a4-93c1-4a7d-af89-7006244918f4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_20980a2e-68d2-4aac-a0b3-c1959599e775" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1956</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61cb4fe3-4e27-44d8-9414-661499a498b1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/57</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61cb4fe3-4e27-44d8-9414-661499a498b1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8d3c20dc-e32a-4f40-bfb2-7416a15e53d6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/58</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8d3c20dc-e32a-4f40-bfb2-7416a15e53d6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_54dee95f-3d98-4ab7-b34b-8735c8901694" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/59</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/54dee95f-3d98-4ab7-b34b-8735c8901694/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_052fc6cb-5d39-43be-af46-526db6a6d820" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/60</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/052fc6cb-5d39-43be-af46-526db6a6d820/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e91e0683-e5b3-4c18-989d-294a62470eb8" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/61</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e91e0683-e5b3-4c18-989d-294a62470eb8/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_340c06f1-6599-4668-9ba8-27026a60e667" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/62</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/340c06f1-6599-4668-9ba8-27026a60e667/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1e41e2a8-7dd2-4c12-881f-345c2f435844" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/63</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1e41e2a8-7dd2-4c12-881f-345c2f435844/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c27f46a9-cf69-470f-9a94-e730aac4ab9b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/64</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c27f46a9-cf69-470f-9a94-e730aac4ab9b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_be0b6c6a-c001-4b00-8ba1-fba96da16e56" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/65</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/be0b6c6a-c001-4b00-8ba1-fba96da16e56/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_86a45830-71f7-438f-8f7d-33e27ea5ef80" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1957</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_76df65b9-876f-4571-806f-1620d3e66bca" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/66</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/76df65b9-876f-4571-806f-1620d3e66bca/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2cca1f32-8775-48c0-876c-fd46846368d8" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/67</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2cca1f32-8775-48c0-876c-fd46846368d8/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cdfb4541-b1cb-48e3-a068-e1334900aafc" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/68</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cdfb4541-b1cb-48e3-a068-e1334900aafc/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8e9b7534-0575-4b45-95b6-489a00c38dc8" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/69</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8e9b7534-0575-4b45-95b6-489a00c38dc8/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_859f18d4-dd35-4f8d-b6ee-dd3d2c0c26b6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/70</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/859f18d4-dd35-4f8d-b6ee-dd3d2c0c26b6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_737cb206-5a05-4f42-83ff-7e03e87a0911" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/71</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/737cb206-5a05-4f42-83ff-7e03e87a0911/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_f2539637-421b-42c7-9335-aca968712c31" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1958</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_20d0bf2b-f95f-457a-afde-09577cd0ebfd" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/72</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/20d0bf2b-f95f-457a-afde-09577cd0ebfd/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_6cff463f-9fcb-442f-a81e-6d07a22288a2" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressekonferenzen 1959</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7c961813-cc43-423d-9906-d089a171c508" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 145-I/73</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Presse- und Informationsamt der Bundesregierung &quot;Hausdienst&quot;; Pressekonferenzen (Pressekonferenzen)</origination>
+                  <physdesc>
+                    <genreform>Sammlung, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7c961813-cc43-423d-9906-d089a171c508/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

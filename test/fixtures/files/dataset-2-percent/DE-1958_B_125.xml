@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/invenio/direktlink/927b3911-b79f-4521-a2eb-8251131320b8/" identifier="DE-1958_927b3911-b79f-4521-a2eb-8251131320b8">DE-1958_927b3911-b79f-4521-a2eb-8251131320b8</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Notgemeinschaft umsiedlungswilliger Heimatvertriebener</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2023-03-20">20.03.2023</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2023-03-20">20.03.2023</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 125</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1950-01-01/1959-12-31" encodinganalog="3.1.3">1950-1959</unitdate>
+      <unittitle encodinganalog="3.1.2">Notgemeinschaft umsiedlungswilliger Heimatvertriebener</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>26 Aufbewahrungseinheiten</extent>
+        <extent>1,1 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1952-1958</origination>
+      <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+      <origination encodinganalog="3.2.1" label="final">Arbeitsgemeinschaft norddeutscher Treck-Vereinigungen, 1952-1952</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <scopecontent>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Die Gründung der Treckvereinigung Schleswig-Holstein e. V. erfolgte im Jahr 1950 aus Selbsthilfeaktionen von in Schleswig-Holstein ansässigen Heimatvertriebenen mit dem satzungsgemäßen Ziel, &quot;die infolge des Versagens der Regierungen und der Parteien gescheiterte Umsiedlung wieder in Gang zu bringen&quot;. Im April 1952 schloß sie sich mit der Treckvereinigung Niedersachsen zur Arbeitsgemeinschaft norddeutscher Treckvereinigungen zusammen, die sich ab Mai 1952 als Notgemeinschaft umsiedlungswilliger Heimatvertriebener mit der Geschäftsführung in Süderbrarup etablierte.</p>
+      <p>Ihr Leiter war Reinhold Noback. Hauptanliegen der Notgemeinschaft war die Vermittlung von Arbeits- und Wohnmöglichkeiten für die Heimatvertriebenen.</p>
+      <p>Im Jahre 1958 legte Reinhold Noback sein Amt als geschäftsführendes Vorstandsmitglied nieder. Die Treckvereinigung Schleswig-Holstein e. V. wurde am 16. Oktober 1958 auf Beschluß des Amtsgerichts Kappeln/Schlei aufgelöst.</p>
+      <p>Stand: August 2004</p>
+    </scopecontent>
+    <scopecontent>
+      <head>Bestandsbeschreibung</head>
+      <p>Selbsthilfeaktion der Treckvereinigung 1951-1959 (5), Teilnahmemeldungen der Heimatvertriebenen 1950-1958 (6), Organisationen zur Unterstützung der Umsiedler 1950-1957 (4), Arbeits- und Wohnungsvermittlung 1951-1957 (9), gedruckte Materialien 1952-1959 (2)</p>
+      <p>Der Bestand – obgleich von bescheidenem Umfang – dokumentiert ergänzend zur staatlichen Überlieferung des Bundesministeriums für Vertriebene, Flüchtlinge und Kriegsgeschädigte (B 150) und der Arbeitsgemeinschaft der Landesflüchtlingsverwaltungen (B 373) nicht unwichtige Aspekte der Vertriebenen- und Umsiedlerprobleme in den frühen Jahren der Bundesrepublik Deutschland.</p>
+      <p>Stand: August 2004</p>
+    </scopecontent>
+    <scopecontent>
+      <head>Erschliessungszustand</head>
+      <p>Online-Findbuch</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Literatur</head>
+      <p>Anneliese Noback.- Initiative von unten, 1959 (B 125/25)</p>
+    </relatedmaterial>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 125/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_927b3911-b79f-4521-a2eb-8251131320b8" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Notgemeinschaft umsiedlungswilliger Heimatvertriebener</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>26 Aufbewahrungseinheiten</extent>
+            <extent>1,1 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_99710906-9de0-4524-87fc-ea208af6b5a0" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 125 Notgemeinschaft umsiedlungswilliger Heimatvertriebener</unittitle>
+          </did>
+          <c level="class" id="DE-1958_78831d79-6b0f-463e-8aae-525c91f33d24" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Selbsthilfeaktion der Treckvereinigung</unittitle>
+            </did>
+            <c level="series" id="DE-1958_5ed5ebae-db12-44fb-9e27-16aba5b9046d" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Selbsthilfe der Heimatvertriebenen in Schleswig-Holstein.- Unterschriftensammlung (geordnet nach Ortsnamen)</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8f441bf7-09c0-4253-b1ce-b47109c0198b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/1</unitid>
+                  <unittitle encodinganalog="3.1.2">A - F</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31">Nov. 1951 - Juni 1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/8f441bf7-09c0-4253-b1ce-b47109c0198b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_54a0e62b-307e-429b-9146-6cfdcd8ae499" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/2</unitid>
+                  <unittitle encodinganalog="3.1.2">G - L</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/54a0e62b-307e-429b-9146-6cfdcd8ae499/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b0e0d480-54f5-4331-95a8-2dbcccfdb62a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/3</unitid>
+                  <unittitle encodinganalog="3.1.2">M - R</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/b0e0d480-54f5-4331-95a8-2dbcccfdb62a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4cb89f74-d797-49c5-831a-15d90b0ed031" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/4</unitid>
+                  <unittitle encodinganalog="3.1.2">S - Z</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/4cb89f74-d797-49c5-831a-15d90b0ed031/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_48346071-0229-4498-974d-84f8ea92724c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/5</unitid>
+                <unittitle encodinganalog="3.1.2">Umsiedlungsfragen und Selbsthilfeaktion der Treckvereinigung.- Presseausschnittsammlung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1959-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/48346071-0229-4498-974d-84f8ea92724c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_1b09aefc-9791-4d97-af31-317cb871688d" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Teilnahmemeldungen der Heimatvertriebenen zur Treckvereinigung</unittitle>
+            </did>
+            <c level="series" id="DE-1958_eb4e959d-e174-4111-82e4-9518d1230d4a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Anmeldungen und Gesuche um Aufnahme in die Treckvereinigung</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2549bb3e-2f98-4a3e-8a31-b46810dcfa74" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/6</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31">Okt. 1951 - Jan. 1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/2549bb3e-2f98-4a3e-8a31-b46810dcfa74/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_913c37d5-7a84-4323-90b0-6dcb469aab9e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/7</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31">Dez. 1951 - Mai 1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Dez. 1951 - Mai 1952
+<lb/></p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/913c37d5-7a84-4323-90b0-6dcb469aab9e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d6fb697e-3bea-486d-919f-be96915b8519" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/8</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1955-12-31">Jan. 1952 - Jan. 1955</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                  <note>
+                    <p>Vgl. auch Bände 9 - 11</p>
+                  </note>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/d6fb697e-3bea-486d-919f-be96915b8519/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_66cbef11-1654-45e7-b3dc-27436c05e8c1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Geschäftsangelegenheiten, insbesondere Bittschriften und Teilnahmemeldungen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5543be3c-d4b0-4b67-b646-86c163bbb4c3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/9</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31">Okt. 1951 - Apr. 1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/5543be3c-d4b0-4b67-b646-86c163bbb4c3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0163b8bb-1b54-48f1-97c0-ada24b65f9d4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/10</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1953-12-31">Nov. 1950 - Febr. 1953</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/0163b8bb-1b54-48f1-97c0-ada24b65f9d4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ed96888b-1959-4066-8cec-eb61f5100c8f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/11</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1959-12-31">Febr. 1953 - Nov. 1959</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Amtsniederlegung Reinhold Nobacks als Geschäftsführendes Vorstandsmitglied der Treckvereinigung Schleswig-Holstein e.V., Okt. 1958
+Auflösung der Treckvereinigung (Beschluß des Amtsgerichtes Kappeln/Schlei), 16. Okt. 1958
+<lb/></p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/ed96888b-1959-4066-8cec-eb61f5100c8f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_69d5422b-97da-49d9-a517-8289e64fbf25" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationen zur Unterstützung der Umsiedler</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_918d08bb-35a9-41d4-840f-4063b2ec4630" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/12</unitid>
+                <unittitle encodinganalog="3.1.2">Unterstützung der Umsiedlungsbestrebungen durch verschiedene Organisationen außerhalb der Treckvereinigung.- Schriftwechsel und Abschriften von Pressemeldungen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1954-12-31">Nov. 1951 - Jan. 1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Gründungssatzung der Treckvereinigung Schleswig-Holstein e.V. (Abschrift, 14. Nov. 1951)
+<lb/></p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/918d08bb-35a9-41d4-840f-4063b2ec4630/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4b8128c3-a0dd-47f1-8910-fb9ea832f200" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/13</unitid>
+                <unittitle encodinganalog="3.1.2">Aufgaben des Freundeskreises der Internationalen Gesellschaft für Christlichen Aufbau und der Stiftung Michaelshof e.V.- Geschäftskorrespondenz und Aufsätze</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1951-12-31">Nov. 1950 - Mai 1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Satzung vom 24. Nov. 1950
+<lb/></p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/4b8128c3-a0dd-47f1-8910-fb9ea832f200/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9df3b077-66f6-4fd0-a4c5-3bed1b48d199" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/14</unitid>
+                <unittitle encodinganalog="3.1.2">Arbeitsleistungen der Bauhilfsgemeinschaft e.V., Hamburg , für die Treckvereinigung Schleswig-Holstein e.V.- Geschäftskorrespondenz, Material- und Arbeitsberechnungen für Häuserbauten, Beschwerdeschriften</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1957-12-31">Sept. 1950 - Okt. 1957, o. Dat.</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/9df3b077-66f6-4fd0-a4c5-3bed1b48d199/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d3503e41-9f0d-46c3-99a0-db2c8e633f37" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/15</unitid>
+                <unittitle encodinganalog="3.1.2">Aufgaben und Organisation der Deutschen Heimatlosenhilfe.- Geschäftskorrespondenz, Aufsätze und Plakatentwürfe</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>&quot;Vertriebene, Flüchtlinge, Kriegsgefangene, heimatlose Ausländer 1949-1952&quot;.- Bericht des Bundesministers für Vertriebene 1953
+<lb/></p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/d3503e41-9f0d-46c3-99a0-db2c8e633f37/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_3e3f2f40-7cdb-49de-82c5-0f7883999dd9" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Arbeits- und Wohnungsvermittlung durch die Treckvereinigung</unittitle>
+            </did>
+            <c level="series" id="DE-1958_4e6ef188-74f6-424e-b26a-0e5584424501" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Vermittlung von Stellenangeboten durch die &quot;Treckvereinigung&quot;</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7cf6b99c-9583-4626-aaf8-f0ffc495f385" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/16</unitid>
+                  <unittitle encodinganalog="3.1.2">Maschinenschriftliche Zusammenstellung von Stellenangeboten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/7cf6b99c-9583-4626-aaf8-f0ffc495f385/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_40ee9c3e-5387-4fc5-a4a7-89c1d1c06540" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/17</unitid>
+                  <unittitle encodinganalog="3.1.2">Stellenangebote von Privatpersonen (z.T. aus dem Ausland)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/40ee9c3e-5387-4fc5-a4a7-89c1d1c06540/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_72d7bee4-b1df-4271-b2af-c7071fa037c2" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 125/18</unitid>
+                  <unittitle encodinganalog="3.1.2">Stellenangebote von Firmen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1952-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/72d7bee4-b1df-4271-b2af-c7071fa037c2/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e5648116-7ec9-40a6-9cc8-0f243cf04039" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/19</unitid>
+                <unittitle encodinganalog="3.1.2">Arbeitsvermittlung für Frauen und Mädchen durch die Treckvereinigung.- Angebote von Hausgehilfinnenstellen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1953-12-31">Nov. 1951 - März 1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/e5648116-7ec9-40a6-9cc8-0f243cf04039/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b7d5eb71-cc87-4205-9aeb-e625f63c18a6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/20</unitid>
+                <unittitle encodinganalog="3.1.2">Zuschriften der Heimatvertriebenen auf die von der Treckvereinigung vermittelten Stellenangebote</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/b7d5eb71-cc87-4205-9aeb-e625f63c18a6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_45a3549a-54bb-4cfd-b3fa-0d6c9b736fc1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/21</unitid>
+                <unittitle encodinganalog="3.1.2">Bewerbungen von Heimatvertriebenen um Bergarbeitsstellen im Ruhrgebiet</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1953-12-31">1952-1953, o. Dat.</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Meldungen von Umsiedlern bei den Arbeitsämtern in Schleswig-Holstein (Statistiken), o. Dat.
+<lb/></p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/45a3549a-54bb-4cfd-b3fa-0d6c9b736fc1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f6cbc1cb-c542-4ab2-83d6-5c751abf7a08" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/22</unitid>
+                <unittitle encodinganalog="3.1.2">Arbeitsplätzebeschaffung bei Umsiedlern im Torfbau.- Geschäftskorrespondenz, Presseausschnitte</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1957-12-31">Jan. 1953 - Juni 1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/f6cbc1cb-c542-4ab2-83d6-5c751abf7a08/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_73f21f76-a3b1-44f1-87f1-1fc6cac40d1c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/23</unitid>
+                <unittitle encodinganalog="3.1.2">Errichtung von Wohnstätten für Umsiedler in Essen-Kray.- Bauplan und Fotografien</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>&quot;Das Jugendproblem heute&quot;.- Broschüre zum Vortrag von Pastor P. Arnold Dannemann am 22. Jan. 1952 in Essen
+<lb/></p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/73f21f76-a3b1-44f1-87f1-1fc6cac40d1c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ab8d9a2a-4217-4c32-b42e-3777cb1882ca" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/24</unitid>
+                <unittitle encodinganalog="3.1.2">Wohnungsbau für Heimatlose durch Eigeninitiative Heimatvertriebener.- Bildmaterial, Baupläne, Berechnungen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/ab8d9a2a-4217-4c32-b42e-3777cb1882ca/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_f16f0cea-3d26-4bf9-b24c-b66600add113" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Literatur zur Treckvereinigung</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eae9e575-2c17-491e-b888-309db92f9e33" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/25</unitid>
+                <unittitle encodinganalog="3.1.2">&quot;Initiative von unten&quot;.- Geschichte der Treckbewegung von Anneliese Noback (Druck)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/eae9e575-2c17-491e-b888-309db92f9e33/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_92a772b7-6dcf-4100-b8d1-c42525cde080" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 125/26</unitid>
+                <unittitle encodinganalog="3.1.2">&quot;Die Umsiedlung der Heimatvertriebenen und das Vertriebenenproblem in Nordrhein-Westfalen&quot;.- Rechenschaftsbericht der Landesregierung von Nordrhein-Westfalen (Druck)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">März 1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Notgemeinschaft umsiedlungswilliger Heimatvertriebener, 1950-1958</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/invenio/direktlink/92a772b7-6dcf-4100-b8d1-c42525cde080/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

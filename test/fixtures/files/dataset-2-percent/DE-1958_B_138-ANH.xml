@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b9b07cc8-a8ca-4c1f-a494-016ef326f2a8/" identifier="DE-1958_b9b07cc8-a8ca-4c1f-a494-016ef326f2a8">DE-1958_b9b07cc8-a8ca-4c1f-a494-016ef326f2a8</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Handakten Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2010">2010</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 138-ANH.</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1959-01-01/1971-12-31" encodinganalog="3.1.3">1959-1966 (-1971)</unitdate>
+      <unittitle encodinganalog="3.1.2">Handakten Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>13 Aufbewahrungseinheiten</extent>
+        <extent>0,5 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Auf der Grundlage des Euratom-Vertrages von 1957 errichteten die sechs beteiligten Staaten (Frankreich, Italien, Deutschland und die Benelux-Länder) ab 1959 in der Nähe von Ispra am Lago Maggiore ein Kernforschungszentrum. Im Mittelpunkt der Arbeit stand das von Frankreich eingebrachte Projekt der Entwicklung eines neuartigen Atomreaktors, der Atomstrom wirtschaftlicher erzeugen sollte als herkömmliche Reaktoren (&quot;ORGEL&quot;-Projekt). Widerstreitende nationale Interessen führten zum Auslaufen der gemeinsamen Finanzierung im Jahr 1966.</p>
+      <p>Von 1960 bis 1966 war Dr. Gerhard Ritter (geb. 1902, früher Geschäftsführer der Kernreaktor-Bau- und Betriebs-GmbH in Karlsruhe) Leiter des Forschungszentrums in Ispra. Schriftgut aus seiner dortigen Tätigkeit übereignete er 1977 dem Bundesarchiv (13 AE).</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Der Bestand gelangte im Jahr 1977 als Geschenk Dr. Ritters in das Bundesarchiv. Er umfasst 13 Bände, die seine Tätigkeit als Leiter des EURATOM-Forschungszentrums in Ispra (Italien) belegen: Planung, Korrespondenzen, Pressestimmen, Dokumente aus den Jahren 1959 bis 1966, mit nachträglichen Aufzeichnungen Dr. Ritters von 1971.</p>
+      <p>Amtliche Überlieferung zur Gemeinsamen Kernforschungsstelle Ispra, auch nach dem Ausscheiden Ritters, ist u. a. in folgenden Beständen des Bundesarchivs enthalten:</p>
+      <p>- Bundesministerium für Bildung und Wissenschaft: B 138/744, 2726, 4507-4509, 4708 (jeweils Az. 9534); B 138/5720 (Az. 6017-5); B 138/4505 (Az. 9524)</p>
+      <p>- Bundesministerium für Forschung und Technologie: B 196/10823 (Az. 9512-41, Fortsetzung von B 138/4708); B 196/165982-165985 (Az. 5691, noch unbewertet)</p>
+      <p>- Bundesministerium des Innern: B 106/72132-72135 (Az. 500 260-3/004)</p>
+      <p>- Bundesministerium der Finanzen: B 126/368422 (Az. F 4112, noch unbewertet)</p>
+      <p>Der Bestand unterliegt den Benutzungsbedingungen von Bundesarchivgesetz und der jeweils gültigen Benutzungsverordnung.</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 138-ANH./...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_b9b07cc8-a8ca-4c1f-a494-016ef326f2a8" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Handakten Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>13 Aufbewahrungseinheiten</extent>
+            <extent>0,5 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_03aec875-55d5-4e34-8b76-f9cc1ec6f8a8" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 138 ANH. Handakten Dr. Gerhard Ritter, Leiter der Euratom-Forschungsstelle in Ispra, Italien</unittitle>
+          </did>
+          <c level="class" id="DE-1958_d2c73496-983f-45ce-9a82-b908cf7cd236" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Handakten Dr. Gerhard Ritter, Leiter der Euratom-Forschungsstelle Ispra</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_36e01326-2b40-4616-99ba-296f43b3595d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./1</unitid>
+                <unittitle encodinganalog="3.1.2">Erinnerungen Gerhard Ritters und seiner Ehefrau Margherita (geschrieben 1970, Auszüge)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Inhaltsverzeichnis der Handakten Ritter, Hefte 1-11</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/36e01326-2b40-4616-99ba-296f43b3595d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ec28b771-5aab-418d-a51d-460352aeb57a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./2</unitid>
+                <unittitle encodinganalog="3.1.2">Errichtung des Kernforschungsstandorts in Ispra (Varese) .- Vorbereitung, Abkommen, Arbeits- , Investitions-, Organisations- und Lagepläne</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1960-12-31">1959-1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Ausscheiden Ritters als technischer Geschäftsführer der Kernreaktor-Bau- und Betriebsgesellschaft Karlsruhe</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ec28b771-5aab-418d-a51d-460352aeb57a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_98a4f65f-3193-48b2-8911-578e1c7e2b8d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./3</unitid>
+                <unittitle encodinganalog="3.1.2">Aufbauarbeit in Ispra .- Zusammenfassender Bericht Ritters über die ersten sechs Monate, mit 40 Fotos, auch von der Europaschule in Varese</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1961-12-31">1960-1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Studienreise in die USA .- Berichte;<lb/>Vorschläge zur Schaffung von Beratergremien für die einzelnen Arbeitsgebiete des Kernforschungszentrums</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/98a4f65f-3193-48b2-8911-578e1c7e2b8d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b3dbb5ef-2709-468e-abe8-90f73c40d8bb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./4</unitid>
+                <unittitle encodinganalog="3.1.2">Arbeits- und Forschungsprogramme .- Reaktorprojekt &quot;Orgel&quot;, Budgetkürzungen bei anderen Forschungsarbeiten, Differenzen mit der Euratom-Zentrale Brüssel</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b3dbb5ef-2709-468e-abe8-90f73c40d8bb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_36705ddc-b8d2-4d79-8e81-4ac553c0b8ad" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./5</unitid>
+                <unittitle encodinganalog="3.1.2">Grundlagenforschung in Ispra durch deutsches Nobelpreisträger-Team .- Ablehnung von Seiten Frankreichs (Affäre Mössbauer)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auswirkungen der Budgetkürzungen im Zweiten Fünfjahresprogramm der Euratom;<lb/>Konkrete Vorschläge zur Schaffung von Beratergremien für einzelne Arbeitsgebiete Ispras;<lb/>Besuch einer Bundestags-Arbeitsgruppe in Ispra</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/36705ddc-b8d2-4d79-8e81-4ac553c0b8ad/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ecb06860-ba16-491c-9501-78477205c818" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./6</unitid>
+                <unittitle encodinganalog="3.1.2">Stand und Entwicklung der Arbeiten in Ispra .- Denkschriften, Berichte u. ä.</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Memorandum deutscher Wissenschaftler zur Situation von Euratom;<lb/>Zusammenfassender Tätigkeitsbericht der verschiedenen Forschungsabteilungen in Ispra;<lb/>Rücktritt des italienischen Euratom-Kommissars Enrico Medi;<lb/>Reaktorprojekt &quot;SORA&quot;</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ecb06860-ba16-491c-9501-78477205c818/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5cfb5b49-7310-492b-b728-5b2c6e0969e9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./7</unitid>
+                <unittitle encodinganalog="3.1.2">Stand und Entwicklung der Arbeiten in Ispra .- Vorschläge zukünftiger Arbeit und Organisation in Übereinstimmung mit Euratom-Kommission und Bundestagsbeschlüssen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Denkschrift an die Euratom-Kommission vom 19.01.1965;<lb/>Darstellung der Vorgeschichte des Karlsruher Euratom-Transurane-Instituts;<lb/>Tagebuchauszüge Ritters 1956-1960;<lb/>Persönlicher Brief Ritters an den Euratom-Präsidenten Pierre Chatenet vom 20.08.1965;<lb/>Notizen und Darstellungen über Lage und Notwendigkeiten in der Forschungsstelle Ispra</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5cfb5b49-7310-492b-b728-5b2c6e0969e9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8bfb18f3-9ab5-40f2-ae61-02d84e7332fe" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./8</unitid>
+                <unittitle encodinganalog="3.1.2">Beendigung der Tätigkeit Ritters in Ispra</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31">1966-1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Weitere Maßnahmenplanung für Ispra;<lb/>Auszüge aus Reden von Europaparlamentariern zu Ispra;<lb/>Reaktortyp &quot;SORA&quot;;<lb/>Korrespondenz Ritters zu seinem Ausscheiden aus Ispra</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8bfb18f3-9ab5-40f2-ae61-02d84e7332fe/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a12aa535-08e2-4be5-bfb2-3a748339c09e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./9</unitid>
+                <unittitle encodinganalog="3.1.2">Korrespondenz mit Parlamentariern, Wissenschaftlern und Industriellen über die Zukunftsentwicklung der Forschungsstelle Ispra</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1966-12-31">1960-1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Siegfried Balke<lb/>Karl Bechert<lb/>Fritz Burgbacher<lb/>Wolfgang Cartellieri<lb/>Thomas Dehler<lb/>Wolfgang Finkelnburg<lb/>Jules Guéron<lb/>Otto Haxel<lb/>Heinz L. Krekeler<lb/>Heinz Maier-Leibnitz<lb/>Hans Merten<lb/>Franz Meyers<lb/>Felix Prentzel<lb/>Gerhard Stoltenberg<lb/>Josef Wengler<lb/>Ludger Westrick<lb/>Karl Winnacker</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a12aa535-08e2-4be5-bfb2-3a748339c09e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9eb6cc55-66f2-4552-a1a7-ec81ce8cdf98" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./10</unitid>
+                <unittitle encodinganalog="3.1.2">Behandlung der Forschungsstelle Ispra im Europäischen Parlament</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1969-12-31">1964-1969</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9eb6cc55-66f2-4552-a1a7-ec81ce8cdf98/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5f849121-e224-4c06-8cea-3c5440c8c31a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./11</unitid>
+                <unittitle encodinganalog="3.1.2">Abschied Ritters von Ispra .- Persönliche Ansprachen und Korrespondenzen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Lebenslauf</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5f849121-e224-4c06-8cea-3c5440c8c31a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ad8f65fb-5c96-4c87-a2f4-0189c03c348a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./12</unitid>
+                <unittitle encodinganalog="3.1.2">Presseauszüge zu Euratom und Ispra</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1964-12-31">1963-1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ad8f65fb-5c96-4c87-a2f4-0189c03c348a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d0414dba-e8a6-4af7-a9f8-33063c9222c4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 138-ANH./13</unitid>
+                <unittitle encodinganalog="3.1.2">Reorganisation der Forschungsstelle Ispra .- Zwischenbericht vom 03.06.1970 und Schlussbericht vom 06.11.1970 des Expertenausschusses der EG-Kommission über die künftigen Aufgaben der Gemeinsamen Forschungsstelle</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1971-12-31">1962-1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Dr. Gerhard Ritter, Leiter des EURATOM-Forschungszentrums in Ispra, Italien</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Materialsammlung Ritters zum Thema Euratom-Ispra (Zeitungsausschnitte, Kopien persönlicher Anschreiben)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d0414dba-e8a6-4af7-a9f8-33063c9222c4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

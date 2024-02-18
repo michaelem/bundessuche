@@ -1,0 +1,2327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9013b762-45bc-448b-9e51-678b17977975/" identifier="DE-1958_9013b762-45bc-448b-9e51-678b17977975">DE-1958_9013b762-45bc-448b-9e51-678b17977975</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Transrhenanische Sustentationskommission</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2009">2009</date>
+        <address>
+          <addressline>Finckensteinallee 63</addressline>
+          <addressline>12205 Berlin</addressline>
+          <addressline>berlin@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-11">11.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-11">11.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch AR 3</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1803-01-01/1824-12-31" encodinganalog="3.1.3">1803 - 1824</unitdate>
+      <unittitle encodinganalog="3.1.2">Transrhenanische Sustentationskommission</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>106 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Finckensteinallee 63</addressline>
+          <addressline>12205 Berlin</addressline>
+          <addressline>berlin@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Die Kommission war seit 1803 für die im Reichsdeputationshauptschluß vorgesehene Versorgung der geistlichen Fürsten und Würdenträger aus den an Frankreich abgetretenen linksrheinischen Gebieten zuständig.</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Bestandsgeschichte:</p>
+      <p>Die Unterlagen der Transrhenanischen Sustentationskommission gelangten gemeinsam mit dem sog. &quot;Untrennbaren Bestand&quot; des Reichskammergerichtsarchivs 1925 in die damals errichtete Reichsarchivabteilung Frankfurt, seit 1953 Abteilung Frakfurt des Bundesarchivs. Nach der Auflösung der Außenstelle Frankfurt kamen die Archivalien zunächst in die Hauptdienststelle des Bundesarchivs in Koblenz, 2010 wurden sie in das Bundesarchiv in Berlin-Lichterfelde umgelagert.</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch AR 3/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_9013b762-45bc-448b-9e51-678b17977975" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Transrhenanische Sustentationskommission</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>106 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_064233c2-009c-4e9d-889b-c6e2d1e4c3ac" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">AR 3 Transrhenanische Sustentationskommission</unittitle>
+          </did>
+          <c level="class" id="DE-1958_22cf74d5-9439-42c3-aaff-2a808565949d" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Allgemeines</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_dfeb70b4-0824-4611-97d2-9b3eb77bd708" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Schriftwechsel des Obersten Vorstandes Freiherr von Hügel</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1ffc1cc2-fb04-49be-bec1-9574c3c818e5" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/23</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1813-01-01/1814-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1ffc1cc2-fb04-49be-bec1-9574c3c818e5/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2456ba08-8fb2-481d-b1e4-5bb8b0beb404" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/20</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1814-01-01/1814-12-31">1814</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2456ba08-8fb2-481d-b1e4-5bb8b0beb404/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_44581b34-b589-4cb0-b54a-4798b1277f11" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/21</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1814-01-01/1814-12-31">1814</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/44581b34-b589-4cb0-b54a-4798b1277f11/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f66ea7df-ec8b-468c-b16e-074127166bbb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/22</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1814-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f66ea7df-ec8b-468c-b16e-074127166bbb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="subseries" id="DE-1958_952f39b1-9f68-4110-8050-03c013396d22" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Handakten des Referenten von Carlowitz</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_97a66724-0efb-4390-932a-04168c95207f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/12</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1816-01-01/1819-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/97a66724-0efb-4390-932a-04168c95207f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3e4dc368-5f8a-4585-9f57-be79f9664955" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/13</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1820-01-01/1823-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3e4dc368-5f8a-4585-9f57-be79f9664955/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7da78b91-006d-45a6-915f-f7fe9942b311" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/14</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1823-01-01/1825-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7da78b91-006d-45a6-915f-f7fe9942b311/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ac021364-85d3-4993-80b8-6e31e3bb5c37" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/106</unitid>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnis von J. Gravelius, Sekretär der Transrhenanischen Sustentationskommission</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1824-01-01/1824-12-31">1824</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Berlin-Lichterfelde</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ac021364-85d3-4993-80b8-6e31e3bb5c37/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_30581258-06f9-4b93-baeb-2beb676e4242" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Protokolle und Anlagen</unittitle>
+            </did>
+            <c level="series" id="DE-1958_42132014-c590-4a90-a194-b6f3c1e55b86" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Sitzungsprotokolle</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d19263e1-1195-4fce-b355-8c60f1025827" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/1</unitid>
+                  <unittitle encodinganalog="3.1.2">1.- 67. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1804-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d19263e1-1195-4fce-b355-8c60f1025827/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c1681bc9-d2c5-4848-bbe8-de6098fe3443" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/2</unitid>
+                  <unittitle encodinganalog="3.1.2">68.- 89. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1804-01-01/1805-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c1681bc9-d2c5-4848-bbe8-de6098fe3443/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f87ba55f-6092-43de-a48f-2ba33ff12776" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/3</unitid>
+                  <unittitle encodinganalog="3.1.2">90.- 107. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1805-01-01/1805-12-31">1805</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f87ba55f-6092-43de-a48f-2ba33ff12776/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_588e3e09-8657-43da-89ee-d22e32bd2b08" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/4</unitid>
+                  <unittitle encodinganalog="3.1.2">108.- 129. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1806-01-01/1807-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/588e3e09-8657-43da-89ee-d22e32bd2b08/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_01ecc46a-eb85-49a2-9320-593e9947fa1f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/5</unitid>
+                  <unittitle encodinganalog="3.1.2">130.- 161. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1807-01-01/1808-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/01ecc46a-eb85-49a2-9320-593e9947fa1f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d244c01b-13fe-44ee-883b-50fca75832da" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/6</unitid>
+                  <unittitle encodinganalog="3.1.2">161.- 185. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1808-01-01/1810-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d244c01b-13fe-44ee-883b-50fca75832da/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_33c54c0a-d035-4979-b8b2-6970d0be0cec" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/7</unitid>
+                  <unittitle encodinganalog="3.1.2">186.- 216. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1810-01-01/1812-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/33c54c0a-d035-4979-b8b2-6970d0be0cec/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d0e464d7-5be7-4f99-b56e-f837259817d3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/8</unitid>
+                  <unittitle encodinganalog="3.1.2">217.- 236. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1812-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d0e464d7-5be7-4f99-b56e-f837259817d3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_edd78c48-15e5-49a9-8fb5-7184c89f9a2c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/9</unitid>
+                  <unittitle encodinganalog="3.1.2">237.- 257. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1815-01-01/1816-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/edd78c48-15e5-49a9-8fb5-7184c89f9a2c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_60e1cae2-25e3-4777-8d03-b4f6cf968b49" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/10</unitid>
+                  <unittitle encodinganalog="3.1.2">258.- 302. Sitzung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1816-01-01/1820-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/60e1cae2-25e3-4777-8d03-b4f6cf968b49/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_527ae1d7-3494-4e09-b938-0596c63cd620" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/11</unitid>
+                  <unittitle encodinganalog="3.1.2">Register zu den Protokollen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1824-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/527ae1d7-3494-4e09-b938-0596c63cd620/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fe4bda6a-fe58-4a0f-8faf-ed90a692318f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/19</unitid>
+                  <unittitle encodinganalog="3.1.2">Protokollauszüge</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1814-01-01/1816-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fe4bda6a-fe58-4a0f-8faf-ed90a692318f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="series" id="DE-1958_80f16e8d-6792-4e45-b1a1-9fff6a1a26a8" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Anlagen zu den Sitzungsprotokollen</unittitle>
+              </did>
+              <c level="subseries" id="DE-1958_cddaed71-947a-47dc-96a7-9a37c28764b6" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Augsburg</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0055fe32-22b4-41a9-a7da-e63a6f50b6d6" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/36</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1813-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0055fe32-22b4-41a9-a7da-e63a6f50b6d6/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2202ca84-aafa-4d3d-80a4-05297aed255a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/37</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2202ca84-aafa-4d3d-80a4-05297aed255a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_975313a3-bb94-458e-a10f-e0101d50d261" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Bamberg</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_04d9b9f7-3d2c-4f43-9850-15260edb59ab" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/38</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/04d9b9f7-3d2c-4f43-9850-15260edb59ab/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a2217db2-d818-49a6-a4de-66bfc9355011" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/39</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a2217db2-d818-49a6-a4de-66bfc9355011/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c6b43ca2-f6ec-48e4-9c77-673cb188c341" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/40</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c6b43ca2-f6ec-48e4-9c77-673cb188c341/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a58ace9-f844-4c73-acec-ec0f7fe1850f" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/41</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a58ace9-f844-4c73-acec-ec0f7fe1850f/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_dd82f991-161d-4eb4-803a-acbf192456a2" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Basel</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f02296be-5c44-499a-8058-b58efb292b82" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/42</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f02296be-5c44-499a-8058-b58efb292b82/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4ccfc342-52df-4324-a4ad-7b0d8e2310b0" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/43</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4ccfc342-52df-4324-a4ad-7b0d8e2310b0/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4f392142-f25d-49b4-8a1c-72c098a5ba4e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/44</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4f392142-f25d-49b4-8a1c-72c098a5ba4e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_67afda22-3a16-430d-a3fa-29e8a0d3ec7a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/45</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/67afda22-3a16-430d-a3fa-29e8a0d3ec7a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_87f4c706-4ac5-4fce-a5c3-d159526f2b2e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/46</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/87f4c706-4ac5-4fce-a5c3-d159526f2b2e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_05a35ef5-07c7-4825-bf08-1c51ec20f6b7" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/47</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/05a35ef5-07c7-4825-bf08-1c51ec20f6b7/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7cf7c1ee-a415-488e-a0f2-3486aff5cf32" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/48</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7cf7c1ee-a415-488e-a0f2-3486aff5cf32/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_22059aa2-e58b-4148-9f3a-bb4de69cbc5b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/49</unitid>
+                  <unittitle encodinganalog="3.1.2">Bleidenstadt</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/22059aa2-e58b-4148-9f3a-bb4de69cbc5b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6be032b9-46e1-4d82-ace4-9e572b11a416" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/50</unitid>
+                  <unittitle encodinganalog="3.1.2">Eichstaedt</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6be032b9-46e1-4d82-ace4-9e572b11a416/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3c870d7d-5f68-4027-88bb-3242e2b1490b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/51</unitid>
+                  <unittitle encodinganalog="3.1.2">Ellwangen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3c870d7d-5f68-4027-88bb-3242e2b1490b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_2be6a68b-9c7a-44a7-b9cb-4f8c3fd020ed" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Freisingen</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1559621b-8696-4432-98bc-e76ade84617e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/52</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1559621b-8696-4432-98bc-e76ade84617e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_52197ae9-5e2b-45af-aa01-76bba8ae22ff" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/53</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/52197ae9-5e2b-45af-aa01-76bba8ae22ff/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_6082cec6-0cc5-409b-864c-a92da85558d9" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Hildesheim</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f41ebb4d-1556-44b2-a329-950e23d38c5f" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/54</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f41ebb4d-1556-44b2-a329-950e23d38c5f/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f8560417-9fa4-4e91-97d5-190d4a73977c" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/55</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f8560417-9fa4-4e91-97d5-190d4a73977c/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eba7b7a4-819b-4fc5-8fa7-45c42264edf3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/56</unitid>
+                  <unittitle encodinganalog="3.1.2">Köln</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eba7b7a4-819b-4fc5-8fa7-45c42264edf3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1e405e08-e4f6-4b51-84dc-478a8df76903" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/57</unitid>
+                  <unittitle encodinganalog="3.1.2">Konstanz</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1e405e08-e4f6-4b51-84dc-478a8df76903/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_83f319db-b82c-4398-83b4-fc6b9d6bf8d7" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/58</unitid>
+                  <unittitle encodinganalog="3.1.2">Komburg</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/83f319db-b82c-4398-83b4-fc6b9d6bf8d7/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f4fb7d9a-7419-4207-af05-1b30d8b3e44b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/59</unitid>
+                  <unittitle encodinganalog="3.1.2">Korvey</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f4fb7d9a-7419-4207-af05-1b30d8b3e44b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7576cb96-bbff-4a0c-91a7-068701ef2746" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/60</unitid>
+                  <unittitle encodinganalog="3.1.2">Lübeck</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7576cb96-bbff-4a0c-91a7-068701ef2746/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_54c43ce4-5ce1-4dd9-b5b8-65a26658359f" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Lüttich</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4a75256f-b2e3-441c-9006-e6c4f4680806" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/61</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4a75256f-b2e3-441c-9006-e6c4f4680806/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e61c1883-4ed2-476a-a7e8-01b2af2e99fd" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/62</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e61c1883-4ed2-476a-a7e8-01b2af2e99fd/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c9eabb72-0b3d-4c6a-ad7f-26e716315eb5" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/63</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c9eabb72-0b3d-4c6a-ad7f-26e716315eb5/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9b1e39da-f8a1-466a-a2be-55a1404965f7" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/64</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9b1e39da-f8a1-466a-a2be-55a1404965f7/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fb73d990-f925-4e10-a40c-3f20f454dd4d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/65</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fb73d990-f925-4e10-a40c-3f20f454dd4d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0537dd0a-0044-4ddd-83f2-b8bd16013696" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/66</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0537dd0a-0044-4ddd-83f2-b8bd16013696/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e21c46db-9a67-4c6d-bf28-d8fc86fcbcf4" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/67</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e21c46db-9a67-4c6d-bf28-d8fc86fcbcf4/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3995cd81-6464-4b8c-95db-62744f3bdc91" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/68</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3995cd81-6464-4b8c-95db-62744f3bdc91/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3f80ded0-9859-496d-86e6-f3e114853994" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/69</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3f80ded0-9859-496d-86e6-f3e114853994/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2fde55cb-f02f-4083-badb-a40c73e8da9c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/70</unitid>
+                  <unittitle encodinganalog="3.1.2">Malmedy</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2fde55cb-f02f-4083-badb-a40c73e8da9c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_1c07793f-1e75-4dff-874d-b05ae66f69e2" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Münster</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_186a667b-8fbd-44b3-b302-00bd6019ee1b" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/71</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/186a667b-8fbd-44b3-b302-00bd6019ee1b/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_af150dec-846f-4560-9be0-12c6106060fe" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/72</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/af150dec-846f-4560-9be0-12c6106060fe/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_42e8c883-2acb-427d-aeb0-36259473d41d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/73</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/42e8c883-2acb-427d-aeb0-36259473d41d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_24d86ba3-44c1-4521-b468-797a42b30ed1" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/74</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/24d86ba3-44c1-4521-b468-797a42b30ed1/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_410e79fd-3c05-4eb1-a457-e123fb948115" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/75</unitid>
+                  <unittitle encodinganalog="3.1.2">Münsterbilsen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/410e79fd-3c05-4eb1-a457-e123fb948115/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fc6ece12-5427-43d5-addf-fc0e9033a7bb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/76</unitid>
+                  <unittitle encodinganalog="3.1.2">Odenheim</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fc6ece12-5427-43d5-addf-fc0e9033a7bb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_86ce3471-ed54-41e0-beb9-6550878c223a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/77</unitid>
+                  <unittitle encodinganalog="3.1.2">Osnabrück</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/86ce3471-ed54-41e0-beb9-6550878c223a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f7d950ec-cfc7-4b44-8cb4-53be184d88c2" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/78</unitid>
+                  <unittitle encodinganalog="3.1.2">Paderborn</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f7d950ec-cfc7-4b44-8cb4-53be184d88c2/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_03c313e1-3898-4105-9691-b35c300e1ce2" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Passau</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f56d24c4-4ff8-42f6-bf69-df866205110d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/79</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f56d24c4-4ff8-42f6-bf69-df866205110d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_739838ed-045d-4687-8110-0491ffcff452" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/80</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/739838ed-045d-4687-8110-0491ffcff452/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8f869293-85ea-4732-a8d1-e1d07c227e66" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/81</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8f869293-85ea-4732-a8d1-e1d07c227e66/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_75133398-7729-433f-8233-20177d1b8f23" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/82</unitid>
+                  <unittitle encodinganalog="3.1.2">Regensburg</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/75133398-7729-433f-8233-20177d1b8f23/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a01df7ad-e2b2-4fdc-9919-24a6e6ec7a6d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/83</unitid>
+                  <unittitle encodinganalog="3.1.2">Salzburg</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a01df7ad-e2b2-4fdc-9919-24a6e6ec7a6d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_42793c39-4e23-41f2-90a5-9a830965c051" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/84</unitid>
+                  <unittitle encodinganalog="3.1.2">Speyer</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/42793c39-4e23-41f2-90a5-9a830965c051/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_d711b72b-a1a1-4895-830b-b9a6f26628ec" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Straßburg</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_974700e3-dd79-458e-a781-bd7965d900a8" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/85</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/974700e3-dd79-458e-a781-bd7965d900a8/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59319ab1-c865-4bba-b7a6-9e3e8905153d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/86</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59319ab1-c865-4bba-b7a6-9e3e8905153d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_22ebea8a-c423-467c-af52-02d1942771e8" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/87</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/22ebea8a-c423-467c-af52-02d1942771e8/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d3c635a5-24ce-409c-859a-7033ff610822" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/88</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d3c635a5-24ce-409c-859a-7033ff610822/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_f488c9f5-7a0f-4c56-b1ca-cb47cf6c5326" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Trier</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ff06ff1c-8821-4dc8-8b83-fe0594a08901" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/89</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ff06ff1c-8821-4dc8-8b83-fe0594a08901/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1169a088-26ad-430e-b420-92e5754a74e0" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/90</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1169a088-26ad-430e-b420-92e5754a74e0/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3dd7d568-9e1e-4bd2-8628-a5e18b46cb20" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/91</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3dd7d568-9e1e-4bd2-8628-a5e18b46cb20/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_63d4aa5b-e862-42b3-a346-2a6b5edc067e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/92</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/63d4aa5b-e862-42b3-a346-2a6b5edc067e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4e22d5eb-0be9-4d53-b122-baa298fa6fbf" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/93</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4e22d5eb-0be9-4d53-b122-baa298fa6fbf/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b3177bb9-a0f4-40a1-82fd-63af769c271e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/94</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b3177bb9-a0f4-40a1-82fd-63af769c271e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_44d0bcc3-b77d-4a6a-9d7e-ce9c7c118a30" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/95</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/44d0bcc3-b77d-4a6a-9d7e-ce9c7c118a30/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_da528293-ebd8-479e-a392-82cd0d130544" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/96</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/da528293-ebd8-479e-a392-82cd0d130544/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e2c09d2f-3085-482c-aeb7-8abe4316a6ce" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/97</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e2c09d2f-3085-482c-aeb7-8abe4316a6ce/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0739693a-0c2c-44df-b756-8a38ee3a0146" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/98</unitid>
+                  <unittitle encodinganalog="3.1.2">Wimpfen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0739693a-0c2c-44df-b756-8a38ee3a0146/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_8c081807-e97d-4433-a163-ee2c5fe9a73f" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Worms</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_83f97ee2-a29d-4de3-84ed-01999bb7a153" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/99</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/83f97ee2-a29d-4de3-84ed-01999bb7a153/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1f126bce-5424-4e15-a466-77d00df0230f" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/100</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1f126bce-5424-4e15-a466-77d00df0230f/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_a3a9bbf3-68b0-45e1-b70d-6a375591f5e5" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Würzburg</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2c02cbb0-8e45-45b4-a82c-df71fd34d063" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/101</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2c02cbb0-8e45-45b4-a82c-df71fd34d063/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bd57e241-d70e-402d-808e-e724a0dfef1e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/102</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bd57e241-d70e-402d-808e-e724a0dfef1e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_84170b0b-d46b-4d69-9b08-a02a7b135c76" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/103</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/84170b0b-d46b-4d69-9b08-a02a7b135c76/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3d76d4d7-4568-45bb-a793-4b92990de204" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/104</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3d76d4d7-4568-45bb-a793-4b92990de204/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_91df4bec-aaea-4643-b502-0ed3b1e68a71" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/105</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1818-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/91df4bec-aaea-4643-b502-0ed3b1e68a71/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_e6da64cd-5c90-4ca5-bb8f-4c34bd1a0359" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Cassa Cassier</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e93f5b83-019a-4f75-b31f-06739bb4d0d3" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/24</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1787-01-01/1801-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e93f5b83-019a-4f75-b31f-06739bb4d0d3/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_46af5b9e-e058-4196-81e3-5321a7fe92a8" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/25</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1805-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/46af5b9e-e058-4196-81e3-5321a7fe92a8/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="subseries" id="DE-1958_b8a0d9b8-6154-4ecb-b00b-bcbcb2ffe2e7" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Deputation</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8d7cd581-2dba-4a68-b24d-bebe8b5d04dd" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/27</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8d7cd581-2dba-4a68-b24d-bebe8b5d04dd/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6e5b7d33-44d4-4bd7-8f3d-66a47fc33b19" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/28</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6e5b7d33-44d4-4bd7-8f3d-66a47fc33b19/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_07ef884b-d88b-420a-8874-0e96832c301e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/29</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/07ef884b-d88b-420a-8874-0e96832c301e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e58b339f-f83f-479b-903d-fd18cac2f051" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/30</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e58b339f-f83f-479b-903d-fd18cac2f051/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_779ba11e-7029-454a-a9f9-02f1df9503c3" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/31</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 5</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/779ba11e-7029-454a-a9f9-02f1df9503c3/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ed9ecedc-a33d-4ba7-94ea-ef8de72edbae" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/32</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 6</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ed9ecedc-a33d-4ba7-94ea-ef8de72edbae/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_24ac70a0-4010-4481-9c26-3c52dc29f10d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/33</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 7</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/24ac70a0-4010-4481-9c26-3c52dc29f10d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ea5cc0c9-2e2a-498c-8dbb-a84518fe5cfe" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/34</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 8</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ea5cc0c9-2e2a-498c-8dbb-a84518fe5cfe/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_88b45dda-ec80-4f42-9aed-b93cec379669" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/35</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 9</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Berlin-Lichterfelde</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/88b45dda-ec80-4f42-9aed-b93cec379669/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e695cd35-97d3-405b-aad9-709bca6ec61d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/26</unitid>
+                  <unittitle encodinganalog="3.1.2">Kurfürst Erzkanzler</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1815-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e695cd35-97d3-405b-aad9-709bca6ec61d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_fdcba933-1f53-4637-bc78-54399a4a14e2" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Berichte</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_634b0eab-1f13-4de0-889e-29865724e15a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Jahresberichte</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_934ec48f-984f-4ead-afaa-01e29aa71b46" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/15</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1803-01-01/1810-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/934ec48f-984f-4ead-afaa-01e29aa71b46/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ffc76335-8728-4d54-a073-9cadd0148646" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/17</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1805-01-01/1817-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Doppelstücke</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ffc76335-8728-4d54-a073-9cadd0148646/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e462cf91-8de2-4e74-bdd0-79cbafbbbf72" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/16</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1811-01-01/1817-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e462cf91-8de2-4e74-bdd0-79cbafbbbf72/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_10c98f77-81d8-43b6-ab3b-a77be1c13617" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch AR 3/18</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1813-01-01/1817-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Transrhenanische Sustentationskommission</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Berlin-Lichterfelde</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>Doppelstücke</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/10c98f77-81d8-43b6-ab3b-a77be1c13617/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

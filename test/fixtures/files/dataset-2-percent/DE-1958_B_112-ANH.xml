@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6d7c775c-a2f9-4d7a-89fd-1420b69f6875/" identifier="DE-1958_6d7c775c-a2f9-4d7a-89fd-1420b69f6875">DE-1958_6d7c775c-a2f9-4d7a-89fd-1420b69f6875</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Der Bundesbeauftragte für Wirtschaftlichkeit in der Verwaltung                                                               </titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2010">2010</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 112-ANH.</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1951-01-01/1979-12-31" encodinganalog="3.1.3">1951-1979</unitdate>
+      <unittitle encodinganalog="3.1.2">Der Bundesbeauftragte für Wirtschaftlichkeit in der Verwaltung                                                               </unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>305 Aufbewahrungseinheiten</extent>
+        <extent>5,7 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Der Bundesbeauftragte für Wirtschaftlichkeit in der Verwaltung (BWV)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Bereits der Präsident des Rechnungshofes der Verwaltung des Vereinigten Wirtschaftsgebietes (VWG) wirkte gutachterlich am Aufbau der Bundesverwaltung mit. Mit Gesetz über Errichtung und Aufgaben des Bundesrechnungshofes (BGBl. S. 765) vom 27. November 1950 wurden dem Präsidenten die Aufgabe übertragen, durch Vorschläge, Gutachten und Stellungnahmen für Bundesministerien, Bundestag und Bundesrat auf Organisation und wirtschaftliche Erledigung von Aufgaben des Bundes hinzuwirken. Aufgrund eines Kabinettsbeschlusses vom 8. Januar 1952 (BAnz. Nr. 128 vom 5. Juli 1952) und einer Entschließung des Deutschen Bundestages wurde der Präsident des Bundesrechnungshofes in Personalunion zum Bundesbeauftragten für Wirtschaftlichkeit in der Verwaltung (BWV) bestellt. Er sollte auf den wirtschaftlichen Einsatz der Haushaltsmittel hinwirken und bereits im Vorfeld der Ausgaben Vorschläge zur Wirtschaftlichkeit und Sparsamkeit unterbreiten. Nach den Richtlinien über die Aufgaben des Bundesbeauftragten für die Wirtschaftlichkeit in der Verwaltung vom 30. Juni 1952 (BAnz. Nr. 128 vom 5. Juli 1952) konnte er auf Antrag eines Bundesministers mit beratender Stimme an Kabinettssitzungen teilnehmen, und hatte das Recht, Anträge im Kabinett zu stellen. Am 10. März 1965 wurden von der Bundesregierung neue Richtlinien für die Tätigkeit des Bundesbeauftragten beschlossen; seine Aufgabengebiete mit Bekanntmachung über den Bundesbeauftragten für Wirtschaftlichkeit in der Verwaltung (MinBlFin vom 11. Mai 1965, S. 206) definiert. Am 26. August 1986 (BAnz. Nr. 163, S. 12) wurden die bis dahin geltenden Richtlinien unter besonderer Berücksichtigung der bis dahin erlassenen Bundeshaushaltsordnung und dem Bundesrechnungshofgesetz vom 11. Juli 1985 (BGBl. I S. 1445) grundlegend neu geregelt. Die Zuständigkeit des Bundesbeauftragten erstreckte sich nunmehr auf die gesamte Bundesverwaltung, auf Sondervermögen und diejenigen Stellen, deren Mittelverwaltung der Prüfung des Bundesrechnungshofes oblag. Der Bundesbeauftrage erstellt Gutachten mit den Ziel einer zweckmäßigen und wirtschaftlichen Gestaltung der Bundesverwaltung und der Haushaltsführung. Er berät die Bundesregierung bei organisatorischen und finanziellen Maßnahmen von größerer Tragweite und bei der Aufstellung der Haushaltsvoranschläge. Er beobachtet die Aufgabenabgrenzung zwischen Bund, Ländern und Gemeinden und innerhalb der Bundesverwaltung und erstellt Gutachten zu einzelnen Behörden und sonstigen Stellen, die Bundesmittel verwalten, aber auch zu Querschnittsfragen. Er kann sich im Einvernehmen mit den Landesregierungen über Organisation und Arbeitsweise der Landes- und Gemeindebehörden informieren und an Sitzungen des Deutschen Bundestages, des Deutschen Bundesrates und deren Ausschüssen teilnehmen und beratend tätig werden. Er ist zudem in den Erlass von Gesetzen, Rechtsverordnungen und Verwaltungsvorschriften eingebunden (Vgl. Gemeinsame Geschäftsordnung der Bundesministerien vom 26. Juli 2000, §§ 21 -23, 44-45, 51). Der Bundesbeauftragte bedient sich zur Durchführung seiner Aufgaben personell und haushaltstechnisch des Bundesrechnunghofes.</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Bestandsgeschichte</p>
+      <p>Die Unterlagen des BWV gelangten in den Jahren 1986 und 1988 in das Bundesarchiv.</p>
+      <p>Archivische Bewertung und Bearbeitung</p>
+      <p>Die angebotenen Unterlagen wurden seinerzeit vollständig übernommen.</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Verwandtes Archivgut</head>
+      <p>B 112 Bundesrechnungshof</p>
+      <p>B 126 Bundesministerium der Finanzen</p>
+    </relatedmaterial>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 112-ANH./...</p>
+    </prefercite>
+    <relatedmaterial>
+      <head>Fremde Archive</head>
+      <p>Eine weitere Sammlung liegt im BRH vor.</p>
+    </relatedmaterial>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_6d7c775c-a2f9-4d7a-89fd-1420b69f6875" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Der Bundesbeauftragte für Wirtschaftlichkeit in der Verwaltung                                                               </unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>305 Aufbewahrungseinheiten</extent>
+            <extent>5,7 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_9df18238-1925-4e3e-ae51-68f5890eb539" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 112 Anh. Der Beauftragte für Wirtschaftlichkeit in der Verwaltung</unittitle>
+          </did>
+          <c level="class" id="DE-1958_fa05dfc2-eb20-4202-bad7-e0a40aead249" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Allgemeines</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_b95456a2-ba32-4d72-ace2-7dfd07db2a61" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Bundestag</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_e6cc1876-472d-4d88-8502-9c7500ed9636" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Bundesregierung einschließlich Geschäftsbereiche</unittitle>
+            </did>
+            <c level="class" id="DE-1958_5f3be7ff-576c-42f0-90d0-44eccc063ddd" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bundeskanzleramt</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_a026f22e-93c2-4c73-8415-07ad7b58a9ce" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Auswärtiges</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_0b03f193-a773-4abe-b476-25a55319437c" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Inneres</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_7e51cbb9-4e09-4b2f-ad3b-a91b4d92fdb9" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Justiz</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_4816a4e2-2f79-47a5-ada2-60e07daa4d5e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Finanzen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_2bd6fa38-f327-48c8-ad8d-fdd681f5df38" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Wirtschaft, Technik, Entwicklungshilfe</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_8cf97f50-370b-487e-8dce-18f9ddad5acf" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Ernährung, Landwirtschaft und Forsten</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_2d7ee548-c6ce-4bf1-a9ec-7f88c990dfaa" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Arbeit und Soziales</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_b8aae131-3c21-43a5-ba7f-e723e091601d" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Post und Telekommunikation</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_120f2c15-7d72-4b87-ac77-84a3c07d799f" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verkehr</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_b1416bf5-c116-4ebb-983f-29063dd58a45" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verteidigung</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_1c069a26-4da3-4d4f-ac1f-fc4e789cd26e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Umwelt, Naturschutz, Reaktorsicherheit</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_33749494-50e3-4d06-b14e-802ac1b68f26" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bildung, Wissenschaft, Forschung</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_83d4b7cb-bfb1-4fb5-ac38-dc0bda0e7410" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtdeutsche-, Vertriebenen- und Volkstumsangelegenheiten</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_df159f1f-87d1-4938-b44a-993f41b9d215" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bundesrechnungshof</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_d3454bc1-ea30-4aa0-8dce-507f87948d5f" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Bundesgerichte</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_b6d0fbc4-6780-40f0-a54c-8c762c924f6b" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Zentrale Verbände, Organisationen und Vereine</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_b45409fb-176f-4b11-9bc3-a7ce7f05ace9" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Länder und Gemeinden</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

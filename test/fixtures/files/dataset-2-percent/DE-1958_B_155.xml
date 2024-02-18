@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bf6fc59f-9731-4b8e-97a9-f4ad95ae2221/" identifier="DE-1958_bf6fc59f-9731-4b8e-97a9-f4ad95ae2221">DE-1958_bf6fc59f-9731-4b8e-97a9-f4ad95ae2221</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Dienststellen der Bundesdisziplinargerichtsbarkeit</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2010">2010</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 155</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1948-01-01/1948-12-31" encodinganalog="3.1.3">1948-</unitdate>
+      <unittitle encodinganalog="3.1.2">Dienststellen der Bundesdisziplinargerichtsbarkeit</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>6753 Aufbewahrungseinheiten</extent>
+        <extent>39,3 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesdisziplinargericht (BDiG)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Durch Gesetz vom 12. November 1951 (BGBl I S. 883) erfolgte die Einrichtung der &quot;Bundesdienststrafkammern&quot;. Diese wurden durch Gesetz vom 28. November 1952 (BGBl I S. 749) in &quot;Bundesdisziplinarkammern&quot; umbenannt.</p>
+      <p>Das Bundesdisziplinargericht wurde durch das Gesetz zur Neuordnung des Disziplinarrechts vom 20. Juli 1967 (BGBl. I S. 725) als besonderes Verwaltungsgericht mit Sitz in Frankfurt errichtet.</p>
+      <p>Seine Aufgabe war es, die Disziplinargerichtsbarkeit für den Bund in erster Instanz auszuüben gegenüber Beamten und Ruhestandsbeamten des Bundes und ihnen gleichgestellten früheren Beamten sowie Personen, auf die das Gesetz zu Art. 131 GG Anwendung findet, soweit der Bund zuständig ist, ferner gegenüber Zivildienstleistenden und Grenzschutzbediensteten. Es war in Kammern mit örtlichem Zuständigkeitsbereich gegliedert. Die Dienstaufsicht war dem Bundesverwaltungsgericht unterstellt. Der Bundesdisziplinarhof, die frühere Berufungs- und Beschwerdeinstanz gegen Urteile und Beschlüsse der Bundesdisziplinarkammern, wurde 1967 dem Bundesverwaltungsgericht zugeordnet. D.h. Urteile des Bundesdisziplinargerichts konnten mit dem Rechtsmittel der Berufung zum Bundesverwaltungsgericht angefochten werden.</p>
+      <p>Der Bundesdisziplinaranwalt beim Bundesverwaltungsgericht war in die Disziplinargerichtsbarkeit eingegliedert und dem BMI unterstellt. Er sollte die einheitliche Ausübung der Disziplinargewalt sichern und das Interesse des öffentlichen Dienstes und der Allgemeinheit in Disziplinarverfahren wahrnehmen.</p>
+      <p>Zum 31. Dezember 2003 haben Bundesdisziplinargericht und Bundesdisziplinaranwalt ihre Arbeit beendet. Das Bundesdisziplinargesetz vom 9. Juli 2001 (BGBl. I S. 1510) hat die Zuständigkeit neugeordnet. Die Aufgaben der Disziplinargerichtsbarkeit nach diesem Gesetz nehmen die Gerichte der Verwaltungsgerichtsbarkeit wahr. Hierzu werden bei den Verwaltungsgerichten Kammern und bei den Oberverwaltungsgerichten Senate für Disziplinarsachen gebildet.</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Bestandsgeschichte</p>
+      <p>Die erste Abgabe an das Bundesarchiv erfolgte im Jahr 1977.</p>
+      <p>Archivische Bewertung und Bearbeitung</p>
+      <p>Das Bundesarchiv hat aus dem Bereich der Verwaltung die Akten zur Gerichtsorganisation, Zuständigkeit und Besetzung der Kammern sowie zur Geschäftsordnung und weiterhin die Beschlüsse des Präsidiums übernommen. Von den Verfahrensakten sind alle Verfahren mit Strafmaß &quot;Entfernung aus dem Dienst&quot; oder &quot;Aberkennung der Ruhegehaltsbezüge&quot; überliefert, außerdem 1 % aller übrigen Verfahren.</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 155/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_bf6fc59f-9731-4b8e-97a9-f4ad95ae2221" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Dienststellen der Bundesdisziplinargerichtsbarkeit</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>6753 Aufbewahrungseinheiten</extent>
+            <extent>39,3 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_e043a279-b6c0-4294-a2e9-1476cf2254cc" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 155 Dienststellen der Bundesdisziplinargerichtsbarkeit</unittitle>
+          </did>
+          <c level="class" id="DE-1958_f4d797ad-2311-46a6-829c-26d655801f7e" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Fallakten</unittitle>
+            </did>
+            <c level="class" id="DE-1958_de2fc6c7-086b-4b45-b2a0-939d63b70539" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1948</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_ffffcb5c-a878-47a2-82f9-ab82506c044a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1949/1950</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_450a9085-826e-4c2e-be64-6a87e7ee1dde" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1951/1952</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_b5a2dba2-f4b0-40b9-b48a-3347dbe8f2dc" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1953/1954</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_48c7c771-d4dd-4b21-ae49-ea4035700ab1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1955/1956</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_2b884105-2898-4db0-9acc-63d6c5d7c5b1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1957/1958</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_8bfc261e-0788-472a-8a5f-b7d404024ed5" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1959/1960</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_dd321b58-da54-432d-a02f-d2b1e7b4e88a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1961/1962</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_92fb48b9-34c4-4acc-a493-bca2cc907d33" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">1963/1964</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
