@@ -1,0 +1,1597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8a744e4a-3cac-472b-8b97-d1c0fca9a3e1/" identifier="DE-1958_8a744e4a-3cac-472b-8b97-d1c0fca9a3e1">DE-1958_8a744e4a-3cac-472b-8b97-d1c0fca9a3e1</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesrechnungshof.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 112-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1945-01-01/1945-12-31" encodinganalog="3.1.3">1945-</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesrechnungshof.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>249 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Das Gesetz über die Aufstellung und Ausführung des Bundeshaushaltsplans für das Rechnungsjahr 1949 sowie über die Haushaltsführung und über die vorläufige Rechnungsprüfung im Bereich der Bundesverwaltung (Haushaltsgesetz und Vorläufige Haushaltsordnung) vom 7. Juni 1950 (BGBl. 1949/50 S. 199 f.) legte fest, daß der Rechnungshof im Vereinigten Wirtschaftsgebiet (VWG) bereits die Aufgaben des Bundesrechnungshofes übernehmen und gleichzeitig die Rechnungsprüfung der Verwaltung des VWG zu Ende führen sollte. Der Bundesrechnungshof (BRH) wurde mit Gesetz vom 27. November 1950 (BGBl. 1949/50 S. 765 f.) gegründet. Dieses Gesetz trat rückwirkend zum 1. April 1950 in Kraft. Der BRH ist eine oberste Bundesbehörde. Seine Stellung als unabhängiges Organ der Finanzkontrolle und seine Aufgaben wurden durch Art. 114 Abs. 2 GG und entsprechende Gesetze (Vgl. Gesetz über den BRH vom 11. Juli 1986, BGBl. I S. 1445, Bundeshaushaltsordnung vom 19. Aug. 1969, BGBl. I S. 1284, Haushaltsgrundsätzegesetz vom 19. Aug. 1969, BGBl. I S. 1273 sowie weitere Spezialgesetze) bestimmt. Präsident und Vizepräsident werden vom Bundestag und Bundesrat gewählt. Der Präsident ist zugleich Bundesbeauftragter für die Wirtschaftlichkeit in der Verwaltung (B 112 Anhang), Vorsitzender des Bundespersonalausschusses und des Bundessschuldenausschusses. Der BRH gliedert sich in nach Prüfungsgebieten getrennte Abteilungen. Das Gesetz zur Fortentwicklung des Haushaltsrechts von Bund und Ländern vom 22. Dez. 1997 (BGBl. I S. 3251 ff.) ermöglichte es, Prüfungsämter einzurichten, die den BRH bei der Prüfung der Haushalts- und Wirtschaftsführung des Bundes unterstützen. Der BRH prüft die Haushalts- und Wirtschaftsführung des Bundes, seiner Sondervermögen und Betriebe, die bundesunmittelbaren juristischen Personen des öffentlichen Rechts einschließlich der Bundesunternehmen in dieser Rechtsform, die bundes- und landesunmittelbaren Sozialversicherungsträger, soweit sie Bundeszuschüsse erhalten oder Garantieverpflichtungen bestehen, die Betätigung des Bundes bei Unternehmen des privaten Rechts, an denen der Bund beteiligt ist und unter bestimmten Voraussetzungen auch sonstige juristische Personen des privaten Rechts. Die Feststellungen fasst der Bundesrechnungshof in Berichten und Prüfungsmitteilungen zusammen. Jährlich berichtet er dem Bundestag, dem Bundesrat und der Bundesregierung. Wie im Bonn-Berlin-Gesetz vom 26. April 1994 (BGBl. I S. 918) vorgesehen, verlegte der Bundesrechnungshof seinen Sitz ab Juli 2000 von Frankfurt/Main nach Bonn. In Potsdam wurde eine Außenstelle eingerichtet. Der BRH gibt jährlich Jahresberichte (Bemerkungen des Bundesrechnungshofes) heraus, in dem die wichtigsten Prüfergebnisse zusammengefasst veröffentlicht werden.</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>Ein Aussonderungs- und Bewertungskatalog liegt vor.</p>
+    </processinfo>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 112-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_8a744e4a-3cac-472b-8b97-d1c0fca9a3e1" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesrechnungshof.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>249 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_0e0df674-af9b-4723-a211-ec1ba1fd6116" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 112 ORG Bundesrechnungshof.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_a903490a-d220-4e5a-9967-dc2976790267" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b05fb292-82a8-4451-a729-fab04027ada6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan des Bundesrechnungshofes für das Rechnungsjahr 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b05fb292-82a8-4451-a729-fab04027ada6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_814ae362-aa40-4daf-805c-4fe420dd58ef" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/814ae362-aa40-4daf-805c-4fe420dd58ef/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5616ca5f-8241-469f-aeb8-9a280962542d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5616ca5f-8241-469f-aeb8-9a280962542d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ad7805a3-5eff-43b1-a6bc-df7f667654d2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1972</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1972-12-31">1972</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ad7805a3-5eff-43b1-a6bc-df7f667654d2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2eaac6ca-2428-4b9e-bd2a-4a9688d6d0b4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2eaac6ca-2428-4b9e-bd2a-4a9688d6d0b4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6769d343-6c20-407a-b653-ddcd0e88565d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6769d343-6c20-407a-b653-ddcd0e88565d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6012614e-bc4e-4d69-90f1-efd34fadbe11" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6012614e-bc4e-4d69-90f1-efd34fadbe11/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_254627ad-0a34-4922-bd19-a253e8644681" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1976</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1976-01-01/1976-12-31">1976</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/254627ad-0a34-4922-bd19-a253e8644681/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_281291b1-6f2f-4307-8636-843354c6ee21" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/281291b1-6f2f-4307-8636-843354c6ee21/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_10d48a2c-8dbf-4296-9399-c6d0f6a32e31" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/10d48a2c-8dbf-4296-9399-c6d0f6a32e31/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_99c372e4-bc7a-4eb5-9f79-d7d8baaf14c9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1978</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1978-01-01/1978-12-31">1978</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/99c372e4-bc7a-4eb5-9f79-d7d8baaf14c9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3b02cb55-489b-486e-be99-4308b1fcc83c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1979</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1979-01-01/1979-12-31">1979</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3b02cb55-489b-486e-be99-4308b1fcc83c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_19a801a4-40b4-43f3-a70e-e71a659448c9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/19a801a4-40b4-43f3-a70e-e71a659448c9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4d206f61-6d9a-48e0-961f-2f25bfe0fa86" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1981</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1981-01-01/1981-12-31">1981</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4d206f61-6d9a-48e0-961f-2f25bfe0fa86/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cc474d7a-9339-47c2-a8af-185bab420444" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1983</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1983-01-01/1983-12-31">1983</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cc474d7a-9339-47c2-a8af-185bab420444/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_28e078f1-92b3-45d6-b1a9-dd6f6fa5df59" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/28e078f1-92b3-45d6-b1a9-dd6f6fa5df59/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e8a354d7-999e-43c1-9858-5b2d88a85f7e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e8a354d7-999e-43c1-9858-5b2d88a85f7e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6735ff12-9813-4ef1-8a6d-92423878c82e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1986</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1986-01-01/1986-12-31">1986</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6735ff12-9813-4ef1-8a6d-92423878c82e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_af241e3d-d5f3-4ecc-be8e-037794e07475" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1987</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1987-12-31">1987</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/af241e3d-d5f3-4ecc-be8e-037794e07475/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ed5c756d-c294-4aa3-b4bb-648aa9c1a2ee" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1988</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1988-01-01/1988-12-31">1988</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ed5c756d-c294-4aa3-b4bb-648aa9c1a2ee/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d096f80f-9cf0-40eb-a66a-41339a21465d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/21</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d096f80f-9cf0-40eb-a66a-41339a21465d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7ec64b04-151b-46d7-b651-6575e1fadfa3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/22</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7ec64b04-151b-46d7-b651-6575e1fadfa3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9b3a7900-ed4c-4ca7-83fc-06f723c49fb2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/23</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Sept. 1991</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1991-01-01/1991-12-31">1991</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9b3a7900-ed4c-4ca7-83fc-06f723c49fb2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_619890e2-005c-4d32-b0c5-d2e6b7bd9b21" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/24</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/619890e2-005c-4d32-b0c5-d2e6b7bd9b21/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c9d5949b-5626-4d26-86d1-82ee61c03163" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/25</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c9d5949b-5626-4d26-86d1-82ee61c03163/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f142b7d5-0216-4886-b345-fac94cf51117" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/26</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f142b7d5-0216-4886-b345-fac94cf51117/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fab4a762-69e9-4419-a45d-1997fe11d231" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/27</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fab4a762-69e9-4419-a45d-1997fe11d231/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9c5058f7-b614-4805-81a7-80949ec824be" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/28</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9c5058f7-b614-4805-81a7-80949ec824be/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e7732f4b-d9ce-4e50-981f-9edae635016c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/29</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e7732f4b-d9ce-4e50-981f-9edae635016c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_168c0032-5479-4fb1-9cef-4902b139ab90" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/30</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/168c0032-5479-4fb1-9cef-4902b139ab90/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d9c479d3-90cc-4cc6-8373-b8a13ef11ad3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/31</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1997</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/1997-12-31">1997</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d9c479d3-90cc-4cc6-8373-b8a13ef11ad3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4cde408d-4684-48e6-801f-baaef9183cb8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/32</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4cde408d-4684-48e6-801f-baaef9183cb8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_345c95e5-2c71-40a5-8c80-2097deec97da" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/33</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/345c95e5-2c71-40a5-8c80-2097deec97da/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a05c90c5-1aa9-4124-92db-03eaa8c098b1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/34</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a05c90c5-1aa9-4124-92db-03eaa8c098b1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e5d5820d-3e45-43de-9305-c511f3bd0bf5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/35</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2000</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2000-01-01/2000-12-31">2000</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e5d5820d-3e45-43de-9305-c511f3bd0bf5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_831d7af9-7d2c-4c30-a900-37f106aa0f8d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/36</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2000</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2000-01-01/2000-12-31">2000</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/831d7af9-7d2c-4c30-a900-37f106aa0f8d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_60cf06b3-d4c1-4e44-a0e3-e0a32fd857d2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/37</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/60cf06b3-d4c1-4e44-a0e3-e0a32fd857d2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0b9bf0e5-a2e7-4aa2-bcad-801213a9fe82" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/38</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 2002</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2002-01-01/2002-12-31">2002</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0b9bf0e5-a2e7-4aa2-bcad-801213a9fe82/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dccf5aea-edf8-459d-af8b-f59d54da0988" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/39</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dccf5aea-edf8-459d-af8b-f59d54da0988/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b56585c7-7836-4cd3-9a9f-e6d378063cc8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/40</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b56585c7-7836-4cd3-9a9f-e6d378063cc8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2c26e60-795e-4f64-a038-63a153257bf7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/41</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2005</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2005-12-31">2005</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2c26e60-795e-4f64-a038-63a153257bf7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7080741d-317b-4004-8c79-d3fcd1e8c4fe" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/42</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7080741d-317b-4004-8c79-d3fcd1e8c4fe/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dfadfe91-facc-4803-aa21-9043c071cab1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/43</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dfadfe91-facc-4803-aa21-9043c071cab1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_06c98f4e-1d38-497e-b6ab-adf1dac1ea58" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/44</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/06c98f4e-1d38-497e-b6ab-adf1dac1ea58/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b2963a28-a15e-499d-9338-72976176396a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/45</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b2963a28-a15e-499d-9338-72976176396a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c8764dbc-f5b9-4a17-967a-58ed4f1ac9df" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/46</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c8764dbc-f5b9-4a17-967a-58ed4f1ac9df/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a10c5b20-b9eb-4f75-858b-4f7b9e5ec3e5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/47</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a10c5b20-b9eb-4f75-858b-4f7b9e5ec3e5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8e5e591c-785e-4c6a-8d45-573d36db733d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/48</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2016</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2016-01-01/2016-12-31">2016</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8e5e591c-785e-4c6a-8d45-573d36db733d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_371a0845-435b-4726-b2a6-7dd37bac6026" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100000</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/371a0845-435b-4726-b2a6-7dd37bac6026/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_93b48f18-ab7c-4175-bccb-5ccb8c2cf7af" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100001</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/93b48f18-ab7c-4175-bccb-5ccb8c2cf7af/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8165e091-e32d-4bfd-be07-d2d94ad25031" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100002</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8165e091-e32d-4bfd-be07-d2d94ad25031/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_02ce7436-8c10-442e-891e-091fe3f76398" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100003</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/02ce7436-8c10-442e-891e-091fe3f76398/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cc9a4444-bdfd-4763-88c0-6cb4acf63487" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100004</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cc9a4444-bdfd-4763-88c0-6cb4acf63487/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0e7fac9d-a47b-4b1d-ab5e-a1420c77f5f5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100005</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0e7fac9d-a47b-4b1d-ab5e-a1420c77f5f5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ef363dfa-7c84-46b2-9f19-788181160b59" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100006</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ef363dfa-7c84-46b2-9f19-788181160b59/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_da48f913-9a52-4cde-8607-a6ba328d1685" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100007</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/da48f913-9a52-4cde-8607-a6ba328d1685/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_25b61f3c-4d13-4f01-af05-4696ec6b7fc7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100008</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/25b61f3c-4d13-4f01-af05-4696ec6b7fc7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f5c77845-2947-41c7-bb0b-6a14d1b48b47" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100009</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f5c77845-2947-41c7-bb0b-6a14d1b48b47/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_240507d4-5088-48be-a871-c514c4d1d1d4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100010</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/240507d4-5088-48be-a871-c514c4d1d1d4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dff9d607-2d6a-4a17-8a3e-dcd6ef2b9773" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100011</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dff9d607-2d6a-4a17-8a3e-dcd6ef2b9773/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b0a1a225-73f1-498a-bfef-160ced4af02e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100012</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b0a1a225-73f1-498a-bfef-160ced4af02e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_81814856-d7e5-4d8c-a164-d3c702bf2250" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100013</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/81814856-d7e5-4d8c-a164-d3c702bf2250/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_499e7cf2-ec60-4082-8866-99857490d792" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100014</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/499e7cf2-ec60-4082-8866-99857490d792/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_aa60069f-2f37-49fa-873a-a6ed0d99b72f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100015</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/aa60069f-2f37-49fa-873a-a6ed0d99b72f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_62fe677b-7e38-4ec0-af3c-6303aaddca85" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100016</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/62fe677b-7e38-4ec0-af3c-6303aaddca85/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_13113e53-b053-489b-ae1b-03105375e1a7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100017</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/13113e53-b053-489b-ae1b-03105375e1a7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6a1cea1a-ede5-46b0-aa3d-92c9a61fa8b6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100018</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2015</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2015-01-01/2015-12-31">2015</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6a1cea1a-ede5-46b0-aa3d-92c9a61fa8b6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ff245d03-a383-4beb-b6d2-8024cd52c84f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100019</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2016</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2016-01-01/2016-12-31">2016</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ff245d03-a383-4beb-b6d2-8024cd52c84f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_39b17827-fcc5-45c4-a5aa-198cf65526c8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100020</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2017</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2017-01-01/2017-12-31">2017</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/39b17827-fcc5-45c4-a5aa-198cf65526c8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ff531443-aefe-484a-82bd-c425f8870281" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 112-ORG/100021</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2018</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2018-01-01/2018-12-31">2018</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesrechnungshof (BRH)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ff531443-aefe-484a-82bd-c425f8870281/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_34bfd629-b5c0-410d-9c33-08dfe93568cd" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_2e520e33-54e6-46d8-9fe9-d1caa97abf41" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_07650ffa-f005-423f-94e7-43e16109bdae" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_d2bc0d33-47c7-4a50-9ea1-729a95a8eb03" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_21a68392-002c-4578-92a4-28ba38a1c3ea" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_12976cee-52d9-455e-8ec6-d5bc68f589e3" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_2c7c90ac-f1f1-4223-9473-083c14f0f451" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_32e2f179-82ad-4c87-937f-ced0ec6fb152" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_a5b6c955-eeea-4eca-828b-72292ea71823" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_a3c5539d-3c75-4a5a-8a9b-d1aad31df14b" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_8279751c-6a95-41d1-80cb-056bd622bfce" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_2576b44c-42e7-4b96-b27d-597d3c9e1033" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_b3bc2f34-1946-4642-89d1-edcc4116a35f" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_031d5a54-52fd-4bd7-bbd2-dea44a8114fe" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

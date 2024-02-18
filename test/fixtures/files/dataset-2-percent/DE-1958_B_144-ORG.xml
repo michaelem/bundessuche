@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3bab4dc0-9969-4858-b1be-148d86943dcc/" identifier="DE-1958_3bab4dc0-9969-4858-b1be-148d86943dcc">DE-1958_3bab4dc0-9969-4858-b1be-148d86943dcc</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesministerium für Angelegenheiten des Bundesrates und der Länder.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 144-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1950-01-01/1968-12-31" encodinganalog="3.1.3">1950-1968</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesministerium für Angelegenheiten des Bundesrates und der Länder.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>23 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Siehe: Bundesministerium für Angelegenheiten des Bundesrates und der Länder</p>
+    </bioghist>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 144-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_3bab4dc0-9969-4858-b1be-148d86943dcc" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesministerium für Angelegenheiten des Bundesrates und der Länder.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>23 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_51b8ff57-a0cf-46f6-ab12-6cdbfab71738" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 144 ORG Bundesministerium für Angelegenheiten des Bundesrates und der Länder.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_bf8476c4-dcd4-4ded-af16-815798891216" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_014267e1-9d6b-4e5d-9c38-65c90f60d24c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 1950</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/014267e1-9d6b-4e5d-9c38-65c90f60d24c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6a3245ae-f224-48f0-b2e2-7b46c1e69406" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1952</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6a3245ae-f224-48f0-b2e2-7b46c1e69406/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_66a8f150-170e-484c-ac25-f2dc412565b5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan für das Rechnungsjahr 1953, Stand: 1. Sept. 1952</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Organisations- und Stellenplan für das Rechnungsjahr 1953</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/66a8f150-170e-484c-ac25-f2dc412565b5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_81f61623-c370-4035-a23a-8d145ca9df6c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1952</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/81f61623-c370-4035-a23a-8d145ca9df6c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ca84812d-1b8e-41c9-8550-5c49f6d67635" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ca84812d-1b8e-41c9-8550-5c49f6d67635/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_36d06753-f4a2-407c-89d3-72b6f3ebf2bb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations- und Stellenplan für das Rechnungsjahr 1955, Stand: 20. Aug. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält:<lb/>Organisations- und Stellenplan für das Rechnungsjahr 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/36d06753-f4a2-407c-89d3-72b6f3ebf2bb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_119dfcc2-867f-4ae6-bee6-294640d00f27" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/119dfcc2-867f-4ae6-bee6-294640d00f27/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2e598445-a28b-4baf-a503-55c58864ded5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1956</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2e598445-a28b-4baf-a503-55c58864ded5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d6b1fd94-4c32-4a9e-98f4-036c3abf9639" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1957, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1957</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d6b1fd94-4c32-4a9e-98f4-036c3abf9639/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5218de57-11d4-409f-b6b9-34e94d103493" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1958 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5218de57-11d4-409f-b6b9-34e94d103493/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fad511ab-8271-49bb-afa8-4bab0f34350b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1959 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fad511ab-8271-49bb-afa8-4bab0f34350b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c1df6568-e9b4-4afc-873d-9aa84c9de6b8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c1df6568-e9b4-4afc-873d-9aa84c9de6b8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ab068d21-d858-4a79-824d-8d3762156651" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ab068d21-d858-4a79-824d-8d3762156651/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cf84e7d3-43bd-4659-8fe6-c95cfd55466c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1962</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cf84e7d3-43bd-4659-8fe6-c95cfd55466c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9f5dd88a-890f-49f4-a942-c381da18911b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1963</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9f5dd88a-890f-49f4-a942-c381da18911b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f2e10f1c-3b16-4f71-bc43-c69cddbfd5d1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1964 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f2e10f1c-3b16-4f71-bc43-c69cddbfd5d1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_08913768-fd12-4b66-957f-47539a1e503b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1966 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/08913768-fd12-4b66-957f-47539a1e503b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_33772179-6af6-4fce-92de-b96c49ba4945" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/33772179-6af6-4fce-92de-b96c49ba4945/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a943fe2-9390-4aff-8823-a2e7b4ef4379" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a943fe2-9390-4aff-8823-a2e7b4ef4379/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c90ac6aa-4d8a-4198-88c4-1315e301e7fb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Febr. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c90ac6aa-4d8a-4198-88c4-1315e301e7fb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_467de50d-0395-4564-9ec8-94c8ae2d75e0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/21</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/467de50d-0395-4564-9ec8-94c8ae2d75e0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7feb85f6-ddea-4c31-940a-31474c91634a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 144-ORG/22</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Angelegenheiten des Bundesrates (BMBR)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7feb85f6-ddea-4c31-940a-31474c91634a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_3f3c3c11-21d8-4ff6-923c-0c4ee6836b7c" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_619d17d0-db79-411f-a8b7-b7dea3aaa832" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_c02c49c5-e480-449a-ab7d-3d821712f768" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_d5b5844c-6e17-4efa-81c1-6f9e6382d7d9" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_77a31d64-5846-42bd-aeed-e85425917846" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_e5a23cb0-43d2-4f5d-851e-520dcf4cd9cb" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_50c74b9e-44d2-45bc-8c76-675ebdb1dd34" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_ff5694cb-ad95-4ae4-b471-403a47be400e" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_30d3f6f3-78cb-4c98-9bee-28140e5b57fe" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_c9472138-5cb4-46ac-b72b-7be9f2b6a78d" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_7250d898-422c-4995-a2cc-b4ba8339bcc7" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_cf8a0f3f-d05e-451c-bca9-686a9f50d14b" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_8e7c7c7d-3ac3-417f-b710-d2f64f4f21c7" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_306b431f-fda6-41a4-adfd-8c3135d88d35" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

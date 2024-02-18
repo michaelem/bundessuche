@@ -1,0 +1,2252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6208a14d-1a26-4a52-8e46-af9c972f2367/" identifier="DE-1958_6208a14d-1a26-4a52-8e46-af9c972f2367">DE-1958_6208a14d-1a26-4a52-8e46-af9c972f2367</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Kommission zur Untersuchung der Wettbewerbsgleichheit von Presse, Funk/Fernsehen u. Film- Wettbewerbsenquête/Michelkommission</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2000">2000</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 102-ANH. I</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1952-01-01/1968-12-31" encodinganalog="3.1.3">(1952-) 1963-1968</unitdate>
+      <unittitle encodinganalog="3.1.2">Kommission zur Untersuchung der Wettbewerbsgleichheit von Presse, Funk/Fernsehen u. Film- Wettbewerbsenquête/Michelkommission</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>122 Aufbewahrungseinheiten</extent>
+        <extent>2,8 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Bezeichnung</p>
+      <p>1946-1949: Verwaltungsamt für Wirtschaft</p>
+      <p>1949-1971: Bundesministerium für Wirtschaft</p>
+      <p>1971-1972: Bundesministerium für Wirtschaft und Finanzen - Unterscheidung des bisherigen BMWi durch Zusatz &quot;Bereich Wirtschaft&quot;</p>
+      <p>1972-1998: Bundesministerium für Wirtschaft</p>
+      <p>1998-2002: Bundesministerium für Wirtschaft und Technologie</p>
+      <p>2002-2005: Bundesministerium für Wirtschaft und Arbeit</p>
+      <p>ab 2005: Bundesministerium für Wirtschaft und Technologie</p>
+      <p>Verteilung der Fachaufgaben auf die Abteilungen nach dem Organisationsplan von 1952</p>
+      <p>I Wirtschaftspolitik</p>
+      <p>I A Wirtschaftspolitische Grundsatzfragen, Marshallplan</p>
+      <p>I B Preise, Monopole, Kartelle, Betriebsanalysen, Steuern u. Abgaben</p>
+      <p>II Wirtschaftsordnung und -förderung</p>
+      <p>II A Wirtschaftsordnung</p>
+      <p>II B Handwerk</p>
+      <p>II C Handel, Fremdenverkehr, Gewerberecht, Verbraucherpolitik</p>
+      <p>II D Leistungssteigerung und Technik</p>
+      <p>III Bergbau, Energie- und Wasserwirtschaft, Eisen und Stahl, Europäische Gemeinschaft</p>
+      <p>III A Bergbau</p>
+      <p>III B Energie- und Wasserwirtschaft</p>
+      <p>III C Eisen und Stahl</p>
+      <p>III D Europäische Gemeinschaft für Kohle und Stahl</p>
+      <p>IV Gewerbliche Wirtschaft</p>
+      <p>IV A Eisen- und Metallwirtschaft</p>
+      <p>IV B Chemie</p>
+      <p>IV C Sonstige Industrien</p>
+      <p>V Außenwirtschaft</p>
+      <p>V A Allg. Fragen der Außenwirtschaft, Ein- und Ausfuhr, Zollpolitik</p>
+      <p>V B Handelspolitik mit dem Ausland</p>
+      <p>V C Zahlungsverkehr mit dem Ausland</p>
+      <p>VI Geld und Kredit (ohne Unterabteilungen)</p>
+      <p>Abteilungen und Unterabteilungen 1989</p>
+      <p>Z Zentralabteilung</p>
+      <p>ZB Wirtschaftliche Fragen der Verteidigung</p>
+      <p>ZC ERP-Sondervermögen, Inlandsbürgschaften und -finanzierungen</p>
+      <p>ZD Wirtschaftliche Fragen des Umweltschutzes; Betriebswirtschaft</p>
+      <p>E Europapolitik (mit Verfassungsentwicklung)</p>
+      <p>EA Beziehungen zu Mitgliedstaaten und Drittländern, Europarecht</p>
+      <p>EB Gemeinsamer Markt</p>
+      <p>I Wirtschaftspolitik</p>
+      <p>I A Grundsatzfragen, Konjunktur- und Wachstumspolitik</p>
+      <p>I B Wettbewerbs- und Preispolitik</p>
+      <p>I C Strukturpolitik, Sozial- und Arbeitsmarktpolitik</p>
+      <p>I D Gesamtwirtschaftliche Analysen und Projektionen, Konjunkturbeobachtung, Wirtschaftsstatistik</p>
+      <p>II Mittelstandspolitik, Dienstleistungswirtschaft, Forschung und Technik, Bildungspolitik</p>
+      <p>II A Grundsatzfragen der Mittelstandspolitik, Freie Berufe, Dienstleistungen, Bildungs- und</p>
+      <p>Tourismuspolitik</p>
+      <p>II B Handwerk, Handel, Gewerberecht, Kulturwirtschaft</p>
+      <p>II C Innovationsförderung, Verbraucherpolitik</p>
+      <p>III Energiepolitik, mineralische Rohstoffe</p>
+      <p>III A Bergbau, Europäische Gemeinschaft für Kohle und Stahl, rationelle Energieverwendung</p>
+      <p>III B Versorgungswirtschaft (Recht, Elektrizität), Kernenergie, mineralische Rohstoffe</p>
+      <p>III C Mineralöl, Gaswirtschaft, industrielle Beteiligung des Bundes</p>
+      <p>III D Allgemeine Fragen der Energiepolitik</p>
+      <p>IV Gewerbliche Wirtschaft, Wirtschaftsförderung Berlin (mit innerdeutschen Wirtschaftsbeziehungen)</p>
+      <p>IV A Industriepolitik, Informations- und Kommunikationstechnik, Elektro-, Luft- und</p>
+      <p>Raumfahrtindustrie</p>
+      <p>IV B Investitionsgüterwirtschaft, Chemie</p>
+      <p>IV C Verbrauchsgüterwirtschaft, Eisen und Stahl</p>
+      <p>IV D Wirtschaftsförderung Berlin, Bauwirtschaft, Außenwirtschaftsfragen der Industrie</p>
+      <p>V Außenwirtschaftspolitik und Entwicklungshilfe</p>
+      <p>V A Allgemeine Fragen der Außenwirtschaftspolitik, Handelspolitik</p>
+      <p>V B Außenwirtschaftsrecht, Entwicklungspolitik, bilaterale wirtschaftliche Zusammenarbeit</p>
+      <p>V C Multilaterale Außenwirtschaftsfragen, Finanzierungen, Ost-West-Wirtschaftsbeziehungen</p>
+      <p>15.05.1970 Behandlung von Projekten der Kapitalhilfe in Entwicklungsländern von/zu</p>
+      <p>BMZ</p>
+      <p>15.12.1972 Fremdenverkehr von BMV</p>
+      <p>Förderung von Forschung und Entwicklung in der gewerblichen Wirtschaft von/zu</p>
+      <p>BMFT</p>
+      <p>Geld-, Kredit- und Währungswesen zu BMF</p>
+      <p>Bank-, Börsen- und Versicherungspolitik zu BMF</p>
+      <p>Deutsche Industrie-Anlagen-Gesellschaft AG zu BMF</p>
+      <p>Wettbewerbsrechtliche Medienfragen zu BMI</p>
+      <p>Sprengstoffrecht zu BMI</p>
+      <p>Kapitalhilfe zu BMZ</p>
+      <p>Förderung der elektronischen Datenverarbeitung zu BMFT</p>
+      <p>Berufliche Bildung zu BMBW</p>
+      <p>01.01.1973 Berufliche Bildung von/zu BMBV</p>
+      <p>April 1973 Entwicklungshilfe (u.a. multilaterale Umschuldungsverhandlungen bei</p>
+      <p>verbürgten Exportkrediten u./oder Finanzkrediten, Gesamtkonzeption der</p>
+      <p>Assoziierungs- und Präferenzpolitik der EG) von/zu BMZ</p>
+      <p>Berufliche Bildung (u.a. im Rahmen der Gewerbeförderung) von/zu BMBW</p>
+      <p>02.10.1973(?) Recht der Übertragung von Aufgaben an die Bundesanstalt für Materialprüfung</p>
+      <p>und die Physikalisch-Technische Bundesanstalt zu BMI</p>
+      <p>Medienfragen von/zu BMI</p>
+      <p>19.12.1973 Waffenrecht zu BMI</p>
+      <p>Dez. 1978 Zusammenarbeit mit der Bundesanstalt für Geowissenschaften und Rohstoffe</p>
+      <p>von/zu BMFT</p>
+      <p>Aug. 1982 Bundesinstituts für chemisch-technische Untersuchungen, Überleitung in</p>
+      <p>den Geschäftsbereich des BMVg von/zu BMVg</p>
+      <p>April 1993 Erweiterung der Aufgaben der Bundesanstalt für Geowissenschaften und</p>
+      <p>Rohstoffe von BMZ</p>
+      <p>Jan. 1994 Getränkeschankanlagenverordnung zu BMA</p>
+      <p>Dez. 1997 Zusammenarbeit bei der Vergabe von Aufträgen für den Bedarf der Bundeswehr</p>
+      <p>von/zu BMVg</p>
+      <p>Okt. 1998 Medien- und Filmwirtschaft, Verlagswesen zu BKM</p>
+      <p>Beratung/Technische Hilfe zugunsten Osteuropas und GUS zu BMF,</p>
+      <p>BMZ</p>
+      <p>Angelegenheiten des Lomé-Abkommens zu BMZ</p>
+      <p>Indirekte Forschungsförderung, Förderung technologieorientierter Unternehmensgründungen,</p>
+      <p>angewandte Energieforschung von BMBF</p>
+      <p>Teile der Grundsatzabteilung und Europaabteilung zu BMF</p>
+      <p>1998 Telekommunikation und Post von BMPT</p>
+      <p>Sept. 2002 Bereich Sozialordnung zu BMG</p>
+      <p>2005 Erneute Selbständigkeit des Bundesministeriums für Arbeit und Soziales (BMAS)</p>
+    </bioghist>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Bestandsgeschichte</p>
+      <p>Das Schriftgut der Geschäftsstelle, das den Bestand B 102 Anh. I bildet, gelangte im Jahr 1968 voll‧ständig und im beachtlichen Umfang von ca. 3 Regaleinheiten und 751 Archivalieneinheiten (AE) ins Bundesarchiv. Da in den Gutachten Betriebsgeheimnisse enthalten sein konnten, war der größte Teil des Bestandes versiegelt. Nachdem im Jahr 1998 Versiegelungs- wie gesetzliche Benutzungssperrfristen abgelaufen waren, wurde das Schriftgut archivisch bearbeitet.</p>
+      <p>Archivische Bewertung und Bearbeitung</p>
+      <p>Ein Ablieferungsverzeichnis befindet sich in B 102 Anh. I/1. Die im nachfolgenden Findbuch als &quot;Alte Signatur&quot; bezeichneten Ziffern beziehen sich auf die darin befindliche sog. &quot;Archivnummer&quot;. Alle im Findbuch nicht gelisteten alten Signaturen und damit der größte Teil der Überlieferung wurden kassiert.</p>
+      <p>Es handelte sich dabei zum einen um Routine- und Abwicklungsschriftgut (Einladungen, Anschreiben ohne Anlagen, Urlaubsbescheinigungen, Telefonrechnungen, Buchungsbelege usw.) oder bloße Materialsammlungen. Doppel als wichtig empfundener Unterlagen wurden von der Geschäftsstelle unter mehreren Ordnungskriterien abgelegt. Kassiert wurden hier die offensichtlichen Dubletten. Ein Vergleich einzelner Akteninhalte wurde nicht vorgenommen, so daß weiterhin mit einer gewissen Redundanz zu rechnen ist. Kassiert wurden auch sämtliche Entwurfsstadien des Abschlußberichtes, da die Korrekturwünsche keine inhaltlichen Veränderungen enthielten. Von den sog. Arbeitsunterlagen und Korrespondenzen wurden diejenigen Bände kassiert, in denen sich lediglich Zeitschriftenartikel, Geschäftsberichte, die Bestellung von Informationsunterlagen o.ä. fanden. Kas‧siert wurden die Fragebögen aus schriftlichen Erhebungen bei Zeitungs- und Zeitschriftenverlagen (Muster in B Anh. I/66). Aufgehoben wurden dagegen juristische Gutachten und Betriebsprüfungen, die im Auftrag der Kommission vor Ort durchgeführt wurden. Kassiert wurde auch die Dokumenten‧sammlung der Kommission, da sie in dem genannten Band bibliographiert und jederzeit wiederher‧stellbar ist. Weitere von der Kommission gesammelte Veröffentlichungen gelangten 1968 nicht ins Bundesarchiv, sondern wurden dem neugebildeten Pressereferat des BMWi übergeben (DA 3142/15).</p>
+      <p>Titel, Laufzeit und Klassifikation der im Findbuch verzeichneten archivwürdigen Bände richten sich mit geringen Korrekturen nach Angaben und Gliederung im genannten Ablieferungsverzeichnis der Geschäftsstelle. Die Laufzeit entspricht darin nicht wie üblich dem Datum der Ablage eines Schriftstücks, sondern seinem Bezugszeitraum. Der Bestand umfaßt Unterlagen aus folgenden Bereichen: Organisation und Haushalt; Bericht und Arbeitsunterlagen der Kommission; Sitzungsprotokolle; Verfah‧rensfragen, Rechtsgutachten und werbewirtschaftliche Fragen; Wirtschaftsprüfungen bei Medienunternehmen; Korrespondenz der Geschäftsstelle mit Kommissionsmitgliedern, Behörden, Medienunternehmen und -verbänden.</p>
+      <p>Die Überlieferung des aufsichtführenden Referates im BMWi ist bis auf die Bände B 102/248477 und 248478 kassiert. Für Fragen, die die Vor- und Nachbereitung der Kommission auf Ministerialebene betreffen, sind daher zusätzlich die Akten des Bundesministeriums des Innern hinzuzuziehen (Bestand B 106/103548-103551, 103553). Der Niederschlag der vergleichsweise unspektakulären Kommissionstätigkeit in den Akten des Bundeskanzleramtes ist mit zwei Bänden eher gering (B 136/3453+3454).</p>
+    </scopecontent>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 102-ANH. I/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_6208a14d-1a26-4a52-8e46-af9c972f2367" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Kommission zur Untersuchung der Wettbewerbsgleichheit von Presse, Funk/Fernsehen u. Film- Wettbewerbsenquête/Michelkommission</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>122 Aufbewahrungseinheiten</extent>
+            <extent>2,8 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_84d00f79-fe19-4144-958d-49f8fe69f2aa" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 102 ANH. I (Kommission zur Untersuchung der Wettbewerbsgleichheit von Presse, Funk/Fernsehen und Film)</unittitle>
+          </did>
+          <c level="class" id="DE-1958_3517a11f-bf04-44ff-9407-15ae0446cd56" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisation und Haushalt</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bae8e3f6-b2cd-46b6-ac40-4a134f0d24a6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/1</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">001</unitid>
+                <unittitle encodinganalog="3.1.2">Akten- und Dokumentenverzeichnis der Kommission</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bae8e3f6-b2cd-46b6-ac40-4a134f0d24a6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="series" id="DE-1958_3f25d35a-28a6-4aae-ad07-82b2b77fac20" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Untersuchung im Bundesgebiet</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_630904bb-e6de-48ce-83c9-9d1f67cbefbb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/2</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">002</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/630904bb-e6de-48ce-83c9-9d1f67cbefbb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_50109129-1d18-4629-9951-87f39e22ef17" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/3</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">003</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/50109129-1d18-4629-9951-87f39e22ef17/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9436a8fe-67a5-4728-8f70-9dfd83c8e9c7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/4</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">011</unitid>
+                <unittitle encodinganalog="3.1.2">Sonderuntersuchung in Berlin.- Auftrag des Senators für Wissenschaft und Kunst sowie allgemeine Haushaltsfragen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9436a8fe-67a5-4728-8f70-9dfd83c8e9c7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f358059f-7b7b-43e8-8d62-33a0aadb2e2a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/5</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">027</unitid>
+                <unittitle encodinganalog="3.1.2">Geschäftsverteilung, Dienstanweisungen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f358059f-7b7b-43e8-8d62-33a0aadb2e2a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5174b269-f842-4018-bdf5-63224dabe7a2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/6</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">029</unitid>
+                <unittitle encodinganalog="3.1.2">Fragen zu einem Auskunftspflichtgesetz</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5174b269-f842-4018-bdf5-63224dabe7a2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c5bbd648-6be6-4d96-8874-ca83e29b92e6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/7</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">030</unitid>
+                <unittitle encodinganalog="3.1.2">Verhandlungen über die Aufbewahrung der Unterlagen nach Abschluß der Untersuchung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c5bbd648-6be6-4d96-8874-ca83e29b92e6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_9311eb81-f351-4ddf-a949-72eacc1b0c6a" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Bericht der Kommission über die Wettbewerbsverhältnisse der Medien</unittitle>
+            </did>
+            <c level="class" id="DE-1958_d429dbd2-5714-4583-9b79-43eb2cedd778" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bundesgebiet</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c493d816-6b07-4080-89a9-e4cb06d830fd" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/8</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">032</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsprogramm der Kommission</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c493d816-6b07-4080-89a9-e4cb06d830fd/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e630b805-4866-4b61-8599-919c831467a8" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/9</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">033</unitid>
+                  <unittitle encodinganalog="3.1.2">Entwürfe über Anlage und Gliederung des Berichts</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e630b805-4866-4b61-8599-919c831467a8/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_027f8a89-2ce4-4705-b31e-b9bf68221957" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/10</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">035</unitid>
+                  <unittitle encodinganalog="3.1.2">Pressemitteilungen der Kommission</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/027f8a89-2ce4-4705-b31e-b9bf68221957/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3ad7d172-df88-4811-a685-089d2c7dda3c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/11</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">036</unitid>
+                  <unittitle encodinganalog="3.1.2">Zwischenbericht der Kommission</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3ad7d172-df88-4811-a685-089d2c7dda3c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_32a29afe-1d65-43bc-9c2a-3c70c639de93" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/12</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">037</unitid>
+                  <unittitle encodinganalog="3.1.2">Stellungnahmen zum Bericht von Bundesregierung, Bundestag und den betroffenen Verbänden und Spitzenorganisationen der Medien</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/32a29afe-1d65-43bc-9c2a-3c70c639de93/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fe9f3877-340a-4f7e-87b5-0c9e1b0720c1" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/13</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">038</unitid>
+                  <unittitle encodinganalog="3.1.2">Pressestimmen zum Bericht der Kommission</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fe9f3877-340a-4f7e-87b5-0c9e1b0720c1/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_47be4cec-4d2c-4311-9ad5-a33257aca732" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/14</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">103</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsunterlagen der Geschäftsstelle zum ersten Teil des Berichts</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/47be4cec-4d2c-4311-9ad5-a33257aca732/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_07a86ba6-f562-407d-9471-4e4636df5d32" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/15</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">145</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsunterlagen über die Vorbereitungen der Untersuchungen in der Filmwirtschaft</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/07a86ba6-f562-407d-9471-4e4636df5d32/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2aa4ad6e-912b-41d2-9460-31ed6732a93e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/16</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">148</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsunterlagen über die Sparte Filmverleih</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2aa4ad6e-912b-41d2-9460-31ed6732a93e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_04facb27-a61d-4a82-8eb3-5aebafe08553" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/17</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">150</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsunterlagen über die Filmproduktion</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/04facb27-a61d-4a82-8eb3-5aebafe08553/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dc897859-52eb-4732-bcba-857ac100665c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/18</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">151</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsunterlagen über die technischen Filmbetriebe (Atelier, Kopierwerke)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dc897859-52eb-4732-bcba-857ac100665c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b48f2a1d-e644-4b43-9af2-03c9dce48a67" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/121</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">380</unitid>
+                  <unittitle encodinganalog="3.1.2">Literaturnachweis für die Sachgebiete der Untersuchung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b48f2a1d-e644-4b43-9af2-03c9dce48a67/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_72389691-78cb-4adf-bddf-806da84f0959" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/123</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">635 bis 659</unitid>
+                  <unittitle encodinganalog="3.1.2">Sonstige Informationsunterlagen Dritter</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                  <note>
+                    <p>Bandinhalt in B 102 Anh.I/1, Anlage 6, Nr. 41ff.</p>
+                  </note>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Bund Deutscher Zeitschriftenverleger<lb/>Springer-Verlag<lb/>ARD</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/72389691-78cb-4adf-bddf-806da84f0959/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_48d43759-2a45-4784-9947-e81ae18082d3" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Berlin (West)</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_744c4d8b-e793-4c3d-88cd-a95d8f1d9567" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/19</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">172</unitid>
+                  <unittitle encodinganalog="3.1.2">Fassung des Berichts für Berlin</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/744c4d8b-e793-4c3d-88cd-a95d8f1d9567/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_37c7d3fa-4a8e-4e26-92fe-f49670a03cb0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/20</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">173</unitid>
+                  <unittitle encodinganalog="3.1.2">Vorschlag für eine Pressemitteilung des Berliner Senats</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/37c7d3fa-4a8e-4e26-92fe-f49670a03cb0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_01680279-7bab-4773-98e6-db3ca888f0f5" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/21</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">174</unitid>
+                  <unittitle encodinganalog="3.1.2">Stellungnahmen und Presseberichte zum Berlin-Bericht</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/01680279-7bab-4773-98e6-db3ca888f0f5/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_114bb0af-1891-49c2-aaa2-c025f13bbc7e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/122</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">593</unitid>
+                  <unittitle encodinganalog="3.1.2">Gesamtbericht des Sachverständigen der Kommission über die Untersuchung von Presse und Rundfunk in Berlin</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/114bb0af-1891-49c2-aaa2-c025f13bbc7e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_ba930b89-71e5-48be-bc6e-7e26fc5e57db" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sitzungen der Kommission</unittitle>
+            </did>
+            <c level="subseries" id="DE-1958_73009acb-9a3b-443d-a36f-9ac30c6bed05" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Sitzungen der Kommission.- Tagesordnungen und Protokolle</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b6a3a71c-19e2-43a3-8b11-5dda5fb8ab9b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/22</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">195</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>1.-10. Sitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b6a3a71c-19e2-43a3-8b11-5dda5fb8ab9b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_79239b9b-f02b-4043-a53e-258b0a74453a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/23</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">196</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>11.-18. Sitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/79239b9b-f02b-4043-a53e-258b0a74453a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0c8d8f8a-cf79-45f1-85be-aa7758a86b1e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/24</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">197</unitid>
+                  <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält:<lb/>19.-29. Sitzung</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0c8d8f8a-cf79-45f1-85be-aa7758a86b1e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_72f022b7-2e98-4424-a503-6d87fd6bf829" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Unterlagen und Gutachten aus den Erhebungen der Kommission</unittitle>
+            </did>
+            <c level="class" id="DE-1958_495746a5-cb65-45b2-be8a-1ef626879a1d" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verfahrensfragen, Rechtsgutachten und werbewirtschaftliche Fragen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7e9ad1f8-0b1d-4ecd-b40e-7a2d764e34ea" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/25</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">198</unitid>
+                  <unittitle encodinganalog="3.1.2">Dr. Artur Richter, Vorschläge zur Anlage einer Untersuchung über die Wettbewerbsgleichheit von Presse, Funk/Fernsehen und Film</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7e9ad1f8-0b1d-4ecd-b40e-7a2d764e34ea/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_19e8f970-0fa0-4370-b839-e5fe1b5e997b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/26</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">199</unitid>
+                  <unittitle encodinganalog="3.1.2">Professor Dr. Erst Joachim Mestmäcker, Wettbewerbsfragen der Medien</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/19e8f970-0fa0-4370-b839-e5fe1b5e997b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_23b6885a-72dd-4f1a-a6c2-cc6c1ff360db" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/31</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">204</unitid>
+                  <unittitle encodinganalog="3.1.2">Professor DDDr. Walter Leisner, Die öffentlich-rechtlichen Fragen der Beziehungen zwischen Film und Fernsehen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/23b6885a-72dd-4f1a-a6c2-cc6c1ff360db/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7b91dea7-bdba-4872-9697-5741cc035309" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/32</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">205</unitid>
+                  <unittitle encodinganalog="3.1.2">Professor DDDr. Walter Leisner, Die besonderen öffentlich-rechtlichen Probleme der Beziehungen zwischen Presse und Funk im Bereich Berlin (West)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7b91dea7-bdba-4872-9697-5741cc035309/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_aeb2d5f7-38b2-4ea5-a636-76782b786574" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/35</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">208</unitid>
+                  <unittitle encodinganalog="3.1.2">Treuhand-Vereinigung AG, Auswertung der Erhebungen bei Werbeagenturen und Werbetreibenden</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/aeb2d5f7-38b2-4ea5-a636-76782b786574/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="series" id="DE-1958_6ce0ccc7-fae6-4908-8822-ff80e1867bdc" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Professor DDDr. Walter Leisner, Die Zulässigkeit von Werbesendungen in Fernsehen und Hörfunk nach deutschen Verfassungs- und Verwaltungsrecht</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c159a3a5-d73f-4c48-8b87-8e619b0364de" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/27</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">200</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c159a3a5-d73f-4c48-8b87-8e619b0364de/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8278c5f8-54c3-4a55-87c4-283ba3a74e2c" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/28</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">201</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8278c5f8-54c3-4a55-87c4-283ba3a74e2c/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bd3eed6c-e6d2-46aa-bcf3-3df5a880d302" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/29</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">202</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bd3eed6c-e6d2-46aa-bcf3-3df5a880d302/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_17cb8fdc-e3ac-423e-af6c-231622d365fa" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/30</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">203</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 4</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/17cb8fdc-e3ac-423e-af6c-231622d365fa/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="series" id="DE-1958_eeec63b6-f9cf-478d-b86e-a171ccb18ba3" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Treuhand-Vereinigung AG, Die steuerlichen Belastungen und Privilegien der Rundfunkanstalten</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_943561f3-cffb-4d6a-a0b8-4c21bef8aa7c" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/33</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">206</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/943561f3-cffb-4d6a-a0b8-4c21bef8aa7c/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0f22e40a-68b8-40fc-8f2c-e7ed5245b28e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/34</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">207</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0f22e40a-68b8-40fc-8f2c-e7ed5245b28e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="series" id="DE-1958_934a7b37-693a-46de-a5f0-6fa27cece5fe" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Kapferer &amp; Schmidt, Hamburg, Statistik der Werbeaufwendungen (ausgewählte Zeitungen, Zeitschriften, Rundfunkanstalten sowie Markenetats)</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_de7e8af4-0e2f-4960-b79a-15a8ae67608f" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/36</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">209</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1965-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/de7e8af4-0e2f-4960-b79a-15a8ae67608f/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a1132785-4d0c-48d9-bba8-b80bab7f8d04" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/37</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">210</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1966-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a1132785-4d0c-48d9-bba8-b80bab7f8d04/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_de7b435d-3c31-4d6d-b64a-1b4b6fa84784" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Wirtschaftsprüfungen</unittitle>
+              </did>
+              <c level="class" id="DE-1958_f86429d5-f7e1-431a-a60e-187c47127007" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Rundfunkanstalten und deren Tochtergesellschaften</unittitle>
+                  <note>
+                    <p>Es können keine Archivalien angezeigt werden.</p>
+                  </note>
+                </did>
+              </c>
+              <c level="class" id="DE-1958_eaf43b4c-5766-4e77-9fb2-7661cac8e227" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Filmwirtschaft</unittitle>
+                  <note>
+                    <p>Es können keine Archivalien angezeigt werden.</p>
+                  </note>
+                </did>
+              </c>
+              <c level="class" id="DE-1958_bba77ca3-87a3-4773-8f86-23cf42afa89c" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Zeitungs- und Zeitschriftenverlage</unittitle>
+                  <note>
+                    <p>Es können keine Archivalien angezeigt werden.</p>
+                  </note>
+                </did>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_9562f486-8641-4fb1-919f-c8e73233bbfa" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Korrespondenz der Geschäftsstelle</unittitle>
+            </did>
+            <c level="class" id="DE-1958_7c6675c7-d7dd-4a5e-bf47-0ee5e2767894" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Vorsitzender und Mitglieder der Kommission</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2d6c35fc-6664-4c70-a660-ec640dddebf6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/69</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">259</unitid>
+                  <unittitle encodinganalog="3.1.2">Dr. Elmar Michel</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2d6c35fc-6664-4c70-a660-ec640dddebf6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_22462cb4-c985-403b-a461-1629db63b786" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/70</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">260</unitid>
+                  <unittitle encodinganalog="3.1.2">Professor Dr. Arnold Gehlen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/22462cb4-c985-403b-a461-1629db63b786/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d21e60af-77c8-493b-a9e1-8537d9cf8c2c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/71</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">261</unitid>
+                  <unittitle encodinganalog="3.1.2">Dr. Karl Hoffmann</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d21e60af-77c8-493b-a9e1-8537d9cf8c2c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_787b8670-7e84-4d0a-a061-17e51f672771" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/72</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">262</unitid>
+                  <unittitle encodinganalog="3.1.2">DDDr. Walter Leisner</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/787b8670-7e84-4d0a-a061-17e51f672771/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8b0db83e-0531-44c4-8d80-83df37bb5390" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/73</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">263</unitid>
+                  <unittitle encodinganalog="3.1.2">Professor Dr. Ernst-Joachim Mestmäcker</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8b0db83e-0531-44c4-8d80-83df37bb5390/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ccd2482e-e7d3-40b7-94b7-5d543cbbe10a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/74</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">265</unitid>
+                  <unittitle encodinganalog="3.1.2">Stadtrat Heinz-Winfried Sabais</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ccd2482e-e7d3-40b7-94b7-5d543cbbe10a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a5318baa-b6f1-4dd0-bdbf-dc6c51a16ead" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/75</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">265</unitid>
+                  <unittitle encodinganalog="3.1.2">Professor Dr. Karl Schwantag</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a5318baa-b6f1-4dd0-bdbf-dc6c51a16ead/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_2b06b617-20c2-4589-983f-a26b272caed2" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bundestag, Ministerien und Behörden</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a87959ac-f859-4b6f-8853-94223f46ded0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/76</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">266</unitid>
+                  <unittitle encodinganalog="3.1.2">Nicht veröffentlichte Anfragen von Bundestagsabgeordneten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a87959ac-f859-4b6f-8853-94223f46ded0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_075323c1-578e-4174-a4ed-65d2e42f61b4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/77</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">267</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundesministerium für Wirtschaft</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/075323c1-578e-4174-a4ed-65d2e42f61b4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_49213987-21d5-4228-8300-0a1d3141bd14" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/79</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">269</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundesminister für das Post- und Fernmeldewesen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/49213987-21d5-4228-8300-0a1d3141bd14/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fbbf48aa-f299-46e8-84c3-02d46d0d444c" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/80</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">270</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundesschatzministerium</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fbbf48aa-f299-46e8-84c3-02d46d0d444c/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b1113a78-0dc8-4d35-bb2a-52e44f585030" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/81</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">271</unitid>
+                  <unittitle encodinganalog="3.1.2">Presse- und Informationsamt der Bundesregierung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b1113a78-0dc8-4d35-bb2a-52e44f585030/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7bb7307d-5fcd-4b1f-aefd-294b5b8e3115" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/82</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">273</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundeskartellamt</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7bb7307d-5fcd-4b1f-aefd-294b5b8e3115/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a020e20e-4a6d-49fc-a29c-a57dd1ee6321" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/83</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">274</unitid>
+                  <unittitle encodinganalog="3.1.2">Statistisches Bundesamt</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a020e20e-4a6d-49fc-a29c-a57dd1ee6321/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_70349787-020c-461d-8089-82bc8dc37242" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/84</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">276</unitid>
+                  <unittitle encodinganalog="3.1.2">Senator für Wissenschaft und Kunst von Berlin</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/70349787-020c-461d-8089-82bc8dc37242/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bc1e0151-7ac5-4407-a6b2-a08033adf7c9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/85</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">278</unitid>
+                  <unittitle encodinganalog="3.1.2">Vertretung des Landes Berlin beim Bund</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bc1e0151-7ac5-4407-a6b2-a08033adf7c9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8571c286-10bf-4b5e-85e1-69161c5fe7d4" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/86</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">280</unitid>
+                  <unittitle encodinganalog="3.1.2">Kommission zur Untersuchung der Gefährdung der wirtschaftichen Existenz von Presseunternehmen und der Folgen der Konzentration für die Meinungsbildung in der BRD</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8571c286-10bf-4b5e-85e1-69161c5fe7d4/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_a756b7db-5902-44b9-840f-f543185764da" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Pressevereinigungen, Verlegerverbände und Verlage</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0ae8e07b-ffe2-493d-832e-30ffbaf46d4d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/87</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">281</unitid>
+                  <unittitle encodinganalog="3.1.2">Deutscher Presserat</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0ae8e07b-ffe2-493d-832e-30ffbaf46d4d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6c78e83a-c0c8-4cd5-b538-170ffc070d29" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/88</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">289</unitid>
+                  <unittitle encodinganalog="3.1.2">Deutscher Journalistenverband</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6c78e83a-c0c8-4cd5-b538-170ffc070d29/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f22fdb38-b913-4f86-979a-29a784a0fe57" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/89</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">290</unitid>
+                  <unittitle encodinganalog="3.1.2">Bundesverband Deutscher Zeitungsverleger e.V., Bad Godesberg</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f22fdb38-b913-4f86-979a-29a784a0fe57/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8625cfc0-b7c7-4a4c-a1af-a05b72c4628b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/90</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">291</unitid>
+                  <unittitle encodinganalog="3.1.2">Verein der Berliner Zeitungsverleger e.V., Berlin</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8625cfc0-b7c7-4a4c-a1af-a05b72c4628b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8ff720ad-1c26-4f33-bb1a-95b29fa47e85" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/91</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">300</unitid>
+                  <unittitle encodinganalog="3.1.2">Konzentration GmbH, Bad Godesberg</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8ff720ad-1c26-4f33-bb1a-95b29fa47e85/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5c455637-a90f-4b34-9218-95a29e0db24f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/92</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">302</unitid>
+                  <unittitle encodinganalog="3.1.2">Standortpresse GmbH, Bonn</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5c455637-a90f-4b34-9218-95a29e0db24f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a2c95419-64db-432f-b779-2c000e67c64e" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/93</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">303</unitid>
+                  <unittitle encodinganalog="3.1.2">Verband Deutscher Zeitschriftenverleger e.V., Frankfurt/Main</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a2c95419-64db-432f-b779-2c000e67c64e/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c1c6be19-96e0-4e12-9f95-8454789b2a5b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/94</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">305</unitid>
+                  <unittitle encodinganalog="3.1.2">Springer-Konzern</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c1c6be19-96e0-4e12-9f95-8454789b2a5b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_43740e7c-1b26-4ee4-a92d-c5cd7ba813c0" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/95</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">306</unitid>
+                  <unittitle encodinganalog="3.1.2">Sonstige Zeitungs- und Zeitschriftenverlage</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/43740e7c-1b26-4ee4-a92d-c5cd7ba813c0/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_9a515272-7f50-4a93-a797-47abdd7b3dc7" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Rundfunkanstalten und Rundfunkinstitutionen</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_05d06a34-5abe-485a-a931-c4aeefe8c812" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/96</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">308</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsgemeinschaft der öffentlich-rechtlichen Rundfunkanstalten Deutschlands (ARD)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/05d06a34-5abe-485a-a931-c4aeefe8c812/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2f27e42d-fef1-4752-aa69-b33fc8e4af03" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/97</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">309</unitid>
+                  <unittitle encodinganalog="3.1.2">Degeto Film GmbH, Frankfurt/Main</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2f27e42d-fef1-4752-aa69-b33fc8e4af03/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_22b89498-026a-46e7-bd06-8b80f4614c48" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/98</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">310</unitid>
+                  <unittitle encodinganalog="3.1.2">Bayerischer Rundfunk</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/22b89498-026a-46e7-bd06-8b80f4614c48/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_545ab9dc-2f31-4589-9b10-3f8f60fce208" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/99</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">311</unitid>
+                  <unittitle encodinganalog="3.1.2">Hessischer Rundfunk</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/545ab9dc-2f31-4589-9b10-3f8f60fce208/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8e70ba10-f670-41a7-9503-8c153eb621a6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/100</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">312</unitid>
+                  <unittitle encodinganalog="3.1.2">Norddeutscher Rundfunk</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8e70ba10-f670-41a7-9503-8c153eb621a6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b5f89e6f-ed0c-427c-8031-b1c0e5b1a272" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/101</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">313</unitid>
+                  <unittitle encodinganalog="3.1.2">Radio Bremen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b5f89e6f-ed0c-427c-8031-b1c0e5b1a272/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_81b2dfce-fe86-40c5-b968-bedb7ab91f3a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/102</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">314</unitid>
+                  <unittitle encodinganalog="3.1.2">Saarländischer Rundfunk</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/81b2dfce-fe86-40c5-b968-bedb7ab91f3a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4777a4b5-2a81-4afd-9fec-223bcd996db9" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/103</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">315</unitid>
+                  <unittitle encodinganalog="3.1.2">Sender Freies Berlin</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4777a4b5-2a81-4afd-9fec-223bcd996db9/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5a3324a7-169e-4ee7-9da3-acb71aa21270" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/104</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">316</unitid>
+                  <unittitle encodinganalog="3.1.2">Süddeutscher Rundfunk, Stuttgart</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5a3324a7-169e-4ee7-9da3-acb71aa21270/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f3a23aab-c9a4-4191-8937-40d0eb617911" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/105</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">318</unitid>
+                  <unittitle encodinganalog="3.1.2">Westdeutscher Rundfunk, Köln</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f3a23aab-c9a4-4191-8937-40d0eb617911/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_47210aeb-8fcb-47f2-b4aa-88077f1afb84" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/106</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">321</unitid>
+                  <unittitle encodinganalog="3.1.2">Zweites Deutsches Fernsehen, Mainz</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/47210aeb-8fcb-47f2-b4aa-88077f1afb84/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dd041493-6341-414c-88fc-0aa3769b474d" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/107</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">323</unitid>
+                  <unittitle encodinganalog="3.1.2">Unterlagen zum Binder-Guachten über die Finanzsituation des Zweiten Deutschen Fernsehens</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dd041493-6341-414c-88fc-0aa3769b474d/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="series" id="DE-1958_2c943974-cd95-44d7-9649-9d16c443fe8e" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Verhandlungen zwischen Rundfunkanstalten und Verlegern über Werbesendungen</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61a49d1f-0ab7-46ba-9c4e-e29bc26c4775" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/108</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">325</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61a49d1f-0ab7-46ba-9c4e-e29bc26c4775/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cbac1ac9-ae36-4938-a511-50848789fd8f" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/109</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">326</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cbac1ac9-ae36-4938-a511-50848789fd8f/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_29754491-9e20-4023-a8d3-977cc0e83f5a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/110</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">327</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 3</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/29754491-9e20-4023-a8d3-977cc0e83f5a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_16078414-1be6-4970-82ab-128d3c8e1bc4" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Verbände und Unternehmen der Film- und Werbewirtschaft</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0df90326-360b-4f88-afab-1a77fbd6f1b3" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/111</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">329</unitid>
+                  <unittitle encodinganalog="3.1.2">Spitzenorganisation der Filmwirtschaft (SPIO), Wiesbanden</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0df90326-360b-4f88-afab-1a77fbd6f1b3/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_441bfabd-f72b-431e-ac8c-bcccf4c00004" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/112</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">329</unitid>
+                  <unittitle encodinganalog="3.1.2">Hauptverband Deutscher Filmtheater</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/441bfabd-f72b-431e-ac8c-bcccf4c00004/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4530a7fc-e8fb-4d7d-8c06-49307241f71a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/113</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">333</unitid>
+                  <unittitle encodinganalog="3.1.2">Arbeitsgemeinschaft Freier Fernsehprodzenten e.V:, München</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4530a7fc-e8fb-4d7d-8c06-49307241f71a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c6ddceca-71c6-44dc-be68-7dcec88dcccb" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/114</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">337</unitid>
+                  <unittitle encodinganalog="3.1.2">Werbeverwaltungen</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c6ddceca-71c6-44dc-be68-7dcec88dcccb/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b7ad951f-ebcc-4eee-8f49-b6b95d951056" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/115</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">339</unitid>
+                  <unittitle encodinganalog="3.1.2">Spielfilmproduzenten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1965-12-31">1965</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b7ad951f-ebcc-4eee-8f49-b6b95d951056/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_257580f4-697a-46af-b301-9c6d2801044b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/116</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">340</unitid>
+                  <unittitle encodinganalog="3.1.2">Werbe- und sonstige Kurzfilmproduzenten</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/257580f4-697a-46af-b301-9c6d2801044b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7d47d28a-4c77-4cd2-8904-71e6f957b921" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/117</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">342</unitid>
+                  <unittitle encodinganalog="3.1.2">Atelierbetriebe</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7d47d28a-4c77-4cd2-8904-71e6f957b921/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2e38283e-2204-45d1-9c10-460bdcb047df" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/118</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">344</unitid>
+                  <unittitle encodinganalog="3.1.2">C. Bertelsmann Verlag, Gütersloh</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2e38283e-2204-45d1-9c10-460bdcb047df/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7b5d3d6b-543e-4d52-a6db-27927899b0cc" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/119</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">345</unitid>
+                  <unittitle encodinganalog="3.1.2">Gesellschaft Werbeagenturen GmbH, Frankfurt/Main</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1965-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7b5d3d6b-543e-4d52-a6db-27927899b0cc/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b1c7a5c5-dda1-499d-9e47-bed4eb48099b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 102-ANH. I/120</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">350</unitid>
+                  <unittitle encodinganalog="3.1.2">Frau Professor Dr. Noelle-Neumann, Institut für Demoskopie Allensbach</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Bundesministerium für Wirtschaft und Technologie (BMWi)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b1c7a5c5-dda1-499d-9e47-bed4eb48099b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

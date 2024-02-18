@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/335d3c61-c7cd-4503-ae45-7af0ce622b48/" identifier="DE-1958_335d3c61-c7cd-4503-ae45-7af0ce622b48">DE-1958_335d3c61-c7cd-4503-ae45-7af0ce622b48</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Deutsche Interessenvertretung in der Schweiz</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <date encodinganalog="260$c" calendar="gregorian" normal="2009">2009</date>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 147</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1950-01-01/1952-12-31" encodinganalog="3.1.3">1950-1952</unitdate>
+      <unittitle encodinganalog="3.1.2">Deutsche Interessenvertretung in der Schweiz</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>171 Aufbewahrungseinheiten</extent>
+        <extent>2,3 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Deutsche Interessenvertretung in der Schweiz (DIV)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Deutsche Interessensvertretung = DIV</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>abgeschlossen</p>
+    </processinfo>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Regelungen für die Unerstützung Hilfsbedürftiger bis 1945</p>
+      <p>Mit Unterzeichnung der Niederlassungsverträge zwischen dem Deutschen Reich und der Schweizerischen Eidgenossenschaft vom 31. Mai 1890 und 13. November 1909 wurden die &quot;Bedingungen für die Niederlassung der Angehörigen des Deutschen Reiches in der Schweiz und der Angehörigen der Schweiz im Deutschen Reich sowie die wechselseitige Unterstützung Hilfsbedürftiger&quot; neu geregelt und vertraglich vereinbart. Artikel 1 des Vertrages vom 13. November 1909 besagt u.a.: &quot;Die Angehörigen jedes vertragschließenden Teiles sollen berechtigt sein, sich in dem Gebiete des anderen Teiles ständig niederzulassen oder dauernd oder zeitweilig aufzuhalten, wenn und solange sie die dortigen Gesetze und Polizeiverordnungen befolgen&quot;....Artikel 6 bestimmte u.a.: &quot;Jeder vertragschließende Teil verpflichtet sich, dafür zu sorgen, dass in seinem Gebiete den hilfsbedürftigen Angehörigen des anderen Teiles die erforderliche Verpflegung und Krankenfürsorge nach den am Aufenthaltsort für die eigenen Angehörigen geltenden Grundsätze zuteil werde, bis ihre Rückkehr in die Heimat ohne Nachteil für ihre und anderer Gesundheit geschehen kann&quot;. Aufgrund dieser Vertragsbedingungen konnten deutsche Reichsangehörige sich ständig oder vorübergehend in der Schweiz aufhalten. Ergänzend zu den o.g. Vertragsbestimmungen wurde zwischen dem Deutschen Reich und der Schweiz am 19. März 1943 ein Vertrag geschlossen über die &quot;Regelung der Fürsorge für alleinstehende Frauen&quot; (ratifiziert am 18. August 1944, S. 65 ff.). Nach Artikel 1 sollten im Deutschen Reich oder der Schweiz lebende alleinstehende Frauen, die die Staatsangehörigkeit des Aufenthaltslandes verloren hatten, wie eigene Staatsangehörige unterstützt werden. Über diese vertraglich zugesicherten gegenseitigen Hilfeleistungen an Bedürftige hinaus konnten sich im Bedarfsfall Einzelpersonen bis zum 8. Mai 1945 auch an die Deutsche Gesandtschaft Bern, bzw. die zuständigen Konsulate wenden und um Unterstützung nachsuchen. Das Deutsche Reich hatte zum Zweck der Unterstützung Hilfsbedürftiger noch kurz vor Kriegsende 30 Millionen Reichsmark (RM) an die Schweiz überwiesen.</p>
+      <p>Rechtslage und Verfahren von Anträgen in den Jahren 1945 - 1952</p>
+      <p>Nach Kriegsende wurde die Fürsorgetätigkeit für ehemalige Reichsangehörige in der Schweiz neu geregelt. Maßgebend für die Gewährung einer Unterstützung sollte allein die tatsächliche Bedürftigkeit sein, die zu beweisen war, und nur an Reichsdeutsche mit gültigen deutschen Ausweispapieren ausgezahlt wurde. Zudem mußten die Antragsteller vor dem 8. Mai 1945 in der Schweiz ansässig gewesen sein bzw. sich aufgehalten haben. Ein Rechtsanspruch wegen nicht geleisteter Unterhaltszahlungen infolge der Zahlungsunfähigkeit der deutschen Verwaltungen konnte nicht geltend gemacht werden. Die beim &quot;Eidgenossenschaftlichen Politischen Departement&quot; in Bern eingerichtete Zentrale der &quot;Deutschen Interessenvertretung in der Schweiz&quot; (Chef der Deutschen Interessenvertretung in der Schweiz, Bern, Willadingweg 78) begann am 1. August 1945 damit, aus den zur Verfügung stehenden beschränkten Betriebsmitteln (&quot;Unterstützungsfonds&quot;), die treuhänderisch verwaltet wurden, bedürftige Reichsdeutsche zu unterstützen. Dem &quot;Chef&quot; nachgeordnet waren die Deutschen Interessenvertretungen mit kantonaler Zuständigkeit, die über die Einzelanträge entschieden. Das Verfahren der Antragstellung war folgendes: Die Dienststellen der schweizerischen Armenpflege oder Fürsorge des Antragstellers, gewährten Unterstützung und/oder reichten die Anträge zwecks Unterstützung durch die Deutsche Interessenvertretung (DIV). Unter Verwendung des vom Antragsteller auszufüllenden Formulares A &quot;Hilfeleistung an deutsche Reichsangehörige in der Schweiz&quot; wurden Renten-, Pensions- und sonstige berechtigte Auszahlungen zunächst durch die DIV in Funktion der Abwicklungsstelle der Deutschen Gesandtschaft direkt überwiesen. Ab 1. Januar 1946 erfolgten derartige Überweisungen dann über die zuständigen Armenpflegestellen. Nach Prüfung des Antrages erfolgte entweder eine Kostenbeteiligung, laufende oder einmalige Unterstützung oder die Ablehnung des Antrages. Bei Ablehnung des Antrages bestand noch die Möglichkeit der Unterstützung durch andere Hilfseinrichtungen, z.B. das Deutsche Hilfskomitee in der Schweiz, Abteilung Repatriierung. Die Zahlungen bezogen sich überwiegend auf die Begleichung von Arzt- und Krankenhausrechnungen, Kauf von (orthopädischen) Hilfsmitteln, Kleidungsstücken, Schuhen, Kartoffeln, Brennmaterial, Begleichung von Mietkosten, Repatriierungshilfe usw. . Der Kreis der Unterstützungsempfänger bezog sich insbesondere auf folgende Personen:</p>
+      <p>· die seit ihrer Geburt in der Schweiz ansässigen deutschen Staatsangehörigen</p>
+      <p>· diejenigen Deutschen, die sich krankheitsbedingt in der Schweiz zur Kur aufhielten (insbesondere Tuberkulose-Kranke) und durch den Zusammenbruch mittellos wurden oder keine Möglichkeit zur Heimreise besaßen</p>
+      <p>· deutsche (auch jüdische) Emigranten auf der Flucht vor dem NS-Regime,</p>
+      <p>· Deutsche, deren Renten- oder Pensionsbezüge infolge des Zusammenbruchs ausblieben</p>
+      <p>· Deutsche, die infolge kriegsbedingter familiärer Zerwürfnisse mittellos geworden waren</p>
+      <p>Auffallend war die große Anzahl weiblicher Antragsteller. Zum Kreis der unterstützungsberechtigten ehemaligen Reichsangehörigen zählten auch Österreicher, deren Anträge - bis zur Liquidation im Jahre 1948 - durch die österreichischen Interessenvertretungen bearbeitet wurden, danach durch die neu eingerichtete österreichische Gesandtschaft in der Schweiz. Nicht in die Zuständigkeit der DIV fielen die Internierten, für deren Unterstützung die Flüchtlingssektion der Polizeiabteilung des Eidgenossenschaft Justiz- und Polizeidepartements zuständig war. Im Zuge der Entlassung der Internierten konnte das &quot;Interniertenheim Wiesen&quot; aufgelöst werden und ab 1. Juni 1948 der DIV als &quot;Rekonvaleszentenheim Wiesen&quot; unterstellt werden (bis Ende September 1951). Das Vermögen der aufgelösten in der Schweiz tätigen deutschen Hilfsvereine (z.B. &quot;Reichsdeutschenhilfe in der Schweiz&quot;) wurde nach Kriegsende im Auftrag der schweizerischen Bundesanwaltschaft von der Treuhandstelle der deutschen Hilfsvereine verwaltet, dann auf Beschluss des schweizerischen Bundesrates vom 10. Dezember 1945 der DIV übergeben. Die Tätigkeit der DIV endet praktisch mit Abschluss der Vereinbarung vom 14. Juli 1952 zwischen der Bundesrepublik Deutschland und der Schweiz, wodurch die Verpflichtung zur gegenseitigen Fürsorge für Hilfsbedürftige erneuert wurde (ratifiziert am 17. März 1953, vgl. Bundesgesetzblatt (BGBl.) II, S. 31 ff). Gemäß Schlußprotokoll zu dieser Vereinbarung war die DIV gehalten, die noch in der Schweiz vorhandenen ehemaligen Reichsmittel an deutsche Fürsorgebehörden abzutreten. De facto wurden die noch vorhandenen Betriebsmittel der in Freiburg/Breisgau neu errichteten Zentralstelle für Überweisungen von Fürsorgeleistungen in die Schweiz übergeben.</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Verwandtes Archivgut</head>
+      <p>Reichsgesetzblatt (RGBl.), Bundesgesetzblatt (BGBl.), Bundeskanzleramt (B 136), Bundesministerium der Justiz (B 141), Bundespräsidialamt (B 122), Presse- und Informationsamt der Bundesregierung (B 145), Deutsches Büro für Friedensfragen (Z 35), Direktorialkanzlei des Verwaltungsrates d. Vereinigten Wirtschaftsgebietes (Z 13)</p>
+      <p>Zu Nachlässen: www.nachlassdatenbank.de</p>
+      <p>Schweizerisches Bundesarchiv, Politisches Archiv des Auswärtigen Amtes, Pressearchiv des Deutschen Bundestages</p>
+    </relatedmaterial>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 147/...</p>
+    </prefercite>
+    <relatedmaterial>
+      <head>Fremde Archive</head>
+      <p>Schweizerisches Bundesarchiv</p>
+      <p>Politisches Archiv des Auswärtigen Amtes</p>
+      <p>Pressearchiv des Deutschen Bundestages</p>
+    </relatedmaterial>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_335d3c61-c7cd-4503-ae45-7af0ce622b48" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Deutsche Interessenvertretung in der Schweiz</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>171 Aufbewahrungseinheiten</extent>
+            <extent>2,3 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_f4ad7d40-43fa-4311-924d-c3c3c4b00404" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 147 Deutsche Interessensvertretung in der Schweiz</unittitle>
+          </did>
+          <c level="class" id="DE-1958_93c171d2-1418-4232-9447-41d566748ad4" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Antragssteller und Unterstützungsempfänger.- Einzelfälle</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

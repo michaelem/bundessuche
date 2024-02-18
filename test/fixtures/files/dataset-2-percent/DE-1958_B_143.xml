@@ -1,0 +1,1431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4830b521-1e2a-42f9-be28-6ce823c86b32/" identifier="DE-1958_4830b521-1e2a-42f9-be28-6ce823c86b32">DE-1958_4830b521-1e2a-42f9-be28-6ce823c86b32</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Olympia Baugesellschaft mbH</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-12">12.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 143</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1966-01-01/1975-12-31" encodinganalog="3.1.3">1966-1975</unitdate>
+      <unittitle encodinganalog="3.1.2">Olympia Baugesellschaft mbH</unittitle>
+      <physdesc>
+        <genreform>Schriftgut</genreform>
+        <extent>68 Aufbewahrungseinheiten</extent>
+        <extent>5,7 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Im Juli 1967 unterzeichneten die Bundesregierung, der Freistaat Bayern und die Landeshauptstadt München den Vertrag zur Gründung der Olympia-Baugesellschaft mbH. Ihre Aufgabe war es, die für die Ausrichtung der XX. Olympischen Spiele in München 1972 notwendigen Sportanlagen und -einrichtungen, das Olympische Dorf und sämtliche Baumaßnahmen und Erschließungsanlagen auf dem Oberwiesenfeld in München zu planen, zu errichten und zu finanzieren. Organe der Gesellschaft waren die beiden Geschäftsführer, der Aufsichtsrat und die Gesellschafterversammlung. Zum 1.1.1974 wurde die Gesellschaft aufgelöst.</p>
+      <p>Stand: September 2009</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>online-Findbuch</p>
+    </processinfo>
+    <scopecontent encodinganalog="summary">
+      <head>Bestandsbeschreibung</head>
+      <p>Das Schriftgut gelangte im Dezember 1975 zusammen mit der Bildüberlieferungen der Olympia-Baugesellschaft mbH (vgl. Bild 158) in das Bundesarchiv. Es enthält: Architektenwettbewerb (12), Geschäftsführung, darunter Gründungsstatut und technische Berater (11), Aufsichtsrat, insb. Sitzungen (8), Finanz- und Verwaltungsausschuss (12), Bauausschuss (13), Wirtschaftsprüfungen und Gutachten (2).</p>
+      <p>Stand: September 2009</p>
+    </scopecontent>
+    <relatedmaterial>
+      <head>Verwandtes Archivgut</head>
+      <p>Bildüberlieferungen der Olympia-Baugesellschaft mbH (Bild 158)</p>
+    </relatedmaterial>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 143/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_4830b521-1e2a-42f9-be28-6ce823c86b32" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Olympia Baugesellschaft mbH</unittitle>
+          <physdesc>
+            <genreform>Schriftgut,Akten</genreform>
+            <extent>68 Aufbewahrungseinheiten</extent>
+            <extent>5,7 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_cab7256b-8b00-48c4-bc45-13a9efc52643" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 143 Olympia Baugesellschaft mbH</unittitle>
+          </did>
+          <c level="class" id="DE-1958_13055bc9-d8e5-473e-9494-603686496493" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Architektenwettbewerb für die XX. Olympischen Spiele, München 1972</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_99227767-2f0b-4ad4-abb6-f36d5680d389" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/1</unitid>
+                <unittitle encodinganalog="3.1.2">Erster Preisträger Behnisch &amp; Partner.- (Flächen)Berechnungen, Dachkonstruktion, Statik für das Stadion, die Sport- und die Schwimmhalle</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Preisgericht.- Konstituierung, Honorierung der Fachpreisrichter und Informationsreisen (mit Sitzungsprotokollen), 1967</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/99227767-2f0b-4ad4-abb6-f36d5680d389/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fef92b64-ebfc-4f8f-9668-29fa98a0f17f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/2</unitid>
+                <unittitle encodinganalog="3.1.2">Alternativen.- Zweiter bis vierter Preisträger, insb. Kostenvoranschläge und bauliche Erläuterungen</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+                <note>
+                  <p>Die Pläne wurden entnommen (Signatur B 143 Plan-02/01-11)</p>
+                </note>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fef92b64-ebfc-4f8f-9668-29fa98a0f17f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="series" id="DE-1958_904aeb15-de77-48e2-8cd3-20b61322357d" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Wettbewerbsausschreibung für das Oberwiesenfeld</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e63151a7-215d-4f00-b590-43bb2c2b9faa" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/3</unitid>
+                  <unittitle encodinganalog="3.1.2">Stellungnahmen öffentlicher Stellen, Textentwürfe</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                  <note>
+                    <p>Die Pläne wurden entnommen (Signatur B 143 Plan-03/01-06)</p>
+                  </note>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Olympiaschwimmhalle</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e63151a7-215d-4f00-b590-43bb2c2b9faa/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8a884b48-57bd-4476-948f-0d494ec206ec" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/4</unitid>
+                  <unittitle encodinganalog="3.1.2">Teilnehmer.- Ausgabe der Wettbewerbsunterlagen (Verzeichnisse und Schriftwechsel)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8a884b48-57bd-4476-948f-0d494ec206ec/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3dbbcefd-4385-4909-99ad-21ac097c3918" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/5</unitid>
+                  <unittitle encodinganalog="3.1.2">Rückgabe der Wettbewerbsunterlagen (Verzeichnisse und Schriftwechsel)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3dbbcefd-4385-4909-99ad-21ac097c3918/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6d9eb5aa-3b54-41be-b74c-baa6dd40c3be" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/6</unitid>
+                  <unittitle encodinganalog="3.1.2">Rückfragen der Teilnehmer und Stellungnahmen der OBG</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                  <note>
+                    <p>Die Pläne wurden entnommen (Signatur B 143 Plan-06/01-02)</p>
+                  </note>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Höhenschnitt des Mittleren Rings (Oberwiesental), Okt. 1966;<lb/>Besprechung der Fachpreisrichter, sachverständigen Berater und Vorprüfer (Kurzprotokoll), 3. Apr. 1967</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6d9eb5aa-3b54-41be-b74c-baa6dd40c3be/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d6a4bcc7-a033-4138-a935-790d14590e09" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/7</unitid>
+                  <unittitle encodinganalog="3.1.2">Beschlüsse.- Protokolle von Sitzungen des Bauberatungs- und des Stadtplanungsausschusses</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d6a4bcc7-a033-4138-a935-790d14590e09/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_be645357-96cf-4cdb-93f9-ddefb3f3a25b" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/8</unitid>
+                  <unittitle encodinganalog="3.1.2">Allgemeiner Schriftverkehr, u.a. über die verkehrliche Erschließung des Olympiastadions, die bauliche Gestaltung des Olympischen Dorfes für die männlichen Teilnehmer der Olympischen Spiele und die Teilnahmebedingungen des Wettbewerbs</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/be645357-96cf-4cdb-93f9-ddefb3f3a25b/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_30ea0029-7c59-4f0e-8d19-31c389632431" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/9</unitid>
+                  <unittitle encodinganalog="3.1.2">Andere Wettbewerbe.- Altstadtring Nordost, Stadion auf dem Oberwiesenfeld, Entlastungsstadt Perlach/München (Ausschreibungstexte und Vorprüfungslisten)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1966-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/30ea0029-7c59-4f0e-8d19-31c389632431/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1560a920-d6cf-4217-8745-d1b87dea6ed6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/10</unitid>
+                  <unittitle encodinganalog="3.1.2">Vorprüfung.- Teilnehmerlisten, Zeitplan, Personal, Raumbedarf, Material</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1560a920-d6cf-4217-8745-d1b87dea6ed6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3c6fe340-710d-496f-9947-0ad631292647" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/11</unitid>
+                  <unittitle encodinganalog="3.1.2">Preisrichter, sachverständige Berater und Vorprüfer (alphabetisch geordneter Schriftwechsel)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1967-12-31">1966-1967</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3c6fe340-710d-496f-9947-0ad631292647/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5954ee9c-91dd-446f-9ed1-9062c6f061d6" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/12</unitid>
+                  <unittitle encodinganalog="3.1.2">Geltendmachung von Regressansprüchen bei Transporten der eingereichten Modelle</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält auch:<lb/>Geschäftsordnung für den Aufsichtsrat;<lb/>Konsortialvertrag;<lb/>Satzung der Olympia-Baugesellschaft;<lb/>Mitgliederverzeichnis des Aufsichtsrates</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5954ee9c-91dd-446f-9ed1-9062c6f061d6/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_493e31a7-0d86-4ca1-b79d-4a7a626e7508" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsführung</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_66aac426-86d6-432b-a5bd-0716ed42a38c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/13</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">00 (000)</unitid>
+                <unittitle encodinganalog="3.1.2">Gründungsstatut, Konsortialvertrag und Gesellschaftsverträge</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1973-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/66aac426-86d6-432b-a5bd-0716ed42a38c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ce5834a6-964c-4e4a-9dd6-a97f66f8c9b4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/14</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">001(0010, 0011)</unitid>
+                <unittitle encodinganalog="3.1.2">Handelsregister- und gewerberechtliche Anmeldung</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1975-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ce5834a6-964c-4e4a-9dd6-a97f66f8c9b4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_86619e88-30ac-499a-b4f8-8c639242b3da" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/15</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">01 (0100, 0101, 0102)</unitid>
+                <unittitle encodinganalog="3.1.2">Gesellschafterversammlungen (Protokolle)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1973-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/86619e88-30ac-499a-b4f8-8c639242b3da/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f06c19db-3a5d-4b38-b17c-fcbba42abed9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/16</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">011 (0110, 0111)</unitid>
+                <unittitle encodinganalog="3.1.2">Geschäftsordnung und Aufsichtsrat (Mitgliederliste und Ernennungsschreiben)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1973-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f06c19db-3a5d-4b38-b17c-fcbba42abed9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_51bbdd6d-909d-41b5-a6ae-556be7aed1f2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/17</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">001 (0020,0021,0022)</unitid>
+                <unittitle encodinganalog="3.1.2">Finanzierung, insb. Prüfungsbeantwortungen durch die OBG (Schriftwechsel mit den Gesellschaftern)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1972-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Beurlaubung von bayerischen Landesbeamten zur Mitarbeit bei der OBG.- Vertrag mit dem Staatsministerium der Finanzen, 1968</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/51bbdd6d-909d-41b5-a6ae-556be7aed1f2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f95cc51f-ae4b-4730-ad59-295d828f727f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/18</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">01 (0103)</unitid>
+                <unittitle encodinganalog="3.1.2">Gesellschafter und Geschäftsführung, u. a. Umlaufbeschlüsse und Geschäftsberichte</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1974-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Geschäftsverteilungsplan, Stand: 1974</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f95cc51f-ae4b-4730-ad59-295d828f727f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_604c6847-8d4b-4840-9b43-5540721c9d7c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/19</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">015</unitid>
+                <unittitle encodinganalog="3.1.2">Technische Berater</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1970-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/604c6847-8d4b-4840-9b43-5540721c9d7c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cb01162c-05cd-4d9a-a6fd-28f2670ddd11" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/20</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">016</unitid>
+                <unittitle encodinganalog="3.1.2">Hauptgeschäftsführer Carl Mertz und andere Geschäftsführer, u.a. Einladungen und Terminabsprachen mit Franz Josef Strauß und Willi Daume</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1974-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Geschäftsberichte von 1971 und 1972</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cb01162c-05cd-4d9a-a6fd-28f2670ddd11/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="series" id="DE-1958_7f0c6cda-cafd-4fc9-9cb8-d15d2b96eb05" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Vorbereitung von Sitzungen (Schriftwechsel, Protokolle)</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_af6505e7-8139-46ae-8da6-0f428ec77dec" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/32</unitid>
+                  <unittitle encodinganalog="3.1.2">Exekutivgruppe des Organisationskomitees.- Sitzungen (Protokolle, Schriftwechsel, Tagesordnung)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1972-12-31">1971-1972</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/af6505e7-8139-46ae-8da6-0f428ec77dec/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="subseries" id="DE-1958_70ca64ef-f258-4697-b76b-a3def6b83047" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Aufsichtsrat, Bauausschuss, Finanz- und Verwaltungsausschuss</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_18071933-0ead-48ca-9836-f5b6c5714dd7" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/34</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 1</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/18071933-0ead-48ca-9836-f5b6c5714dd7/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_286d2c15-2ce6-4402-a96a-4a4cf0f14ee4" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/33</unitid>
+                    <unittitle encodinganalog="3.1.2">Bd. 2</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1970-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Geschäftsbericht 1969;<lb/>Verzeichnis der Aufsichtsratsmitglieder, Ausschußmitglieder und ständigen Stellvertreter der Aufsichtsratsmitglieder</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/286d2c15-2ce6-4402-a96a-4a4cf0f14ee4/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_eba594e9-6dd4-4da3-8825-209cf971a399" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Gremien</unittitle>
+            </did>
+            <c level="class" id="DE-1958_96d01224-4a0e-4723-bdf5-35a03d2ceefd" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aufsichtsrat</unittitle>
+              </did>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ef49131b-b45d-42e9-9212-75b1454a8e89" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/24</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">011(0113, 0114)</unitid>
+                  <unittitle encodinganalog="3.1.2">Aufsichtsrat (Schriftwechsel und Beschlüsse im Umlaufverfahren)</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1973-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Ringer- und Judohalle auf dem Messegelände (Pläne), 1970</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ef49131b-b45d-42e9-9212-75b1454a8e89/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3daa40dc-cf04-4968-8d4f-687412cc937f" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/25</unitid>
+                  <unittitle encodinganalog="3.1.2">Aufsichtsrat.- Beschlüsse im Umlaufverfahren</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält nur:<lb/>Sanierung der untergehängten Decke der Sport- und der Schwimmhalle, 12. Okt. 1973;<lb/>Stellenplan der Olympia-Baugesellschaft für das Liquidationsjahr 1974, 22. Juni 1973</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3daa40dc-cf04-4968-8d4f-687412cc937f/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+              <c level="series" id="DE-1958_cad95912-4678-482a-848c-fb4332766085" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Sitzungen (Protokolle, Schriftwechsel, Tagesordnung)</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_00b7e6fd-670a-4848-8567-c4aac0fc038e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/26</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">011 (0112)</unitid>
+                    <unittitle encodinganalog="3.1.2">Erste bis dritte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31">1967-1968</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/00b7e6fd-670a-4848-8567-c4aac0fc038e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4cf9f0fd-5cf0-43f0-8b6e-18ac234710ef" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/27</unitid>
+                    <unittitle encodinganalog="3.1.2">Vierte bis siebte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4cf9f0fd-5cf0-43f0-8b6e-18ac234710ef/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_08bce9c8-1ea4-4f47-b535-4f64c244b67a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/28</unitid>
+                    <unittitle encodinganalog="3.1.2">Achte bis zehnte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1969-12-31">1968-1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/08bce9c8-1ea4-4f47-b535-4f64c244b67a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_00412982-1fd6-40cc-951c-9781c86e334d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/29</unitid>
+                    <unittitle encodinganalog="3.1.2">11. bis 13. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält auch:<lb/>Wettbewerbsskizzen für die Regattaanlage Feldmoching (Oberschleissheim), 1969</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/00412982-1fd6-40cc-951c-9781c86e334d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7387b59b-1184-432e-9d41-e3d1792f9a7e" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/30</unitid>
+                    <unittitle encodinganalog="3.1.2">14. bis 18. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1972-12-31">1970-1972</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7387b59b-1184-432e-9d41-e3d1792f9a7e/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_28f3b5d8-16df-418b-bafc-8a3c3d12cece" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/31</unitid>
+                    <unittitle encodinganalog="3.1.2">19. bis 22. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1973-12-31">1972-1973</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/28f3b5d8-16df-418b-bafc-8a3c3d12cece/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_6f18851b-b9fd-433e-8a7f-a5e2c1d58915" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Finanz- und Verwaltungsausschuss</unittitle>
+              </did>
+              <c level="series" id="DE-1958_a2d64f09-e148-40ef-b637-e957a50491ec" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Beschlüsse im Umlaufverfahren</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_09eeb827-dfb8-43d0-87d3-5ef3b46c6731" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/52</unitid>
+                    <unittitle encodinganalog="3.1.2">Wärmeversorgung, Bahnhof Olympisches Dorf, Aufforstung Nymphenburg u. a. (Nrn. 11, 15 bis 20, 23, 24)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/09eeb827-dfb8-43d0-87d3-5ef3b46c6731/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dc629d60-27e3-48b2-9023-6f7e96b41ce3" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/53</unitid>
+                    <unittitle encodinganalog="3.1.2">Reitanlage Riem, olympiabedingte Straßenbauten, Architektenvertrag von Professor Behnisch u. a. (Nrn. 29 bis 32)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1973-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dc629d60-27e3-48b2-9023-6f7e96b41ce3/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_adbafc2e-b4a1-482e-b241-356453f7b284" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/51</unitid>
+                    <unittitle encodinganalog="3.1.2">Grundstückserwerb, Wirtschaftsplan 1969 und Einstellungen u. a. (Nrn. 1 bis 20, 23 bis 28)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1969-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/adbafc2e-b4a1-482e-b241-356453f7b284/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cee67722-6702-4363-b73c-203a4d285a66" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/49</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">013</unitid>
+                    <unittitle encodinganalog="3.1.2">Essenszuschüsse und Weihnachtszuwendungen für die Mitarbeiter der OBG, Haftpflicht-, Bauwesen- und Planungsversicherung für die Olympia-Bauten (Nrn. 13, 16, 18, 25 bis 29)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1970-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cee67722-6702-4363-b73c-203a4d285a66/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2f39dfb6-b00d-4f19-a7f3-5e7d75fcbfd6" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/50</unitid>
+                    <unittitle encodinganalog="3.1.2">Ruderregatta- und Kanustrecke, Erwerb der Grundstücke in Feldmoching, Wirtschaftsplan 1968 u. a. (Nrn. 1 bis 9, 12 bis14)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1969-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Wohnungsräumung, Anstellungen, Grundstückserwerbung, Straßenbau, Ruderregattastrecke;<lb/>Enthält auch:<lb/>Zusammenstellung der Umlaufbeschlüsse der Gesellschafter und Beschlussgremien, 15. Apr. 1969</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2f39dfb6-b00d-4f19-a7f3-5e7d75fcbfd6/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="series" id="DE-1958_cd8d6383-e1ce-407c-b537-8fa0bcaff611" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Sitzungen (Protokolle, Schriftwechsel, Tagesordnung)</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bede3f0b-d3fd-4688-af83-b6fae4fb8e00" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/56</unitid>
+                    <unittitle encodinganalog="3.1.2">Achte bis zehnte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Geschäftsanweisung für die Geschäftsführung</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bede3f0b-d3fd-4688-af83-b6fae4fb8e00/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fa667205-6d96-41cc-8766-5cef00fbc064" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/57</unitid>
+                    <unittitle encodinganalog="3.1.2">11. bis 15. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1971-12-31">1970-1971</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Fotos von Kunstwerkentwürfen</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fa667205-6d96-41cc-8766-5cef00fbc064/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_17fefd58-ee63-4394-a83c-8217a02d4c25" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/58</unitid>
+                    <unittitle encodinganalog="3.1.2">16. bis 21. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1973-12-31">1972-1973</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/17fefd58-ee63-4394-a83c-8217a02d4c25/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b275a306-34e5-4e3e-b13b-76dcf2194372" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/48</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">0130, 0131, 0132, 0133, 0134</unitid>
+                    <unittitle encodinganalog="3.1.2">Verschiedene Sitzungen, u. a. Terminabsprachen (mit Protokollen)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1973-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Klage auf Zahlung von weiterem Honorar durch den Ersten Preisträger, Prof. Günter Behnisch;<lb/>Inhaltsverzeichnis der 1. bis 16. Sitzung;</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b275a306-34e5-4e3e-b13b-76dcf2194372/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_79687da8-2d30-4ccd-ba81-d817ce3d291d" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/54</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">013</unitid>
+                    <unittitle encodinganalog="3.1.2">Erste bis dritte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31">1967-1968</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Wirtschaftsplan 1968, Geschäftsbericht für das Rumpfgeschäftsjahr 1967, Gutachten zu Überdachungsvorschlägen</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/79687da8-2d30-4ccd-ba81-d817ce3d291d/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f0d469d5-7a79-4f47-9c26-76954969f969" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/55</unitid>
+                    <unittitle encodinganalog="3.1.2">Vierte bis siebte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1969-12-31">1968-1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f0d469d5-7a79-4f47-9c26-76954969f969/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_73a5bc9e-b5db-4ccf-837d-e8a83789d3e5" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/59</unitid>
+                    <unittitle encodinganalog="3.1.2">22. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/73a5bc9e-b5db-4ccf-837d-e8a83789d3e5/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+            </c>
+            <c level="class" id="DE-1958_d0161b92-4d36-456f-9d56-22526fa7a8e1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Bauausschuss</unittitle>
+              </did>
+              <c level="series" id="DE-1958_0d360a85-b716-42d6-af6e-b429647c62e1" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Beschlüsse im Umlaufverfahren</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_289ffadb-689a-491a-863f-e257fc5c02c2" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/36</unitid>
+                    <unitid type="file reference" encodinganalog="3.1.1">012 (0123)</unitid>
+                    <unittitle encodinganalog="3.1.2">Reitstadion Riem und Flutlichtanlage u. a (Nrn. 10 bis 13, 15, 16, 19, 23)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält u.a.:<lb/>Lageplan des Olympischen Dorfes von 1968</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/289ffadb-689a-491a-863f-e257fc5c02c2/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_545dbfbf-d813-4e65-9301-73f34f581567" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/37</unitid>
+                    <unittitle encodinganalog="3.1.2">Ausschreibungen und Auftragserteilung, insbes. für Brücken-, Kanal- und Straßenbau, Baustelleneinrichtung (Nrn. 1 bis 23)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1969-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/545dbfbf-d813-4e65-9301-73f34f581567/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ee80b2ff-e80f-430f-8880-be1c78c67744" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/38</unitid>
+                    <unittitle encodinganalog="3.1.2">Energieversorgung und Zentralplateau u. a. (Nrn. 1 bis 9, 17, 18)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1969-12-31"/>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ee80b2ff-e80f-430f-8880-be1c78c67744/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0dcde8aa-c0dc-4703-a560-f3c6529dbe33" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/39</unitid>
+                    <unittitle encodinganalog="3.1.2">Ruderregatta und Basketballhalle u. a. (Nrn. 19 bis 23)</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0dcde8aa-c0dc-4703-a560-f3c6529dbe33/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="series" id="DE-1958_ea069d4e-962b-4a9a-8095-7ada8f9fbbdd" encodinganalog="3.1.4">
+                <did>
+                  <unittitle encodinganalog="3.1.2">Sitzungen (Protokolle, Schriftwechsel, Tagesordnung)</unittitle>
+                </did>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a60435f9-e572-440a-83a2-1fd192e30e86" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/43</unitid>
+                    <unittitle encodinganalog="3.1.2">11. bis 12. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a60435f9-e572-440a-83a2-1fd192e30e86/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d0f9369b-4b96-44bd-be83-827e00ccf270" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/40</unitid>
+                    <unittitle encodinganalog="3.1.2">Erste bis vierte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1968-12-31">1967-1968</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d0f9369b-4b96-44bd-be83-827e00ccf270/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8606a53a-5f2c-4a41-875f-6dbde212dea8" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/41</unitid>
+                    <unittitle encodinganalog="3.1.2">Fünfte bis siebte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8606a53a-5f2c-4a41-875f-6dbde212dea8/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8baf1c80-2769-4127-bfa1-7bec7d4afd66" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/42</unitid>
+                    <unittitle encodinganalog="3.1.2">Achte bis zehnte Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1969-12-31">1968-1969</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält auch:<lb/>Bericht der Deutschen Revisions- und Treuhand-Aktiengesellschaft zum Selbstkostenerstattungs-Stahlbauvertrag, 19.11.1969</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8baf1c80-2769-4127-bfa1-7bec7d4afd66/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e5d12c26-69e2-4523-886c-96295f50acd4" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/44</unitid>
+                    <unittitle encodinganalog="3.1.2">13. bis 14. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält auch:<lb/>Skizzen für den Kanuslalom in Augsburg</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e5d12c26-69e2-4523-886c-96295f50acd4/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_74b25b70-e75c-4fb3-8400-3ad5241a497a" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/45</unitid>
+                    <unittitle encodinganalog="3.1.2">15. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1971-12-31">1970-1971</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <scopecontent encodinganalog="summary">
+                    <p>Enthält auch:<lb/>Bericht des Hauptgeschäftsführers, 1.2.1971</p>
+                  </scopecontent>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/74b25b70-e75c-4fb3-8400-3ad5241a497a/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_16409005-3b36-4106-83dd-68a0aabfb4bd" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/46</unitid>
+                    <unittitle encodinganalog="3.1.2">16. bis 20. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1973-12-31">1971-1973</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/16409005-3b36-4106-83dd-68a0aabfb4bd/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+                <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_10a0cff1-2c8b-4c7b-8354-253ddc57c258" encodinganalog="3.1.4">
+                  <did>
+                    <unitid type="call number" encodinganalog="3.1.1">BArch B 143/47</unitid>
+                    <unittitle encodinganalog="3.1.2">21. Sitzung</unittitle>
+                    <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                    <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                    <physdesc>
+                      <genreform>Schriftgut, Akten</genreform>
+                    </physdesc>
+                    <physloc>Koblenz</physloc>
+                    <langmaterial>
+                      <language langcode="ger" scriptcode="Latn">deutsch</language>
+                    </langmaterial>
+                  </did>
+                  <otherfindaid>
+                    <p>
+                      <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/10a0cff1-2c8b-4c7b-8354-253ddc57c258/"/>
+                    </p>
+                  </otherfindaid>
+                </c>
+              </c>
+              <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d2629e11-2518-4722-a43a-82809bbed32a" encodinganalog="3.1.4">
+                <did>
+                  <unitid type="call number" encodinganalog="3.1.1">BArch B 143/35</unitid>
+                  <unitid type="file reference" encodinganalog="3.1.1">012 (0120, 0121, 0122, 0123, 0124)</unitid>
+                  <unittitle encodinganalog="3.1.2">Bauausschuss.- Verschiedene Sitzungen, insb. zum Thema: Künstlerische Gestaltung</unittitle>
+                  <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1972-12-31"/>
+                  <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                  <physdesc>
+                    <genreform>Schriftgut, Akten</genreform>
+                  </physdesc>
+                  <physloc>Koblenz</physloc>
+                  <langmaterial>
+                    <language langcode="ger" scriptcode="Latn">deutsch</language>
+                  </langmaterial>
+                </did>
+                <scopecontent encodinganalog="summary">
+                  <p>Enthält u.a.:<lb/>Inhaltsverzeichnis der Bauausschusssitzungen 1-17;<lb/>Künstlerische Wettbewerbe für die drei Eingangsbereiche U-Bahn, S-Bahn, Straßenbahn.- Protokoll über die Sitzung der Jury am 6. Juli 1971;<lb/>Skulpturentwürfe für das Olympia-Gelände (Fotos)</p>
+                </scopecontent>
+                <otherfindaid>
+                  <p>
+                    <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d2629e11-2518-4722-a43a-82809bbed32a/"/>
+                  </p>
+                </otherfindaid>
+              </c>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_1c6157f4-6941-4b4c-98a4-035378c5b9d3" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Wirtschaftsprüfungen und Gutachten</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_71943900-676d-4c9c-bdf2-b8d70554b0de" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/22</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">02 (020, 021, 022)</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungen.- Beauftragung der Gesellschaften, Jahresabschlüsse, Konsorten und Prüfungsorgane</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1974-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>&quot;Gutachten über die voraussichtlichen Folgekosten der Sportanlagen für die Olympischen Spiele 1972 in München nach dem Baukostenanschlag vom September 1969&quot; der Wibera Wirtschaftsberatung AG</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/71943900-676d-4c9c-bdf2-b8d70554b0de/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_91e7e94b-8c2b-4c3b-a11b-fe5084d51904" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 143/23</unitid>
+                <unitid type="file reference" encodinganalog="3.1.1">02 (023, 024, 025)</unitid>
+                <unittitle encodinganalog="3.1.2">Prüfungen.- Bau einer Eissportanlage in die Mehrzweckhalle (Gutachten der Wibera Wirtschaftsberatung AG vom 11.1.1972)</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1972-12-31"/>
+                <origination encodinganalog="3.2.1" label="final">Olympia-Baugesellschaft mbH (OBG)</origination>
+                <physdesc>
+                  <genreform>Schriftgut, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält u.a.:<lb/>Lotto- und Totogeschäftsführer (Liste vom 17.9.1970);<lb/>Richtlinien für die Prüfung der OBG vom 31.7.1968 (Kopie)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/91e7e94b-8c2b-4c3b-a11b-fe5084d51904/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

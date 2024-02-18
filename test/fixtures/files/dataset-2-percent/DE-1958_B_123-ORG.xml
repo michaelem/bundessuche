@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/933c33cf-3ae3-4782-8a53-4793e7115da8/" identifier="DE-1958_933c33cf-3ae3-4782-8a53-4793e7115da8">DE-1958_933c33cf-3ae3-4782-8a53-4793e7115da8</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Fernmeldetechnisches Zentralamt.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 123-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1949-01-01/1949-12-31" encodinganalog="3.1.3">1949 -</unitdate>
+      <unittitle encodinganalog="3.1.2">Fernmeldetechnisches Zentralamt.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>20 Aufbewahrungseinheiten</extent>
+        <extent>0,0 laufende Meter</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Das Fernmeldetechnische Zentralamt (FTZ) ging nach Ausgliederung des Posttechnischen Zentralamts aus dem Post- und Fernmeldetechnischen Zentralamt des Vereinigten Wirtschaftsgebietes hervor (Verfügung der Hauptverwaltung für das Post- und Fernmeldewesen des Vereinigten Wirtschaftsgebietes vom 14. März 1949). Als zentrale Mittelbehörde mit Sitz in Darmstadt hatte das FTZ Vorarbeiten für die ministeriellen Entscheidungen auf den Gebieten der technischen Weiterentwicklung, des Betriebes und der Verwaltung des Fernmeldewesens (einschließlich des Telegraphen-, Fernseh- und Funkwesens) zu leisten. Hierfür führte das FTZ eigene Forschungen durch und organisierte die zentrale Betriebslenkung und Beschaffung. Das zunächst als Hauptabteilung eingerichtete Forschungsinstitut des FTZ erlangte mit Wirkung vom 01. April 1974 unter der Bezeichnung Forschungsinstitut der DBP beim FTZ eine gewisse Selbständigkeit. Das vorher dem Bundesministerium für das Post- und Fernmeldewesen nachgeordnete FTZ wurde der zum 1. Juli 1989 gegründeten Deutschen Bundespost - Generaldirektion TELEKOM unterstellt. Zum 1. Okt. 1992 wurde das FTZ in Forschungs- und Technologiezentrum (ebenfalls kurz FTZ) umbenannt und zum 1. Nov. 1992 mit dem Zentrum für Telekommunikation, Berlin, der ehem. Deutschen Post vereinigt. Mit dem 1. Jan. 1995 wurde das FTZ Teil der Deutschen Telekom AG. Es bestand zu diesem Zeitpunkt aus mehreren unabhängigen Betriebsbereichen, die sich verschiedenen Technologien und Aufgaben widmeten.</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>Der Bestand B 123 ist vollständig erschlossen.</p>
+    </processinfo>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 123-ORG/...</p>
+    </prefercite>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_933c33cf-3ae3-4782-8a53-4793e7115da8" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Fernmeldetechnisches Zentralamt.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>20 Aufbewahrungseinheiten</extent>
+            <extent>0,0 laufende Meter</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_c18bef22-97ec-4d48-8e7c-ba9dedbdea35" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 123 ORG Fernmeldetechnisches Zentralamt.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_94d34307-d56f-4f80-8ac4-a31f345253c8" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f2819757-ebb7-4d1c-9bc9-fc06581c5ef1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1950</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1950-01-01/1950-12-31">1950</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f2819757-ebb7-4d1c-9bc9-fc06581c5ef1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_068a9e52-5743-47e0-ad94-80899df0d4e1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. März 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/068a9e52-5743-47e0-ad94-80899df0d4e1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b3e79c20-03dd-4646-bce4-457fb053a3cb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Okt. 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b3e79c20-03dd-4646-bce4-457fb053a3cb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3c6fa6e9-4a21-4ffb-9719-cd21d0fc2ad3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3c6fa6e9-4a21-4ffb-9719-cd21d0fc2ad3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bc10fbe6-f853-474c-b9ec-a809ec9d87fe" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Okt. 1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1971-12-31">1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bc10fbe6-f853-474c-b9ec-a809ec9d87fe/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_096bd00c-f09c-424e-a15c-2eb9c41b0ce6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1976</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1976-01-01/1976-12-31">1976</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/096bd00c-f09c-424e-a15c-2eb9c41b0ce6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_037c2728-b322-421f-babe-e4511c36ebc0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/037c2728-b322-421f-babe-e4511c36ebc0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9ffbb20f-7921-4715-b843-344adf9fcbdb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1978</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1978-01-01/1978-12-31">1978</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9ffbb20f-7921-4715-b843-344adf9fcbdb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61cfab43-4f52-4dcb-a18b-e1508d623910" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Nov. 1979</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1979-01-01/1979-12-31">1979</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61cfab43-4f52-4dcb-a18b-e1508d623910/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e4a7f92b-d67e-45b8-8378-d40a8346b361" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e4a7f92b-d67e-45b8-8378-d40a8346b361/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2dba6a78-0164-4b15-96c8-02833cd89533" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2dba6a78-0164-4b15-96c8-02833cd89533/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_27c4a37b-109d-484d-87b4-27d09e7cdd7a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 31. Aug. 1981</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1981-01-01/1981-12-31">1981</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/27c4a37b-109d-484d-87b4-27d09e7cdd7a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ef97b255-90b9-4d11-a628-ebe8e8035b89" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Apr. 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ef97b255-90b9-4d11-a628-ebe8e8035b89/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4c3b99c5-0d2b-43a3-ab34-3b29e5c88da4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4c3b99c5-0d2b-43a3-ab34-3b29e5c88da4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4539213b-aba9-40e6-8411-41333079900d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4539213b-aba9-40e6-8411-41333079900d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_59aeef55-f79d-4dfb-a763-aaba72dcbf81" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Febr. 1987</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1987-12-31">1987</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/59aeef55-f79d-4dfb-a763-aaba72dcbf81/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_18e3b957-53a7-4900-80dc-abcf7e38b4cd" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 30. Juni 1988</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1988-01-01/1988-12-31">1988</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/18e3b957-53a7-4900-80dc-abcf7e38b4cd/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_224501d6-76ef-4c3b-864e-e5d7fc7235ef" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 31. Dez. 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/224501d6-76ef-4c3b-864e-e5d7fc7235ef/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fa4aca80-1148-4209-9fb7-778efe612458" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fa4aca80-1148-4209-9fb7-778efe612458/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0ee6272f-2eb0-49ec-8292-29b4e5e8534f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 123-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Fernmeldetechnisches Zentralamt (FTZ)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0ee6272f-2eb0-49ec-8292-29b4e5e8534f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>

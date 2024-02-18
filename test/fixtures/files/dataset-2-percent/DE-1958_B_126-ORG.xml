@@ -1,0 +1,2767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead audience="external" xmlns="urn:isbn:1-931666-22-9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="urn:isbn:1-931666-22-9 http://www.archivesportaleurope.net/Portal/profiles/apeEAD.xsd">
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924" relatedencoding="MARC21">
+    <eadid countrycode="DE" mainagencycode="DE-1958" url="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9a3de8c7-7dc4-47de-90cd-cc658fd1559f/" identifier="DE-1958_9a3de8c7-7dc4-47de-90cd-cc658fd1559f">DE-1958_9a3de8c7-7dc4-47de-90cd-cc658fd1559f</eadid>
+    <filedesc>
+      <titlestmt>
+        <titleproper encodinganalog="245">Bundesministerium der Finanzen.- Organisationsunterlagen</titleproper>
+      </titlestmt>
+      <publicationstmt>
+        <publisher>Bundesarchiv</publisher>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+      </publicationstmt>
+    </filedesc>
+    <profiledesc>
+      <creation>
+        <date normal="2016-04-01">01.04.2016</date>
+      </creation>
+    </profiledesc>
+    <revisiondesc>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>Converted_apeEAD_version_BASYS</item>
+      </change>
+      <change>
+        <date normal="2018-09-13">13.09.2018</date>
+        <item>automated export from BASYS database</item>
+      </change>
+    </revisiondesc>
+  </eadheader>
+  <archdesc level="fonds" type="inventory" encodinganalog="3.1.4" relatedencoding="ISAD(G)v2">
+    <did>
+      <unitid encodinganalog="3.1.1" type="call number">BArch B 126-ORG</unitid>
+      <unitdate calendar="gregorian" era="ce" normal="1948-01-01/1948-12-31" encodinganalog="3.1.3">1948-</unitdate>
+      <unittitle encodinganalog="3.1.2">Bundesministerium der Finanzen.- Organisationsunterlagen</unittitle>
+      <physdesc>
+        <genreform>Sammlung</genreform>
+        <extent>401 Aufbewahrungseinheiten</extent>
+      </physdesc>
+      <langmaterial>
+        <language langcode="ger" scriptcode="Latn">deutsch</language>
+      </langmaterial>
+      <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+      <repository>
+        <corpname>Bundesarchiv</corpname>
+        <address>
+          <addressline>Potsdamer Straße 1</addressline>
+          <addressline>56075 Koblenz</addressline>
+          <addressline>koblenz@bundesarchiv.de</addressline>
+        </address>
+        <extref xlink:role="url_archive" xlink:href="http://www.bundesarchiv.de">http://www.bundesarchiv.de</extref>
+      </repository>
+    </did>
+    <bioghist>
+      <head>Geschichte des Bestandsbildners</head>
+      <p>Das Bundesministerium der Finanzen wurde im Zuge der ersten Regierungsbildung im Jahre 1949 gegründet und ging aus der Verwaltung für Finanzen des Vereinigten Wirtschaftsgebietes hervor. Sein Dienstsitz war Bonn. Es gliederte sich zunächst in sieben Abteilungen und eine Sondergruppen, die für den Lastenausgleich zuständig war. Neben der Abteilung für Organisations- und Verwaltungsangelegenheiten des Ministeriums und der Bundesfinanzverwaltung existierten zunächst fogende Abteilungen mit folgenden Aufgaben:</p>
+      <p>Abteilung II (Allgemeine Finanzpolitik und öffentliche Finanzwirtschaft, Volkswirtschaftliche Abteilung, Bundeshaushalt, Bundesvermögen, Bauangelegenheiten), Abteilung III (Zölle und Verbrauchsteuern), Abteilung IV (Besitz- und Verkehrsteuern), Abteilung V (Währung, Geld und Kredit, Banken, Börsen, Versicherungen) sowie Abteilung VI (Rechtsangelegenheiten und Liquidation des Krieges). Erster Bundesfinanzminister wurde Dr. Fritz Schäffer.</p>
+      <p>Vordringlichste Aufgaben nach dem Kriege waren die Finanzierung der Kriegsfolgelasten und die Bereitstellung von finanziellen Mitteln für den Wiederaufbau. Hierzu gehörten die Wertpapierbereinigung, die Soforthilfe, die Regelung der Vorkriegsschulden des ehemaligen deutschen Reiches und die der inneren Reichsverbindlichkeiten, die Regelung zur Freigabe des deutschen Auslandsvermögens, die Schaffung der gesetzlichen Regelungen und die Durchführung von Zahlungen zur Wiedergutmachung nationalsozialistischen Unrechts, die Zahlung von Lastenausgleich und von Reparationsschäden, von Besatzungskosten, Verteidigungslasten und Schutzmachtskosten für West-Berlin. Hinzu kam die Gestaltung einer Steuerpolitik zur Belebung der deutschen Wirtschaft sowie die Sicherung des Geldwertes.</p>
+      <p>Die vom Bundesministerium der Finanzen wahrgenommenen Aufgaben lassen sich in zwei Bereiche untergliedern: Das Ministerium stellt den Entwurf des Haushaltsgesetzes und des Haushaltsplans sowie den mehrjährigen Finanzplan auf und steht an der Spitze der Bundesfinanzverwaltung, die gemäß Artilel 108 Grundgesetz Zölle, Finanzmonopole, bundesgesetzlich geregelte Verbrauchsteuern eibnschließlich der Einfuhrumsatzsteuer und die Abgaben im Rahmen der Europäischen Union verwaltet. Mit der Finanzreform von 1969 wurden die finanziellen Beziehungen zwischen Bund und Ländern neu geordnet und das Haushaltsrecht entsprechend den Erfordernissen eine modernen Finanzverwaltung angepasst</p>
+      <p>Größere Einschnitte in der Wahrnehmung seiner Zuständigkeitemn erfuhr das Bundesministerium der Finanzen mit der Neubildung der Bundesregierung im Jahre 1957, als die bislang vom BMF wahrgenommenen Aufgaben auf dem Gebiet des allgemeinen Beamten- und Versorgungsrechts auf das Bundesministerium des Innern übergingen. Die Beteiligungen des Bundes an wirtschaftlichen Unternehmen sowie die Verwaltung der Bundesliegenschaften und die Bundesbauangelegenheiten gingen auf das neu errichtete Bundesministerium für wirtschaftlichen Besitz des Bundes über, wobei diese bereits 1969 dem Bundesministerium der Finanzen rückübertragen wurden.</p>
+      <p>Auf Anordnung des Bundeskanzlers vom 13. Mai 1971 wurden das Bundesministerium der Finanzen und das Bundesministerium für Wirtschaft zum Bundesministerium für Wirtschaft und Finanzen zusammelgelegt, jedoch bereits durch Organisationserlass des Bundeskanzlers vom 15. Dezember 1972 wieder getrennt. Die Zuständigkeit für Geld-, Kredit- und Währungswesen sowie für die Banken-, Börsen- und Versicherungspolitik gingen hiernach auf das Bundesministerium der Finanzen über, während die Bauaufgaben des Bundes fortan vom Bundesministerium für Raumordnung, Bauwesen und Städtebau wahrgenommen wurden. Im Jahre 1989 sah die Abteilungsstruktur wie folgt aus: Abteilung Z (Zentralabteilung), Abteilung I (Grundsatzfragen der Finanzpolitik, Finanzpolitische Fragen einzelner Bereiche), Abteilung II (Bundeshaushalt), Abteilung III (Zölle, Verbrauchsteuern, Branntweinmonopol), Abteilung IV (Besitz- und Verkehrsteuern), Abteilung V (Finanzbeziehungen zu der EG, den Ländern und Gemeiden, internationale Finanzierungsfragen, Staatsrecht), Abteilung VI (Rechtsangelegenheiten, Abwicklung der finanziellen Auswirkungen des Krieges, Verteidigungslasten, Bundesliegenschaften, bewegliches Bundesvermögen) und Abteilung VI (Geld und Kredit). Zum nachgeordneten Bereich gehörten die Bundeshauptkasse, die Bundesschuldenverwaltung, die Bundesmonopolverwaltung für Branntwein, das Bundesamt für Finanzen, das Bundesaufsichtsamt für das Kreditwesen, das Bundesaufsichtsamt für das Versicherungswesen, als Mittelbehörden die Oberfinanzdirektionen sowie als örtliche Behörden Hauptzollämter, Zollfahndungsämter, Bundesvermögens- und Bundesforstämter.</p>
+      <p>Nach der deutschen Einheit im Jahre 1990 wurde in Berlin eine Außenstelle des Bundesministeriums der Finanzen eingerichtet.</p>
+      <p>Aufgabenzuwachs erfuhr das Bundesministerium im Zusammenhang mit der Auflösung des Bundesministeriums für Post und Telekommunikation (BMPT). Zum 1. Januar 1998 entfielen Teile der ehemaligen Zuständigkeiten des BMPT, hier insbesondere Aufgaben der Beteiligungs- und Privatisiertungspolitik und die Beteiligungsverwaltung für die Unternehmen Telekom, Postbank, Post und Bundesdruckerei auf das Bundesministerium der Finanzen. Hinzu kam die Rechts- und Fachaufsicht über die Bundesanstalt für Post und Telekommunikation. Auch die Herstellung der Postwertzeichen ging auf das BMF über. Im Oktober 1998 wurde die Zuständigkeit für Europapolitik aus dem Bundesministerium für Wirtschaft herausgelöst und dem BMF übertragen. Im August 1999 wurde der Dienstsitz des Bundesministeriums der Finanzen nach Berlin verlegt. Der organisatorische Aufbau des BMF sah im April 2009 wie folgt aus: Abteilung Z (Zentralabteilung, IT-Beauftragte für die Bundesfinanzverwaltung), Abteilung I (Finanzpolitische und volkswirtschaftliche Grundsatzfragen), Abteilung II (Bundeshaushalt), Abteilung III (Zölle, Verbrauchsteuern, Branntweinmonopol), Abteilung IV (Steuerabteilung), Abteilung V (Föderale Finanzbeziehungen, Staatsrecht und Rechtsangelegenheiten), Abteilung VI (Justiziariat und Service), Abteilung VII (Finanzmarktpolitik), Abteilung VIII (Privatisierungen, Beteiligungen und Bundesimmobilien) sowie Abteilung E (Europapolitik). Die Bundesfinanzakademie ist organisatorisch der Abteilung Z (Zentralabteilung) zugeordnet.</p>
+      <p>Der nachgeordnete Bereich des Bundesministerium der Finanzen war infolge der Neustrukturierungen im Rahmen des Projektes &quot;Schlanker Staat&quot; seit der Jahrtausendwende erheblichen Veränderungen unterworfen, die in zunehmder Zentralisierung mündeten. So obliegt die Verwaltung und Verwertung der Bundesliegenschaften, die zuvor von den Bundesvermögensabteilungen der Oberfinanzdirektionen wahrgenommen wurde, seit dem 1. Januar 2005 der Bundesanstalt für Immobilienaufgaben (BImA). Die Oberfinanzdirektionen als gemeinsame Mittelbehörden der Bundes- und Landesfinanzverwaltung wurden durch fünf Bundesfinanzdirektionen mit jeweils unterschiedlichen bundesweiten Fachpaketen ersetzt. Die Kompetenz der Hauptzollämter wurde gestärkt. Die Bildungseinrichtungen der Bundesfinanzverwaltung wurden in einem Bildungs- und Wissenschaftszentrum der Bundesfinanzverwaltung zusammengefasst. Behörden der Versicherungs- und Kreditaufsicht (Bundesaufsichtsamt für das Kreditwesen, Bundesaufsichtsamt für das Versicherungswesen und der Handel mit Wertpapieren) wurden im Bundesamt für Finanzdienstleistungsaufsicht zusammengefasst, dass seit Mai 2002 tätig ist. Aufgaben u.a. der Abwicklung der Kriegsfolgen nimmt heute das Bundesamt für zentrale Dienste und offene Vermögensfragen (BADV) wahr. Administrative steuerfachliche Aufgaben des BMFund die steuerlichen Aufgaben des ehemaligen Bundesamtes für Finanzen wurden im Zuge der Neustrukturierung der Bundesfinanzverwaltung (1998 bis 2006) dem Bundeszentralamt für Steuern übertragen.</p>
+      <p>Chronologie der Amtszeiten der Bundesfinanzminister:</p>
+      <p>Fritz Schäffer (CSU) (1949-1957)</p>
+      <p>Franz Etzel (CDU) (1957-1961)</p>
+      <p>Heinz Starke (FDP) (1961-1962)</p>
+      <p>Rolf Dahlgrün (FDP) (1962-1966)</p>
+      <p>Kurt Schmücker (CDU) (8. bis 30. Nov. 1966)</p>
+      <p>Franz Josef Strauß (CSU) (1966-1969)</p>
+      <p>Alex Möller (SPD) (1969-1971)</p>
+      <p>Karl Schiller (SPD) (1971-1972)</p>
+      <p>Helmut Schmidt (SPD) (1972-1974)</p>
+      <p>Hans Apel (SPD) (1974-1978)</p>
+      <p>Hans Matthöfer (SPD) (1978-1982)</p>
+      <p>Manfred Lahnstein (SPD) (Apr. bis Okt. 1982)</p>
+      <p>Gerhard Stoltenberg (CDU) (1982-1989)</p>
+      <p>Theo Waigel (CSU) (1989-1998)</p>
+      <p>Oskar Lafontaine (SPD) (1998-1999)</p>
+      <p>Hans Eichel (SPD) (1999-2005)</p>
+      <p>Peer Steinbrück (SPD) (2005-2009)</p>
+      <p>Dr. Wolfgang Schäuble (CDU) (seit Okt. 2009).</p>
+    </bioghist>
+    <processinfo>
+      <head>Bearbeitungshinweise</head>
+      <p>Für verschiedene Aktenplangruppen liegen Bewertungskataloge vor.</p>
+    </processinfo>
+    <prefercite>
+      <head>Zitierweise</head>
+      <p>BArch B 126-ORG/...</p>
+    </prefercite>
+    <relatedmaterial>
+      <head>Fremde Archive</head>
+      <p>Finanzgeschichtliche Sammlung der Bundesfinanzakademie in Brühl</p>
+    </relatedmaterial>
+    <dsc type="othertype">
+      <c level="fonds" id="DE-1958_9a3de8c7-7dc4-47de-90cd-cc658fd1559f" encodinganalog="3.1.4">
+        <did>
+          <unittitle encodinganalog="3.1.2">Bundesministerium der Finanzen.- Organisationsunterlagen</unittitle>
+          <physdesc>
+            <genreform>Sammlung,Akten</genreform>
+            <extent>401 Aufbewahrungseinheiten</extent>
+          </physdesc>
+          <langmaterial>
+            <language langcode="ger" scriptcode="Latn">deutsch</language>
+          </langmaterial>
+        </did>
+        <c level="class" id="DE-1958_96024471-6ed4-45f2-8f55-258c289098f8" encodinganalog="3.1.4">
+          <did>
+            <unittitle encodinganalog="3.1.2">B 126 ORG Bundesministerium der Finanzen.- Organisationsunterlagen</unittitle>
+          </did>
+          <c level="class" id="DE-1958_bb65a2f5-c7ed-4bda-a134-5d1eb67bc85c" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Organisationspläne</unittitle>
+            </did>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_51e192ef-cec3-4227-8a1e-5204fd1b4148" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/1</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1949</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1949-01-01/1949-12-31">1949</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/51e192ef-cec3-4227-8a1e-5204fd1b4148/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d0c9b14f-32bc-4696-a0a9-acbf9a9e177d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/2</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1951</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1951-01-01/1951-12-31">1951</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d0c9b14f-32bc-4696-a0a9-acbf9a9e177d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4b0ffab7-9341-4d39-8f80-51a3e9c5e2be" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/3</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1952</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1952-01-01/1952-12-31">1952</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4b0ffab7-9341-4d39-8f80-51a3e9c5e2be/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f70069fe-814f-429f-92f7-67a0f1cc69cc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/4</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations - und Stellenplan für das Rechnungsjahr 1953, Stand: 1. Apr. 1953</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1953-01-01/1953-12-31">1953</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f70069fe-814f-429f-92f7-67a0f1cc69cc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e70ec30e-eea6-4ceb-8296-16bcc712f611" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/5</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e70ec30e-eea6-4ceb-8296-16bcc712f611/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_10c37d4d-e028-4c38-83ae-84877230b348" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/6</unitid>
+                <unittitle encodinganalog="3.1.2">Organisations - und Stellenplan für das Rechnungsjahr 1955, Stand: 1. Juli. 1954</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1954-01-01/1954-12-31">1954</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/10c37d4d-e028-4c38-83ae-84877230b348/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0bb09b33-843c-446d-bb6f-1a20fd65f284" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/7</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1955, Stand: 1955</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1955-01-01/1955-12-31">1955</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1955</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0bb09b33-843c-446d-bb6f-1a20fd65f284/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b5e5b382-d4f1-4964-93aa-da8609f95031" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/8</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1956, Stand: 1956</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1956-01-01/1956-12-31">1956</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1956</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b5e5b382-d4f1-4964-93aa-da8609f95031/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_251549e4-fd96-467e-af7a-641b3d35830f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/9</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan für das Rechnungsjahr 1957, Stand: 1957</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1957-01-01/1957-12-31">1957</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1957</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/251549e4-fd96-467e-af7a-641b3d35830f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0ee47a94-3c6f-465d-a9df-12eb72290ba5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/10</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1958 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0ee47a94-3c6f-465d-a9df-12eb72290ba5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b5bd2478-2a8e-4781-b5b0-664853d4fca2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/11</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1958</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1958-01-01/1958-12-31">1958</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b5bd2478-2a8e-4781-b5b0-664853d4fca2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_652b227d-0903-462c-aba6-aaa004ee588f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/12</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1959 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/652b227d-0903-462c-aba6-aaa004ee588f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_03bbe356-d1eb-4751-bae1-5293360604fc" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/13</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/03bbe356-d1eb-4751-bae1-5293360604fc/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9bca0984-41c3-434d-815e-76ee76dcc213" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/14</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Sept. 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9bca0984-41c3-434d-815e-76ee76dcc213/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a8504ccf-00e7-4e46-8b58-dcc6bcd1cb10" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/15</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1960</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a8504ccf-00e7-4e46-8b58-dcc6bcd1cb10/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_82048b0b-0056-43d0-9cce-0bd1b6c260db" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/16</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1961 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/82048b0b-0056-43d0-9cce-0bd1b6c260db/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e065a576-dbf1-4ef9-b3d6-4ed28edf4ce3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/17</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e065a576-dbf1-4ef9-b3d6-4ed28edf4ce3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9d4096cc-0fc0-4b42-9414-1aac4c72fdf2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/18</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9d4096cc-0fc0-4b42-9414-1aac4c72fdf2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_82bebd53-0aad-4b6f-b569-518f3a6e9fa1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/19</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1962 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/82bebd53-0aad-4b6f-b569-518f3a6e9fa1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7e2794d2-f666-4675-8211-63783783a3c3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/20</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1962</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1962-01-01/1962-12-31">1962</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7e2794d2-f666-4675-8211-63783783a3c3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_61bb0134-ef37-40e5-be19-c7e0ffbd6516" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/21</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1963</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/61bb0134-ef37-40e5-be19-c7e0ffbd6516/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7d04ee3a-1596-40b3-879f-d79a7fe00ac7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/22</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7d04ee3a-1596-40b3-879f-d79a7fe00ac7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2b3d4d5b-e2ea-44d7-a356-b29978363d9b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/23</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1963</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1963-01-01/1963-12-31">1963</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2b3d4d5b-e2ea-44d7-a356-b29978363d9b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_b327611f-47fe-49fb-a6f8-821ad5d9c0c2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/24</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1964 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/b327611f-47fe-49fb-a6f8-821ad5d9c0c2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_68557b81-5808-48a7-b3c5-526413b0953c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/25</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1964</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1964-01-01/1964-12-31">1964</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/68557b81-5808-48a7-b3c5-526413b0953c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4d9a6adc-44e1-4d60-a23f-711c1cf0708e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/26</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält auch:<lb/>Auszug aus dem Bundeshaushaltsplan 1966 (Entwurf)</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4d9a6adc-44e1-4d60-a23f-711c1cf0708e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_028b814f-e998-47fa-a0b1-45ae7ba4f320" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/27</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/028b814f-e998-47fa-a0b1-45ae7ba4f320/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c24f3ac5-e629-43cc-9ba2-44492205029d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/28</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1966</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1966-01-01/1966-12-31">1966</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c24f3ac5-e629-43cc-9ba2-44492205029d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5c17b3af-a312-482e-a408-8b6df99e7b49" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/29</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr.1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5c17b3af-a312-482e-a408-8b6df99e7b49/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7be0e939-cc3c-473d-9d29-96e4e3b4bfba" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/30</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1967</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1967-01-01/1967-12-31">1967</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7be0e939-cc3c-473d-9d29-96e4e3b4bfba/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_60ec39d8-de81-4289-92d3-bd15a81ebf46" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/31</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/60ec39d8-de81-4289-92d3-bd15a81ebf46/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_df39c2b2-bc75-44f9-adf4-54e34565ae3a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/32</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1968</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1968-01-01/1968-12-31">1968</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/df39c2b2-bc75-44f9-adf4-54e34565ae3a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a269545a-aa5e-4c21-9a20-56f61125c6d4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/33</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1969</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a269545a-aa5e-4c21-9a20-56f61125c6d4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c2cf3c97-c2a7-438f-80ac-48fed55cd367" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/34</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1969</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1969-01-01/1969-12-31">1969</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c2cf3c97-c2a7-438f-80ac-48fed55cd367/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d672fd4e-6a3c-4fa0-ba59-0da33d16c5aa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/35</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d672fd4e-6a3c-4fa0-ba59-0da33d16c5aa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_4bc8ae4a-56f6-4807-9c5f-0969c4039ceb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/36</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/4bc8ae4a-56f6-4807-9c5f-0969c4039ceb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3e521d34-e335-4c51-b233-10e093e5df56" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/37</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1970</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1970-01-01/1970-12-31">1970</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3e521d34-e335-4c51-b233-10e093e5df56/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2a6f938b-cb37-46a9-ba94-fe0ec926e6cb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/38</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1971-12-31">1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2a6f938b-cb37-46a9-ba94-fe0ec926e6cb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_82a7b36f-c995-4037-8e81-c4bf9291910b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/39</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1971</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1971-01-01/1971-12-31">1971</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/82a7b36f-c995-4037-8e81-c4bf9291910b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_74c36004-ae1e-4a7e-bcf1-fe1863ef1b37" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/40</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Mai 1972</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1972-01-01/1972-12-31">1972</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/74c36004-ae1e-4a7e-bcf1-fe1863ef1b37/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f8a1f972-a7c2-4869-827f-77a134126086" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/41</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f8a1f972-a7c2-4869-827f-77a134126086/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_decc3285-8b53-4cb7-8aaf-1bbec0243dff" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/42</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 1973</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1973-01-01/1973-12-31">1973</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/decc3285-8b53-4cb7-8aaf-1bbec0243dff/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_227ac56c-6a2b-442a-823b-f2955132129d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/43</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/227ac56c-6a2b-442a-823b-f2955132129d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_423af697-2945-4146-8535-46665b16c53f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/44</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1974</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1974-01-01/1974-12-31">1974</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/423af697-2945-4146-8535-46665b16c53f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_245bacde-be14-41df-9caa-ee330ea043c8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/45</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/245bacde-be14-41df-9caa-ee330ea043c8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fee6764b-03ad-44c1-8e2e-49d9be587c38" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/46</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1975</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1975-01-01/1975-12-31">1975</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fee6764b-03ad-44c1-8e2e-49d9be587c38/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9820d8b1-1390-416a-a48e-282b1a390dec" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/47</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Dez. 1977</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1977-01-01/1977-12-31">1977</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9820d8b1-1390-416a-a48e-282b1a390dec/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5c706ac6-9076-475e-b39d-2dce200e4614" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/48</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1978</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1978-01-01/1978-12-31">1978</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5c706ac6-9076-475e-b39d-2dce200e4614/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2893db5f-d894-4675-9537-9aa6cc1fff57" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/49</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 1978</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1978-01-01/1978-12-31">1978</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2893db5f-d894-4675-9537-9aa6cc1fff57/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_8bd86a2a-cc4a-49d2-8c11-b7dbb253cf00" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/50</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 1979</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1979-01-01/1979-12-31">1979</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/8bd86a2a-cc4a-49d2-8c11-b7dbb253cf00/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7c84e007-ada7-4583-9af9-6733dbc43973" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/51</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1980</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1980-01-01/1980-12-31">1980</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7c84e007-ada7-4583-9af9-6733dbc43973/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9898471e-2d0d-46cd-ab21-b443eb0caab0" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/52</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1981</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1981-01-01/1981-12-31">1981</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9898471e-2d0d-46cd-ab21-b443eb0caab0/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2d505e3f-b451-4555-8bd3-0ea67b6c4a40" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/53</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2d505e3f-b451-4555-8bd3-0ea67b6c4a40/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_183ad986-839b-4f12-88f9-869bd8803612" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/54</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1982</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1982-01-01/1982-12-31">1982</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/183ad986-839b-4f12-88f9-869bd8803612/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fae62e21-9bfe-4426-9efc-8674bd90379a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/55</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 3. Jan. 1983</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1983-01-01/1983-12-31">1983</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Abteilung IV</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fae62e21-9bfe-4426-9efc-8674bd90379a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_3e14c593-e99e-4bc4-8ee2-e90ec359efc7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/56</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1983</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1983-01-01/1983-12-31">1983</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/3e14c593-e99e-4bc4-8ee2-e90ec359efc7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9cfff1ae-2491-480b-8969-b3af12d4a923" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/57</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 1984</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1984-01-01/1984-12-31">1984</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9cfff1ae-2491-480b-8969-b3af12d4a923/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_616334da-41a6-4ebe-ac61-edf1e219ace9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/58</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/616334da-41a6-4ebe-ac61-edf1e219ace9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1e2dedb5-de74-444e-9843-49e794e9a4aa" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/59</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1985</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1985-01-01/1985-12-31">1985</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1e2dedb5-de74-444e-9843-49e794e9a4aa/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cbd9f76b-eedc-4c49-a7ba-ecd95b98db78" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/60</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1986</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1986-01-01/1986-12-31">1986</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cbd9f76b-eedc-4c49-a7ba-ecd95b98db78/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_821d4d0d-5788-4422-a7f5-dedf69dbf4e4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/61</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1987</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1987-01-01/1987-12-31">1987</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/821d4d0d-5788-4422-a7f5-dedf69dbf4e4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_53c634d3-60ce-49f3-94d3-92c4a9a67c8a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/62</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. März 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/53c634d3-60ce-49f3-94d3-92c4a9a67c8a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2978501c-4711-4754-bd99-8844bb632ee1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/63</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juni 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2978501c-4711-4754-bd99-8844bb632ee1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_caaa0109-395d-43e0-a149-8a52d54b1a77" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/64</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1989</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1989-01-01/1989-12-31">1989</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/caaa0109-395d-43e0-a149-8a52d54b1a77/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1717c7b8-783c-46f2-a070-9cf3708edae4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/65</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1717c7b8-783c-46f2-a070-9cf3708edae4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a0b4ecab-5138-4e68-8a35-94e86f05c38d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/66</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a0b4ecab-5138-4e68-8a35-94e86f05c38d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bcc13cbc-9356-4e51-bc9a-2785b73b609b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/67</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1990</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1990-01-01/1990-12-31">1990</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bcc13cbc-9356-4e51-bc9a-2785b73b609b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ab141906-a4f2-4814-a1f3-4021bd9a8672" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/68</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 1991</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1991-01-01/1991-12-31">1991</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ab141906-a4f2-4814-a1f3-4021bd9a8672/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_56d83cd1-271d-419e-ba11-114370022f3d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/69</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/56d83cd1-271d-419e-ba11-114370022f3d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_34e781d7-28ef-4366-83c6-4f2450590926" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/70</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/34e781d7-28ef-4366-83c6-4f2450590926/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_99a62e8b-3dfa-4289-a490-6c1841a3ebc6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/71</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1992</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1992-01-01/1992-12-31">1992</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/99a62e8b-3dfa-4289-a490-6c1841a3ebc6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_16bc4aa9-bc5a-4e80-9261-a2cbfb11ea11" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/72</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/16bc4aa9-bc5a-4e80-9261-a2cbfb11ea11/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d00c0628-e4ef-4fe9-ac33-6b2274c313b6" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/73</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <scopecontent encodinganalog="summary">
+                <p>Enthält nur:<lb/>Außenstelle Berlin</p>
+              </scopecontent>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d00c0628-e4ef-4fe9-ac33-6b2274c313b6/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c3a57b32-ec28-45f3-9ffa-b0adb729afdd" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/74</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juni 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c3a57b32-ec28-45f3-9ffa-b0adb729afdd/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_6361093a-fec1-4723-80a0-92d63a2801b1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/75</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Aug. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/6361093a-fec1-4723-80a0-92d63a2801b1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d94f48c8-00a4-4d4d-bb0b-13bf5246012e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/76</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 1993</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1993-01-01/1993-12-31">1993</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d94f48c8-00a4-4d4d-bb0b-13bf5246012e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c3406b2e-95e0-40f9-af60-40f997ff162d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/77</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1994</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1994-01-01/1994-12-31">1994</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c3406b2e-95e0-40f9-af60-40f997ff162d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9a7dbd98-2578-46b0-8559-f7906686a84f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/78</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9a7dbd98-2578-46b0-8559-f7906686a84f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_13f6f510-1cee-40f3-8156-ed17a6ff28a7" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/79</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/13f6f510-1cee-40f3-8156-ed17a6ff28a7/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_17df8374-749b-493b-add8-6682707be0c4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/80</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1995</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1995-01-01/1995-12-31">1995</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/17df8374-749b-493b-add8-6682707be0c4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7e243dac-4e4a-4d06-8a70-96ba34e80673" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/81</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1996</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1996-01-01/1996-12-31">1996</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7e243dac-4e4a-4d06-8a70-96ba34e80673/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_37b5746b-e4cc-45cb-aac8-83416fc0c043" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/82</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Juli 1997</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1997-01-01/1997-12-31">1997</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/37b5746b-e4cc-45cb-aac8-83416fc0c043/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7c8d1eae-1cf2-460c-9f16-c11ad3d12e6c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/83</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7c8d1eae-1cf2-460c-9f16-c11ad3d12e6c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0b3dbefa-6e78-45fa-96c4-33f2ac356f66" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/84</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 1998</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1998-01-01/1998-12-31">1998</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0b3dbefa-6e78-45fa-96c4-33f2ac356f66/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_38bab403-6870-4f4e-99c5-f4ecf2161ff3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/85</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/38bab403-6870-4f4e-99c5-f4ecf2161ff3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0a894242-1445-40ae-9795-3118858e11c9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/86</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 1999</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1999-01-01/1999-12-31">1999</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0a894242-1445-40ae-9795-3118858e11c9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_40f0f1ab-6d29-4374-bdc6-5e118093878e" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/87</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 2000</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2000-01-01/2000-12-31">2000</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/40f0f1ab-6d29-4374-bdc6-5e118093878e/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cdc6b2cd-9663-42cb-a4e2-25a002ec4822" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/88</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 2000</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2000-01-01/2000-12-31">2000</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cdc6b2cd-9663-42cb-a4e2-25a002ec4822/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7e40d6db-6815-4d45-90b0-e205b9c2c253" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/89</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7e40d6db-6815-4d45-90b0-e205b9c2c253/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e6b505e0-4623-4ce8-8cf6-3d5c5e084c59" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/90</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Aug. 2001</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2001-01-01/2001-12-31">2001</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e6b505e0-4623-4ce8-8cf6-3d5c5e084c59/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_bd189a8c-2b1d-415e-b22b-f7e14d3d3221" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/91</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2002</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2002-01-01/2002-12-31">2002</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/bd189a8c-2b1d-415e-b22b-f7e14d3d3221/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e0776ef6-9f00-4597-b3c8-41aa35f46256" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/92</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Sept. 2002</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2002-01-01/2002-12-31">2002</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e0776ef6-9f00-4597-b3c8-41aa35f46256/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_5d603dc5-0c8f-41e1-b211-afe0926027e3" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/93</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/5d603dc5-0c8f-41e1-b211-afe0926027e3/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9f3f21ed-dc42-4240-bd27-8821b771f11c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/94</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2003</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2003-01-01/2003-12-31">2003</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9f3f21ed-dc42-4240-bd27-8821b771f11c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1ff41e56-045f-423b-8ba4-7fe64475d5ae" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/95</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1ff41e56-045f-423b-8ba4-7fe64475d5ae/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_1fee1fee-cfcc-472d-9d1e-4334ec6c07be" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/96</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 2004</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2004-01-01/2004-12-31">2004</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/1fee1fee-cfcc-472d-9d1e-4334ec6c07be/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0ea9852b-838f-4022-860d-af6c1cd69339" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/97</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2005</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2005-12-31">2005</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0ea9852b-838f-4022-860d-af6c1cd69339/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_d5cd1677-390c-42b2-92e4-4a5d01c8b3e5" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/98</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 15. Dez. 2005</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2005-01-01/2005-12-31">2005</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/d5cd1677-390c-42b2-92e4-4a5d01c8b3e5/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_2985e014-bdd1-44cd-961b-a7b065d0573c" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/99</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2985e014-bdd1-44cd-961b-a7b065d0573c/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_fed631fc-ac16-4fd4-9aa2-b4d40f1d593f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 2006</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2006-01-01/2006-12-31">2006</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/fed631fc-ac16-4fd4-9aa2-b4d40f1d593f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_e13d686d-5675-427e-a086-4e008a42a3f2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/101</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1959</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1959-01-01/1959-12-31">1959</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/e13d686d-5675-427e-a086-4e008a42a3f2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_49b8a787-a8d2-46b6-89cc-ef8d34ed2a2b" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/102</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 1. Jan. 1961</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1961-01-01/1961-12-31">1961</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/49b8a787-a8d2-46b6-89cc-ef8d34ed2a2b/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_268a3179-0336-4f64-9425-77fe19274c8a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/103</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 1960</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="1960-01-01/1960-12-31">1960</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/268a3179-0336-4f64-9425-77fe19274c8a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_9b6ab1c5-a354-4e7d-8650-c7ae97639886" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100000</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/9b6ab1c5-a354-4e7d-8650-c7ae97639886/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_0a8a1b1b-f097-49c4-9d8c-0872926fed5d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100001</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2013</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2013-01-01/2013-12-31">2013</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/0a8a1b1b-f097-49c4-9d8c-0872926fed5d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eb3ce244-58c8-422b-a609-e86812d8e66f" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100002</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 17. Febr. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eb3ce244-58c8-422b-a609-e86812d8e66f/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7de3dad2-a0d8-403c-bd27-2ae3048688d8" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100003</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Okt. 2014</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2014-01-01/2014-12-31">2014</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7de3dad2-a0d8-403c-bd27-2ae3048688d8/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_dcfe9c7b-f2fb-4576-b4c6-1a2a50346398" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100004</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2015</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2015-01-01/2015-12-31">2015</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/dcfe9c7b-f2fb-4576-b4c6-1a2a50346398/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_55072784-e11b-4114-8c37-661a759519e1" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100005</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 2015</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2015-01-01/2015-12-31">2015</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/55072784-e11b-4114-8c37-661a759519e1/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_60e47095-4f4a-4f16-a328-0dd8e34d0b4a" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100006</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: März 2016</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2016-01-01/2016-12-31">2016</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/60e47095-4f4a-4f16-a328-0dd8e34d0b4a/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_57a3bf05-4ff7-4707-9e3f-0ea470bb8b26" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100007</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 2016</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2016-01-01/2016-12-31">2016</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/57a3bf05-4ff7-4707-9e3f-0ea470bb8b26/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_24dba88e-8ecd-48c9-b014-6b9071ca0b37" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100008</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Mai 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/24dba88e-8ecd-48c9-b014-6b9071ca0b37/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_7d4dba97-1baa-4acb-b30f-5abc15ecc111" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100009</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Dez. 2007</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2007-01-01/2007-12-31">2007</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/7d4dba97-1baa-4acb-b30f-5abc15ecc111/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_f6150112-efe5-4e8a-a212-71cf1fd76be9" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100010</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2008</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2008-01-01/2008-12-31">2008</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/f6150112-efe5-4e8a-a212-71cf1fd76be9/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c20e3940-d361-494e-af1f-87a270c214cb" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100011</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 2009</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2009-01-01/2009-12-31">2009</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c20e3940-d361-494e-af1f-87a270c214cb/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a1e6a5f9-3dbf-416d-9748-dd34cc91d103" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100012</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a1e6a5f9-3dbf-416d-9748-dd34cc91d103/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c8b68b97-dcef-402d-83db-52bec36f87ae" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100013</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Febr. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c8b68b97-dcef-402d-83db-52bec36f87ae/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_eb58e289-e550-483b-977b-cd42270ad0a4" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100014</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Nov. 2010</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2010-01-01/2010-12-31">2010</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/eb58e289-e550-483b-977b-cd42270ad0a4/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_cf5d7e94-ff00-41b6-9423-9d84c27b705d" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100015</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Apr. 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/cf5d7e94-ff00-41b6-9423-9d84c27b705d/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c4267d6b-f017-4165-ad42-3a4d009b0de2" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100016</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2011</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2011-01-01/2011-12-31">2011</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c4267d6b-f017-4165-ad42-3a4d009b0de2/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_a4258eaf-60cb-4e06-a885-0ba544bc5386" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100017</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Jan. 2012</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2012-01-01/2012-12-31">2012</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/a4258eaf-60cb-4e06-a885-0ba544bc5386/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_93a1338c-8ebe-47ab-b3e9-19e1ae902239" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100018</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: Juli 2017</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2017-01-01/2017-12-31">2017</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/93a1338c-8ebe-47ab-b3e9-19e1ae902239/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_c7b5afc1-13d9-4c75-9fb8-aabad286fa19" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100019</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 14. Nov. 2017</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2017-01-01/2017-12-31">2017</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/c7b5afc1-13d9-4c75-9fb8-aabad286fa19/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_ce0d5001-7ab0-4344-8030-2598d6793b92" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100020</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 20. Apr. 2018</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2018-01-01/2018-12-31">2018</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/ce0d5001-7ab0-4344-8030-2598d6793b92/"/>
+                </p>
+              </otherfindaid>
+            </c>
+            <c level="file" xmlns:xlink="http://www.w3.org/1999/xlink" id="DE-1958_24683135-69d2-4781-85c6-c688df827737" encodinganalog="3.1.4">
+              <did>
+                <unitid type="call number" encodinganalog="3.1.1">BArch B 126-ORG/100021</unitid>
+                <unittitle encodinganalog="3.1.2">Organisationsplan, Stand: 31. Mai 2018</unittitle>
+                <unitdate encodinganalog="3.1.3" era="ce" calendar="gregorian" normal="2018-01-01/2018-12-31">2018</unitdate>
+                <origination encodinganalog="3.2.1" label="final">Bundesministerium der Finanzen (BMF)</origination>
+                <physdesc>
+                  <genreform>Sammlung, Akten</genreform>
+                </physdesc>
+                <physloc>Koblenz</physloc>
+                <langmaterial>
+                  <language langcode="ger" scriptcode="Latn">deutsch</language>
+                </langmaterial>
+              </did>
+              <otherfindaid>
+                <p>
+                  <extref xlink:role="url_archivalunit" xlink:href="https://invenio.bundesarchiv.de/basys2-invenio/direktlink/24683135-69d2-4781-85c6-c688df827737/"/>
+                </p>
+              </otherfindaid>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_a7f48427-92cc-480d-aba7-53825c39ede1" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsverteilungspläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_bed72e89-2ac1-427c-81a2-c1fc6bd077e5" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_3ad96980-f4dd-4547-925e-e73e3848e425" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teiländerungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_5932793e-c73b-4160-9246-eba94d7e6e9b" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Personalveränderungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_bfeffd1e-20e0-4f59-8b7e-10d067884831" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Telefonverzeichnisse</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_2f264578-0181-42af-8975-f686f6a50e44" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Aktenpläne</unittitle>
+            </did>
+            <c level="class" id="DE-1958_54999eb4-5c16-44a2-b6bd-8cf72fe25afb" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Gesamtaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_aee2d853-06c5-48b7-91c8-0335b2024a2a" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Teilaktenpläne</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_4061948a-10d8-4f79-bf0a-5c44e7658c71" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Aktenverzeichnisse</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+          <c level="class" id="DE-1958_55a158f7-d77a-4582-a550-ade918956e4e" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Geschäftsordnungen</unittitle>
+              <note>
+                <p>Es können keine Archivalien angezeigt werden.</p>
+              </note>
+            </did>
+          </c>
+          <c level="class" id="DE-1958_69013fda-5d05-4057-b325-a76c657d784d" encodinganalog="3.1.4">
+            <did>
+              <unittitle encodinganalog="3.1.2">Sonstige Anweisungen</unittitle>
+            </did>
+            <c level="class" id="DE-1958_8c716a03-9607-4fc5-9983-c518f5e3ec16" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausanordnungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_c3c19ff5-0a35-4b13-97f0-042bc17c18d1" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausmitteilungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+            <c level="class" id="DE-1958_1bd692d1-d14e-4ed9-b79d-27e280162ddf" encodinganalog="3.1.4">
+              <did>
+                <unittitle encodinganalog="3.1.2">Hausverfügungen</unittitle>
+                <note>
+                  <p>Es können keine Archivalien angezeigt werden.</p>
+                </note>
+              </did>
+            </c>
+          </c>
+        </c>
+      </c>
+    </dsc>
+  </archdesc>
+</ead>
