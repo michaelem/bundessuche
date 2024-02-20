@@ -6,3 +6,7 @@
 .container__inner {
   max-width: 800pt;
 }
+
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
