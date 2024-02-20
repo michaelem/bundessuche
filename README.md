@@ -22,5 +22,14 @@ AGPL - see the LICENSE file for details. Commercial licenses will be made availa
 
 If you would like ot use a modified version of Bundessuche in a Commercial setting please contact <info@bundessuche.de> for more information!
 
+This does not cover the fonts used (found in `app/assets/fonts/`). Both covered by the [SIL Open Font License](https://openfontlicense.org). For details see the fonts section an the respective `LICENSE` file.
+
+## Fonts
+Bundessuche uses two fonts:
+* [Atkinson Hyperlegible](https://brailleinstitute.org/freefont)
+* [EB Garamond](http://www.georgduffner.at/ebgaramond/)
+
+Atkinson Hyperlegible is the default font for all text and EB Garamond is used for the 'Bundessuche' title.
+
 ## Author
 Michael Emhofer, [emi.industries](https://emi.industries)
