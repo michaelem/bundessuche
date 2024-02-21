@@ -1,6 +1,3 @@
-<h1 class="search__title">
-  <%= link_to "Bundessuche", :root %>
-</h1>
 <form class="<%= @query ? "" : "search__form--centered" %>">
   <input type="text" name="q" value="<%= @query %>" placeholder="<%= t("search_placeholder", total: @total) %>" class="search__text-input" />
   <input type="submit" value="<%= t("search_button") %>" class="search__button" />

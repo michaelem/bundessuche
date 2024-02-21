@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   root "search#index"
 
   get "/fulltext" => "search#fulltext"
+
+  get "about" => "pages#about"
+  get "imprint" => "pages#imprint"
 end

@@ -1,3 +1,7 @@
+body {
+  font-family: "Atkinson Hyperlegible", sans-serif;
+}
+
 .container__outer {
   display: flex;
   justify-content: space-around;
@@ -7,6 +11,7 @@
   max-width: 800pt;
 }
 
-body {
-  font-family: "Atkinson Hyperlegible", sans-serif;
+footer {
+  margin-top: 2rem;
+  text-align: center;
 }

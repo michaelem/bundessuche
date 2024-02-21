@@ -11,8 +11,15 @@
   <body>
     <div class="container__outer">
       <main class="container__inner">
+        <h1 class="search__title">
+          <%= link_to "Bundessuche", :root %>
+        </h1>
         <%= yield %>
       </main>
     </div>
+    <footer>
+      <%= link_to "Über uns", :about %>
+      <%= link_to "Impressum", :imprint  %>
+    </footer>
   </body>
 </html>
