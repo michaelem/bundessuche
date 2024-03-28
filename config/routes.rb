@@ -10,6 +10,5 @@ Rails.application.routes.draw do
 
   get "/fulltext" => "search#fulltext"
 
-  get "about" => "pages#about"
   get "imprint" => "pages#imprint"
 end
