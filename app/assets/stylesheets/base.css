@@ -11,6 +11,13 @@ body {
   max-width: 800pt;
 }
 
+.title-spacer {
+  margin-top: 80pt;
+  margin-bottom: 20pt;
+  color: #a8a8a8;
+  border: 1pt dotted;
+}
+
 footer {
   margin-top: 2rem;
   text-align: center;
