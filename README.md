@@ -18,9 +18,9 @@ In order to run your own instance you need the full dataset. It's available on [
 The default location that the importer looks for is the `data` folder, it's easiest to place your XML files there.
 
 ## License
-AGPL - see the LICENSE file for details. Commercial licenses will be made available upon request.
+Bundessuche is licensed under the GNU Affero General Public License (AGPL) - see the LICENSE file for details. The AGPL is a strong copyleft license that requires you to provide the source code of a modified version of Bundessuche to users even these users only access the software via a network.
 
-If you would like ot use a modified version of Bundessuche in a Commercial setting please contact <info@bundessuche.de> for more information!
+If you would like ot use a modified version of Bundessuche in a commercial setting please contact <info@bundessuche.de> for more information!
 
 This does not cover the fonts used (found in `app/assets/fonts/`). Both covered by the [SIL Open Font License](https://openfontlicense.org). For details see the fonts section an the respective `LICENSE` file.
 
