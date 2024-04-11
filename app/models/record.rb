@@ -1,4 +1,7 @@
 class Record < ApplicationRecord
+  has_many :originations
+  has_many :origins, through: :originations
+
   def self.update_cached_all_count
     count = self.all.count
     CachedCount.find_or_create_by(model: self.name, scope: :all).update(

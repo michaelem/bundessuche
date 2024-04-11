@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_02_11_133540) do
+ActiveRecord::Schema[7.1].define(version: 2024_04_10_205255) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_trgm"
   enable_extension "plpgsql"
@@ -22,6 +22,23 @@ ActiveRecord::Schema[7.1].define(version: 2024_02_11_133540) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["model", "scope"], name: "index_cached_counts_on_model_and_scope", unique: true
+  end
+
+  create_table "originations", id: false, force: :cascade do |t|
+    t.bigint "record_id"
+    t.bigint "origin_id"
+    t.index ["origin_id"], name: "index_originations_on_origin_id"
+    t.index ["record_id", "origin_id"], name: "index_originations_on_record_id_and_origin_id", unique: true
+    t.index ["record_id"], name: "index_originations_on_record_id"
+  end
+
+  create_table "origins", force: :cascade do |t|
+    t.integer "label", default: 0
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["label", "name"], name: "index_origins_on_label_and_name", unique: true
+    t.index ["name"], name: "index_origins_on_name", opclass: :gin_trgm_ops, using: :gin
   end
 
   create_table "records", force: :cascade do |t|

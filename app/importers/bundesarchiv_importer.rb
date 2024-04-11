@@ -13,23 +13,47 @@ class ArchiveObject
         data =
           slice.map do |node|
             date = UnitDate.new(node.xpath("did/unitdate").first)
+            origins =
+              node
+                .xpath("did/origination")
+                .map do |origin|
+                  Origin.find_or_create_by(
+                    name: origin.text,
+                    label: origin.attr("label")
+                  )
+                end
+
             {
-              title: node.xpath("did/unittitle").text,
-              parents: @parents,
-              call_number: node.xpath('did/unitid[@type="call number"]').text,
-              source_date_text: date.text,
-              source_date_start: date.start_date,
-              source_date_end: date.end_date,
-              source_id: node.attr("id"),
-              link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
-              location: node.xpath("did/physloc").text,
-              language_code:
-                node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
-              summary:
-                node.xpath('scopecontent[@encodinganalog="summary"]/p').text
+              origins: origins,
+              record: {
+                title: node.xpath("did/unittitle").text,
+                parents: @parents,
+                call_number: node.xpath('did/unitid[@type="call number"]').text,
+                source_date_text: date.text,
+                source_date_start: date.start_date,
+                source_date_end: date.end_date,
+                source_id: node.attr("id"),
+                link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
+                location: node.xpath("did/physloc").text,
+                language_code:
+                  node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
+                summary:
+                  node.xpath('scopecontent[@encodinganalog="summary"]/p').text
+              }
             }
           end
-        Record.upsert_all(data, unique_by: :source_id)
+        records =
+          Record.upsert_all(
+            data.map { |d| d[:record] },
+            unique_by: :source_id,
+            returning: :id
+          )
+        data
+          .zip(records)
+          .each do |d, r|
+            d[:origins].each { |origin| origin.records << Record.find(r["id"]) }
+          end
+
         record_count += data.count
       end
 

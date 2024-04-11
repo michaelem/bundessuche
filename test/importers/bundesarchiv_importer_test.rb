@@ -16,5 +16,15 @@ class BundesarchivImporterTest < ActiveSupport::TestCase
     assert_equal Date.iso8601("1961-01-01"), record.source_date_start
     assert_equal Date.iso8601("1963-12-31"), record.source_date_end
     assert_equal "", record.source_date_text
+    assert_equal 2, record.origins.count
+
+    first_origin = record.origins[0]
+    assert_equal "Bundesministerium für Familie und Jugend (BMFa)",
+                 first_origin.name
+    assert_equal "final", first_origin.label
+
+    second_origin = record.origins[1]
+    assert_equal "J 4 (1961)", second_origin.name
+    assert_equal "organisational unit", second_origin.label
   end
 end
