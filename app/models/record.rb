@@ -26,9 +26,12 @@ class Record < ApplicationRecord
     return Record.none if query.blank?
 
     query = "%#{query}%"
-    Record.where("title ILIKE ? OR summary ILIKE ?", query, query).order(
-      :call_number
-    )
+    Record
+      .left_outer_joins(:origins)
+      .where("records.title ILIKE ?", query)
+      .or(Record.where("records.summary ILIKE ?", query))
+      .or(Record.where("origins.name ILIKE ?", query))
+      .order(:call_number)
   end
 
   def source_date_years
