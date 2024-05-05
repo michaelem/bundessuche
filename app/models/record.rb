@@ -13,15 +13,6 @@ class Record < ApplicationRecord
     CachedCount.find_by(model: self.name, scope: :all)&.count
   end
 
-  def self.fulltext_search(query)
-    return Record.none if query.blank?
-
-    Record.where(
-      "to_tsvector('german', title || ' ' || call_number || ' ' || summary) @@ plainto_tsquery(?)",
-      query
-    ).order(:parents, :call_number)
-  end
-
   def self.ilike_search(query)
     return Record.none if query.blank?
 
