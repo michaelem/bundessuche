@@ -19,9 +19,9 @@ class Record < ApplicationRecord
     query = "%#{query}%"
     Record
       .left_outer_joins(:origins)
-      .where("records.title ILIKE ?", query)
-      .or(Record.where("records.summary ILIKE ?", query))
-      .or(Record.where("origins.name ILIKE ?", query))
+      .where("lower(records.title) LIKE lower(?)", query)
+      .or(Record.where("lower(records.summary) LIKE lower(?)", query))
+      .or(Record.where("lower(origins.name) LIKE lower(?)", query))
       .order(:call_number)
   end
 
