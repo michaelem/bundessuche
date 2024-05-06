@@ -4,9 +4,6 @@ Bundessuche imports [apeEAD](http://apex-project.eu/index.php/en/outcomes/standa
 The search is optimized for advanced users and offers the ability to quickly skim large amounts of files.
 Other options for searching the archive include [Archives Portal Europe](https://www.archivesportaleurope.net), [Archivportal-D](https://www.archivportal-d.de) and [Invenio](https://invenio.bundesarchiv.de) (which is directly linked on Bundessuche for checking out the actual archival objects).
 
-## Ruby version
-Since the deployment of this app runs on `ARM64` and there is a [bug](https://github.com/ruby/ruby/pull/9371) in Ruby `3.3.0` the Ruby version is currently pinned to `3.2.3`.
-
 ## Database
 This application uses Postgresql, database creation and migration is done with the standard Rails tasks.
 
