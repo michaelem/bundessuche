@@ -39,3 +39,7 @@
 !/data/.keep
 /datasets/*
 !/datasets/.keep
+
+# Ignore the sqlite database files
+/db/sqlite/*
+!/db/sqlite/.keep
