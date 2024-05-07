@@ -12,11 +12,11 @@
 
 ActiveRecord::Schema[7.1].define(version: 2024_04_18_135025) do
   create_table "cached_counts", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string "model"
     t.string "scope"
     t.bigint "count"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.index ["model", "scope"], name: "index_cached_counts_on_model_and_scope", unique: true
   end
 
@@ -29,25 +29,25 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_18_135025) do
   end
 
   create_table "origins", force: :cascade do |t|
-    t.integer "label", default: 0
-    t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "label", default: 0
+    t.string "name"
     t.index ["label", "name"], name: "index_origins_on_label_and_name", unique: true
     t.index ["name"], name: "index_origins_on_name"
   end
 
   create_table "records", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string "title"
+    t.string "summary"
     t.string "call_number"
     t.string "source_date_text"
     t.string "source_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "link"
     t.string "location"
     t.string "language_code"
-    t.string "summary"
     t.json "parents", default: [], null: false
     t.date "source_date_start"
     t.date "source_date_end"
