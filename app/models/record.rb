@@ -2,13 +2,17 @@ class Record < ApplicationRecord
   has_many :originations
   has_many :origins, through: :originations
 
+  after_create :insert_trigram
+  after_update :update_trigram
+  after_destroy :delete_trigram
+
   scope :search,
         ->(query) do
           return none if query.blank?
 
           sql = <<~SQL.strip
-            SELECT record_id FROM records_trigram
-            WHERE records_trigram = '#{query}';
+            SELECT record_id FROM record_trigrams
+            WHERE record_trigrams = '#{query}';
           SQL
           ids = connection.execute(sql).map(&:values).flatten
           where(id: ids)
@@ -45,7 +49,7 @@ class Record < ApplicationRecord
     "#{source_date_start.year} - #{source_date_end.year}"
   end
 
-  def update_trigram_index
+  def insert_trigram
     trigram_attrs = {
       record_id: attributes["id"],
       title: title,
@@ -55,14 +59,22 @@ class Record < ApplicationRecord
       origin_names: origins.pluck(:name).join(" ")
     }
 
-    delete_statement =
-      "DELETE FROM records_trigram WHERE record_id = #{attributes["id"]}"
-    self.class.connection.execute(delete_statement)
-
     values = trigram_attrs.values.map { |v| Record.connection.quote(v) }
     sql_insert = <<~SQL.strip
-      INSERT INTO records_trigram(#{trigram_attrs.keys.join(", ")}) VALUES(#{values.join(", ")});
+      INSERT INTO record_trigrams(#{trigram_attrs.keys.join(", ")}) VALUES(#{values.join(", ")});
     SQL
     self.class.connection.execute(sql_insert)
+  end
+
+  def delete_trigram
+    delete_statement =
+      "DELETE FROM record_trigrams WHERE record_id = #{attributes["id"]}"
+    self.class.connection.execute(delete_statement)
+  end
+
+  def update_trigram
+    # Not very efficient, but fine for now as this should basically never happen
+    delete_trigram
+    insert_trigram
   end
 end
