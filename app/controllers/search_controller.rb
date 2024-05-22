@@ -5,7 +5,7 @@ class SearchController < ApplicationController
     @total = Record.cached_all_count
     @query = params[:q]
 
-    @records = Record.ilike_search(@query).page(params[:page]).per(500)
+    @records = Record.search(@query).page(params[:page]).per(500)
     @pagination_cache =
       Rails
         .cache

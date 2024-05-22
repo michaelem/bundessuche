@@ -10,13 +10,13 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.1].define(version: 2024_04_18_135025) do
+ActiveRecord::Schema[7.1].define(version: 2024_05_10_085044) do
   create_table "cached_counts", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "model"
     t.string "scope"
     t.bigint "count"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["model", "scope"], name: "index_cached_counts_on_model_and_scope", unique: true
   end
 
@@ -29,25 +29,25 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_18_135025) do
   end
 
   create_table "origins", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.integer "label", default: 0
     t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.index ["label", "name"], name: "index_origins_on_label_and_name", unique: true
     t.index ["name"], name: "index_origins_on_name"
   end
 
   create_table "records", force: :cascade do |t|
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
     t.string "title"
-    t.string "summary"
     t.string "call_number"
     t.string "source_date_text"
     t.string "source_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
     t.string "link"
     t.string "location"
     t.string "language_code"
+    t.string "summary"
     t.json "parents", default: [], null: false
     t.date "source_date_start"
     t.date "source_date_end"
@@ -58,5 +58,25 @@ ActiveRecord::Schema[7.1].define(version: 2024_04_18_135025) do
     t.index ["title"], name: "index_records_on_title"
     t.check_constraint "JSON_TYPE(parents) = 'array'", name: "parents_is_array"
   end
+
+# Could not dump table "records_trigram" because of following StandardError
+#   Unknown type '' for column 'record_id'
+
+# Could not dump table "records_trigram_config" because of following StandardError
+#   Unknown type '' for column 'k'
+
+# Could not dump table "records_trigram_content" because of following StandardError
+#   Unknown type '' for column 'c0'
+
+  create_table "records_trigram_data", force: :cascade do |t|
+    t.binary "block"
+  end
+
+  create_table "records_trigram_docsize", force: :cascade do |t|
+    t.binary "sz"
+  end
+
+# Could not dump table "records_trigram_idx" because of following StandardError
+#   Unknown type '' for column 'segid'
 
 end
