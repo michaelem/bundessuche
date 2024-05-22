@@ -2,21 +2,11 @@ class Record < ApplicationRecord
   has_many :originations
   has_many :origins, through: :originations
 
+  has_one :record_trigram
+
   after_create :insert_trigram
   after_update :update_trigram
   after_destroy :delete_trigram
-
-  scope :search,
-        ->(query) do
-          return none if query.blank?
-
-          sql = <<~SQL.strip
-            SELECT record_id FROM record_trigrams
-            WHERE record_trigrams = '#{query}';
-          SQL
-          ids = connection.execute(sql).map(&:values).flatten
-          where(id: ids)
-        end
 
   def self.update_cached_all_count
     count = self.all.count
@@ -27,18 +17,6 @@ class Record < ApplicationRecord
 
   def self.cached_all_count
     CachedCount.find_by(model: self.name, scope: :all)&.count
-  end
-
-  def self.ilike_search(query)
-    return Record.none if query.blank?
-
-    query = "%#{query}%"
-    Record
-      .left_outer_joins(:origins)
-      .where("lower(records.title) LIKE lower(?)", query)
-      .or(Record.where("lower(records.summary) LIKE lower(?)", query))
-      .or(Record.where("lower(origins.name) LIKE lower(?)", query))
-      .order(:call_number)
   end
 
   def source_date_years
