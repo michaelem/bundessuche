@@ -5,16 +5,22 @@ class SearchController < ApplicationController
     @total = Record.cached_all_count
     @query = params[:q]
 
-    @records = Record.ilike_search(@query).page(params[:page]).per(500)
+    @trigrams =
+      RecordTrigram
+        .search(@query)
+        .page(params[:page])
+        .per(500)
+        .includes(:record)
+
     @pagination_cache =
       Rails
         .cache
         .fetch(
-          "controllers/search/ilike/pagination_cache_#{helpers.query_cache_key @query}"
+          "controllers/search/pagination_cache_#{helpers.query_cache_key @query}"
         ) do
           {
-            total_count: @records.total_count,
-            total_pages: @records.total_pages
+            total_count: @trigrams.total_count,
+            total_pages: @trigrams.total_pages
           }
         end
   end
