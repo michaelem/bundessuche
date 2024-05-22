@@ -37,6 +37,26 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_10_085044) do
     t.index ["name"], name: "index_origins_on_name"
   end
 
+# Could not dump table "record_trigrams" because of following StandardError
+#   Unknown type '' for column 'record_id'
+
+# Could not dump table "record_trigrams_config" because of following StandardError
+#   Unknown type '' for column 'k'
+
+# Could not dump table "record_trigrams_content" because of following StandardError
+#   Unknown type '' for column 'c0'
+
+  create_table "record_trigrams_data", force: :cascade do |t|
+    t.binary "block"
+  end
+
+  create_table "record_trigrams_docsize", force: :cascade do |t|
+    t.binary "sz"
+  end
+
+# Could not dump table "record_trigrams_idx" because of following StandardError
+#   Unknown type '' for column 'segid'
+
   create_table "records", force: :cascade do |t|
     t.string "title"
     t.string "call_number"
@@ -58,25 +78,5 @@ ActiveRecord::Schema[7.1].define(version: 2024_05_10_085044) do
     t.index ["title"], name: "index_records_on_title"
     t.check_constraint "JSON_TYPE(parents) = 'array'", name: "parents_is_array"
   end
-
-# Could not dump table "records_trigram" because of following StandardError
-#   Unknown type '' for column 'record_id'
-
-# Could not dump table "records_trigram_config" because of following StandardError
-#   Unknown type '' for column 'k'
-
-# Could not dump table "records_trigram_content" because of following StandardError
-#   Unknown type '' for column 'c0'
-
-  create_table "records_trigram_data", force: :cascade do |t|
-    t.binary "block"
-  end
-
-  create_table "records_trigram_docsize", force: :cascade do |t|
-    t.binary "sz"
-  end
-
-# Could not dump table "records_trigram_idx" because of following StandardError
-#   Unknown type '' for column 'segid'
 
 end
