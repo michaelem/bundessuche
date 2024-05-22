@@ -38,5 +38,7 @@ module Bundessuche
     config.cache_key_salt = Rails.application.credentials.cache_key_salt
 
     config.i18n.default_locale = :de
+
+    config.active_record.schema_format = :sql
   end
 end

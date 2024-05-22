@@ -1,24 +1,19 @@
 default: &default
-  adapter: postgresql
-  encoding: unicode
+  adapter: sqlite3
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
-  username: <%= ENV.fetch("POSTGRES_USERNAME") { 'postgres' } %>
-  password: <%= ENV.fetch("POSTGRES_PASSWORD") { 'postgres' } %>
-  port: 5432
-  host: <%= ENV.fetch("POSTGRES_HOST") { 'localhost' } %>
 
 development:
   <<: *default
-  database: bundessuche_development
+  database: db/sqlite/bundessuche_development.sqlite3
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 test:
   <<: *default
-  database: bundessuche_test
+  database: db/sqlite/bundessuche_test.sqlite3
 
 production:
   <<: *default
-  database: bundessuche_production
+  database: db/sqlite/bundessuche_production.sqlite3

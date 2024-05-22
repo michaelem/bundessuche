@@ -3,13 +3,14 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem "rails", "~> 7.1.2"
+gem "rails", "~> 7.1.3"
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
-# Use postgresql as the database for Active Record
-gem "pg", "~> 1.5"
+# Use sqlite as the database for Active Record
+gem "sqlite3", "~> 1.7"
+gem "activerecord-enhancedsqlite3-adapter", "~> 0.8.0"
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", ">= 5.0"
@@ -48,7 +49,7 @@ group :development do
 
   gem "syntax_tree"
 
-  gem "htmlbeautifier", "~> 1.4.2"
+  gem "htmlbeautifier", "~> 1.4.3"
 end
 
 group :test do

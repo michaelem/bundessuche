@@ -3,19 +3,19 @@
   <input type="submit" value="<%= t("search_button") %>" class="search__button" />
 </form>
 <% if @query %>
-  <% cache [controller.action_name, query_cache_key(@query), @records.current_page] do %>
+  <% cache [controller.action_name, query_cache_key(@query), @trigrams.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
       <h3><%= @pagination_cache[:total_count] =%> Objekte gefunden.</h3>
       <div class="pagination">
-        <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
+        <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
       </div>
       <hr />
-      <% @records.each do |record| %>
-        <%= render ResultComponent.new(query: @query, record: record) %>
+      <% @trigrams.each do |record_trigram| %>
+        <%= render ResultComponent.new(query: @query, record: record_trigram.record) %>
         <hr />
       <% end %>
       <div class="pagination">
-        <%= paginate @records, total_pages: @pagination_cache[:total_pages] %>
+        <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
       </div>
     <% else %>
       <hr />
