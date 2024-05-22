@@ -19,6 +19,11 @@ class Record < ApplicationRecord
     CachedCount.find_by(model: self.name, scope: :all)&.count
   end
 
+  def self.reindex
+    RecordTrigram.delete_all
+    self.find_each(&:insert_trigram)
+  end
+
   def source_date_years
     if source_date_end.blank? || source_date_start.year == source_date_end.year
       return source_date_start.year.to_s
