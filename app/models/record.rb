@@ -1,3 +1,30 @@
+# == Schema Information
+#
+# Table name: records
+#
+#  id                :integer          not null, primary key
+#  call_number       :string
+#  language_code     :string
+#  link              :string
+#  location          :string
+#  parents           :json             not null
+#  source_date_end   :date
+#  source_date_start :date
+#  source_date_text  :string
+#  summary           :string
+#  title             :string
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#  source_id         :string
+#
+# Indexes
+#
+#  index_records_on_call_number        (call_number)
+#  index_records_on_source_id          (source_id) UNIQUE
+#  index_records_on_summary            (summary)
+#  index_records_on_title              (title)
+#  index_records_on_title_and_summary  (title,summary)
+#
 class Record < ApplicationRecord
   has_many :originations
   has_many :origins, through: :originations

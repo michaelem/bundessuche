@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: record_trigrams
+#
+#  call_number     :
+#  origin_names    :
+#  parents         :
+#  rank            :
+#  record_trigrams :
+#  summary         :
+#  title           :
+#  record_id       :
+#
 class RecordTrigram < ApplicationRecord
   belongs_to :record
 
