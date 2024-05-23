@@ -39,3 +39,6 @@
 # Ignore data
 /data/*
 /datasets/*
+
+# Ignore sqlite databases
+/db/sqlite/*
