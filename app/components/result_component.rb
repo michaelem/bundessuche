@@ -7,7 +7,8 @@ class ResultComponent < ViewComponent::Base
   def parents
     @parents ||=
       @record.parents.map do |parent|
-        '<div class="parents__item">' + CGI.escapeHTML(parent.strip) + "</div>"
+        text = highlight_query(CGI.escapeHTML(parent.strip))
+        "<div class=\"parents__item\">#{text}</div>"
       end.join '<div class="parents__separator">/</div>'
 
     @parents.html_safe
