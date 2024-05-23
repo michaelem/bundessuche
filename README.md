@@ -5,7 +5,8 @@ The search is optimized for advanced users and offers the ability to quickly ski
 Other options for searching the archive include [Archives Portal Europe](https://www.archivesportaleurope.net), [Archivportal-D](https://www.archivportal-d.de) and [Invenio](https://invenio.bundesarchiv.de) (which is directly linked on Bundessuche for checking out the actual archival objects).
 
 ## Database
-This application uses Postgresql, database creation and migration is done with the standard Rails tasks.
+This application uses SQLite (even in production), database creation and migration is done with the standard Rails tasks.
+Make sure to mount a volume into the docker image to persist your database. The default location for this is `/rails/db/sqlite`.
 
 ## Included XLM Data
 The `test/fixtures/files/dataset*` folders contain excerpts of the [CC0](https://creativecommons.org/public-domain/cc0/) licensed data from the german federal archive. You can find the full dataset on [open-data.bundesarchiv.de](https://open-data.bundesarchiv.de/apex-ead/) and more information on open data program on their [website](https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html).
