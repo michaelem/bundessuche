@@ -80,6 +80,7 @@ GEM
       tzinfo (~> 2.0)
     addressable (2.8.6)
       public_suffix (>= 2.0.2, < 6.0)
+    annotaterb (4.8.0)
     base64 (0.2.0)
     bigdecimal (3.1.8)
     bindex (0.8.1)
@@ -272,6 +273,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-enhancedsqlite3-adapter (~> 0.8.0)
+  annotaterb
   bootsnap
   capybara
   debug
