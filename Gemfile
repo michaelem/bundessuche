@@ -47,6 +47,8 @@ group :development do
   gem "stackprof"
   gem "memory_profiler"
 
+  gem "annotaterb"
+
   gem "syntax_tree"
 
   gem "htmlbeautifier", "~> 1.4.3"
