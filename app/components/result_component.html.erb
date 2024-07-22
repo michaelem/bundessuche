@@ -10,6 +10,9 @@
       <%= date %>
     </p>
   </div>
+  <div>
+    <span class="result__cite">cite:</span> <%= link_to 'RIS', record_path(@record, format: :ris) %>
+  </div>
   <p class="result__summary">
     <%= summary %>
   </p>

@@ -32,7 +32,7 @@
   margin-top: 5px;
   margin-right: 5px;
   margin-bottom: 5px;
-  
+
   padding-top: 5px;
   padding-bottom: 5px;
   color: #666666;
@@ -44,6 +44,10 @@
 
 .result__title {
   overflow-wrap: anywhere;
+}
+
+.result__cite {
+  font-weight: bold;
 }
 
 .result__summary {

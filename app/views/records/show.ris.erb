@@ -1,0 +1,11 @@
+TY  - MANSCPT
+AB  - <%= @record.summary.strip().html_safe %>
+AU  - <%= @record.parents.join(' / ') %>
+CN  - <%= @record.call_number %>
+DA  - <%= @record.source_dates %>
+LA  - <%= @record.language_code %>
+N1  - <%= @record.source_date_text.html_safe %>
+PB  - BArch
+PY  - <%= @record.source_date_years %>
+TI  - <%= @record.title.html_safe %>
+UR  - <%= @record.link %>
