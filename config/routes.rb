@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   root "search#index"
 
   get "imprint" => "pages#imprint"
+
+  resources :records, only: [:show]
 end

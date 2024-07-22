@@ -28,6 +28,10 @@ class ResultComponent < ViewComponent::Base
     highlight_query(@record.summary)
   end
 
+  def ris_link
+    link_to @record, format: :ris
+  end
+
   private
 
   def highlight_query(text)
