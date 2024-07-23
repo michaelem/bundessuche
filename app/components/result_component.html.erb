@@ -10,6 +10,11 @@
       <%= date %>
     </p>
   </div>
+  <div class="cite">
+    <span class="cite__label">Zitieren:</span>
+    <a class="cite__button cite__copy-ris" data-ris-path="<%= record_path(@record, format: :ris) %>">als RIS kopieren</a>
+    <%= link_to 'als RIS herunterladen', record_path(@record, format: :ris), class: "cite__button" %>
+  </div>
   <p class="result__summary">
     <%= summary %>
   </p>

@@ -51,6 +51,14 @@ class Record < ApplicationRecord
     self.find_each(&:insert_trigram)
   end
 
+  def source_dates
+    if source_date_end.blank? || source_date_start == source_date_end
+      return source_date_start.to_s
+    end
+
+    "#{source_date_start} - #{source_date_end}"
+  end
+
   def source_date_years
     if source_date_end.blank? || source_date_start.year == source_date_end.year
       return source_date_start.year.to_s
