@@ -1,51 +1,80 @@
 .result__header {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .pagination {
-  text-align: center;
+    text-align: center;
 }
 
 .result__highlight {
-  background-color: rgba(185, 255, 147, 0.717);
+    background-color: rgba(185, 255, 147, 0.717);
 }
 
 .parents {
-  display: flex;
-  flex-wrap: wrap;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .parents__item {
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 
-  border-radius: 2px;
-  padding: 5px;
-  background-color: #f1f5ff;
-  color: #666666;
-  overflow-wrap: anywhere;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #f1f5ff;
+    color: #666666;
+    overflow-wrap: anywhere;
 }
 
 .parents__separator {
-  margin-top: 5px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  
-  padding-top: 5px;
-  padding-bottom: 5px;
-  color: #666666;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #666666;
 }
 
 .result {
-  margin-bottom: 80px;
+    margin-bottom: 80px;
 }
 
 .result__title {
-  overflow-wrap: anywhere;
+    overflow-wrap: anywhere;
+}
+
+.cite {
+    display: flex;
+    align-items: center;
+}
+
+.cite__label {
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 .result__summary {
-  overflow-wrap: anywhere;
+    overflow-wrap: anywhere;
+}
+
+.cite__button {
+    background-color: #c6670a;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.cite__button--disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
 }
