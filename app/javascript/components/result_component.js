@@ -16,7 +16,7 @@ document.querySelectorAll(".cite__copy-ris").forEach((button) => {
       return;
     }
     button.disabled = true;
-
+    button.classList.add(".cite__button--disabled");
     const risPath = button.dataset.risPath;
     const clipboardItem = new ClipboardItem({ 'text/plain': fetchText(risPath) });
 
@@ -25,13 +25,14 @@ document.querySelectorAll(".cite__copy-ris").forEach((button) => {
       .then(() => {
         const oldColor = button.style.backgroundColor;
         const oldText = button.textContent;
-        button.textContent = "copied";
+        button.textContent = "Kopiert!";
         button.style.backgroundColor = "green";
 
         setTimeout(() => {
           button.textContent = oldText;
           button.style.backgroundColor = oldColor;
           button.disabled = false;
+           button.classList.remove(".cite__button--disabled");
         }, 1000);
       })
       .catch((error) => {
