@@ -22,6 +22,13 @@ class RecordTrigram < ApplicationRecord
             .or(where(record_trigrams: "summary: \"#{query}\""))
             .or(where(record_trigrams: "parents: \"#{query}\""))
             .or(where(record_trigrams: "origin_names: \"#{query}\""))
+            .or(where(record_trigrams: "call_number: \"#{query}\""))
+            .order(:call_number)
+        end
+
+  scope :lookup_by_call_number,
+        ->(call_number) do
+          where(record_trigrams:  "call_number: \"#{query}\"")
             .order(:call_number)
         end
 end
