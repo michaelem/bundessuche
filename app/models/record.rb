@@ -46,9 +46,29 @@ class Record < ApplicationRecord
     CachedCount.find_by(model: self.name, scope: :all)&.count
   end
 
-  def self.reindex
+  def self.reindex(show_progress=false)
+    if show_progress
+      start = Time.now
+
+      progress_bar = ProgressBar.create(
+        title: "Importing",
+        total: Record.count,
+        format: "%t %p%% %a %e |%B|"
+      )
+    end
+
     RecordTrigram.delete_all
-    self.find_each(&:insert_trigram)
+
+    self.find_in_batches do |group|
+      group.each do |record|
+        record.insert_trigram
+        progress_bar.increment if show_progress
+      end
+    end
+
+    if show_progress
+      puts "Reindexing took #{Time.now - start} seconds"
+    end
   end
 
   def source_dates

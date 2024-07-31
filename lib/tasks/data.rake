@@ -6,6 +6,6 @@ namespace :data do
 
   desc "Recreate search index"
   task reindex: [:environment] do
-    Record.reindex
+    Record.reindex(show_progress: true)
   end
 end
