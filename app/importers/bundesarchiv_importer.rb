@@ -22,13 +22,14 @@ class ArchiveObject
                     label: origin.attr("label")
                   )
                 end
+            call_number = node.xpath('did/unitid[@type="call number"]').text.sub(/\ABArch /, '')
 
             {
               origins: origins,
               record: {
                 title: node.xpath("did/unittitle").text,
                 parents: @parents,
-                call_number: node.xpath('did/unitid[@type="call number"]').text,
+                call_number: call_number,
                 source_date_text: date.text,
                 source_date_start: date.start_date,
                 source_date_end: date.end_date,
