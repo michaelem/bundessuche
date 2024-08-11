@@ -2,6 +2,15 @@ class ArchiveObject
   def initialize(parents, node)
     @parents = parents
     @node = node
+    @archive_node = store
+  end
+
+  def store
+    ArchiveNode.create(
+      name: @node.xpath("did/unittitle").text,
+      source_id: @node.attr("id"),
+      parent_node: @parents.last
+    )
   end
 
   def process_files
@@ -27,6 +36,7 @@ class ArchiveObject
             {
               origins: origins,
               record: {
+                archive_node: @archive_node,
                 title: node.xpath("did/unittitle").text,
                 parents: @parents,
                 call_number: call_number,
@@ -67,6 +77,7 @@ class ArchiveObject
       .map do |node|
         descendent =
           ArchiveObject.new(@parents + [node.xpath("did/unittitle").text], node)
+
         descendent.descend + descendent.process_files
       end
       .sum
