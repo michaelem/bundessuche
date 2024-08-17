@@ -42,8 +42,8 @@ class InitSchema < ActiveRecord::Migration[7.1]
   end
 
   create_table :originations, id: false do |t|
-    t.bigint :record_id
-    t.bigint :origin_id
+    t.integer :record_id
+    t.integer :origin_id
 
     t.index :origin_id
     t.index :record_id
@@ -56,7 +56,7 @@ class InitSchema < ActiveRecord::Migration[7.1]
 
     t.string :model
     t.string :scope
-    t.bigint :count
+    t.integer :count
 
     t.index %i[model scope], unique: true
   end

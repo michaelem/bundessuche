@@ -4,11 +4,11 @@ CREATE TABLE IF NOT EXISTS "origins" ("id" integer PRIMARY KEY AUTOINCREMENT NOT
 CREATE TABLE sqlite_sequence(name,seq);
 CREATE UNIQUE INDEX "index_origins_on_label_and_name" ON "origins" ("label", "name");
 CREATE INDEX "index_origins_on_name" ON "origins" ("name");
-CREATE TABLE IF NOT EXISTS "originations" ("record_id" bigint, "origin_id" bigint);
+CREATE TABLE IF NOT EXISTS "originations" ("record_id" integer, "origin_id" integer);
 CREATE INDEX "index_originations_on_origin_id" ON "originations" ("origin_id");
 CREATE INDEX "index_originations_on_record_id" ON "originations" ("record_id");
 CREATE UNIQUE INDEX "index_originations_on_record_id_and_origin_id" ON "originations" ("record_id", "origin_id");
-CREATE TABLE IF NOT EXISTS "cached_counts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "model" varchar, "scope" varchar, "count" bigint);
+CREATE TABLE IF NOT EXISTS "cached_counts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "model" varchar, "scope" varchar, "count" integer);
 CREATE UNIQUE INDEX "index_cached_counts_on_model_and_scope" ON "cached_counts" ("model", "scope");
 CREATE TABLE IF NOT EXISTS "records" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "title" varchar, "summary" varchar, "call_number" varchar, "source_date_text" varchar, "source_id" varchar, "link" varchar, "location" varchar, "language_code" varchar, "parents" json DEFAULT '[]' NOT NULL, "source_date_start" date, "source_date_end" date, "archive_node_id" integer, CONSTRAINT parents_is_array CHECK (JSON_TYPE(parents) = 'array'));
 CREATE INDEX "index_records_on_title" ON "records" ("title");
