@@ -2,8 +2,8 @@
 #
 # Table name: originations
 #
-#  origin_id :bigint
-#  record_id :bigint
+#  origin_id :integer
+#  record_id :integer
 #
 # Indexes
 #

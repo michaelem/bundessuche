@@ -3,7 +3,7 @@
 # Table name: cached_counts
 #
 #  id         :integer          not null, primary key
-#  count      :bigint
+#  count      :integer
 #  model      :string
 #  scope      :string
 #  created_at :datetime         not null
