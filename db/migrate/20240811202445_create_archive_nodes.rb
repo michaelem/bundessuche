@@ -7,7 +7,7 @@ class CreateArchiveNodes < ActiveRecord::Migration[7.1]
 
       t.timestamps
 
-      t.index :source_id, unique: true
+      t.index :source_id
       t.index :parent_node_id
     end
   end

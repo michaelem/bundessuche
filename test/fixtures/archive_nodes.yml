@@ -14,7 +14,7 @@
 # Indexes
 #
 #  index_archive_nodes_on_parent_node_id  (parent_node_id)
-#  index_archive_nodes_on_source_id       (source_id) UNIQUE
+#  index_archive_nodes_on_source_id       (source_id)
 #
 one:
   name: MyString

@@ -1,12 +1,13 @@
 class ArchiveObject
-  def initialize(parents, node)
+  def initialize(parent_names, parents, node)
+    @parent_names = parent_names
     @parents = parents
     @node = node
     @archive_node = store
   end
 
   def store
-    ArchiveNode.create(
+    ArchiveNode.find_or_create_by(
       name: @node.xpath("did/unittitle").text,
       source_id: @node.attr("id"),
       parent_node: @parents.last
@@ -31,14 +32,18 @@ class ArchiveObject
                     label: origin.attr("label")
                   )
                 end
-            call_number = node.xpath('did/unitid[@type="call number"]').text.sub(/\ABArch /, '')
+            call_number =
+              node
+                .xpath('did/unitid[@type="call number"]')
+                .text
+                .sub(/\ABArch /, "")
 
             {
               origins: origins,
               record: {
-                archive_node: @archive_node,
+                archive_node_id: @archive_node.id,
                 title: node.xpath("did/unittitle").text,
-                parents: @parents,
+                parents: @parent_names,
                 call_number: call_number,
                 source_date_text: date.text,
                 source_date_start: date.start_date,
@@ -76,7 +81,11 @@ class ArchiveObject
       .xpath("c[@level!='file']")
       .map do |node|
         descendent =
-          ArchiveObject.new(@parents + [node.xpath("did/unittitle").text], node)
+          ArchiveObject.new(
+            @parent_names + [node.xpath("did/unittitle").text],
+            @parents + [@archive_node],
+            node
+          )
 
         descendent.descend + descendent.process_files
       end
@@ -129,7 +138,18 @@ class BundesarchivImporter
         archive_description
           .xpath("//c[@level='fonds']")
           .map do |fond|
-            object = ArchiveObject.new([fond.xpath("did/unittitle").text], fond)
+            object =
+              ArchiveObject.new(
+                [fond.xpath("did/unittitle").text],
+                [
+                  ArchiveNode.find_or_create_by(
+                    name: fond.xpath("did/unittitle").text,
+                    source_id: fond.attr("id"),
+                    parent_node: nil
+                  )
+                ],
+                fond
+              )
             object.descend + object.process_files
           end
           .sum

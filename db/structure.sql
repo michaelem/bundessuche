@@ -24,7 +24,7 @@ CREATE TABLE IF NOT EXISTS 'record_trigrams_content'(id INTEGER PRIMARY KEY, c0,
 CREATE TABLE IF NOT EXISTS 'record_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB);
 CREATE TABLE IF NOT EXISTS 'record_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
 CREATE TABLE IF NOT EXISTS "archive_nodes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "parent_node_id" integer, "source_id" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
-CREATE UNIQUE INDEX "index_archive_nodes_on_source_id" ON "archive_nodes" ("source_id");
+CREATE INDEX "index_archive_nodes_on_source_id" ON "archive_nodes" ("source_id");
 CREATE INDEX "index_archive_nodes_on_parent_node_id" ON "archive_nodes" ("parent_node_id");
 CREATE INDEX "index_records_on_archive_node_id" ON "records" ("archive_node_id");
 INSERT INTO "schema_migrations" (version) VALUES
