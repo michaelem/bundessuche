@@ -84,6 +84,8 @@ class Record < ApplicationRecord
   end
 
   def source_date_years
+    return "" if source_date_start.blank? && source_date_end.blank?
+
     if source_date_end.blank? || source_date_start.year == source_date_end.year
       return source_date_start.year.to_s
     end
