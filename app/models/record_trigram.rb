@@ -12,7 +12,7 @@
 #  record_id       :
 #
 class RecordTrigram < ApplicationRecord
-  belongs_to :record
+  belongs_to :archive_file, foreign_key: :record_id
 
   scope :search,
         ->(query) do
@@ -28,7 +28,8 @@ class RecordTrigram < ApplicationRecord
 
   scope :lookup_by_call_number,
         ->(call_number) do
-          where(record_trigrams:  "call_number: \"#{query}\"")
-            .order(:call_number)
+          where(record_trigrams: "call_number: \"#{query}\"").order(
+            :call_number
+          )
         end
 end

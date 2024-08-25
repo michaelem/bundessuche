@@ -1,6 +1,6 @@
 # == Schema Information
 #
-# Table name: records
+# Table name: archive_files
 #
 #  id                :integer          not null, primary key
 #  call_number       :string
@@ -20,17 +20,17 @@
 #
 # Indexes
 #
-#  index_records_on_archive_node_id    (archive_node_id)
-#  index_records_on_call_number        (call_number)
-#  index_records_on_source_id          (source_id) UNIQUE
-#  index_records_on_summary            (summary)
-#  index_records_on_title              (title)
-#  index_records_on_title_and_summary  (title,summary)
+#  index_archive_files_on_archive_node_id    (archive_node_id)
+#  index_archive_files_on_call_number        (call_number)
+#  index_archive_files_on_source_id          (source_id) UNIQUE
+#  index_archive_files_on_summary            (summary)
+#  index_archive_files_on_title              (title)
+#  index_archive_files_on_title_and_summary  (title,summary)
 #
-class Record < ApplicationRecord
+class ArchiveFile < ApplicationRecord
   belongs_to :archive_node
 
-  has_many :originations
+  has_many :originations, inverse_of: :archive_file
   has_many :origins, through: :originations
 
   has_one :record_trigram
@@ -56,7 +56,7 @@ class Record < ApplicationRecord
 
       progress_bar = ProgressBar.create(
         title: "Importing",
-        total: Record.count,
+        total: ArchiveFile.count,
         format: "%t %p%% %a %e |%B|"
       )
     end
@@ -103,7 +103,7 @@ class Record < ApplicationRecord
       origin_names: origins.pluck(:name).join(" ")
     }
 
-    values = trigram_attrs.values.map { |v| Record.connection.quote(v) }
+    values = trigram_attrs.values.map { |v| ArchiveFile.connection.quote(v) }
     sql_insert = <<~SQL.strip
       INSERT INTO record_trigrams(#{trigram_attrs.keys.join(", ")}) VALUES(#{values.join(", ")});
     SQL

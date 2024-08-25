@@ -10,12 +10,7 @@ CREATE INDEX "index_originations_on_record_id" ON "originations" ("record_id");
 CREATE UNIQUE INDEX "index_originations_on_record_id_and_origin_id" ON "originations" ("record_id", "origin_id");
 CREATE TABLE IF NOT EXISTS "cached_counts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "model" varchar, "scope" varchar, "count" integer);
 CREATE UNIQUE INDEX "index_cached_counts_on_model_and_scope" ON "cached_counts" ("model", "scope");
-CREATE TABLE IF NOT EXISTS "records" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "title" varchar, "summary" varchar, "call_number" varchar, "source_date_text" varchar, "source_id" varchar, "link" varchar, "location" varchar, "language_code" varchar, "parents" json DEFAULT '[]' NOT NULL, "source_date_start" date, "source_date_end" date, "archive_node_id" integer, CONSTRAINT parents_is_array CHECK (JSON_TYPE(parents) = 'array'));
-CREATE INDEX "index_records_on_title" ON "records" ("title");
-CREATE INDEX "index_records_on_summary" ON "records" ("summary");
-CREATE INDEX "index_records_on_title_and_summary" ON "records" ("title", "summary");
-CREATE INDEX "index_records_on_call_number" ON "records" ("call_number");
-CREATE UNIQUE INDEX "index_records_on_source_id" ON "records" ("source_id");
+CREATE TABLE IF NOT EXISTS "archive_files" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "title" varchar, "summary" varchar, "call_number" varchar, "source_date_text" varchar, "source_id" varchar, "link" varchar, "location" varchar, "language_code" varchar, "parents" json DEFAULT '[]' NOT NULL, "source_date_start" date, "source_date_end" date, "archive_node_id" integer, CONSTRAINT parents_is_array CHECK (JSON_TYPE(parents) = 'array'));
 CREATE VIRTUAL TABLE record_trigrams USING fts5(record_id, title, summary, call_number, parents, origin_names, tokenize = 'trigram')
 /* record_trigrams(record_id,title,summary,call_number,parents,origin_names) */;
 CREATE TABLE IF NOT EXISTS 'record_trigrams_data'(id INTEGER PRIMARY KEY, block BLOB);
@@ -26,8 +21,14 @@ CREATE TABLE IF NOT EXISTS 'record_trigrams_config'(k PRIMARY KEY, v) WITHOUT RO
 CREATE TABLE IF NOT EXISTS "archive_nodes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "parent_node_id" integer, "source_id" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
 CREATE INDEX "index_archive_nodes_on_source_id" ON "archive_nodes" ("source_id");
 CREATE INDEX "index_archive_nodes_on_parent_node_id" ON "archive_nodes" ("parent_node_id");
-CREATE INDEX "index_records_on_archive_node_id" ON "records" ("archive_node_id");
+CREATE INDEX "index_archive_files_on_archive_node_id" ON "archive_files" ("archive_node_id");
+CREATE UNIQUE INDEX "index_archive_files_on_source_id" ON "archive_files" ("source_id");
+CREATE INDEX "index_archive_files_on_call_number" ON "archive_files" ("call_number");
+CREATE INDEX "index_archive_files_on_title_and_summary" ON "archive_files" ("title", "summary");
+CREATE INDEX "index_archive_files_on_summary" ON "archive_files" ("summary");
+CREATE INDEX "index_archive_files_on_title" ON "archive_files" ("title");
 INSERT INTO "schema_migrations" (version) VALUES
+('20240825083132'),
 ('20240811213335'),
 ('20240811202445'),
 ('20240510085044'),
