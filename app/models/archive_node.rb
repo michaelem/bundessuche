@@ -18,4 +18,5 @@ class ArchiveNode < ApplicationRecord
   belongs_to :parent_node, class_name: 'ArchiveNode'
 
   has_many :child_nodes, class_name: 'ArchiveNode', foreign_key: 'parent_node_id'
+  has_many :archive_files
 end

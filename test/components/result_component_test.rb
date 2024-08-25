@@ -5,7 +5,7 @@ class ResultComponentTest < ViewComponent::TestCase
     component =
       ResultComponent.new(
         query: "rechenzentrum",
-        record: OpenStruct.new(title: "Rechenzentrum Duisburg")
+        archive_file: OpenStruct.new(title: "Rechenzentrum Duisburg")
       )
     assert_equal %(<span class="result__highlight">Rechenzentrum</span> Duisburg),
                  component.title
@@ -15,7 +15,7 @@ class ResultComponentTest < ViewComponent::TestCase
     component =
       ResultComponent.new(
         query: "rechenzentrum",
-        record: OpenStruct.new(source_date_text: "1989")
+        archive_file: OpenStruct.new(source_date_text: "1989")
       )
     assert_equal "1989", component.date
   end
@@ -24,7 +24,7 @@ class ResultComponentTest < ViewComponent::TestCase
     component =
       ResultComponent.new(
         query: "rechenzentrum",
-        record: OpenStruct.new(summary: "Das Rechenzentrum in Duisburg")
+        archive_file: OpenStruct.new(summary: "Das Rechenzentrum in Duisburg")
       )
     assert_equal %(Das <span class="result__highlight">Rechenzentrum</span> in Duisburg),
                  component.summary

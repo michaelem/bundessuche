@@ -1,12 +1,12 @@
 class ResultComponent < ViewComponent::Base
-  def initialize(query:, record:)
+  def initialize(query:, archive_file:)
     @query = query
-    @record = record
+    @archive_file = archive_file
   end
 
   def parents
     @parents ||=
-      @record.parents.map do |parent|
+      @archive_file.parents.map do |parent|
         text = highlight_query(CGI.escapeHTML(parent.strip))
         "<div class=\"parents__item\">#{text}</div>"
       end.join '<div class="parents__separator">/</div>'
@@ -15,21 +15,21 @@ class ResultComponent < ViewComponent::Base
   end
 
   def title
-    highlight_query(@record.title)
+    highlight_query(@archive_file.title)
   end
 
   def date
-    return @record.source_date_text if @record.source_date_text.present?
+    return @archive_file.source_date_text if @archive_file.source_date_text.present?
 
-    @record.source_date_years
+    @archive_file.source_date_years
   end
 
   def summary
-    highlight_query(@record.summary)
+    highlight_query(@archive_file.summary)
   end
 
   def ris_link
-    link_to @record, format: :ris
+    link_to @archive_file, format: :ris
   end
 
   private

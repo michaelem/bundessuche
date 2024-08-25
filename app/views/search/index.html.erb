@@ -10,8 +10,8 @@
         <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
       </div>
       <hr />
-      <% @trigrams.each do |record_trigram| %>
-        <%= render ResultComponent.new(query: @query, record: record_trigram.record) %>
+      <% @trigrams.each do |archive_file_trigram| %>
+        <%= render ResultComponent.new(query: @query, archive_file: archive_file_trigram.archive_file) %>
         <hr />
       <% end %>
       <div class="pagination">
@@ -31,7 +31,7 @@
     Die hierfür benötigten Erschließungsinformationen stammen aus dem <a href="https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html">Open-Data-Angebot</a> des Bundesarchivs.
   </p>
   <p>
-    Weitere Optionen für die Suche in den Beständen des Bundesarchivs sind <a href="https://www.archivesportaleurope.net">Archives Portal Europe</a>, 
+    Weitere Optionen für die Suche in den Beständen des Bundesarchivs sind <a href="https://www.archivesportaleurope.net">Archives Portal Europe</a>,
     <a href="https://www.archivportal-d.de">Archivportal-D</a> und <a href="https://invenio.bundesarchiv.de">Invenio</a>.
     Invenio ist ein Angebot des Bundesarchivs und ist bei Treffern in Bundessuche verlinkt. Dort kann das Archivgut eingesehen und bestellt werden.
   </p>

@@ -2,15 +2,15 @@ class SearchController < ApplicationController
   helper SearchHelper
 
   def index
-    @total = Record.cached_all_count
+    @total = ArchiveFile.cached_all_count
     @query = params[:q]
 
     @trigrams =
-      RecordTrigram
+      ArchiveFileTrigram
         .search(@query)
         .page(params[:page])
         .per(500)
-        .includes(:record)
+        .includes(:archive_file)
 
     @pagination_cache =
       Rails
