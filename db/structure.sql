@@ -20,14 +20,15 @@ CREATE TABLE IF NOT EXISTS "originations" ("archive_file_id" integer DEFAULT NUL
 CREATE INDEX "index_originations_on_origin_id" ON "originations" ("origin_id");
 CREATE UNIQUE INDEX "index_originations_on_archive_file_id_and_origin_id" ON "originations" ("archive_file_id", "origin_id");
 CREATE INDEX "index_originations_on_archive_file_id" ON "originations" ("archive_file_id");
-CREATE VIRTUAL TABLE archive_file_trigrams USING fts5(archive_file_id, title, summary, call_number, parents, origin_names, tokenize = 'trigram')
-/* archive_file_trigrams(archive_file_id,title,summary,call_number,parents,origin_names) */;
+CREATE VIRTUAL TABLE archive_file_trigrams USING fts5(archive_file_id UNINDEXED, archive_node_id UNINDEXED, title, summary, call_number, parents, origin_names, tokenize = 'trigram')
+/* archive_file_trigrams(archive_file_id,archive_node_id,title,summary,call_number,parents,origin_names) */;
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_data'(id INTEGER PRIMARY KEY, block BLOB);
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_content'(id INTEGER PRIMARY KEY, c0, c1, c2, c3, c4, c5);
+CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_content'(id INTEGER PRIMARY KEY, c0, c1, c2, c3, c4, c5, c6);
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB);
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
 INSERT INTO "schema_migrations" (version) VALUES
+('20240825103844'),
 ('20240825102326'),
 ('20240825095047'),
 ('20240825093053'),

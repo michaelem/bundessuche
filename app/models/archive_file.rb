@@ -95,7 +95,8 @@ class ArchiveFile < ApplicationRecord
 
   def insert_trigram
     trigram_attrs = {
-      archive_file_id: attributes["id"],
+      archive_file_id: id,
+      archive_node_id: archive_node_id,
       title: title,
       summary: summary,
       call_number: call_number,
