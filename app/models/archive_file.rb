@@ -95,7 +95,7 @@ class ArchiveFile < ApplicationRecord
 
   def insert_trigram
     trigram_attrs = {
-      record_id: attributes["id"],
+      archive_file_id: attributes["id"],
       title: title,
       summary: summary,
       call_number: call_number,
@@ -112,7 +112,7 @@ class ArchiveFile < ApplicationRecord
 
   def delete_trigram
     delete_statement =
-      "DELETE FROM archive_file_trigrams WHERE record_id = #{attributes["id"]}"
+      "DELETE FROM archive_file_trigrams WHERE archive_file_id = #{attributes["id"]}"
     self.class.connection.execute(delete_statement)
   end
 
