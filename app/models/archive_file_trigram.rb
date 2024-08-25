@@ -9,10 +9,10 @@
 #  rank                  :
 #  summary               :
 #  title                 :
-#  record_id             :
+#  archive_file_id       :
 #
 class ArchiveFileTrigram < ApplicationRecord
-  belongs_to :archive_file, foreign_key: :record_id
+  belongs_to :archive_file
 
   scope :search,
         ->(query) do
