@@ -15,7 +15,7 @@ class ArchiveObject
   end
 
   def process_files
-    record_count = 0
+    archive_file_count = 0
 
     @node
       .xpath("c[@level='file']")
@@ -40,7 +40,7 @@ class ArchiveObject
 
             {
               origins: origins,
-              record: {
+              archive_file: {
                 archive_node_id: @archive_node.id,
                 title: node.xpath("did/unittitle").text,
                 parents: @parent_names,
@@ -58,22 +58,22 @@ class ArchiveObject
               }
             }
           end
-        records =
-          Record.upsert_all(
-            data.map { |d| d[:record] },
+        archive_files =
+          ArchiveFile.upsert_all(
+            data.map { |d| d[:archive_file] },
             unique_by: :source_id,
             returning: :id
           )
         data
-          .zip(records)
+          .zip(archive_files)
           .each do |d, r|
-            d[:origins].each { |origin| origin.records << Record.find(r["id"]) }
+            d[:origins].each { |origin| origin.archive_files << ArchiveFile.find(r["id"]) }
           end
 
-        record_count += data.count
+        archive_file_count += data.count
       end
 
-    return record_count
+    return archive_file_count
   end
 
   def descend
@@ -101,7 +101,7 @@ class BundesarchivImporter
   def run(show_progress: false)
     puts "Importing data from XML files in #{@dir}..." if show_progress
     start = Time.now
-    record_count = 0
+    archive_file_count = 0
 
     xml_files = Dir.glob("*.xml", base: @dir).sort
     total = xml_files.count
@@ -134,7 +134,7 @@ class BundesarchivImporter
         next
       end
 
-      record_count +=
+      archive_file_count +=
         archive_description
           .xpath("//c[@level='fonds']")
           .map do |fond|
@@ -157,10 +157,10 @@ class BundesarchivImporter
       progress_bar.increment if show_progress
     end
 
-    Record.update_cached_all_count
+    ArchiveFile.update_cached_all_count
 
     if show_progress
-      puts "Finished. Imported #{record_count} records in #{Time.now - start} seconds."
+      puts "Finished. Imported #{archive_file_count} archive files in #{Time.now - start} seconds."
     end
   end
 end
