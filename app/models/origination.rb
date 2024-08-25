@@ -12,6 +12,6 @@
 #  index_originations_on_record_id_and_origin_id  (record_id,origin_id) UNIQUE
 #
 class Origination < ApplicationRecord
-  belongs_to :record
+  belongs_to :archive_file, foreign_key: :record_id
   belongs_to :origin
 end
