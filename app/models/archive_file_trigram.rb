@@ -10,6 +10,7 @@
 #  summary               :
 #  title                 :
 #  archive_file_id       :
+#  archive_node_id       :
 #
 class ArchiveFileTrigram < ApplicationRecord
   belongs_to :archive_file
@@ -18,12 +19,7 @@ class ArchiveFileTrigram < ApplicationRecord
         ->(query) do
           return none if query.blank?
 
-          where(archive_file_trigrams: "title: \"#{query}\"")
-            .or(where(archive_file_trigrams: "summary: \"#{query}\""))
-            .or(where(archive_file_trigrams: "parents: \"#{query}\""))
-            .or(where(archive_file_trigrams: "origin_names: \"#{query}\""))
-            .or(where(archive_file_trigrams: "call_number: \"#{query}\""))
-            .order(:call_number)
+          where(archive_file_trigrams: "\"#{query}\"").order(:call_number)
         end
 
   scope :lookup_by_call_number,
