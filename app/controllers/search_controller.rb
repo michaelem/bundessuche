@@ -6,7 +6,7 @@ class SearchController < ApplicationController
     @query = params[:q]
 
     @trigrams =
-      RecordTrigram
+      ArchiveFileTrigram
         .search(@query)
         .page(params[:page])
         .per(500)
