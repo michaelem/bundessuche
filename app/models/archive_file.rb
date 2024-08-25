@@ -33,7 +33,7 @@ class ArchiveFile < ApplicationRecord
   has_many :originations, inverse_of: :archive_file
   has_many :origins, through: :originations
 
-  has_one :record_trigram
+  has_one :archive_file_trigram
 
   after_create :insert_trigram
   after_update :update_trigram
@@ -61,11 +61,11 @@ class ArchiveFile < ApplicationRecord
       )
     end
 
-    RecordTrigram.delete_all
+    ArchiveFileTrigram.delete_all
 
     self.find_in_batches do |group|
-      group.each do |record|
-        record.insert_trigram
+      group.each do |archive_file|
+        archive_file.insert_trigram
         progress_bar.increment if show_progress
       end
     end
@@ -105,14 +105,14 @@ class ArchiveFile < ApplicationRecord
 
     values = trigram_attrs.values.map { |v| ArchiveFile.connection.quote(v) }
     sql_insert = <<~SQL.strip
-      INSERT INTO record_trigrams(#{trigram_attrs.keys.join(", ")}) VALUES(#{values.join(", ")});
+      INSERT INTO archive_file_trigrams(#{trigram_attrs.keys.join(", ")}) VALUES(#{values.join(", ")});
     SQL
     self.class.connection.execute(sql_insert)
   end
 
   def delete_trigram
     delete_statement =
-      "DELETE FROM record_trigrams WHERE record_id = #{attributes["id"]}"
+      "DELETE FROM archive_file_trigrams WHERE record_id = #{attributes["id"]}"
     self.class.connection.execute(delete_statement)
   end
 
