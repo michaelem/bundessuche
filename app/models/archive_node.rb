@@ -15,7 +15,7 @@
 #  index_archive_nodes_on_source_id       (source_id)
 #
 class ArchiveNode < ApplicationRecord
-  belongs_to :parent_node, class_name: 'ArchiveNode'
+  belongs_to :parent_node, class_name: 'ArchiveNode', optional: true
 
   has_many :child_nodes, class_name: 'ArchiveNode', foreign_key: 'parent_node_id'
   has_many :archive_files
