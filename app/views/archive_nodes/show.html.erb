@@ -1,0 +1,23 @@
+<ul>
+  <% @archive_node.parents.each do |node| %>
+    <li>
+      <%= link_to node.name, archive_node_path(node) %>
+      <ul>
+        <% node.child_nodes.each do |child| %>
+          <li><%= link_to child.name, archive_node_path(child) %></li>
+        <% end %>
+      </ul>
+    </li>
+  <% end %>
+  <li>
+    <%= link_to @archive_node.name, archive_node_path(@archive_node) %>
+    <ul>
+      <% @archive_node.child_nodes.each do |child| %>
+        <li><%= link_to child.name, archive_node_path(child) %></li>
+      <% end %>
+    </ul>
+  </li>
+</ul>
+<% @archive_node.archive_files.each do |archive_file| %>
+  <%= render ResultComponent.new(archive_file: archive_file) %>
+<% end %>

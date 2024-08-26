@@ -1,5 +1,5 @@
 class ResultComponent < ViewComponent::Base
-  def initialize(query:, archive_file:)
+  def initialize(archive_file:, query: "")
     @query = query
     @archive_file = archive_file
   end

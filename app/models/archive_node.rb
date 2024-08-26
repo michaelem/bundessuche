@@ -19,4 +19,17 @@ class ArchiveNode < ApplicationRecord
 
   has_many :child_nodes, class_name: 'ArchiveNode', foreign_key: 'parent_node_id'
   has_many :archive_files
+
+  def parents
+    next_node = self
+    parents = []
+
+    while next_node.parent_node.present?
+      parents << next_node.parent_node
+      next_node = next_node.parent_node
+    end
+
+    parents.reverse
+  end
+
 end

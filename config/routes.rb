@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   get "imprint" => "pages#imprint"
 
   resources :archive_files, only: [:show]
+  resources :archive_nodes, only: [:show]
 end
