@@ -28,6 +28,10 @@
     overflow-wrap: anywhere;
 }
 
+.parents__item__link {
+    text-decoration: none;
+    color: #666666;
+}
 .parents__separator {
     margin-top: 5px;
     margin-right: 5px;
