@@ -9,6 +9,7 @@ class ArchiveObject
     ArchiveNode.find_or_create_by(
       name: @node.xpath("did/unittitle").text,
       source_id: @node.attr("id"),
+      level: @node.attr("level"),
       parent_node: @parent_nodes.last
     )
   end

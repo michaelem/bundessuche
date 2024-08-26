@@ -7,7 +7,7 @@ CREATE INDEX "index_origins_on_name" ON "origins" ("name");
 CREATE TABLE IF NOT EXISTS "cached_counts" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "model" varchar, "scope" varchar, "count" integer);
 CREATE UNIQUE INDEX "index_cached_counts_on_model_and_scope" ON "cached_counts" ("model", "scope");
 CREATE TABLE IF NOT EXISTS "archive_files" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "title" varchar, "summary" varchar, "call_number" varchar, "source_date_text" varchar, "source_id" varchar, "link" varchar, "location" varchar, "language_code" varchar, "parents" json DEFAULT '[]' NOT NULL, "source_date_start" date, "source_date_end" date, "archive_node_id" integer, CONSTRAINT parents_is_array CHECK (JSON_TYPE(parents) = 'array'));
-CREATE TABLE IF NOT EXISTS "archive_nodes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "parent_node_id" integer, "source_id" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
+CREATE TABLE IF NOT EXISTS "archive_nodes" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "parent_node_id" integer, "source_id" varchar, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "level" varchar);
 CREATE INDEX "index_archive_nodes_on_source_id" ON "archive_nodes" ("source_id");
 CREATE INDEX "index_archive_nodes_on_parent_node_id" ON "archive_nodes" ("parent_node_id");
 CREATE INDEX "index_archive_files_on_archive_node_id" ON "archive_files" ("archive_node_id");
@@ -28,6 +28,7 @@ CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_content'(id INTEGER PRIMARY KE
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB);
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
 INSERT INTO "schema_migrations" (version) VALUES
+('20240826215919'),
 ('20240825103844'),
 ('20240825102326'),
 ('20240825095047'),
