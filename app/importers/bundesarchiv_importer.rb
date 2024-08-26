@@ -1,7 +1,6 @@
 class ArchiveObject
-  def initialize(parent_names, parents, node)
-    @parent_names = parent_names
-    @parents = parents
+  def initialize(parent_nodes, node)
+    @parent_nodes = parent_nodes
     @node = node
     @archive_node = store
   end
@@ -10,7 +9,7 @@ class ArchiveObject
     ArchiveNode.find_or_create_by(
       name: @node.xpath("did/unittitle").text,
       source_id: @node.attr("id"),
-      parent_node: @parents.last
+      parent_node: @parent_nodes.last
     )
   end
 
@@ -38,12 +37,16 @@ class ArchiveObject
                 .text
                 .sub(/\ABArch /, "")
 
+            parents_cache =
+              (@parent_nodes + [@archive_node]).map do |n|
+                { name: n.name, id: n.id }
+              end
             {
               origins: origins,
               archive_file: {
                 archive_node_id: @archive_node.id,
                 title: node.xpath("did/unittitle").text,
-                parents: @parent_names,
+                parents: parents_cache,
                 call_number: call_number,
                 source_date_text: date.text,
                 source_date_start: date.start_date,
@@ -67,27 +70,26 @@ class ArchiveObject
         data
           .zip(archive_files)
           .each do |d, r|
-            d[:origins].each { |origin| origin.archive_files << ArchiveFile.find(r["id"]) }
+            d[:origins].each do |origin|
+              origin.archive_files << ArchiveFile.find(r["id"])
+            end
           end
 
         archive_file_count += data.count
       end
 
-    return archive_file_count
+    archive_file_count
   end
 
   def descend
     @node
       .xpath("c[@level!='file']")
       .map do |node|
-        descendent =
-          ArchiveObject.new(
-            @parent_names + [node.xpath("did/unittitle").text],
-            @parents + [@archive_node],
-            node
-          )
+        descendent = ArchiveObject.new(@parent_nodes + [@archive_node], node)
+        files_count = descendent.process_files
+        decendend_count = descendent.descend
 
-        descendent.descend + descendent.process_files
+        decendend_count + files_count
       end
       .sum
   end
@@ -138,18 +140,7 @@ class BundesarchivImporter
         archive_description
           .xpath("//c[@level='fonds']")
           .map do |fond|
-            object =
-              ArchiveObject.new(
-                [fond.xpath("did/unittitle").text],
-                [
-                  ArchiveNode.find_or_create_by(
-                    name: fond.xpath("did/unittitle").text,
-                    source_id: fond.attr("id"),
-                    parent_node: nil
-                  )
-                ],
-                fond
-              )
+            object = ArchiveObject.new([], fond)
             object.descend + object.process_files
           end
           .sum

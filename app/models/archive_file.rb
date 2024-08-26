@@ -100,7 +100,7 @@ class ArchiveFile < ApplicationRecord
       title: title,
       summary: summary,
       call_number: call_number,
-      parents: parents.join(" "),
+      parents: parents.map { |p| p['name'] }.join(" "),
       origin_names: origins.pluck(:name).join(" ")
     }
 

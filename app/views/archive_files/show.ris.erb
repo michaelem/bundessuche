@@ -1,6 +1,6 @@
 TY  - MANSCPT
 AB  - <%= @archive_file.summary&.strip()&.html_safe %>
-AU  - <%= @archive_file.parents&.first %>
+AU  - <%= (@archive_file.parents&.first || {})["name"] %>
 AN  - <%= @archive_file.call_number %>
 DA  - <%= @archive_file.source_dates %>
 DB  - BArch
