@@ -1,0 +1,33 @@
+.archive-node-menu {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.archive-node-mneu__list {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+.archive-node {
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+
+    border-radius: 2px;
+    padding: 5px;
+    background-color: #f1f5ff;
+    color: #666666;
+    overflow-wrap: anywhere;
+
+    width: max-content;
+}
+
+.archive-node--selected {
+    border: 2px solid black;
+}
+
+.archive-node__link {
+    text-decoration: none;
+    color: #666666;
+}

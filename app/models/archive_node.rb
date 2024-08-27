@@ -25,8 +25,8 @@ class ArchiveNode < ApplicationRecord
     next_node = self
     parents = []
 
-    while next_node.parent_node.present?
-      parents << next_node.parent_node
+    while next_node.present?
+      parents << next_node
       next_node = next_node.parent_node
     end
 
