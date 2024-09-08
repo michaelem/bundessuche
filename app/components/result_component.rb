@@ -25,7 +25,7 @@ class ResultComponent < ViewComponent::Base
   def date
     return @archive_file.source_date_text if @archive_file.source_date_text.present?
 
-    @archive_file.source_date_years
+    @archive_file.source_date_years.join("-")
   end
 
   def summary
