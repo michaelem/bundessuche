@@ -82,6 +82,9 @@ GEM
       public_suffix (>= 2.0.2, < 7.0)
     annotaterb (4.10.2)
     base64 (0.2.0)
+    bibtex-ruby (6.1.0)
+      latex-decode (~> 0.0)
+      racc (~> 1.7)
     bigdecimal (3.1.8)
     bindex (0.8.1)
     bootsnap (1.18.3)
@@ -133,6 +136,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
+    latex-decode (0.4.0)
     logger (1.6.0)
     loofah (2.22.0)
       crass (~> 1.0.2)
@@ -274,6 +278,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-enhancedsqlite3-adapter (~> 0.8.0)
   annotaterb
+  bibtex-ruby (~> 6.1)
   bootsnap
   capybara
   debug
