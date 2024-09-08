@@ -121,9 +121,6 @@ GEM
     irb (1.14.0)
       rdoc (>= 4.0.0)
       reline (>= 0.4.2)
-    jbuilder (2.12.0)
-      actionview (>= 5.0.0)
-      activesupport (>= 5.0.0)
     kaminari (1.2.2)
       activesupport (>= 4.1.0)
       kaminari-actionview (= 1.2.2)
@@ -284,7 +281,6 @@ DEPENDENCIES
   debug
   htmlbeautifier (~> 1.4.3)
   importmap-rails
-  jbuilder
   kaminari
   memory_profiler
   progressbar (~> 1.13)
