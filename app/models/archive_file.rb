@@ -77,20 +77,20 @@ class ArchiveFile < ApplicationRecord
 
   def source_dates
     if source_date_end.blank? || source_date_start == source_date_end
-      return source_date_start.to_s
+      return [source_date_start.to_s]
     end
 
-    "#{source_date_start} - #{source_date_end}"
+    [source_date_start.to_s, source_date_end.to_s]
   end
 
   def source_date_years
-    return "" if source_date_start.blank? && source_date_end.blank?
+    return [] if source_date_start.blank? && source_date_end.blank?
 
     if source_date_end.blank? || source_date_start.year == source_date_end.year
-      return source_date_start.year.to_s
+      return [source_date_start.year.to_s]
     end
 
-    "#{source_date_start.year} - #{source_date_end.year}"
+    [source_date_start.year.to_s, source_date_end.year.to_s]
   end
 
   def insert_trigram
