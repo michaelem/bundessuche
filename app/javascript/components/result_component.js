@@ -10,15 +10,15 @@ async function fetchText(path) {
   }
 }
 
-document.querySelectorAll(".cite__copy-ris").forEach((button) => {
+document.querySelectorAll(".cite__copy").forEach((button) => {
   button.addEventListener("click", async () => {
     if (button.disabled) {
       return;
     }
     button.disabled = true;
     button.classList.add(".cite__button--disabled");
-    const risPath = button.dataset.risPath;
-    const clipboardItem = new ClipboardItem({ 'text/plain': fetchText(risPath) });
+    const path = button.dataset.path;
+    const clipboardItem = new ClipboardItem({ 'text/plain': fetchText(path) });
 
     navigator.clipboard
       .write([clipboardItem])
