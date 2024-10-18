@@ -4,11 +4,11 @@ ruby file: ".ruby-version"
 
 # Framework
 gem "rails", "~> 7.2.1"
-gem "puma", ">= 5.0"
+gem "puma", ">= 6.4"
 
 # Assets
 gem "importmap-rails"
-gem "sprockets-rails"
+gem "propshaft"
 
 # Database
 gem "sqlite3", "~> 1.7" # Use SQLite for production
