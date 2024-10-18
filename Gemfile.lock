@@ -164,6 +164,11 @@ GEM
       racc (~> 1.4)
     prettier_print (1.2.1)
     progressbar (1.13.0)
+    propshaft (1.1.0)
+      actionpack (>= 7.0.0)
+      activesupport (>= 7.0.0)
+      rack
+      railties (>= 7.0.0)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
@@ -224,13 +229,6 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    sprockets (4.2.1)
-      concurrent-ruby (~> 1.0)
-      rack (>= 2.2.4, < 4)
-    sprockets-rails (3.5.2)
-      actionpack (>= 6.1)
-      activesupport (>= 6.1)
-      sprockets (>= 3.0.0)
     sqlite3 (1.7.3-aarch64-linux)
     sqlite3 (1.7.3-arm64-darwin)
     sqlite3 (1.7.3-x86_64-linux)
@@ -280,11 +278,11 @@ DEPENDENCIES
   kaminari
   memory_profiler
   progressbar (~> 1.13)
-  puma (>= 5.0)
+  propshaft
+  puma (>= 6.4)
   rack-mini-profiler
   rails (~> 7.2.1)
   selenium-webdriver
-  sprockets-rails
   sqlite3 (~> 1.7)
   stackprof
   syntax_tree
