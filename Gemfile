@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 # Framework
-gem "rails", "~> 7.2.1"
+gem "rails", "~> 8.0.0"
 gem "puma", ">= 6.4"
 
 # Assets
@@ -11,7 +11,7 @@ gem "importmap-rails"
 gem "propshaft"
 
 # Database
-gem "sqlite3", "~> 1.7" # Use SQLite for production
+gem "sqlite3", "~> 2.6" # Use SQLite for production
 gem "activerecord-enhancedsqlite3-adapter", "~> 0.8.0" # Performance improvements for SQLite
 
 gem "bibtex-ruby", "~> 6.1" # Export bibtex citations
