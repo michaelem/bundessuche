@@ -23,7 +23,7 @@ RUN apt-get install --no-install-recommends -y lsb-release curl
 FROM base AS build
 
 # Install packages needed to build gems
-RUN apt-get install --no-install-recommends -y build-essential git pkg-config
+RUN apt-get install --no-install-recommends -y build-essential git pkg-config libyaml-dev
 
 # Install application gems
 COPY Gemfile Gemfile.lock .ruby-version ./
