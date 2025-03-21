@@ -287,7 +287,7 @@ DEPENDENCIES
   memory_profiler
   progressbar (~> 1.13)
   propshaft
-  puma (>= 6.4)
+  puma (~> 6.6)
   rack-mini-profiler
   rails (~> 8.0.0)
   selenium-webdriver

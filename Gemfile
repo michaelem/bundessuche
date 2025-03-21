@@ -4,7 +4,7 @@ ruby file: ".ruby-version"
 
 # Framework
 gem "rails", "~> 8.0.0"
-gem "puma", ">= 6.4"
+gem "puma", "~> 6.6"
 
 # Assets
 gem "importmap-rails"
