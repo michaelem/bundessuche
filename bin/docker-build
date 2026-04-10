@@ -1,0 +1,3 @@
+#!/bin/bash -e
+
+docker build --build-arg RUBY_VERSION=$(cat .ruby-version) -t myapp .
