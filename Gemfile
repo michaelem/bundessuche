@@ -19,6 +19,8 @@ gem "bootsnap", require: false # Reduces boot times through caching; required in
 gem "kaminari" # Pagination
 gem "progressbar", "~> 1.13" # Used in the import task
 gem "view_component" # Reusable view components
+gem "cgi"
+gem "tsort"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
