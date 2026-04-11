@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby file: ".ruby-version"
 
 # Framework
-gem "rails", "~> 8.0.0"
+gem "rails", "~> 8.1.0"
 gem "puma", "~> 6.6"
 
 # Assets
