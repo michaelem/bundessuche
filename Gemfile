@@ -11,10 +11,10 @@ gem "importmap-rails"
 gem "propshaft"
 
 # Database
-gem "sqlite3", "~> 2.6" # Use SQLite for production
+gem "sqlite3", "~> 2.9" # Use SQLite for production
 gem "activerecord-enhancedsqlite3-adapter", "~> 0.8.0" # Performance improvements for SQLite
 
-gem "bibtex-ruby", "~> 6.1" # Export bibtex citations
+gem "bibtex-ruby", "~> 6.2" # Export bibtex citations
 gem "bootsnap", require: false # Reduces boot times through caching; required in config/boot.rb
 gem "kaminari" # Pagination
 gem "progressbar", "~> 1.13" # Used in the import task

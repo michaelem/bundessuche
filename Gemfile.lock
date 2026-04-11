@@ -292,7 +292,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord-enhancedsqlite3-adapter (~> 0.8.0)
   annotaterb
-  bibtex-ruby (~> 6.1)
+  bibtex-ruby (~> 6.2)
   bootsnap
   capybara
   cgi
@@ -308,7 +308,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 8.1.0)
   selenium-webdriver
-  sqlite3 (~> 2.6)
+  sqlite3 (~> 2.9)
   stackprof
   syntax_tree
   tsort
