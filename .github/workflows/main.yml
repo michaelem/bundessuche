@@ -13,8 +13,8 @@ env:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-    
+    runs-on: ubuntu-24.04-arm
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -35,7 +35,7 @@ jobs:
 
   build:
     needs: [test]
-    runs-on: buildjet-4vcpu-ubuntu-2204-arm
+    runs-on: ubuntu-24.04-arm
     if: github.ref == 'refs/heads/main'
 
     # These permissions are needed to interact with GitHub's OIDC Token endpoint.
