@@ -68,13 +68,13 @@ class ArchiveObject
             unique_by: :source_id,
             returning: :id
           )
-        data
-          .zip(archive_files)
-          .each do |d, r|
-            d[:origins].each do |origin|
-              origin.archive_files << ArchiveFile.find(r["id"])
+        origination_data =
+          data
+            .zip(archive_files)
+            .flat_map do |d, r|
+              d[:origins].map { |origin| { archive_file_id: r["id"], origin_id: origin.id } }
             end
-          end
+        Origination.upsert_all(origination_data, unique_by: [:archive_file_id, :origin_id]) if origination_data.any?
 
         archive_file_count += data.count
       end
