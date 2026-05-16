@@ -8,6 +8,11 @@ class ArchiveFileTrigramTest < ActiveSupport::TestCase
     @example_archive_file = ArchiveFile.find_by(source_id: "DE-1958_8a0ff3f6-46b3-443a-9e48-946e790301e0")
   end
 
+  test "reindex with show_progress does not raise" do
+    capture_io { ArchiveFile.reindex(true) }
+    assert ArchiveFileTrigram.count > 0
+  end
+
   test "search finds archive files by title" do
     assert_equal 1, ArchiveFileTrigram.search(@example_archive_file.title).count
   end
