@@ -1,10 +1,8 @@
 class UnitDate
-  def initialize(node)
-    @text = node&.text
-    @normal = node&.attr("normal")
-
+  def initialize(text, normal)
+    @text = text
+    @normal = normal
     @start_string, @end_string = @normal&.split("/")
-
     @start_date = parse_iso8601_string(@start_string)
     @end_date = parse_iso8601_string(@end_string)
   end
