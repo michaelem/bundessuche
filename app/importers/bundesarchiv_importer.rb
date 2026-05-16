@@ -21,64 +21,66 @@ class ArchiveObject
     @node
       .xpath("c[@level='file']")
       .each_slice(1000) do |slice|
-        data =
-          slice.map do |node|
-            date = UnitDate.new(node.xpath("did/unitdate").first)
-            origins =
-              node
-                .xpath("did/origination")
-                .map do |origin|
-                  @origins_cache[[origin.text, origin.attr("label")]] ||=
-                    Origin.find_or_create_by(
-                      name: origin.text,
-                      label: origin.attr("label")
-                    )
+        ActiveRecord::Base.transaction do
+          data =
+            slice.map do |node|
+              date = UnitDate.new(node.xpath("did/unitdate").first)
+              origins =
+                node
+                  .xpath("did/origination")
+                  .map do |origin|
+                    @origins_cache[[origin.text, origin.attr("label")]] ||=
+                      Origin.find_or_create_by(
+                        name: origin.text,
+                        label: origin.attr("label")
+                      )
+                  end
+              call_number =
+                node
+                  .xpath('did/unitid[@type="call number"]')
+                  .text
+                  .sub(/\ABArch /, "")
+
+              parents_cache =
+                (@parent_nodes + [@archive_node]).map do |n|
+                  { name: n.name, id: n.id }
                 end
-            call_number =
-              node
-                .xpath('did/unitid[@type="call number"]')
-                .text
-                .sub(/\ABArch /, "")
-
-            parents_cache =
-              (@parent_nodes + [@archive_node]).map do |n|
-                { name: n.name, id: n.id }
-              end
-            {
-              origins: origins,
-              archive_file: {
-                archive_node_id: @archive_node.id,
-                title: node.xpath("did/unittitle").text,
-                parents: parents_cache,
-                call_number: call_number,
-                source_date_text: date.text,
-                source_date_start: date.start_date,
-                source_date_end: date.end_date,
-                source_id: node.attr("id"),
-                link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
-                location: node.xpath("did/physloc").text,
-                language_code:
-                  node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
-                summary:
-                  node.xpath('scopecontent[@encodinganalog="summary"]/p').text
+              {
+                origins: origins,
+                archive_file: {
+                  archive_node_id: @archive_node.id,
+                  title: node.xpath("did/unittitle").text,
+                  parents: parents_cache,
+                  call_number: call_number,
+                  source_date_text: date.text,
+                  source_date_start: date.start_date,
+                  source_date_end: date.end_date,
+                  source_id: node.attr("id"),
+                  link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
+                  location: node.xpath("did/physloc").text,
+                  language_code:
+                    node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
+                  summary:
+                    node.xpath('scopecontent[@encodinganalog="summary"]/p').text
+                }
               }
-            }
-          end
-        archive_files =
-          ArchiveFile.upsert_all(
-            data.map { |d| d[:archive_file] },
-            unique_by: :source_id,
-            returning: :id
-          )
-        origination_data =
-          data
-            .zip(archive_files)
-            .flat_map do |d, r|
-              d[:origins].map { |origin| { archive_file_id: r["id"], origin_id: origin.id } }
             end
-        Origination.upsert_all(origination_data, unique_by: [:archive_file_id, :origin_id]) if origination_data.any?
+          archive_files =
+            ArchiveFile.upsert_all(
+              data.map { |d| d[:archive_file] },
+              unique_by: :source_id,
+              returning: :id
+            )
+          origination_data =
+            data
+              .zip(archive_files)
+              .flat_map do |d, r|
+                d[:origins].map { |origin| { archive_file_id: r["id"], origin_id: origin.id } }
+              end
+          Origination.upsert_all(origination_data, unique_by: [:archive_file_id, :origin_id]) if origination_data.any?
 
-        archive_file_count += data.count
+          archive_file_count += data.count
+        end
       end
 
     archive_file_count
