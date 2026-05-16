@@ -1,7 +1,8 @@
 class ArchiveObject
-  def initialize(parent_nodes, node)
+  def initialize(parent_nodes, node, origins_cache)
     @parent_nodes = parent_nodes
     @node = node
+    @origins_cache = origins_cache
     @archive_node = store
   end
 
@@ -27,10 +28,11 @@ class ArchiveObject
               node
                 .xpath("did/origination")
                 .map do |origin|
-                  Origin.find_or_create_by(
-                    name: origin.text,
-                    label: origin.attr("label")
-                  )
+                  @origins_cache[[origin.text, origin.attr("label")]] ||=
+                    Origin.find_or_create_by(
+                      name: origin.text,
+                      label: origin.attr("label")
+                    )
                 end
             call_number =
               node
@@ -86,7 +88,7 @@ class ArchiveObject
     @node
       .xpath("c[@level!='file']")
       .map do |node|
-        descendent = ArchiveObject.new(@parent_nodes + [@archive_node], node)
+        descendent = ArchiveObject.new(@parent_nodes + [@archive_node], node, @origins_cache)
         files_count = descendent.process_files
         decendend_count = descendent.descend
 
@@ -106,6 +108,7 @@ class BundesarchivImporter
     start = Time.now
     archive_file_count = 0
 
+    origins_cache = {}
     xml_files = Dir.glob("*.xml", base: @dir).sort
     total = xml_files.count
     if show_progress
@@ -141,7 +144,7 @@ class BundesarchivImporter
         archive_description
           .xpath("//c[@level='fonds']")
           .map do |fond|
-            object = ArchiveObject.new([], fond)
+            object = ArchiveObject.new([], fond, origins_cache)
             object.descend + object.process_files
           end
           .sum
