@@ -8,7 +8,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     @node_stack = []
     @skip = false
     @current_file = nil
-    @text_buffer = ""
+    @text_stack = []
     @current_unitdate_normal = nil
     @current_origination_label = nil
     @in_summary_scopecontent = false
@@ -21,7 +21,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     name = strip_ns(name)
     attrs_hash = normalize_attrs(attrs)
     @element_stack.push([name, attrs_hash])
-    @text_buffer = ""
+    @text_stack.push(String.new)
     return if @skip
 
     case name
@@ -40,7 +40,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   end
 
   def characters(string)
-    @text_buffer += string unless @skip
+    @text_stack.last&.concat(string) unless @skip
   end
 
   def end_element(name)
@@ -48,10 +48,13 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
 
     if @skip
       @element_stack.pop
-      @text_buffer = ""
+      @text_stack.pop
       @skip = false if name == "archdesc"
       return
     end
+
+    @text_buffer = @text_stack.pop || ""
+    @text_stack.last&.concat(@text_buffer)
 
     case name
     when "archdesc"    then flush_batch
@@ -67,7 +70,6 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     end
 
     @element_stack.pop
-    @text_buffer = ""
   end
 
   private
