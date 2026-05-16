@@ -29,11 +29,12 @@ class ArchiveObject
                 node
                   .xpath("did/origination")
                   .map do |origin|
-                    @origins_cache[[origin.text, origin.attr("label")]] ||=
-                      Origin.find_or_create_by(
-                        name: origin.text,
-                        label: origin.attr("label")
-                      )
+                    @origins_cache[
+                      [origin.text, origin.attr("label")]
+                    ] ||= Origin.find_or_create_by(
+                      name: origin.text,
+                      label: origin.attr("label")
+                    )
                   end
               call_number =
                 node
@@ -59,7 +60,9 @@ class ArchiveObject
                   link: node.xpath("otherfindaid/p/extref")[0]&.attr("href"),
                   location: node.xpath("did/physloc").text,
                   language_code:
-                    node.xpath("did/langmaterial/language")[0]&.attr("langcode"),
+                    node.xpath("did/langmaterial/language")[0]&.attr(
+                      "langcode"
+                    ),
                   summary:
                     node.xpath('scopecontent[@encodinganalog="summary"]/p').text
                 }
@@ -75,9 +78,16 @@ class ArchiveObject
             data
               .zip(archive_files)
               .flat_map do |d, r|
-                d[:origins].map { |origin| { archive_file_id: r["id"], origin_id: origin.id } }
+                d[:origins].map do |origin|
+                  { archive_file_id: r["id"], origin_id: origin.id }
+                end
               end
-          Origination.upsert_all(origination_data, unique_by: [:archive_file_id, :origin_id]) if origination_data.any?
+          if origination_data.any?
+            Origination.upsert_all(
+              origination_data,
+              unique_by: %i[archive_file_id origin_id]
+            )
+          end
 
           archive_file_count += data.count
         end
@@ -90,7 +100,12 @@ class ArchiveObject
     @node
       .xpath("c[@level!='file']")
       .map do |node|
-        descendent = ArchiveObject.new(@parent_nodes + [@archive_node], node, @origins_cache)
+        descendent =
+          ArchiveObject.new(
+            @parent_nodes + [@archive_node],
+            node,
+            @origins_cache
+          )
         files_count = descendent.process_files
         decendend_count = descendent.descend
 
