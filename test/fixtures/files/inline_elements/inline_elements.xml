@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ead>
+  <archdesc type="inventory">
+    <c level="fonds" id="test-fonds-inline">
+      <did>
+        <unittitle>Test <emph>Fonds</emph></unittitle>
+      </did>
+      <c level="file" id="test-file-inline-title">
+        <did>
+          <unitid type="call number">TEST/<num>123</num></unitid>
+          <unittitle>Bersarin<emph>platz</emph></unittitle>
+        </did>
+      </c>
+    </c>
+  </archdesc>
+</ead>

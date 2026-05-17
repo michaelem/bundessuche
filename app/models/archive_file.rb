@@ -55,19 +55,23 @@ class ArchiveFile < ApplicationRecord
       start = Time.now
 
       progress_bar = ProgressBar.create(
-        title: "Importing",
+        title: "Reindexing",
         total: ArchiveFile.count,
-        format: "%t %p%% %a %e |%B|"
+        format: "%t %p%% %a %e |%B|",
+        output: $stdout
       )
     end
 
     ArchiveFileTrigram.delete_all
 
-    self.find_in_batches do |group|
-      group.each do |archive_file|
-        archive_file.insert_trigram
-        progress_bar.increment if show_progress
-      end
+    self.includes(:origins).find_in_batches do |group|
+      attrs_list = group.map(&:trigram_attributes)
+      columns = attrs_list.first.keys.join(", ")
+      values = attrs_list.map { |attrs|
+        "(#{attrs.values.map { |v| connection.quote(v) }.join(", ")})"
+      }.join(", ")
+      connection.execute("INSERT INTO archive_file_trigrams(#{columns}) VALUES #{values}")
+      group.size.times { progress_bar.increment } if show_progress
     end
 
     if show_progress
@@ -93,16 +97,20 @@ class ArchiveFile < ApplicationRecord
     [source_date_start.year.to_s, source_date_end.year.to_s]
   end
 
-  def insert_trigram
-    trigram_attrs = {
+  def trigram_attributes
+    {
       archive_file_id: id,
       archive_node_id: archive_node_id,
       title: title,
       summary: summary,
       call_number: call_number,
-      parents: parents.map { |p| p['name'] }.join(" "),
-      origin_names: origins.pluck(:name).join(" ")
+      parents: parents.map { |p| p["name"] }.join(" "),
+      origin_names: origins.map(&:name).join(" ")
     }
+  end
+
+  def insert_trigram
+    trigram_attrs = trigram_attributes
 
     values = trigram_attrs.values.map { |v| ArchiveFile.connection.quote(v) }
     sql_insert = <<~SQL.strip
