@@ -18,9 +18,8 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
 
   attr_reader :total_count
 
-  def start_element(name, attrs = [])
-    name = strip_ns(name)
-    attrs_hash = normalize_attrs(attrs)
+  def start_element_namespace(name, attrs = [], prefix = nil, uri = nil, ns = [])
+    attrs_hash = attrs.to_h { |a| [a.localname, a.value] }
     @element_stack.push([name, attrs_hash])
     @text_stack.push(String.new)
     return if @skip
@@ -53,9 +52,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     @text_stack.last&.concat(string) unless @skip
   end
 
-  def end_element(name)
-    name = strip_ns(name)
-
+  def end_element_namespace(name, prefix = nil, uri = nil)
     if @skip
       @element_stack.pop
       @text_stack.pop
@@ -94,14 +91,6 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   end
 
   private
-
-  def strip_ns(name)
-    name.split(":").last
-  end
-
-  def normalize_attrs(attrs)
-    attrs.to_h.transform_keys { |k| k.split(":").last }
-  end
 
   def in_file?
     !@current_file.nil?
