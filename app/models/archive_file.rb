@@ -57,7 +57,8 @@ class ArchiveFile < ApplicationRecord
       progress_bar = ProgressBar.create(
         title: "Reindexing",
         total: ArchiveFile.count,
-        format: "%t %p%% %a %e |%B|"
+        format: "%t %p%% %a %e |%B|",
+        output: $stdout
       )
     end
 
