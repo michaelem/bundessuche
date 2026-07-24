@@ -3,7 +3,7 @@
 #
 # Stateless and free of database access, so it can be unit tested with a stubbed chat.
 class SourceDateParser
-  DEFAULT_MODEL = "gemma4:26b-mxfp8"
+  DEFAULT_MODEL = "gemma4:31b-mxfp8"
 
   class Schema < RubyLLM::Schema
     string :start_date, description: "First day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date."
