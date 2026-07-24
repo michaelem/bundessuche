@@ -25,6 +25,11 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     end
   end
 
+  # Matches nothing, so every text reaches the parser.
+  class NullMatcher
+    def call(_text) = nil
+  end
+
   setup do
     @archive_node = ArchiveNode.create!(name: "Bestand", source_id: "node-1")
   end
@@ -45,7 +50,7 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     create_archive_file("Mai 1950", count: 2)
 
     parser = FakeParser.new
-    SourceDateBackfill.new(parser: parser).run
+    SourceDateBackfill.new(matcher: NullMatcher.new, parser: parser).run
 
     assert_equal ["o. Dat.", "Mai 1950", "1948"], parser.calls
     assert_equal 3, ParsedSourceDate.count
@@ -57,7 +62,7 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     create_archive_file(nil)
 
     parser = FakeParser.new
-    SourceDateBackfill.new(parser: parser).run
+    SourceDateBackfill.new(matcher: NullMatcher.new, parser: parser).run
 
     assert_equal ["1948"], parser.calls
   end
@@ -68,7 +73,7 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     ParsedSourceDate.create!(source_text: "1948", confidence: 1.0)
 
     parser = FakeParser.new
-    SourceDateBackfill.new(parser: parser).run
+    SourceDateBackfill.new(matcher: NullMatcher.new, parser: parser).run
 
     assert_equal ["Mai 1950"], parser.calls
   end
@@ -78,7 +83,7 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     create_archive_file("Mai 1950")
 
     parser = FakeParser.new
-    SourceDateBackfill.new(limit: 1, parser: parser).run
+    SourceDateBackfill.new(limit: 1, matcher: NullMatcher.new, parser: parser).run
 
     assert_equal ["1948"], parser.calls
   end
@@ -88,10 +93,23 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     create_archive_file("Mai 1950")
 
     parser = FakeParser.new { |text| raise Faraday::ConnectionFailed, "boom" if text == "1948" }
-    parsed = SourceDateBackfill.new(parser: parser).run
+    parsed = SourceDateBackfill.new(matcher: NullMatcher.new, parser: parser).run
 
     assert_equal ["1948", "Mai 1950"], parser.calls
     assert_equal 1, parsed
     assert_equal ["Mai 1950"], ParsedSourceDate.pluck(:source_text)
+  end
+
+  test "only sends the texts the matcher cannot read to the LLM" do
+    create_archive_file("1948")
+    create_archive_file("nach Mai 1953")
+
+    parser = FakeParser.new
+    SourceDateBackfill.new(parser: parser).run
+
+    assert_equal ["nach Mai 1953"], parser.calls
+    assert_equal ["1948"], ParsedSourceDate.matched.pluck(:source_text)
+    assert_equal ["nach Mai 1953"], ParsedSourceDate.from_llm.pluck(:source_text)
+    assert_equal Date.new(1948, 1, 1), ParsedSourceDate.find_by(source_text: "1948").start_date
   end
 end

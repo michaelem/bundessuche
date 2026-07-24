@@ -1,14 +1,15 @@
-# Sends every distinct ArchiveFile#source_date_text through SourceDateParser and stores the
-# result as a ParsedSourceDate. Texts are processed most frequently used first, so an
-# interrupted run still covers the bulk of the archive files. Re-running picks up where the
-# last run stopped.
+# Turns every distinct ArchiveFile#source_date_text into a ParsedSourceDate. Unambiguous
+# captions are read by SourceDateMatcher, the rest goes to the much slower SourceDateParser.
+# Texts are processed most frequently used first, so an interrupted run still covers the bulk
+# of the archive files. Re-running picks up where the last run stopped.
 class SourceDateBackfill
-  def initialize(limit: nil, parser: SourceDateParser.new)
+  def initialize(limit: nil, matcher: SourceDateMatcher.new, parser: SourceDateParser.new)
     @limit = limit
+    @matcher = matcher
     @parser = parser
   end
 
-  attr_reader :limit, :parser
+  attr_reader :limit, :matcher, :parser
 
   def run(show_progress: false)
     texts = pending_texts
@@ -25,10 +26,13 @@ class SourceDateBackfill
     end
 
     failures = 0
+    matched = 0
 
     texts.each do |text|
       begin
-        ParsedSourceDate.create!(parser.call(text))
+        attributes = matcher.call(text)
+        matched += 1 if attributes
+        ParsedSourceDate.create!(attributes || parser.call(text))
       rescue StandardError => e
         # Leave the text unparsed so that the next run tries it again.
         failures += 1
@@ -40,6 +44,7 @@ class SourceDateBackfill
 
     if show_progress
       puts "Parsed #{texts.size - failures} of #{texts.size} date texts in #{Time.now - start} seconds"
+      puts "#{matched} of them without the LLM"
       puts "#{failures} failed, see the log for details" if failures > 0
     end
 

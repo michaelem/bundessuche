@@ -25,6 +25,8 @@ class ParsedSourceDate < ApplicationRecord
   validates :source_text, presence: true, uniqueness: true
 
   scope :confident, ->(threshold = 0.8) { where(confidence: threshold..) }
+  scope :matched, -> { where(llm_model: nil) }
+  scope :from_llm, -> { where.not(llm_model: nil) }
 
   def parsed?
     start_date.present?
