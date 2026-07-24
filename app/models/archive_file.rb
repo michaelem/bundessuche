@@ -22,6 +22,7 @@
 #
 #  index_archive_files_on_archive_node_id    (archive_node_id)
 #  index_archive_files_on_call_number        (call_number)
+#  index_archive_files_on_source_date_text   (source_date_text)
 #  index_archive_files_on_source_id          (source_id) UNIQUE
 #  index_archive_files_on_summary            (summary)
 #  index_archive_files_on_title              (title)
@@ -34,6 +35,12 @@ class ArchiveFile < ApplicationRecord
   has_many :origins, through: :originations
 
   has_one :archive_file_trigram
+
+  belongs_to :parsed_source_date,
+    foreign_key: :source_date_text,
+    primary_key: :source_text,
+    optional: true,
+    inverse_of: :archive_files
 
   after_create :insert_trigram
   after_update :update_trigram
