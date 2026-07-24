@@ -5,7 +5,7 @@ class CreateParsedSourceDates < ActiveRecord::Migration[8.1]
       t.date :start_date
       t.date :end_date
       t.float :confidence
-      t.string :model_name
+      t.string :llm_model
       t.text :raw_response
 
       t.timestamps

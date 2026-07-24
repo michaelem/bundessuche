@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_idx'(segid, term, pgno, PRIMAR
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_content'(id INTEGER PRIMARY KEY, c0, c1, c2, c3, c4, c5, c6);
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB);
 CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS "parsed_source_dates" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "source_text" varchar NOT NULL, "start_date" date, "end_date" date, "confidence" float, "model_name" varchar, "raw_response" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
+CREATE TABLE IF NOT EXISTS "parsed_source_dates" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "source_text" varchar NOT NULL, "start_date" date, "end_date" date, "confidence" float, "llm_model" varchar, "raw_response" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
 CREATE UNIQUE INDEX "index_parsed_source_dates_on_source_text" ON "parsed_source_dates" ("source_text") /*application='Bundessuche'*/;
 CREATE INDEX "index_archive_files_on_source_date_text" ON "archive_files" ("source_date_text") /*application='Bundessuche'*/;
 INSERT INTO "schema_migrations" (version) VALUES

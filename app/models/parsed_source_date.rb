@@ -5,7 +5,7 @@
 #  id           :integer          not null, primary key
 #  confidence   :float
 #  end_date     :date
-#  model_name   :string
+#  llm_model    :string
 #  raw_response :text
 #  source_text  :string           not null
 #  start_date   :date
