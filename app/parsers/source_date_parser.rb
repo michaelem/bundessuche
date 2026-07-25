@@ -3,7 +3,7 @@
 #
 # Stateless and free of database access, so it can be unit tested with a stubbed chat.
 class SourceDateParser
-  DEFAULT_MODEL = "gemma4:31b-mxfp8"
+  DEFAULT_MODEL = "gemma4:26b-mxfp8"
   KEEP_ALIVE = "30m"
 
   class Schema < RubyLLM::Schema
