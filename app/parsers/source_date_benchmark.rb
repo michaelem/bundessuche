@@ -33,16 +33,21 @@ class SourceDateBenchmark
 
   # Captions the matcher reads, drawn from the corpus with a fixed seed so every model sees
   # the same test set.
+  # Shuffles first and reads lazily, so only as many captions as the sample needs are run
+  # through the matcher - running all 250k of them takes about a minute and buys nothing.
   def self.matched_captions(size:, seed: 42, matcher: SourceDateMatcher.new)
-    captions = ArchiveFile
+    ArchiveFile
       .where.not(source_date_text: [nil, ""])
       .distinct
       .pluck(:source_date_text)
-      .filter_map { |text| [text, matcher.call(text)] if matcher.call(text) }
-
-    captions
-      .sample(size, random: Random.new(seed))
-      .to_h { |text, attributes| [text, [attributes[:start_date], attributes[:end_date]]] }
+      .shuffle(random: Random.new(seed))
+      .lazy
+      .filter_map { |text|
+        attributes = matcher.call(text)
+        [text, [attributes[:start_date], attributes[:end_date]]] if attributes
+      }
+      .first(size)
+      .to_h
   end
 
   def initialize(model:, captions:, parser: SourceDateParser.new(model: model))
@@ -56,6 +61,8 @@ class SourceDateBenchmark
   # Returns one row per caption: the expected and the parsed range, plus how long the call
   # took.
   def run(show_progress: false)
+    warm_up
+
     captions.map do |caption, (start_date, end_date)|
       started_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
@@ -78,6 +85,14 @@ class SourceDateBenchmark
         seconds: seconds
       }
     end
+  end
+
+  # One throwaway call so that loading the model into memory is not charged to the first
+  # caption, which would otherwise dominate its timing.
+  def warm_up
+    parser.call("1948")
+  rescue StandardError
+    nil
   end
 
   def self.summarize(rows)
