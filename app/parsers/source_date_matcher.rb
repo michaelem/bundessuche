@@ -53,23 +53,23 @@ class SourceDateMatcher
 
   def match(caption)
     case caption
-    when /\A#{YEAR}\z/ # 1948
+    when /\A#{YEAR}\z/o # 1948
       year_range($1, $1)
-    when /\A#{YEAR}#{DASH}#{YEAR}\z/ # 1946-1958
+    when /\A#{YEAR}#{DASH}#{YEAR}\z/o # 1946-1958
       year_range($1, $2)
-    when /\A#{DAY}#{MONTH}\s*#{YEAR}\z/ # 28. Mai 1948
+    when /\A#{DAY}#{MONTH}\s*#{YEAR}\z/o # 28. Mai 1948
       day($3, MONTHS[month_key($2)], $1)
-    when /\A(\d{1,2})\.\s?(\d{1,2})\.\s?#{YEAR}\z/ # 1. 1. 1920
+    when /\A(\d{1,2})\.\s?(\d{1,2})\.\s?#{YEAR}\z/o # 1. 1. 1920
       day($3, $2, $1)
-    when /\A#{MONTH}\s*#{YEAR}\z/ # Nov. 1949
+    when /\A#{MONTH}\s*#{YEAR}\z/o # Nov. 1949
       month_range($2, MONTHS[month_key($1)], $2, MONTHS[month_key($1)])
-    when /\A#{MONTH}#{DASH}#{MONTH}\s*#{YEAR}\z/ # Febr.-März 1948
+    when /\A#{MONTH}#{DASH}#{MONTH}\s*#{YEAR}\z/o # Febr.-März 1948
       month_range($3, MONTHS[month_key($1)], $3, MONTHS[month_key($2)])
-    when /\A#{MONTH}\s*#{YEAR}#{DASH}#{MONTH}\s*#{YEAR}\z/ # Jan. 1950 - Juni 1950
+    when /\A#{MONTH}\s*#{YEAR}#{DASH}#{MONTH}\s*#{YEAR}\z/o # Jan. 1950 - Juni 1950
       month_range($2, MONTHS[month_key($1)], $4, MONTHS[month_key($3)])
-    when /\A#{DAY}#{MONTH}#{DASH}#{DAY}#{MONTH}\s*#{YEAR}\z/ # 1. Jan. - 30. Juni 1943
+    when /\A#{DAY}#{MONTH}#{DASH}#{DAY}#{MONTH}\s*#{YEAR}\z/o # 1. Jan. - 30. Juni 1943
       day_range($5, MONTHS[month_key($2)], $1, $5, MONTHS[month_key($4)], $3)
-    when /\A#{DAY}#{MONTH}\s*#{YEAR}#{DASH}#{DAY}#{MONTH}\s*#{YEAR}\z/ # 1. Jan. 1943 - 30. Juni 1944
+    when /\A#{DAY}#{MONTH}\s*#{YEAR}#{DASH}#{DAY}#{MONTH}\s*#{YEAR}\z/o # 1. Jan. 1943 - 30. Juni 1944
       day_range($3, MONTHS[month_key($2)], $1, $6, MONTHS[month_key($5)], $4)
     end
   end

@@ -4,6 +4,7 @@
 # Stateless and free of database access, so it can be unit tested with a stubbed chat.
 class SourceDateParser
   DEFAULT_MODEL = "gemma4:31b-mxfp8"
+  KEEP_ALIVE = "30m"
 
   class Schema < RubyLLM::Schema
     string :start_date, description: "First day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date."
@@ -95,12 +96,17 @@ class SourceDateParser
     {"start_date" => dates.first, "end_date" => dates.last, "confidence" => text.scan(/\d*\.\d+/).last&.to_f}
   end
 
+  # reasoning_effort "none" turns the model's thinking off, which is where nearly all of the
+  # time went: reading a date caption needs no reasoning, but thinking accounted for ~550 of
+  # the ~590 generated tokens. keep_alive holds the model in memory between captions so the
+  # backfill does not pay for a reload every call.
   def chat
     RubyLLM
       .chat(model: model, provider: :ollama, assume_model_exists: true)
       .with_temperature(0)
       .with_instructions(SYSTEM_PROMPT)
       .with_schema(Schema)
+      .with_params(reasoning_effort: "none", keep_alive: KEEP_ALIVE)
   end
 
   def normalize(result)

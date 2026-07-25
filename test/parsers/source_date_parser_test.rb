@@ -12,6 +12,7 @@ class SourceDateParserTest < ActiveSupport::TestCase
     def with_temperature(_temperature) = self
     def with_instructions(_instructions) = self
     def with_schema(_schema) = self
+    def with_params(**_params) = self
 
     def ask(text)
       @asked = text
