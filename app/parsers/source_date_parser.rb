@@ -32,6 +32,11 @@ class SourceDateParser
     - A single day gets the same start and end date.
     - Brackets, "?", "ca.", "um", "vor", "nach" mean the date is uncertain. Still give
       your best range, but lower the confidence.
+    - "vor" ends on the last day before the named period: "vor 1958" ends 1957-12-31.
+      "nach" starts on the first day of the named period: "nach Mai 1953" starts
+      1953-05-01.
+    - A century covers its full hundred years, ending in the year that names it:
+      "19. Jahrh." covers 1801-01-01 to 1900-12-31.
     - If the caption names no date at all ("o. Dat.", "o.D.", "ohne Datum", "k. A."),
       use empty strings for both dates and a confidence of 0.0.
 
