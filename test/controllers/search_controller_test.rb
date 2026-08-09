@@ -62,6 +62,13 @@ class SearchControllerTest < ActionDispatch::IntegrationTest
     assert_includes response.body, @archive_file.call_number
   end
 
+  test "an impossible day or month is dropped instead of filtering" do
+    get root_path, params: { q: @archive_file.title, from_year: "1950", from_month: "13", from_day: "32" }
+
+    assert_response :success
+    assert_includes response.body, @archive_file.call_number
+  end
+
   test "the date fields keep their submitted values" do
     get root_path, params: { q: @archive_file.title, from_day: "28", from_month: "5", from_year: "1948" }
 

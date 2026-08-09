@@ -35,3 +35,6 @@ en:
   search_date_day: "Day"
   search_date_month: "Month"
   search_date_year: "Year"
+  search_date_day_hint: "Day as a number from 1 to 31"
+  search_date_month_hint: "Month as a number from 1 to 12"
+  search_date_year_hint: "Year as a number of up to four digits"

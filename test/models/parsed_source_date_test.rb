@@ -52,6 +52,11 @@ class ParsedSourceDateTest < ActiveSupport::TestCase
     assert_nil ParsedSourceDate.end_boundary("1948-13")
   end
 
+  test "boundaries reject years before the common era" do
+    assert_nil ParsedSourceDate.start_boundary("-1948")
+    assert_nil ParsedSourceDate.start_boundary("-01-01")
+  end
+
   test "compose joins the separate date fields" do
     assert_equal "1948", ParsedSourceDate.compose(year: "1948")
     assert_equal "1948-05", ParsedSourceDate.compose(year: "1948", month: "5")

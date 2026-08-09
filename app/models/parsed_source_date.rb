@@ -29,8 +29,9 @@ class ParsedSourceDate < ApplicationRecord
   scope :from_llm, -> { where.not(llm_model: nil) }
 
   # A date of any precision: a year ("1943"), a month ("1943-05") or a day
-  # ("1943-05-01").
-  PARTIAL_DATE = /\A(-?\d{1,4})(?:-(\d{1,2})(?:-(\d{1,2}))?)?\z/
+  # ("1943-05-01"). Years are CE only, matching both the holdings and the year
+  # field of the search form.
+  PARTIAL_DATE = /\A(\d{1,4})(?:-(\d{1,2})(?:-(\d{1,2}))?)?\z/
 
   # Joins the separate year, month and day fields of the search form into a
   # partial date. Precision ends at the first blank field, so a month without a
@@ -69,6 +70,10 @@ class ParsedSourceDate < ApplicationRecord
     if (match = value.match(PARTIAL_DATE))
       return yield(*match.captures.map { |part| part&.to_i })
     end
+
+    # Date.parse is lenient enough to read "-01-01" as the first of January of
+    # the current year, so anything that does not start with a digit is out.
+    return nil unless value.start_with?(/\d/)
 
     date = Date.parse(value)
     yield(date.year, date.month, date.day)
