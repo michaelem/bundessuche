@@ -1,3 +1,6 @@
 de:
   search_button: "Suchen"
   search_placeholder: "%{total} Objekte durchsuchen"
+  search_date_from: "Laufzeit von"
+  search_date_to: "bis"
+  search_date_placeholder: "Jahr"

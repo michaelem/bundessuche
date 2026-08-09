@@ -1,9 +1,19 @@
 <form class="<%= @query ? "" : "search__form--centered" %>">
   <input type="text" name="q" value="<%= @query %>" placeholder="<%= t("search_placeholder", total: @total) %>" class="search__text-input" />
   <input type="submit" value="<%= t("search_button") %>" class="search__button" />
+  <div class="search__filters">
+    <label class="search__filter">
+      <%= t("search_date_from") %>
+      <input type="text" name="from" value="<%= @from %>" placeholder="<%= t("search_date_placeholder") %>" inputmode="numeric" class="search__date-input" />
+    </label>
+    <label class="search__filter">
+      <%= t("search_date_to") %>
+      <input type="text" name="to" value="<%= @to %>" placeholder="<%= t("search_date_placeholder") %>" inputmode="numeric" class="search__date-input" />
+    </label>
+  </div>
 </form>
 <% if @query %>
-  <% cache [controller.action_name, query_cache_key(@query), @trigrams.current_page] do %>
+  <% cache [controller.action_name, query_cache_key(@query, @from, @to), @trigrams.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
       <h3><%= @pagination_cache[:total_count] =%> Objekte gefunden.</h3>
       <div class="pagination">

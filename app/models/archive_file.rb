@@ -29,6 +29,18 @@
 #  index_archive_files_on_title_and_summary  (title,summary)
 #
 class ArchiveFile < ApplicationRecord
+  # SQL for the effective source date range of an archive file: the parsed date
+  # text if it could be parsed, otherwise the dates the importer read from the
+  # XML. Both expect parsed_source_dates to be joined in.
+  EFFECTIVE_SOURCE_DATE_START =
+    "COALESCE(parsed_source_dates.start_date, archive_files.source_date_start)"
+  EFFECTIVE_SOURCE_DATE_END = <<~SQL.squish
+    CASE WHEN parsed_source_dates.start_date IS NOT NULL
+      THEN COALESCE(parsed_source_dates.end_date, parsed_source_dates.start_date)
+      ELSE COALESCE(archive_files.source_date_end, archive_files.source_date_start)
+    END
+  SQL
+
   belongs_to :archive_node
 
   has_many :originations, inverse_of: :archive_file

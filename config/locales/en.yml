@@ -30,3 +30,6 @@
 en:
   search_button: "search"
   search_placeholder: "Search %{total} objects"
+  search_date_from: "Date from"
+  search_date_to: "to"
+  search_date_placeholder: "Year"

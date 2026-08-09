@@ -30,6 +30,20 @@ class ParsedSourceDateTest < ActiveSupport::TestCase
     assert_equal 2, ParsedSourceDate.confident(0.1).count
   end
 
+  test "boundaries expand years and pass dates through" do
+    assert_equal Date.new(1948, 1, 1), ParsedSourceDate.start_boundary("1948")
+    assert_equal Date.new(1948, 12, 31), ParsedSourceDate.end_boundary("1948")
+    assert_equal Date.new(1948, 5, 28), ParsedSourceDate.start_boundary(" 1948-05-28 ")
+    assert_equal Date.new(1948, 5, 28), ParsedSourceDate.end_boundary("1948-05-28")
+  end
+
+  test "boundaries ignore blank and unparsable input" do
+    assert_nil ParsedSourceDate.start_boundary(nil)
+    assert_nil ParsedSourceDate.start_boundary("")
+    assert_nil ParsedSourceDate.end_boundary("irgendwann")
+    assert_nil ParsedSourceDate.end_boundary("1948-13-45")
+  end
+
   test "is associated with archive files through the source date text" do
     archive_node = ArchiveNode.create!(name: "Bestand", source_id: "node-1")
     archive_file = ArchiveFile.create!(

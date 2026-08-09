@@ -28,6 +28,29 @@ class ParsedSourceDate < ApplicationRecord
   scope :matched, -> { where(llm_model: nil) }
   scope :from_llm, -> { where.not(llm_model: nil) }
 
+  # Accepts a year ("1943") or a date ("1943-05-01") and returns the earliest
+  # date it can stand for. Blank or unparsable input returns nil.
+  def self.start_boundary(value)
+    boundary(value) { |year| Date.new(year, 1, 1) }
+  end
+
+  # Same as start_boundary, but returns the latest date the input can stand for,
+  # so that a year filters up to its 31st of December.
+  def self.end_boundary(value)
+    boundary(value) { |year| Date.new(year, 12, 31) }
+  end
+
+  def self.boundary(value)
+    value = value.to_s.strip
+    return nil if value.blank?
+    return yield(value.to_i) if value.match?(/\A-?\d{1,4}\z/)
+
+    Date.parse(value)
+  rescue Date::Error
+    nil
+  end
+  private_class_method :boundary
+
   def parsed?
     start_date.present?
   end
