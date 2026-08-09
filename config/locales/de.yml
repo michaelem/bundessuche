@@ -3,4 +3,6 @@ de:
   search_placeholder: "%{total} Objekte durchsuchen"
   search_date_from: "Laufzeit von"
   search_date_to: "bis"
-  search_date_placeholder: "Jahr"
+  search_date_day: "Tag"
+  search_date_month: "Monat"
+  search_date_year: "Jahr"

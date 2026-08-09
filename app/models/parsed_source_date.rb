@@ -28,24 +28,50 @@ class ParsedSourceDate < ApplicationRecord
   scope :matched, -> { where(llm_model: nil) }
   scope :from_llm, -> { where.not(llm_model: nil) }
 
-  # Accepts a year ("1943") or a date ("1943-05-01") and returns the earliest
-  # date it can stand for. Blank or unparsable input returns nil.
+  # A date of any precision: a year ("1943"), a month ("1943-05") or a day
+  # ("1943-05-01").
+  PARTIAL_DATE = /\A(-?\d{1,4})(?:-(\d{1,2})(?:-(\d{1,2}))?)?\z/
+
+  # Joins the separate year, month and day fields of the search form into a
+  # partial date. Precision ends at the first blank field, so a month without a
+  # day stands for the whole month and a blank year for no filter at all.
+  def self.compose(year: nil, month: nil, day: nil)
+    year, month, day = [year, month, day].map { |part| part.to_s.strip }
+    return "" if year.blank?
+    return year if month.blank?
+    return format("%s-%02d", year, month.to_i) if day.blank?
+
+    format("%s-%02d-%02d", year, month.to_i, day.to_i)
+  end
+
+  # Accepts a date of any precision and returns the earliest date it can stand
+  # for. Blank or unparsable input returns nil.
   def self.start_boundary(value)
-    boundary(value) { |year| Date.new(year, 1, 1) }
+    boundary(value) { |year, month, day| Date.new(year, month || 1, day || 1) }
   end
 
   # Same as start_boundary, but returns the latest date the input can stand for,
-  # so that a year filters up to its 31st of December.
+  # so that a year filters up to its 31st of December and a month up to its last
+  # day.
   def self.end_boundary(value)
-    boundary(value) { |year| Date.new(year, 12, 31) }
+    boundary(value) do |year, month, day|
+      next Date.new(year, month, day) if day
+      next Date.new(year, month, -1) if month
+
+      Date.new(year, 12, 31)
+    end
   end
 
   def self.boundary(value)
     value = value.to_s.strip
     return nil if value.blank?
-    return yield(value.to_i) if value.match?(/\A-?\d{1,4}\z/)
 
-    Date.parse(value)
+    if (match = value.match(PARTIAL_DATE))
+      return yield(*match.captures.map { |part| part&.to_i })
+    end
+
+    date = Date.parse(value)
+    yield(date.year, date.month, date.day)
   rescue Date::Error
     nil
   end

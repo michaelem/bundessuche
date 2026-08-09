@@ -1,0 +1,29 @@
+<%# A GOV.UK style date input: separate day, month and year fields. Only the
+    year is needed, the finer fields are optional and each one left blank simply
+    makes the filter less precise. %>
+<fieldset class="search__filter search__date">
+  <legend class="search__date-legend"><%= legend %></legend>
+  <div class="search__date-parts">
+    <% %i[day month year].each do |part| %>
+      <div class="search__date-part">
+        <label class="search__date-label" for="<%= prefix %>_<%= part %>"><%= t("search_date_#{part}") %></label>
+        <input
+          type="text"
+          id="<%= prefix %>_<%= part %>"
+          name="<%= prefix %>_<%= part %>"
+          value="<%= parts[part] %>"
+          inputmode="numeric"
+          pattern="[0-9]*"
+          maxlength="<%= part == :year ? 4 : 2 %>"
+          autocomplete="off"
+          <%# Password managers ignore autocomplete="off", so opt out with the
+              vendor attributes: 1Password, LastPass, Bitwarden and Dashlane. %>
+          data-1p-ignore
+          data-lpignore="true"
+          data-bwignore
+          data-form-type="other"
+          class="search__date-input search__date-input--<%= part %>" />
+      </div>
+    <% end %>
+  </div>
+</fieldset>

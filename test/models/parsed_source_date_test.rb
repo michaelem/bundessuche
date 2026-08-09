@@ -37,11 +37,31 @@ class ParsedSourceDateTest < ActiveSupport::TestCase
     assert_equal Date.new(1948, 5, 28), ParsedSourceDate.end_boundary("1948-05-28")
   end
 
+  test "boundaries expand months to their first and last day" do
+    assert_equal Date.new(1948, 5, 1), ParsedSourceDate.start_boundary("1948-05")
+    assert_equal Date.new(1948, 5, 31), ParsedSourceDate.end_boundary("1948-05")
+    assert_equal Date.new(1948, 2, 29), ParsedSourceDate.end_boundary("1948-02")
+    assert_equal Date.new(1949, 2, 28), ParsedSourceDate.end_boundary("1949-2")
+  end
+
   test "boundaries ignore blank and unparsable input" do
     assert_nil ParsedSourceDate.start_boundary(nil)
     assert_nil ParsedSourceDate.start_boundary("")
     assert_nil ParsedSourceDate.end_boundary("irgendwann")
     assert_nil ParsedSourceDate.end_boundary("1948-13-45")
+    assert_nil ParsedSourceDate.end_boundary("1948-13")
+  end
+
+  test "compose joins the separate date fields" do
+    assert_equal "1948", ParsedSourceDate.compose(year: "1948")
+    assert_equal "1948-05", ParsedSourceDate.compose(year: "1948", month: "5")
+    assert_equal "1948-05-28", ParsedSourceDate.compose(year: " 1948 ", month: "05", day: "28")
+  end
+
+  test "compose stops at the first blank field" do
+    assert_equal "", ParsedSourceDate.compose(month: "5", day: "28")
+    assert_equal "", ParsedSourceDate.compose(year: nil)
+    assert_equal "1948", ParsedSourceDate.compose(year: "1948", month: "", day: "28")
   end
 
   test "is associated with archive files through the source date text" do

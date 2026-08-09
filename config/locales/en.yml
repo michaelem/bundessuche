@@ -32,4 +32,6 @@ en:
   search_placeholder: "Search %{total} objects"
   search_date_from: "Date from"
   search_date_to: "to"
-  search_date_placeholder: "Year"
+  search_date_day: "Day"
+  search_date_month: "Month"
+  search_date_year: "Year"
