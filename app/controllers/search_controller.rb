@@ -9,8 +9,8 @@ class SearchController < ApplicationController
     @from_value = ParsedSourceDate.compose(**@from)
     @to_value = ParsedSourceDate.compose(**@to)
 
-    @trigrams =
-      ArchiveFileTrigram
+    @archive_files =
+      ArchiveFile
         .search(@query)
         .source_dated_between(
           ParsedSourceDate.start_boundary(@from_value),
@@ -18,7 +18,6 @@ class SearchController < ApplicationController
         )
         .page(params[:page])
         .per(500)
-        .includes(:archive_file)
 
     @pagination_cache =
       Rails
@@ -27,8 +26,8 @@ class SearchController < ApplicationController
           "controllers/search/pagination_cache_#{helpers.query_cache_key @query, @from_value, @to_value}"
         ) do
           {
-            total_count: @trigrams.total_count,
-            total_pages: @trigrams.total_pages
+            total_count: @archive_files.total_count,
+            total_pages: @archive_files.total_pages
           }
         end
   end

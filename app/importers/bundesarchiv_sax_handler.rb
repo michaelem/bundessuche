@@ -79,7 +79,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     when "origination"
       end_origination(text) if in_file? && in_did?
     when "physloc"
-      @current_file[:location] = text if in_file? && in_did?
+      @current_file[:archive_location_id] = archive_location_id(text) if in_file? && in_did?
     when "p"
       @current_file[:summary] = (@current_file[:summary] || "") +
         text if in_file? && @in_summary_scopecontent
@@ -91,6 +91,16 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   end
 
   private
+
+  # There are only a handful of archive locations across the whole dataset, so
+  # they are looked up once and then served from memory.
+  def archive_location_id(name)
+    return nil if name.blank?
+
+    @archive_locations_cache ||= {}
+    @archive_locations_cache[name] ||=
+      ArchiveLocation.find_or_create_by!(name: name).id
+  end
 
   def in_file?
     !@current_file.nil?
@@ -133,7 +143,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
       source_date_start: nil,
       source_date_end: nil,
       link: nil,
-      location: nil,
+      archive_location_id: nil,
       language_code: nil,
       summary: nil,
       origins: []

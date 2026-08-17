@@ -1,6 +1,6 @@
 require "test_helper"
 
-class ArchiveFileTrigramTest < ActiveSupport::TestCase
+class ArchiveFileSearchTest < ActiveSupport::TestCase
   def setup
     BundesarchivImporter.new("test/fixtures/files/dataset-tiny").run
     ArchiveFile.reindex
@@ -11,15 +11,42 @@ class ArchiveFileTrigramTest < ActiveSupport::TestCase
 
   test "reindex with show_progress does not raise" do
     capture_io { ArchiveFile.reindex(true) }
-    assert ArchiveFileTrigram.count > 0
+    assert ArchiveFile.search(@example_archive_file.title).count > 0
   end
 
   test "search finds archive files by title" do
-    assert_equal 1, ArchiveFileTrigram.search(@example_archive_file.title).count
+    assert_equal 1, ArchiveFile.search(@example_archive_file.title).count
   end
 
   test "search finds archive files by call number" do
-    assert_equal 1, ArchiveFileTrigram.search(@example_archive_file.call_number).count
+    assert_equal 1, ArchiveFile.search(@example_archive_file.call_number).count
+  end
+
+  test "search finds archive files by the name of the node holding them" do
+    node = @example_archive_file.archive_node
+
+    assert_includes ArchiveFile.search(node.name).ids, @example_archive_file.id
+  end
+
+  test "search finds archive files by the name of a node further up the tree" do
+    root = @example_archive_file.archive_node.parents.first
+    assert_not_equal root, @example_archive_file.archive_node
+
+    assert_includes ArchiveFile.search(root.name).ids, @example_archive_file.id
+  end
+
+  test "search finds archive files by the name of one of their origins" do
+    origin = @example_archive_file.origins.first
+    assert_not_nil origin, "the fixture file is expected to have an origin"
+
+    assert_includes ArchiveFile.search(origin.name).ids, @example_archive_file.id
+  end
+
+  test "search treats a quote in the query as text rather than as FTS syntax" do
+    assert_nothing_raised do
+      ArchiveFile.search(%(Akte "mit" Anfuehrungszeichen)).count
+      ArchiveFile.search(%(unbalanced " quote)).count
+    end
   end
 
   test "source_dated_between prefers the parsed date over the imported columns" do
@@ -29,7 +56,7 @@ class ArchiveFileTrigramTest < ActiveSupport::TestCase
       start_date: Date.new(1966, 1, 1),
       end_date: Date.new(1966, 12, 31)
     )
-    search = ArchiveFileTrigram.search(@dated_archive_file.title)
+    search = ArchiveFile.search(@dated_archive_file.title)
     assert_equal 1, search.count
 
     assert_equal 1, search.source_dated_between(Date.new(1966, 6, 1), Date.new(1970, 1, 1)).count
@@ -39,7 +66,7 @@ class ArchiveFileTrigramTest < ActiveSupport::TestCase
 
   test "source_dated_between falls back to the imported columns without a parsed date" do
     # Imported as 1954 to 1967, its source date text is blank.
-    search = ArchiveFileTrigram.search(@example_archive_file.title)
+    search = ArchiveFile.search(@example_archive_file.title)
 
     assert_equal 1, search.source_dated_between(Date.new(1960, 1, 1), Date.new(1961, 1, 1)).count
     assert_equal 1, search.source_dated_between(Date.new(1967, 12, 31), nil).count
@@ -49,14 +76,14 @@ class ArchiveFileTrigramTest < ActiveSupport::TestCase
 
   test "source_dated_between falls back to a start date without an end date" do
     @example_archive_file.update!(source_date_end: nil)
-    search = ArchiveFileTrigram.search(@example_archive_file.title)
+    search = ArchiveFile.search(@example_archive_file.title)
 
     assert_equal 1, search.source_dated_between(Date.new(1954, 1, 1), Date.new(1954, 1, 1)).count
     assert_equal 0, search.source_dated_between(Date.new(1955, 1, 1), nil).count
   end
 
   test "source_dated_between without boundaries filters nothing" do
-    search = ArchiveFileTrigram.search(@dated_archive_file.title)
+    search = ArchiveFile.search(@dated_archive_file.title)
 
     assert_equal 1, search.source_dated_between(nil, nil).count
   end
@@ -68,7 +95,7 @@ class ArchiveFileTrigramTest < ActiveSupport::TestCase
       title: "Akte ohne jede Datierung",
       parents: []
     )
-    search = ArchiveFileTrigram.search(undated.title)
+    search = ArchiveFile.search(undated.title)
     assert_equal 1, search.count
 
     assert_equal 0, search.source_dated_between(Date.new(1900, 1, 1), Date.new(2000, 1, 1)).count

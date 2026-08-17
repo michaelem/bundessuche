@@ -31,19 +31,19 @@
   </section>
 </form>
 <% if @query %>
-  <% cache [controller.action_name, query_cache_key(@query, @from_value, @to_value), @trigrams.current_page] do %>
+  <% cache [controller.action_name, query_cache_key(@query, @from_value, @to_value), @archive_files.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
       <h3><%= @pagination_cache[:total_count] -%> Objekte gefunden.</h3>
       <div class="pagination">
-        <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
+        <%= paginate @archive_files, total_pages: @pagination_cache[:total_pages] %>
       </div>
       <hr>
-      <% @trigrams.each do |archive_file_trigram| %>
-        <%= render ResultComponent.new(query: @query, archive_file: archive_file_trigram.archive_file) %>
+      <% @archive_files.each do |archive_file| %>
+        <%= render ResultComponent.new(query: @query, archive_file: archive_file) %>
         <hr>
       <% end %>
       <div class="pagination">
-        <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
+        <%= paginate @archive_files, total_pages: @pagination_cache[:total_pages] %>
       </div>
     <% else %>
       <hr>

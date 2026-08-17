@@ -14,6 +14,8 @@
 #  index_origins_on_name            (name)
 #
 class Origin < ApplicationRecord
+  include NameTrigramIndexed
+
   enum :label, ["pre", "final", "organisational unit"]
 
   has_many :originations
