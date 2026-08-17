@@ -1,10 +1,19 @@
-<form class="<%= @query ? "" : "search__form--centered" %>">
-  <input type="text" name="q" value="<%= @query %>" placeholder="<%= t("search_placeholder", total: @total) %>" class="search__text-input" />
-  <input type="submit" value="<%= t("search_button") %>" class="search__button" />
+<form class="search__form search__form--centered">
+  <div class="search__bar">
+    <input
+      type="text"
+      name="q"
+      value="<%= @query %>"
+      placeholder="<%= t("search_placeholder", total: @total) %>"
+      class="search__text-input"
+      autocomplete="off"
+    >
+    <input type="submit" value="<%= t("search_button") %>" class="search__button">
+  </div>
   <%# Without JavaScript every filter simply stays unfolded and keeps working. %>
   <section class="search__filters">
     <h3 class="search__filters-title"><%= t("search_filters") %></h3>
-    <div class="search__filters-list">
+    <div class="search__filters-list" id="search_filters_list">
       <%= render "date_filter", prefix: "from", legend: t("search_date_from"), parts: @from %>
       <%= render "date_filter", prefix: "to", legend: t("search_date_to"), parts: @to %>
     </div>
@@ -13,20 +22,20 @@
 <% if @query %>
   <% cache [controller.action_name, query_cache_key(@query, @from_value, @to_value), @trigrams.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
-      <h3><%= @pagination_cache[:total_count] =%> Objekte gefunden.</h3>
+      <h3><%= @pagination_cache[:total_count] -%> Objekte gefunden.</h3>
       <div class="pagination">
         <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
       </div>
-      <hr />
+      <hr>
       <% @trigrams.each do |archive_file_trigram| %>
         <%= render ResultComponent.new(query: @query, archive_file: archive_file_trigram.archive_file) %>
-        <hr />
+        <hr>
       <% end %>
       <div class="pagination">
         <%= paginate @trigrams, total_pages: @pagination_cache[:total_pages] %>
       </div>
     <% else %>
-      <hr />
+      <hr>
       <h3>Keine Akten gefunden.</h3>
     <% end %>
   <% end %>

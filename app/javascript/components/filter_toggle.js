@@ -1,29 +1,28 @@
-// A date filter takes up a lot of room for something most searches do not
-// need, so JavaScript folds each one behind a checkbox in its legend. Without
-// JavaScript the filters stay where they are and keep working, only unfolded.
-document.querySelectorAll(".search__date").forEach((fieldset) => {
-  const legend = fieldset.querySelector(".search__date-legend");
-  const parts = fieldset.querySelector(".search__date-parts");
-  const inputs = [...parts.querySelectorAll("input")];
+// The date filters take up a lot of room for something most searches do not
+// need, so JavaScript folds them behind a single button in the section title.
+// Without JavaScript the filters stay where they are and keep working, only
+// unfolded.
+const filters = document.querySelector(".search__filters");
 
-  const toggle = document.createElement("input");
-  toggle.type = "checkbox";
-  toggle.id = `${fieldset.dataset.prefix}_toggle`;
-  toggle.className = "search__date-toggle";
-  toggle.checked = inputs.some((input) => input.value.trim() !== "");
+if (filters) {
+  const title = filters.querySelector(".search__filters-title");
+  const list = filters.querySelector(".search__filters-list");
+  const inputs = [...list.querySelectorAll("input")];
 
-  const label = document.createElement("label");
-  label.htmlFor = toggle.id;
-  label.className = "search__date-toggle-label";
-  label.textContent = legend.textContent.trim();
+  const toggle = document.createElement("button");
+  toggle.type = "button";
+  toggle.className = "search__filters-toggle";
+  toggle.textContent = title.textContent.trim();
+  toggle.setAttribute("aria-controls", list.id);
 
-  legend.replaceChildren(toggle, label);
+  let open = inputs.some((input) => input.value.trim() !== "");
 
-  // Folding a filter away clears it, so that it can never be submitted unseen
-  // and so no hidden input is left behind as required by the date filter.
+  // Folding the filters away clears them, so that they can never be submitted
+  // unseen and no hidden input is left behind as required by the date filter.
   const update = () => {
-    parts.hidden = !toggle.checked;
-    if (toggle.checked) return;
+    toggle.setAttribute("aria-expanded", String(open));
+    list.hidden = !open;
+    if (open) return;
 
     inputs.forEach((input) => {
       if (input.value === "") return;
@@ -32,6 +31,12 @@ document.querySelectorAll(".search__date").forEach((fieldset) => {
     });
   };
 
-  toggle.addEventListener("change", update);
+  toggle.addEventListener("click", () => {
+    open = !open;
+    update();
+    if (open) inputs[0]?.focus();
+  });
+
+  title.replaceChildren(toggle);
   update();
-});
+}

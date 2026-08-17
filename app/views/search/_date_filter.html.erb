@@ -1,28 +1,31 @@
 <% patterns = { day: "0?[1-9]|[12][0-9]|3[01]", month: "0?[1-9]|1[0-2]", year: "[0-9]{1,4}" } %>
 <fieldset class="search__filter search__date" data-prefix="<%= prefix %>">
   <legend class="search__date-legend"><%= legend %></legend>
+  <%# The three parts share one border so they read as a single date field. %>
   <div class="search__date-parts">
-    <% %i[day month year].each do |part| %>
-      <div class="search__date-part">
-        <label class="search__date-label" for="<%= prefix %>_<%= part %>"><%= t("search_date_#{part}") %></label>
-        <input
-          type="text"
-          id="<%= prefix %>_<%= part %>"
-          name="<%= prefix %>_<%= part %>"
-          value="<%= parts[part] %>"
-          inputmode="numeric"
-          pattern="<%= patterns[part] %>"
-          title="<%= t("search_date_#{part}_hint") %>"
-          maxlength="<%= part == :year ? 4 : 2 %>"
-          autocomplete="off"
-          <%# Password managers ignore autocomplete="off", so opt out with the
-              vendor attributes: 1Password, LastPass, Bitwarden and Dashlane. %>
-          data-1p-ignore
-          data-lpignore="true"
-          data-bwignore
-          data-form-type="other"
-          class="search__date-input search__date-input--<%= part %>">
-      </div>
+    <% %i[day month year].each_with_index do |part, index| %>
+      <% if index > 0 %>
+        <span class="search__date-separator" aria-hidden="true">.</span>
+      <% end %>
+      <label class="visually-hidden" for="<%= prefix %>_<%= part %>"><%= t("search_date_#{part}") %></label>
+      <input
+        type="text"
+        id="<%= prefix %>_<%= part %>"
+        name="<%= prefix %>_<%= part %>"
+        value="<%= parts[part] %>"
+        placeholder="<%= t("search_date_#{part}_placeholder") %>"
+        inputmode="numeric"
+        pattern="<%= patterns[part] %>"
+        title="<%= t("search_date_#{part}_hint") %>"
+        maxlength="<%= part == :year ? 4 : 2 %>"
+        autocomplete="off"
+        <%# Password managers ignore autocomplete="off", so opt out with the
+            vendor attributes: 1Password, LastPass, Bitwarden and Dashlane. %>
+        data-1p-ignore
+        data-lpignore="true"
+        data-bwignore
+        data-form-type="other"
+        class="search__date-input search__date-input--<%= part %>">
     <% end %>
   </div>
 </fieldset>
