@@ -92,8 +92,7 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
     undated = ArchiveFile.create!(
       archive_node: @example_archive_file.archive_node,
       source_id: "file-without-dates",
-      title: "Akte ohne jede Datierung",
-      parents: []
+      title: "Akte ohne jede Datierung"
     )
     search = ArchiveFile.search(undated.title)
     assert_equal 1, search.count

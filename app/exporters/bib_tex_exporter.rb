@@ -4,7 +4,7 @@ class BibTexExporter
   end
 
   def export
-    author = (@archive_file.parents&.first || {})["name"]
+    author = @archive_file.parents.first&.name
     bib = BibTeX::Bibliography.new
     bib << BibTeX::Entry.new({
       bibtex_type: :unpublished,

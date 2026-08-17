@@ -7,10 +7,8 @@ class ResultComponent < ViewComponent::Base
   def parents
     @parents ||=
       @archive_file.parents.map do |parent|
-        text = highlight_query(CGI.escapeHTML(parent['name'].strip))
-        if parent["id"].present?
-          text = link_to text, archive_node_path(parent["id"]), class: "parents__item__link"
-        end
+        text = highlight_query(CGI.escapeHTML(parent.name.to_s.strip))
+        text = link_to text, archive_node_path(parent), class: "parents__item__link"
 
         "<div class=\"parents__item\">#{text}</div>"
       end.join '<div class="parents__separator">/</div>'

@@ -38,6 +38,9 @@
         <%= paginate @archive_files, total_pages: @pagination_cache[:total_pages] %>
       </div>
       <hr>
+      <%# One query for the ancestor chains of the whole page, rather than one
+          per result once the JSON column is gone. %>
+      <% ArchiveFile.preload_parents(@archive_files) %>
       <% @archive_files.each do |archive_file| %>
         <%= render ResultComponent.new(query: @query, archive_file: archive_file) %>
         <hr>

@@ -132,11 +132,6 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     {
       source_id: source_id,
       archive_node_id: parent&.id,
-      parents:
-        @node_stack.filter_map do |n|
-          r = n[:record]
-          r && { name: r.name, id: r.id }
-        end,
       title: nil,
       call_number: nil,
       source_date_text: nil,

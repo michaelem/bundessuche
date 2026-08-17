@@ -6,7 +6,6 @@
 #  call_number         :string
 #  language_code       :string
 #  link                :string
-#  parents             :json             not null
 #  source_date_end     :date
 #  source_date_start   :date
 #  source_date_text    :string
@@ -150,6 +149,30 @@ class ArchiveFile < ApplicationRecord
     if show_progress
       puts "Reindexing took #{Time.now - start} seconds"
     end
+  end
+
+  # Fills in the ancestor chains for a whole page of files with one query, so
+  # that rendering them does not walk the tree once per row.
+  def self.preload_parents(archive_files)
+    archive_files = archive_files.to_a
+    chains = ArchiveNode.ancestor_chains(archive_files.map(&:archive_node_id))
+
+    archive_files.each do |archive_file|
+      archive_file.preloaded_parents =
+        chains.fetch(archive_file.archive_node_id, [])
+    end
+
+    archive_files
+  end
+
+  attr_writer :preloaded_parents
+
+  # The archive nodes above this file, root first and including the node holding
+  # it. This used to be a JSON column repeating the names on every row, which
+  # cost 1.4 GB for something archive_nodes already describes.
+  def parents
+    @preloaded_parents ||=
+      ArchiveNode.ancestor_chains(archive_node_id).fetch(archive_node_id, [])
   end
 
   def source_dates
