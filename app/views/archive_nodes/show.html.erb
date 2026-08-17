@@ -6,7 +6,7 @@
   </ul>
   <% @archive_node.parents.each.with_index do |node, index| %>
     <ul class="archive-node-mneu__list">
-      <%  node.child_nodes.each do |child| %>
+      <% node.child_nodes.each do |child| %>
         <li class="archive-node <%= "archive-node--selected" if child.id == @archive_node.parents[index+1]&.id %>">
           <%= link_to child.name, archive_node_path(child), class: 'archive-node__link' %>
         </li>
@@ -19,7 +19,7 @@
   <%= render ResultComponent.new(archive_file: archive_file) %>
 <% end %>
 
-<script>
+<script nonce="<%= content_security_policy_nonce %>">
   document.querySelectorAll('.archive-node--selected').forEach((el) => {
     el.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
