@@ -80,10 +80,17 @@
   margin: 0;
 }
 
+/* Both are rendered up front and only one is ever shown, so the toggle is
+   already in its final shape on the first paint. */
+.no-js .search__filters-toggle,
+.js .search__filters-heading {
+  display: none;
+}
+
 .search__filters-toggle {
   background: none;
   border-radius: var(--radius-sm);
-  border: none;
+  border: 1px solid var(--border);
   color: var(--text-muted);
   cursor: pointer;
   font: inherit;
@@ -125,8 +132,15 @@
   margin-top: 8px;
 }
 
-.search__filters-list[hidden] {
+/* The filters have to be folded before filter_toggle.js runs, or they flash
+   open on the first paint. The server marks them open when a search carried a
+   date, and from then on the toggle owns the class. */
+.js .search__filters-list {
   display: none;
+}
+
+.js .search__filters-list--open {
+  display: flex;
 }
 
 .search__date {
@@ -145,7 +159,7 @@
 .search__date-parts {
   align-items: center;
   background-color: var(--surface);
-  border-radius: var(--radius-sm);
+  border-radius: var(--radius);
   border: 1px solid var(--border);
   display: inline-flex;
   padding: 3px 10px;

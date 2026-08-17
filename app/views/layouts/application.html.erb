@@ -1,6 +1,12 @@
 <!DOCTYPE html>
-<html lang="<%= I18n.locale %>">
+<html lang="<%= I18n.locale %>" class="no-js">
   <head>
+    <%# Swapped before the first paint, so that anything JavaScript folds away
+        can start out folded instead of flashing open. Browsers without
+        JavaScript keep the "no-js" class and see the unfolded markup. %>
+    <script nonce="<%= content_security_policy_nonce %>">
+      document.documentElement.classList.replace("no-js", "js");
+    </script>
     <title>Bundessuche</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>

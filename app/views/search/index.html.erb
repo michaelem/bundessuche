@@ -11,9 +11,20 @@
     <input type="submit" value="<%= t("search_button") %>" class="search__button">
   </div>
   <%# Without JavaScript every filter simply stays unfolded and keeps working. %>
+  <% filters_open = (@from.values + @to.values).any?(&:present?) %>
   <section class="search__filters">
-    <h3 class="search__filters-title"><%= t("search_filters") %></h3>
-    <div class="search__filters-list" id="search_filters_list">
+    <h3 class="search__filters-title">
+      <%# The button needs JavaScript to do anything, so browsers without it get
+          the plain heading and the unfolded filters underneath instead. %>
+      <button
+        type="button"
+        class="search__filters-toggle"
+        aria-controls="search_filters_list"
+        aria-expanded="<%= filters_open %>"
+      ><%= t("search_filters") %></button>
+      <span class="search__filters-heading"><%= t("search_filters") %></span>
+    </h3>
+    <div class="search__filters-list <%= "search__filters-list--open" if filters_open %>" id="search_filters_list">
       <%= render "date_filter", prefix: "from", legend: t("search_date_from"), parts: @from %>
       <%= render "date_filter", prefix: "to", legend: t("search_date_to"), parts: @to %>
     </div>
