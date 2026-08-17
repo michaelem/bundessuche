@@ -31,7 +31,7 @@ class BundesarchivImporterTest < ActiveSupport::TestCase
   test "importer correctly extracts text containing inline elements" do
     BundesarchivImporter.new("test/fixtures/files/inline_elements").run
 
-    archive_file = ArchiveFile.find_by(source_id: "test-file-inline-title")
+    archive_file = ArchiveFile.find_by(source_id: "DE-1958_11111111-1111-4111-8111-111111111111")
     assert_equal "Bersarinplatz", archive_file.title
     assert_equal "TEST/123", archive_file.call_number
   end

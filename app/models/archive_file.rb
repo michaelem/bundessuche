@@ -5,24 +5,26 @@
 #  id                  :integer          not null, primary key
 #  call_number         :string
 #  language_code       :string
-#  link                :string
+#  link                :text
+#  link_variant        :integer
 #  source_date_end     :date
 #  source_date_start   :date
 #  source_date_text    :string
+#  source_uuid         :binary
 #  summary             :string
 #  title               :string
 #  created_at          :datetime         not null
 #  updated_at          :datetime         not null
 #  archive_location_id :integer
 #  archive_node_id     :integer
-#  source_id           :string
+#  source_id           :text
 #
 # Indexes
 #
 #  index_archive_files_on_archive_node_id   (archive_node_id)
 #  index_archive_files_on_call_number       (call_number)
 #  index_archive_files_on_source_date_text  (source_date_text)
-#  index_archive_files_on_source_id         (source_id) UNIQUE
+#  index_archive_files_on_source_uuid       (source_uuid) UNIQUE
 #
 class ArchiveFile < ApplicationRecord
   # SQL for the effective source date range of an archive file: the parsed date
@@ -36,6 +38,35 @@ class ArchiveFile < ApplicationRecord
       ELSE COALESCE(archive_files.source_date_end, archive_files.source_date_start)
     END
   SQL
+
+  # Raised when the upstream data stops looking the way source_uuid and
+  # link_variant assume it looks. Failing the import is deliberate: the
+  # alternative is silently storing an identifier or a link that cannot be
+  # rebuilt.
+  class UnexpectedSourceFormat < StandardError; end
+
+  # Every archive file is identified upstream as "DE-1958_<uuid>" and linked
+  # through one of two Invenio URL templates, always with the same uuid. Keeping
+  # sixteen raw bytes and a template number instead of the two strings costs
+  # about 17 bytes a row rather than 130.
+  #
+  # source_id and link are generated columns that rebuild the original text in
+  # SQL, so everything that reads them, including find_by(source_id:), carries on
+  # working and neither string is stored anywhere.
+  SOURCE_ID_PREFIX = "DE-1958_"
+  UUID_FORMAT = "\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}"
+  SOURCE_ID_PATTERN = /\A#{Regexp.escape(SOURCE_ID_PREFIX)}(#{UUID_FORMAT})\z/
+  LINK_TEMPLATES = [
+    "https://invenio.bundesarchiv.de/invenio/direktlink/%s/",
+    "https://invenio.bundesarchiv.de/basys2-invenio/direktlink/%s/"
+  ].freeze
+  LINK_PATTERNS =
+    LINK_TEMPLATES
+      .map do |template|
+        prefix, suffix = template.split("%s")
+        /\A#{Regexp.escape(prefix)}(#{UUID_FORMAT})#{Regexp.escape(suffix)}\z/
+      end
+      .freeze
 
   # Matching runs over three trigram tables at once: the files themselves, the
   # archive nodes above them and their origins. A file inherits a match from any
@@ -108,6 +139,29 @@ class ArchiveFile < ApplicationRecord
     %("#{query.to_s.gsub('"', '""')}")
   end
 
+  # The sixteen raw bytes behind "DE-1958_<uuid>".
+  def self.pack_source_id(source_id)
+    match = SOURCE_ID_PATTERN.match(source_id.to_s)
+    if match.nil?
+      raise UnexpectedSourceFormat,
+            "archive file id #{source_id.inspect} is not #{SOURCE_ID_PREFIX}<uuid>"
+    end
+
+    [match[1].delete("-")].pack("H*")
+  end
+
+  # Which template a link uses, or nil when the file has no link at all.
+  def self.link_variant_for(link)
+    return nil if link.blank?
+
+    variant = LINK_PATTERNS.index { |pattern| pattern.match?(link) }
+    if variant.nil?
+      raise UnexpectedSourceFormat, "archive file link #{link.inspect} matches no known template"
+    end
+
+    variant
+  end
+
   def self.update_cached_all_count
     count = self.all.count
     CachedCount.find_or_create_by(model: self.name, scope: :all).update(
@@ -173,6 +227,38 @@ class ArchiveFile < ApplicationRecord
   def parents
     @preloaded_parents ||=
       ArchiveNode.ancestor_chains(archive_node_id).fetch(archive_node_id, [])
+  end
+
+  def source_uuid_text
+    return nil if source_uuid.blank?
+
+    hex = source_uuid.unpack1("H*")
+    [hex[0, 8], hex[8, 4], hex[12, 4], hex[16, 4], hex[20, 12]].join("-")
+  end
+
+  # SQLite fills these in for saved rows. A record that has not been written yet
+  # has no generated value to read, so both fall back to building the string
+  # here from the same pieces.
+  def source_id
+    return self[:source_id] if self[:source_id].present?
+
+    uuid = source_uuid_text
+    uuid && "#{SOURCE_ID_PREFIX}#{uuid}"
+  end
+
+  def source_id=(value)
+    self.source_uuid = value.nil? ? nil : self.class.pack_source_id(value)
+  end
+
+  def link
+    return self[:link] if self[:link].present?
+    return nil if link_variant.nil? || source_uuid_text.nil?
+
+    format(LINK_TEMPLATES.fetch(link_variant), source_uuid_text)
+  end
+
+  def link=(value)
+    self.link_variant = self.class.link_variant_for(value)
   end
 
   def source_dates

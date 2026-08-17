@@ -73,7 +73,7 @@ class ParsedSourceDateTest < ActiveSupport::TestCase
     archive_node = ArchiveNode.create!(name: "Bestand", source_id: "node-1")
     archive_file = ArchiveFile.create!(
       archive_node: archive_node,
-      source_id: "file-1",
+      source_id: "DE-1958_33333333-3333-4333-8333-333333333333",
       source_date_text: "28. Mai 1948"
     )
     parsed = ParsedSourceDate.create!(
@@ -90,6 +90,6 @@ class ParsedSourceDateTest < ActiveSupport::TestCase
   test "archive files without a source date text stay valid" do
     archive_node = ArchiveNode.create!(name: "Bestand", source_id: "node-1")
 
-    assert ArchiveFile.new(archive_node: archive_node, source_id: "file-1", source_date_text: "").valid?
+    assert ArchiveFile.new(archive_node: archive_node, source_id: "DE-1958_33333333-3333-4333-8333-333333333333", source_date_text: "").valid?
   end
 end

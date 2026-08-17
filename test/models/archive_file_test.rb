@@ -9,6 +9,57 @@ class ArchiveFileTest < ActiveSupport::TestCase
     assert_equal ["1984-01-24", "1985-10-01"], archive_file.source_dates
   end
 
+  test "source_id round trips through the stored uuid bytes" do
+    source_id = "DE-1958_2a467dae-3487-4666-b4ab-9c0b4a6ac790"
+    archive_file = ArchiveFile.new(source_id: source_id)
+
+    assert_equal 16, archive_file.source_uuid.bytesize
+    assert_equal source_id, archive_file.source_id
+  end
+
+  test "link is rebuilt from the template and the uuid" do
+    archive_file = ArchiveFile.new(source_id: "DE-1958_2a467dae-3487-4666-b4ab-9c0b4a6ac790")
+
+    archive_file.link = "https://invenio.bundesarchiv.de/invenio/direktlink/2a467dae-3487-4666-b4ab-9c0b4a6ac790/"
+    assert_equal 0, archive_file.link_variant
+    assert_equal "https://invenio.bundesarchiv.de/invenio/direktlink/2a467dae-3487-4666-b4ab-9c0b4a6ac790/",
+                 archive_file.link
+
+    archive_file.link = "https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2a467dae-3487-4666-b4ab-9c0b4a6ac790/"
+    assert_equal 1, archive_file.link_variant
+    assert_equal "https://invenio.bundesarchiv.de/basys2-invenio/direktlink/2a467dae-3487-4666-b4ab-9c0b4a6ac790/",
+                 archive_file.link
+  end
+
+  test "a file without a link has none" do
+    archive_file = ArchiveFile.new(source_id: "DE-1958_2a467dae-3487-4666-b4ab-9c0b4a6ac790")
+    archive_file.link = nil
+
+    assert_nil archive_file.link_variant
+    assert_nil archive_file.link
+  end
+
+  test "SQLite rebuilds source_id and link for saved rows" do
+    BundesarchivImporter.new("test/fixtures/files/dataset-tiny").run
+    source_id = "DE-1958_8a0ff3f6-46b3-443a-9e48-946e790301e0"
+
+    # Read straight back out of the database rather than from memory.
+    archive_file = ArchiveFile.find_by(source_id: source_id)
+
+    assert_not_nil archive_file
+    assert_equal source_id, archive_file.reload[:source_id]
+    assert_match %r{\Ahttps://invenio\.bundesarchiv\.de/\S+/direktlink/\S+/\z}, archive_file[:link]
+  end
+
+  test "an unexpected id or link stops the import instead of being stored" do
+    assert_raises(ArchiveFile::UnexpectedSourceFormat) do
+      ArchiveFile.pack_source_id("something-else-entirely")
+    end
+    assert_raises(ArchiveFile::UnexpectedSourceFormat) do
+      ArchiveFile.link_variant_for("https://example.com/some/other/place/")
+    end
+  end
+
   test "parents walks the node tree root first, ending at the file's own node" do
     BundesarchivImporter.new("test/fixtures/files/dataset-tiny").run
     archive_file = ArchiveFile.find_by(source_id: "DE-1958_8a0ff3f6-46b3-443a-9e48-946e790301e0")

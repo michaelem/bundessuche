@@ -6,18 +6,6 @@ CREATE TABLE IF NOT EXISTS "archive_nodes" ("id" integer PRIMARY KEY AUTOINCREME
 CREATE TABLE IF NOT EXISTS "originations" ("archive_file_id" integer DEFAULT NULL, "origin_id" integer DEFAULT NULL);
 CREATE TABLE IF NOT EXISTS "parsed_source_dates" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "source_text" varchar NOT NULL, "start_date" date, "end_date" date, "confidence" float, "llm_model" varchar, "raw_response" text, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
 CREATE TABLE IF NOT EXISTS "archive_locations" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL);
-CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_data'(id INTEGER PRIMARY KEY, block BLOB);
-CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB, origin INTEGER);
-CREATE TABLE IF NOT EXISTS 'archive_file_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS 'archive_node_trigrams_data'(id INTEGER PRIMARY KEY, block BLOB);
-CREATE TABLE IF NOT EXISTS 'archive_node_trigrams_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS 'archive_node_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB, origin INTEGER);
-CREATE TABLE IF NOT EXISTS 'archive_node_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS 'origin_trigrams_data'(id INTEGER PRIMARY KEY, block BLOB);
-CREATE TABLE IF NOT EXISTS 'origin_trigrams_idx'(segid, term, pgno, PRIMARY KEY(segid, term)) WITHOUT ROWID;
-CREATE TABLE IF NOT EXISTS 'origin_trigrams_docsize'(id INTEGER PRIMARY KEY, sz BLOB, origin INTEGER);
-CREATE TABLE IF NOT EXISTS 'origin_trigrams_config'(k PRIMARY KEY, v) WITHOUT ROWID;
 CREATE UNIQUE INDEX "index_origins_on_label_and_name" ON "origins" ("label", "name");
 CREATE INDEX "index_origins_on_name" ON "origins" ("name");
 CREATE UNIQUE INDEX "index_cached_counts_on_model_and_scope" ON "cached_counts" ("model", "scope");
@@ -34,12 +22,13 @@ CREATE VIRTUAL TABLE archive_node_trigrams USING fts5( name, tokenize = 'trigram
 /* archive_node_trigrams(name) */;
 CREATE VIRTUAL TABLE origin_trigrams USING fts5( name, tokenize = 'trigram', content = '', contentless_delete = 1 )
 /* origin_trigrams(name) */;
-CREATE TABLE IF NOT EXISTS "archive_files" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "title" varchar, "summary" varchar, "call_number" varchar, "source_date_text" varchar, "source_id" varchar, "link" varchar, "language_code" varchar, "source_date_start" date, "source_date_end" date, "archive_node_id" integer, "archive_location_id" integer);
+CREATE TABLE IF NOT EXISTS "archive_files" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "created_at" datetime(6) NOT NULL, "updated_at" datetime(6) NOT NULL, "title" varchar, "summary" varchar, "call_number" varchar, "source_date_text" varchar, "language_code" varchar, "source_date_start" date, "source_date_end" date, "archive_node_id" integer, "archive_location_id" integer, "source_uuid" blob, "link_variant" integer, source_id TEXT GENERATED ALWAYS AS ('DE-1958_' || substr(lower(hex(source_uuid)), 1, 8) || '-' || substr(lower(hex(source_uuid)), 9, 4) || '-' || substr(lower(hex(source_uuid)), 13, 4) || '-' || substr(lower(hex(source_uuid)), 17, 4) || '-' || substr(lower(hex(source_uuid)), 21, 12)) VIRTUAL /*application='Bundessuche'*/, link TEXT GENERATED ALWAYS AS ( CASE link_variant WHEN 0 THEN 'https://invenio.bundesarchiv.de/invenio/direktlink/' || substr(lower(hex(source_uuid)), 1, 8) || '-' || substr(lower(hex(source_uuid)), 9, 4) || '-' || substr(lower(hex(source_uuid)), 13, 4) || '-' || substr(lower(hex(source_uuid)), 17, 4) || '-' || substr(lower(hex(source_uuid)), 21, 12) || '/' WHEN 1 THEN 'https://invenio.bundesarchiv.de/basys2-invenio/direktlink/' || substr(lower(hex(source_uuid)), 1, 8) || '-' || substr(lower(hex(source_uuid)), 9, 4) || '-' || substr(lower(hex(source_uuid)), 13, 4) || '-' || substr(lower(hex(source_uuid)), 17, 4) || '-' || substr(lower(hex(source_uuid)), 21, 12) || '/' END ) VIRTUAL /*application='Bundessuche'*/);
 CREATE INDEX "index_archive_files_on_archive_node_id" ON "archive_files" ("archive_node_id") /*application='Bundessuche'*/;
-CREATE UNIQUE INDEX "index_archive_files_on_source_id" ON "archive_files" ("source_id") /*application='Bundessuche'*/;
 CREATE INDEX "index_archive_files_on_call_number" ON "archive_files" ("call_number") /*application='Bundessuche'*/;
 CREATE INDEX "index_archive_files_on_source_date_text" ON "archive_files" ("source_date_text") /*application='Bundessuche'*/;
+CREATE UNIQUE INDEX "index_archive_files_on_source_uuid" ON "archive_files" ("source_uuid") /*application='Bundessuche'*/;
 INSERT INTO "schema_migrations" (version) VALUES
+('20260818090000'),
 ('20260817120300'),
 ('20260817120200'),
 ('20260817120100'),

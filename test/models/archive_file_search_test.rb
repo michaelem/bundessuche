@@ -91,7 +91,7 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
   test "source_dated_between drops files without any date" do
     undated = ArchiveFile.create!(
       archive_node: @example_archive_file.archive_node,
-      source_id: "file-without-dates",
+      source_id: "DE-1958_22222222-2222-4222-8222-222222222222",
       title: "Akte ohne jede Datierung"
     )
     search = ArchiveFile.search(undated.title)

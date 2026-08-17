@@ -43,7 +43,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     when "extref"
       if in_file? && parent_element == "p" &&
            grandparent_element == "otherfindaid"
-        @current_file[:link] = attrs_hash["href"]
+        @current_file[:link_variant] = ArchiveFile.link_variant_for(attrs_hash["href"])
       end
     end
   end
@@ -130,14 +130,14 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
 
   def new_file_entry(source_id, parent)
     {
-      source_id: source_id,
+      source_uuid: ArchiveFile.pack_source_id(source_id),
       archive_node_id: parent&.id,
       title: nil,
       call_number: nil,
       source_date_text: nil,
       source_date_start: nil,
       source_date_end: nil,
-      link: nil,
+      link_variant: nil,
       archive_location_id: nil,
       language_code: nil,
       summary: nil,
@@ -213,7 +213,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
       archive_files =
         ArchiveFile.upsert_all(
           @batch.map { |d| d.except(:origins) },
-          unique_by: :source_id,
+          unique_by: :source_uuid,
           returning: :id
         )
       origination_data =

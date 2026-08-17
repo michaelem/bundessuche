@@ -38,7 +38,7 @@ class SourceDateBackfillTest < ActiveSupport::TestCase
     count.times do |i|
       ArchiveFile.create!(
         archive_node: @archive_node,
-        source_id: "#{source_date_text}-#{i}-#{SecureRandom.hex(4)}",
+        source_id: "DE-1958_#{SecureRandom.uuid}",
         source_date_text: source_date_text
       )
     end
