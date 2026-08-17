@@ -1,5 +1,5 @@
 <% patterns = { day: "0?[1-9]|[12][0-9]|3[01]", month: "0?[1-9]|1[0-2]", year: "[0-9]{1,4}" } %>
-<fieldset class="search__filter search__date">
+<fieldset class="search__filter search__date" data-prefix="<%= prefix %>">
   <legend class="search__date-legend"><%= legend %></legend>
   <div class="search__date-parts">
     <% %i[day month year].each do |part| %>

@@ -1,10 +1,14 @@
 <form class="<%= @query ? "" : "search__form--centered" %>">
   <input type="text" name="q" value="<%= @query %>" placeholder="<%= t("search_placeholder", total: @total) %>" class="search__text-input" />
   <input type="submit" value="<%= t("search_button") %>" class="search__button" />
-  <div class="search__filters">
-    <%= render "date_filter", prefix: "from", legend: t("search_date_from"), parts: @from %>
-    <%= render "date_filter", prefix: "to", legend: t("search_date_to"), parts: @to %>
-  </div>
+  <%# Without JavaScript every filter simply stays unfolded and keeps working. %>
+  <section class="search__filters">
+    <h3 class="search__filters-title"><%= t("search_filters") %></h3>
+    <div class="search__filters-list">
+      <%= render "date_filter", prefix: "from", legend: t("search_date_from"), parts: @from %>
+      <%= render "date_filter", prefix: "to", legend: t("search_date_to"), parts: @to %>
+    </div>
+  </section>
 </form>
 <% if @query %>
   <% cache [controller.action_name, query_cache_key(@query, @from_value, @to_value), @trigrams.current_page] do %>

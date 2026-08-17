@@ -27,13 +27,21 @@
 }
 
 .search__filters {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px 24px;
   margin: 8px 2px;
 }
 
-.search__form--centered .search__filters {
+.search__filters-title {
+  font-size: 16px;
+  margin: 0 0 4px;
+}
+
+.search__filters-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px 24px;
+}
+
+.search__form--centered .search__filters-list {
   justify-content: center;
 }
 
@@ -52,9 +60,23 @@
   padding: 0;
 }
 
+.search__date-toggle,
+.search__date-toggle-label {
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.search__date-toggle {
+  margin: 0 6px 0 0;
+}
+
 .search__date-parts {
   display: flex;
   gap: 8px;
+}
+
+.search__date-parts[hidden] {
+  display: none;
 }
 
 .search__date-part {
@@ -63,7 +85,7 @@
 }
 
 .search__date-label {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .search__date-input {
@@ -76,11 +98,11 @@
 
 .search__date-input--day,
 .search__date-input--month {
-  width: 3em;
+  width: 1.5em;
 }
 
 .search__date-input--year {
-  width: 4.5em;
+  width: 3em;
 }
 
 .search__text-input {
