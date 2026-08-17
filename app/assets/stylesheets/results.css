@@ -1,5 +1,7 @@
 .result__header {
   display: flex;
+  flex-wrap: wrap;
+  gap: 0 16px;
   justify-content: space-between;
 }
 
@@ -51,21 +53,21 @@
 }
 
 .cite {
-  display: flex;
   align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 5px;
+  margin: 4px 0;
 }
 
 .cite__label {
   font-weight: bold;
-  margin-right: 5px;
 }
 
 .result__summary {
   overflow-wrap: anywhere;
 }
 
-/* Shared by the <button> copy actions and the <a> download links, so the font
-   is set explicitly: buttons do not inherit it the way anchors do. */
 .cite__button {
   background-color: #a85a08;
   border-radius: 4px;
@@ -75,7 +77,6 @@
   display: inline-block;
   font-family: inherit;
   font-size: 12px;
-  margin: 4px 2px;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;

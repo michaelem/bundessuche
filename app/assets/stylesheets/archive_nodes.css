@@ -1,6 +1,6 @@
 .archive-node-menu {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: auto;
 }
 
 .archive-node-menu__list {
