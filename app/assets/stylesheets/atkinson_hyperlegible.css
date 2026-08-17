@@ -3,8 +3,11 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2) format("woff2"),
-    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-Regular-102.woff)  format("woff");
+  src:
+    url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-Regular-102a.woff2)
+      format("woff2"),
+    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-Regular-102.woff)
+      format("woff");
 }
 
 @font-face {
@@ -12,8 +15,11 @@
   font-style: italic;
   font-weight: 400;
   font-display: swap;
-  src: url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-Italic-102a.woff2) format("woff2"),
-    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-Italic-102.woff)  format("woff");
+  src:
+    url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-Italic-102a.woff2)
+      format("woff2"),
+    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-Italic-102.woff)
+      format("woff");
 }
 
 @font-face {
@@ -21,8 +27,11 @@
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-Bold-102a.woff2) format("woff2"),
-    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-Bold-102.woff)  format("woff");
+  src:
+    url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-Bold-102a.woff2)
+      format("woff2"),
+    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-Bold-102.woff)
+      format("woff");
 }
 
 @font-face {
@@ -30,6 +39,9 @@
   font-style: italic;
   font-weight: 700;
   font-display: swap;
-  src: url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-BoldItalic-102a.woff2) format("woff2"),
-    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff)  format("woff");
+  src:
+    url(Atkinson_Hyperlegible/WOFF2/Atkinson-Hyperlegible-BoldItalic-102a.woff2)
+      format("woff2"),
+    url(Atkinson_Hyperlegible/WOFF/Atkinson-Hyperlegible-BoldItalic-102.woff)
+      format("woff");
 }
