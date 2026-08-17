@@ -79,6 +79,6 @@
 }
 
 .cite__button--disabled {
-  background-color: #cccccc;
+  background-color: #767676;
   cursor: not-allowed;
 }

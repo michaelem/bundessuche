@@ -16,7 +16,7 @@ document.querySelectorAll(".cite__copy").forEach((button) => {
       return;
     }
     button.disabled = true;
-    button.classList.add(".cite__button--disabled");
+    button.classList.add("cite__button--disabled");
     const path = button.dataset.path;
     const clipboardItem = new ClipboardItem({ 'text/plain': fetchText(path) });
 
@@ -32,7 +32,7 @@ document.querySelectorAll(".cite__copy").forEach((button) => {
           button.textContent = oldText;
           button.style.backgroundColor = oldColor;
           button.disabled = false;
-           button.classList.remove(".cite__button--disabled");
+          button.classList.remove("cite__button--disabled");
         }, 1000);
       })
       .catch((error) => {
