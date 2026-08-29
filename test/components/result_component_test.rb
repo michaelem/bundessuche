@@ -75,4 +75,43 @@ class ResultComponentTest < ViewComponent::TestCase
                  component.summary
     @archive_file.verify
   end
+
+  def test_cite_filename_folds_the_call_number
+    @archive_file.expect(:call_number, "DC 20/797")
+
+    component = ResultComponent.new(query: "", archive_file: @archive_file)
+
+    assert_equal "DC_20_797.ris", component.cite_filename(:ris)
+    @archive_file.verify
+  end
+
+  def test_render_offers_a_copy_and_a_download_per_format
+    render_inline(ResultComponent.new(archive_file: citable_archive_file))
+
+    assert_selector ".cite__group", count: 2
+    assert_selector %(button.cite__button[data-action="copy"][data-format="ris"]), count: 1
+    assert_selector %(button.cite__button[data-action="copy"][data-format="bib"]), count: 1
+    assert_selector %(a.cite__button[data-format="ris"][download$=".ris"]), count: 1
+    assert_selector %(a.cite__button[data-format="bib"][download$=".bib"]), count: 1
+  end
+
+  def test_render_labels_every_icon_only_control
+    render_inline(ResultComponent.new(archive_file: citable_archive_file))
+
+    page.all(".cite__button").each do |button|
+      assert button[:title].present?, "a cite button is missing its title"
+      assert_equal button[:title], button["aria-label"]
+    end
+  end
+
+  private
+
+  def citable_archive_file
+    ArchiveFile.create!(
+      archive_node: ArchiveNode.create!(name: "Ministerrat"),
+      call_number: "DC 20/797",
+      title: "Sitzungen des Ministerrates",
+      summary: "Protokolle"
+    )
+  end
 end

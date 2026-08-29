@@ -45,6 +45,27 @@ body {
   border: 1pt dotted;
 }
 
+/* A short-lived confirmation, laid over the page bottom by JavaScript. */
+.toast {
+  background-color: var(--text);
+  border-radius: 999px;
+  bottom: 24px;
+  color: var(--surface);
+  font-size: 13px;
+  left: 50%;
+  opacity: 0;
+  padding: 8px 16px;
+  pointer-events: none;
+  position: fixed;
+  transform: translateX(-50%);
+  transition: opacity 150ms ease;
+  z-index: 10;
+}
+
+.toast--visible {
+  opacity: 1;
+}
+
 footer {
   margin-top: 2rem;
   text-align: center;

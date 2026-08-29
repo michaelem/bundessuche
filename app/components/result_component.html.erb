@@ -16,11 +16,26 @@
     <% end %>
   </div>
   <div class="cite">
-    <span class="cite__label">Zitieren:</span>
-    <button type="button" class="cite__button cite__copy" data-path="<%= archive_file_path(@archive_file, format: :ris) %>">als RIS kopieren</button>
-    <%= link_to 'als RIS herunterladen', archive_file_path(@archive_file, format: :ris), class: "cite__button" %>
-    <button type="button" class="cite__button cite__copy" data-path="<%= archive_file_path(@archive_file, format: :bib) %>">als BibTeX kopieren</button>
-    <%= link_to 'als BibTeX herunterladen', archive_file_path(@archive_file, format: :bib), class: "cite__button" %>
+    <% CITE_FORMATS.each do |format, label| %>
+      <div class="cite__group">
+        <span class="cite__label"><%= label %></span>
+        <button type="button"
+                class="cite__button"
+                data-action="copy"
+                data-format="<%= format %>"
+                data-href="<%= cite_path(format) %>"
+                data-copied="<%= t("cite_copied", name: label) %>"
+                data-failed="<%= t("cite_copy_failed") %>"
+                title="<%= t("cite_copy", name: label) %>"
+                aria-label="<%= t("cite_copy", name: label) %>"><%= copy_icon %></button>
+        <a class="cite__button"
+           data-format="<%= format %>"
+           download="<%= cite_filename(format) %>"
+           href="<%= cite_path(format) %>"
+           title="<%= t("cite_download", name: label) %>"
+           aria-label="<%= t("cite_download", name: label) %>"><%= download_icon %></a>
+      </div>
+    <% end %>
   </div>
   <p class="result__summary">
     <%= summary %>
