@@ -26,6 +26,16 @@ class ResultComponent < ViewComponent::Base
     @archive_file.source_date_years.join("-")
   end
 
+  # The dates behind the date text, shown when the reader unfolds it. Nil when
+  # nothing could be parsed, in which case there is nothing to unfold.
+  def parsed_date
+    start_date, end_date = @archive_file.effective_source_dates
+    return nil if start_date.blank?
+    return format_date(start_date) if end_date == start_date
+
+    "#{format_date(start_date)}\u2009\u2013\u2009#{format_date(end_date)}"
+  end
+
   def summary
     highlight_query(@archive_file.summary)
   end
@@ -35,6 +45,10 @@ class ResultComponent < ViewComponent::Base
   end
 
   private
+
+  def format_date(date)
+    date.strftime("%d.%m.%Y")
+  end
 
   def highlight_query(text)
     return text if @query.blank? || text.blank?

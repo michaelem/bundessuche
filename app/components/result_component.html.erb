@@ -6,9 +6,14 @@
     <h4 class="result__title">
       <%= link_to_if(@archive_file.link.present?, @archive_file.call_number, @archive_file.link, target: "_blank") %>: <%= title %>
     </h4>
-    <p>
-      <%= date %>
-    </p>
+    <% if parsed_date %>
+      <details class="result__date">
+        <summary class="result__date-text"><%= date %></summary>
+        <p class="result__date-parsed"><%= t("result_date_parsed") %> <%= parsed_date %></p>
+      </details>
+    <% else %>
+      <p class="result__date-text"><%= date %></p>
+    <% end %>
   </div>
   <div class="cite">
     <span class="cite__label">Zitieren:</span>

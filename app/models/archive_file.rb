@@ -269,6 +269,24 @@ class ArchiveFile < ApplicationRecord
     [source_date_start.to_s, source_date_end.to_s]
   end
 
+  # The dates behind the source date text: the parsed range when the text could
+  # be read, otherwise the range the importer took from the XML. The Ruby
+  # counterpart of EFFECTIVE_SOURCE_DATE_START and EFFECTIVE_SOURCE_DATE_END,
+  # which filter searches by the same rule.
+  def effective_source_dates
+    if parsed_source_date&.start_date.present?
+      start_date = parsed_source_date.start_date
+      end_date = parsed_source_date.end_date
+    else
+      start_date = source_date_start
+      end_date = source_date_end
+    end
+
+    return [] if start_date.blank?
+
+    [start_date, end_date || start_date]
+  end
+
   def source_date_years
     return [] if source_date_start.blank? && source_date_end.blank?
 

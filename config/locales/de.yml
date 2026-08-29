@@ -1,4 +1,5 @@
 de:
+  result_date_parsed: "Erkannt als:"
   search_button: "Suchen"
   search_placeholder: "%{total} Objekte durchsuchen"
   search_filters: "Filter"

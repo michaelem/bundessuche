@@ -28,6 +28,7 @@
 #       enabled: "ON"
 
 en:
+  result_date_parsed: "Parsed as:"
   search_button: "search"
   search_placeholder: "Search %{total} objects"
   search_date_from: "Date from"

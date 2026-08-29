@@ -12,6 +12,7 @@ class SearchController < ApplicationController
     @archive_files =
       ArchiveFile
         .search(@query)
+        .preload(:parsed_source_date)
         .source_dated_between(
           ParsedSourceDate.start_boundary(@from_value),
           ParsedSourceDate.end_boundary(@to_value)

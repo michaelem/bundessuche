@@ -90,6 +90,30 @@ class ArchiveFileTest < ActiveSupport::TestCase
     end
   end
 
+  test "effective_source_dates prefers the parsed date over the imported one" do
+    archive_file =
+      ArchiveFile.new(
+        source_date_start: Date.new(2020, 1, 1),
+        source_date_end: Date.new(2021, 12, 31),
+        source_date_text: "1943"
+      )
+    assert_equal [Date.new(2020, 1, 1), Date.new(2021, 12, 31)],
+                 archive_file.effective_source_dates
+
+    archive_file.parsed_source_date =
+      ParsedSourceDate.new(source_text: "1943", start_date: Date.new(1943, 1, 1))
+    assert_equal [Date.new(1943, 1, 1), Date.new(1943, 1, 1)],
+                 archive_file.effective_source_dates
+
+    archive_file.parsed_source_date.end_date = Date.new(1943, 12, 31)
+    assert_equal [Date.new(1943, 1, 1), Date.new(1943, 12, 31)],
+                 archive_file.effective_source_dates
+  end
+
+  test "effective_source_dates is empty without any date" do
+    assert_empty ArchiveFile.new.effective_source_dates
+  end
+
   test "source_date_years" do
     archive_file = ArchiveFile.new(source_date_start: Date.new(2020, 1, 1))
     assert_equal ["2020"], archive_file.source_date_years
