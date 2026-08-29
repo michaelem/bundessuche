@@ -22,6 +22,10 @@ Rails.application.configure do
   config.consider_all_requests_local = true
   config.cache_store = :null_store
 
+  # Tests cache nothing, so the salt only has to exist. Reading it from the
+  # credentials would tie the suite to the master key, which CI has not got.
+  config.cache_key_salt = "test"
+
   # Render exception templates for rescuable exceptions and raise for other exceptions.
   config.action_dispatch.show_exceptions = :rescuable
 
