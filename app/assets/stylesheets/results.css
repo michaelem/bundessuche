@@ -1,6 +1,5 @@
 .result__header {
   display: flex;
-  flex-wrap: wrap;
   gap: 0 16px;
   justify-content: space-between;
   align-items: center;
@@ -62,7 +61,6 @@
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  justify-content: flex-end;
   margin: 4px 0;
 }
 
