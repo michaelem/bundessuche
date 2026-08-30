@@ -33,8 +33,9 @@
         <%= yield %>
       </main>
     </div>
-    <footer>
+    <footer class="footer">
       <%= link_to t("imprint_title"), :imprint %>
+      <%= render "layouts/language_toggle" %>
     </footer>
   </body>
 </html>

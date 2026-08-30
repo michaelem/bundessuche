@@ -18,6 +18,8 @@ de:
   cite_copy: "%{name} in die Zwischenablage kopieren"
   cite_copy_failed: "Kopieren nicht möglich"
   cite_download: "%{name}-Datei herunterladen"
+  language_name: "Deutsch"
+  language_toggle: "Sprache"
   imprint_title: "Impressum"
   imprint_contact: "Kontakt"
   imprint_email: "E-Mail:"

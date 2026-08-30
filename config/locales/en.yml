@@ -46,6 +46,8 @@ en:
   cite_copy: "Copy %{name} to the clipboard"
   cite_copy_failed: "Copying is not possible"
   cite_download: "Download %{name} file"
+  language_name: "English"
+  language_toggle: "Language"
   imprint_title: "Imprint"
   imprint_contact: "Contact"
   imprint_email: "Email:"

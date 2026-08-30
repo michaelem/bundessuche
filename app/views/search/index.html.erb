@@ -33,7 +33,9 @@
   </section>
 </form>
 <% if @query %>
-  <% cache [controller.action_name, query_cache_key(@query, @from_value, @to_value), @archive_files.current_page] do %>
+  <%# The results carry translated headings and buttons, so each language needs
+      its own entry. %>
+  <% cache [controller.action_name, I18n.locale, query_cache_key(@query, @from_value, @to_value), @archive_files.current_page] do %>
     <% if @pagination_cache[:total_count] > 0 %>
       <h3><%= t("search_results_found", count: @pagination_cache[:total_count]) %></h3>
       <div class="pagination">

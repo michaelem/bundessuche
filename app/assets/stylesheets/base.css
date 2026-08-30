@@ -71,3 +71,17 @@ footer {
   margin-top: 2rem;
   text-align: center;
 }
+
+/* The imprint and the languages sit on one line, and wrap onto their own lines
+   when the screen is too narrow for both. */
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 20px;
+  justify-content: center;
+}
+
+.footer__languages {
+  display: flex;
+  gap: 12px;
+}

@@ -38,6 +38,8 @@ module Bundessuche
     config.cache_key_salt = Rails.application.credentials.cache_key_salt
 
     config.i18n.default_locale = :de
+    # The order the language toggle offers them in.
+    config.i18n.available_locales = %i[de en]
 
     config.active_record.schema_format = :sql
   end
