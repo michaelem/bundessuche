@@ -1,8 +1,27 @@
 de:
+  about_title: "Über uns"
+  about_project_html: >-
+    Bundessuche ist ein Projekt von <a href="https://emi.industries">Michael Emhofer</a>
+    und bietet eine einfache und schnelle Möglichkeit, die Bestände des Bundesarchivs zu durchsuchen.
+    Dieses Angebot richtet sich vorallem an Personen die für ihre Recherchen exakte
+    Textuelle Übereinstimmungen suchen und große Mengen an Ergebnissen schnell sichten möchten.
+    Die hierfür benötigten Erschließungsinformationen stammen aus dem
+    <a href="https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html">Open Data Angebot</a>
+    des Bundesarchivs
+  about_alternatives_html: >-
+    Weitere Optionen für die Suche in den Beständen des Bundesarchivs sind
+    <a href="https://www.archivesportaleurope.net">Archives Portal Europe</a>,
+    <a href="https://www.archivportal-d.de">Archivportal-D</a> und
+    <a href="https://invenio.bundesarchiv.de">Invenio</a>
+    (welches direkt mit Bundessuche verlinkt ist, um die eigentlichen Archivalien einzusehen und zu bestellen).
   cite_copied: "%{name} kopiert"
   cite_copy: "%{name} in die Zwischenablage kopieren"
   cite_copy_failed: "Kopieren nicht möglich"
   cite_download: "%{name}-Datei herunterladen"
+  imprint_title: "Impressum"
+  imprint_contact: "Kontakt"
+  imprint_email: "E-Mail:"
+  imprint_phone: "Tel:"
   result_date_parsed: "Erkannt als:"
   search_button: "Suchen"
   search_placeholder: "%{total} Objekte durchsuchen"
@@ -18,3 +37,26 @@ de:
   search_date_day_hint: "Tag als Zahl von 1 bis 31"
   search_date_month_hint: "Monat als Zahl von 1 bis 12"
   search_date_year_hint: "Jahr als Zahl mit bis zu vier Stellen"
+  search_hint_fields: "Die Suche durchsucht den Titel und die Beschreibung der Archivalien."
+  search_hint_wildcard: "„*“ erlaubt beliebigen Text zwischen Textstücken: „Chaussee*123“ findet auch die „Chausseestraße Nr. 123“."
+  search_results_found:
+    one: "%{count} Objekt gefunden."
+    other: "%{count} Objekte gefunden."
+  search_no_results: "Keine Akten gefunden."
+  search_query_too_short: "Bitte geben Sie mindestens drei aufeinanderfolgende Zeichen in das Suchfeld ein."
+  search_intro_title: "Was ist Bundessuche?"
+  search_intro_project_html: >-
+    Bundessuche ist ein Projekt von <a href="https://emi.industries">Michael Emhofer</a>
+    und bietet eine einfache und schnelle Möglichkeit, die Bestände des Bundesarchivs zu durchsuchen.
+    Dieses Angebot richtet sich vor allem an Personen, die für ihre Recherchen exakte
+    textuelle Übereinstimmungen suchen und große Mengen an Ergebnissen schnell sichten möchten.
+    Die hierfür benötigten Erschließungsinformationen stammen aus dem
+    <a href="https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html">Open-Data-Angebot</a>
+    des Bundesarchivs.
+  search_intro_alternatives_html: >-
+    Weitere Optionen für die Suche in den Beständen des Bundesarchivs sind
+    <a href="https://www.archivesportaleurope.net">Archives Portal Europe</a>,
+    <a href="https://www.archivportal-d.de">Archivportal-D</a> und
+    <a href="https://invenio.bundesarchiv.de">Invenio</a>.
+    Invenio ist ein Angebot des Bundesarchivs und ist bei Treffern in Bundessuche verlinkt.
+    Dort kann das Archivgut eingesehen und bestellt werden.

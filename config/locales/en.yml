@@ -28,10 +28,28 @@
 #       enabled: "ON"
 
 en:
+  about_title: "About us"
+  about_project_html: >-
+    Bundessuche is a project by <a href="https://emi.industries">Michael Emhofer</a>
+    and offers a simple and fast way to search the holdings of the German Federal Archive.
+    It is aimed above all at people looking for exact textual matches in their research
+    who want to skim large numbers of results quickly.
+    The finding aid information behind it comes from the Federal Archive's
+    <a href="https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html">open data programme</a>
+  about_alternatives_html: >-
+    Other options for searching the holdings of the German Federal Archive are
+    <a href="https://www.archivesportaleurope.net">Archives Portal Europe</a>,
+    <a href="https://www.archivportal-d.de">Archivportal-D</a> and
+    <a href="https://invenio.bundesarchiv.de">Invenio</a>
+    (which is linked directly from Bundessuche, to view and order the archival objects themselves).
   cite_copied: "%{name} copied"
   cite_copy: "Copy %{name} to the clipboard"
   cite_copy_failed: "Copying is not possible"
   cite_download: "Download %{name} file"
+  imprint_title: "Imprint"
+  imprint_contact: "Contact"
+  imprint_email: "Email:"
+  imprint_phone: "Phone:"
   result_date_parsed: "Parsed as:"
   search_button: "Search"
   search_placeholder: "Search %{total} objects"
@@ -47,3 +65,25 @@ en:
   search_date_day_hint: "Day as a number from 1 to 31"
   search_date_month_hint: "Month as a number from 1 to 12"
   search_date_year_hint: "Year as a number of up to four digits"
+  search_hint_fields: "The search covers the title and the description of the archival objects."
+  search_hint_wildcard: "“*” stands for any text between two pieces: “Chaussee*123” also finds “Chausseestraße Nr. 123”."
+  search_results_found:
+    one: "%{count} object found."
+    other: "%{count} objects found."
+  search_no_results: "No files found."
+  search_query_too_short: "Please enter at least three consecutive characters in the search field."
+  search_intro_title: "What is Bundessuche?"
+  search_intro_project_html: >-
+    Bundessuche is a project by <a href="https://emi.industries">Michael Emhofer</a>
+    and offers a simple and fast way to search the holdings of the German Federal Archive.
+    It is aimed above all at people looking for exact textual matches in their research
+    who want to skim large numbers of results quickly.
+    The finding aid information behind it comes from the Federal Archive's
+    <a href="https://www.bundesarchiv.de/DE/Content/Artikel/Ueber-uns/Aus-unserer-Arbeit/open-data.html">open data programme</a>.
+  search_intro_alternatives_html: >-
+    Other options for searching the holdings of the German Federal Archive are
+    <a href="https://www.archivesportaleurope.net">Archives Portal Europe</a>,
+    <a href="https://www.archivportal-d.de">Archivportal-D</a> and
+    <a href="https://invenio.bundesarchiv.de">Invenio</a>.
+    Invenio is run by the Federal Archive and is linked from every result in Bundessuche.
+    The archival objects can be viewed and ordered there.
