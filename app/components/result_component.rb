@@ -84,10 +84,21 @@ class ResultComponent < ViewComponent::Base
     date.strftime("%d.%m.%Y")
   end
 
+  # Every literal piece of the query is marked up on its own, since a wildcard
+  # between two pieces stands for text that is not part of the match. The pieces
+  # are escaped: a query is plain text to the reader who typed it, and "Akte
+  # (1933" used to reach the regexp engine as a broken group.
   def highlight_query(text)
-    return text if @query.blank? || text.blank?
+    segments = SearchQuery.new(@query).segments
+    return text if segments.empty? || text.blank?
+
+    # Joined as a source string rather than with Regexp.union, whose result
+    # carries its own flags and would swallow the case insensitivity below.
+    pattern =
+      segments.map { |segment| Regexp.escape(CGI.escapeHTML(segment)) }.join("|")
+
     text.gsub(
-      /(#{CGI.escapeHTML(@query)})/i,
+      /(#{pattern})/i,
       '<span class="result__highlight">\1</span>'
     ).html_safe
   end

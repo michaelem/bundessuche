@@ -19,6 +19,35 @@ class ResultComponentTest < ViewComponent::TestCase
     @archive_file.verify
   end
 
+  def test_title_highlights_both_sides_of_a_wildcard
+    @archive_file.expect(:title, "Rechenzentrum in Duisburg")
+
+    component =
+      ResultComponent.new(
+        query: "rechen*duisburg",
+        archive_file: @archive_file
+      )
+
+    assert_equal %(<span class="result__highlight">Rechen</span>zentrum in ) +
+                   %(<span class="result__highlight">Duisburg</span>),
+                 component.title
+    @archive_file.verify
+  end
+
+  def test_title_highlight_treats_the_query_as_text
+    @archive_file.expect(:title, "Rechenzentrum (1989)")
+
+    component =
+      ResultComponent.new(
+        query: "zentrum (1989)",
+        archive_file: @archive_file
+      )
+
+    assert_equal %(Rechen<span class="result__highlight">zentrum (1989)</span>),
+                 component.title
+    @archive_file.verify
+  end
+
   def test_date
     @archive_file.expect(:source_date_text, "1989")
     @archive_file.expect(:source_date_text, "1989")

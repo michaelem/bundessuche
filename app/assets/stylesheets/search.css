@@ -208,6 +208,10 @@
   width: 3.4em;
 }
 
+.search__hints {
+  color: var(--text-very-muted);
+}
+
 @media (max-width: 480px) {
   .search__filters-list {
     flex-direction: column;

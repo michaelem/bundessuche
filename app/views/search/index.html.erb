@@ -28,6 +28,12 @@
       <%= render "date_filter", prefix: "from", legend: t("search_date_from"), parts: @from %>
       <%= render "date_filter", prefix: "to", legend: t("search_date_to"), parts: @to %>
     </div>
+    <p class="search__hints">
+      Die Suche durchsucht den Titel und die Beschreibung der Archivalien.
+    </p>
+    <p class="search__hints">
+      „*“ erlaubt belibigen Text zwischen Textstücken: „Chaussee*123“ findet auch die „Chausseestraße Nr. 123“.
+    </p>
   </section>
 </form>
 <% if @query %>

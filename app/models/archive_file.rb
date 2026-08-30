@@ -72,18 +72,32 @@ class ArchiveFile < ApplicationRecord
   # archive nodes above them and their origins. A file inherits a match from any
   # node on its ancestor chain, which is what the per-file copy of the ancestor
   # path used to do before the index was split up.
+  #
+  # Each of the three lookups is a pair: the trigram index proposes candidates
+  # and the GLOB pattern decides which of them really match. The index cannot do
+  # it alone because a wildcard query goes in as its pieces ANDed together,
+  # which also proposes rows carrying those pieces out of order or spread over
+  # two columns. See SearchQuery.
   MATCHING_IDS = <<~SQL.squish
     WITH RECURSIVE matching_nodes(id) AS (
-      SELECT rowid FROM archive_node_trigrams WHERE archive_node_trigrams MATCH :match
+      SELECT n.id FROM archive_nodes n
+      WHERE n.id IN (SELECT rowid FROM archive_node_trigrams WHERE archive_node_trigrams MATCH :match)
+        AND n.name GLOB :glob
       UNION
       SELECT n.id FROM archive_nodes n JOIN matching_nodes m ON n.parent_node_id = m.id
     )
-    SELECT rowid FROM archive_file_trigrams WHERE archive_file_trigrams MATCH :match
+    SELECT f.id FROM archive_files f
+    WHERE f.id IN (SELECT rowid FROM archive_file_trigrams WHERE archive_file_trigrams MATCH :match)
+      AND (f.title GLOB :glob OR f.summary GLOB :glob OR f.call_number GLOB :glob)
     UNION
     SELECT f.id FROM archive_files f JOIN matching_nodes m ON f.archive_node_id = m.id
     UNION
     SELECT o.archive_file_id FROM originations o
-    WHERE o.origin_id IN (SELECT rowid FROM origin_trigrams WHERE origin_trigrams MATCH :match)
+    WHERE o.origin_id IN (
+      SELECT g.id FROM origins g
+      WHERE g.id IN (SELECT rowid FROM origin_trigrams WHERE origin_trigrams MATCH :match)
+        AND g.name GLOB :glob
+    )
   SQL
 
   belongs_to :archive_node
@@ -104,10 +118,14 @@ class ArchiveFile < ApplicationRecord
 
   scope :search,
         ->(query) do
-          return none if query.blank?
+          search_query = SearchQuery.new(query)
+          return none unless search_query.indexable?
 
-          where("archive_files.id IN (#{MATCHING_IDS})", match: fts_phrase(query))
-            .order(:call_number)
+          where(
+            "archive_files.id IN (#{MATCHING_IDS})",
+            match: search_query.fts_match,
+            glob: search_query.glob_pattern
+          ).order(:call_number)
         end
 
   # Keeps the archive files whose effective source date range overlaps the given
@@ -132,12 +150,6 @@ class ArchiveFile < ApplicationRecord
 
           scope
         end
-
-  # FTS5 reads a bare query as its own query syntax, so the whole thing goes in
-  # as a single quoted phrase with any quote inside it escaped.
-  def self.fts_phrase(query)
-    %("#{query.to_s.gsub('"', '""')}")
-  end
 
   # The sixteen raw bytes behind "DE-1958_<uuid>".
   def self.pack_source_id(source_id)

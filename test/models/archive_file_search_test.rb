@@ -49,6 +49,48 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
     end
   end
 
+  test "search matches across a wildcard" do
+    # The title is "Organisations- und Geschäftsverteilungspläne des BMFa".
+    assert_includes ArchiveFile.search("Organisations*BMFa").ids, @example_archive_file.id
+  end
+
+  test "search keeps the pieces around a wildcard in order" do
+    assert_not_includes ArchiveFile.search("BMFa*Organisations").ids, @example_archive_file.id
+  end
+
+  test "search keeps the pieces around a wildcard in one column" do
+    # "Organisations" is in the title, "153" in the call number B 153/386, so
+    # the trigram index proposes this file and the glob pattern rejects it.
+    assert_not_includes ArchiveFile.search("Organisations*153").ids, @example_archive_file.id
+  end
+
+  test "search matches a wildcard against the name of a node above the file" do
+    node = @example_archive_file.archive_node
+    assert_equal "Personalwesen und Organisation", node.name
+
+    assert_includes ArchiveFile.search("Personal*Organisation").ids, @example_archive_file.id
+  end
+
+  test "search matches a wildcard against the name of an origin" do
+    assert_includes(
+      ArchiveFile.search("Bundesministerium*(BMFa)").ids,
+      @example_archive_file.id
+    )
+  end
+
+  test "search folds case beyond ASCII" do
+    assert_includes(
+      ArchiveFile.search("GESCHÄFTSVERTEILUNGSPLÄNE*BMFA").ids,
+      @example_archive_file.id
+    )
+  end
+
+  test "search finds nothing for a query the index cannot answer" do
+    assert_empty ArchiveFile.search("or*BM")
+    assert_empty ArchiveFile.search("")
+    assert_empty ArchiveFile.search(nil)
+  end
+
   test "source_dated_between prefers the parsed date over the imported columns" do
     # The imported columns say 1958, the parsed date says 1966.
     ParsedSourceDate.create!(
