@@ -43,3 +43,6 @@
 # Ignore the sqlite database files
 /db/sqlite/*
 !/db/sqlite/.keep
+
+# Ignore the coverage reports
+/coverage

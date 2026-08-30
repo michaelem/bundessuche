@@ -278,6 +278,7 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 4.0)
       websocket (~> 1.0)
+    simplecov (1.1.1)
     sqlite3 (2.9.6-aarch64-linux-gnu)
     sqlite3 (2.9.6-arm64-darwin)
     sqlite3 (2.9.6-x86_64-linux-gnu)
@@ -337,6 +338,7 @@ DEPENDENCIES
   ruby_llm
   ruby_llm-schema
   selenium-webdriver
+  simplecov
   sqlite3 (~> 2.9)
   stackprof
   syntax_tree
