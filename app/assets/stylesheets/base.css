@@ -70,6 +70,12 @@ body {
 footer {
   margin-top: 2rem;
   text-align: center;
+  color: var(--text-muted);
+}
+
+footer a {
+  color: var(--text-muted);
+  text-decoration: none;
 }
 
 /* The imprint and the languages sit on one line, and wrap onto their own lines
