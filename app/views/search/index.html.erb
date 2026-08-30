@@ -54,6 +54,9 @@
       <div class="pagination">
         <%= paginate @archive_files, total_pages: @pagination_cache[:total_pages] %>
       </div>
+    <% elsif @query_too_short %>
+      <hr>
+      <h3 class="search__warning">Bitte geben Sie mindestens drei aufeinanderfolgende Zeichen in das Suchfeld ein.</h3>
     <% else %>
       <hr>
       <h3>Keine Akten gefunden.</h3>

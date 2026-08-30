@@ -212,6 +212,10 @@
   color: var(--text-very-muted);
 }
 
+.search__warning {
+  color: var(--danger);
+}
+
 @media (max-width: 480px) {
   .search__filters-list {
     flex-direction: column;

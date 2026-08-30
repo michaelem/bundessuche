@@ -4,6 +4,9 @@ class SearchController < ApplicationController
   def index
     @total = ArchiveFile.cached_all_count
     @query = params[:q]
+    # A query with no piece long enough for the trigram index finds nothing, and
+    # says so in its own words rather than claiming the archive holds no match.
+    @query_too_short = @query.present? && !SearchQuery.new(@query).indexable?
     @from = date_parts(:from)
     @to = date_parts(:to)
     @from_value = ParsedSourceDate.compose(**@from)

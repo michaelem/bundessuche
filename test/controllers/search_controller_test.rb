@@ -24,6 +24,28 @@ class SearchControllerTest < ActionDispatch::IntegrationTest
     assert_includes response.body, @archive_file.call_number
   end
 
+  test "a query the index cannot answer says so instead of reporting no files" do
+    get root_path, params: { q: "ab" }
+
+    assert_response :success
+    assert_select "h3.search__warning"
+    assert_not_includes response.body, "Keine Akten gefunden."
+  end
+
+  test "a query with no piece of three characters warns as well" do
+    get root_path, params: { q: "ab*cd" }
+
+    assert_response :success
+    assert_select "h3.search__warning"
+  end
+
+  test "an empty query does not warn about its length" do
+    get root_path, params: { q: "" }
+
+    assert_response :success
+    assert_select "h3.search__warning", false
+  end
+
   test "a date range covering the file keeps it" do
     get root_path, params: { q: @archive_file.title, from_year: "1950", to_year: "1958" }
 
