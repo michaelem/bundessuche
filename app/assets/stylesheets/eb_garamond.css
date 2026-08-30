@@ -3,6 +3,15 @@
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(EB_Garamond/WOFF2/EBGaramond12-Regular.woff2) format("woff2"),
-    url(EB_Garamond/WOFF/EBGaramond12-Regular.woff)  format("woff");
+  src: url(EB_Garamond/WOFF2/EBGaramond-Regular.woff2) format("woff2"),
+    url(EB_Garamond/WOFF/EBGaramond-Regular.woff)  format("woff");
+}
+
+@font-face {
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(EB_Garamond/WOFF2/EBGaramond-Bold.woff2) format("woff2"),
+    url(EB_Garamond/WOFF/EBGaramond-Bold.woff)  format("woff");
 }

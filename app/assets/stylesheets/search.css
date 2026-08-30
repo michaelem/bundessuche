@@ -3,7 +3,10 @@
   font-family:
     EB Garamond,
     serif;
-  font-size: 38px;
+  font-size: 42px;
+  /* EB Garamond reserves room for tall accents in its line metrics, which
+     would leave the title floating in a line box half again its size. */
+  line-height: 1;
 }
 .search__title a {
   color: var(--text);
