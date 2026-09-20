@@ -323,7 +323,7 @@ DEPENDENCIES
   bootsnap
   capybara
   cgi
-  debug
+  debug (>= 1.0.0)
   htmlbeautifier
   importmap-rails
   kaminari
