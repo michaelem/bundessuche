@@ -48,11 +48,9 @@ class ResultComponent < ViewComponent::Base
     archive_file_path(@archive_file, format: format)
   end
 
-  # The name the browser saves the citation under. Call numbers carry spaces
-  # and slashes, so everything outside of a plain file name is folded away.
+  # The name the browser saves the citation under.
   def cite_filename(format)
-    name = @archive_file.call_number.to_s.gsub(/[^A-Za-z0-9]+/, "_").delete_prefix("_").delete_suffix("_")
-    "#{name}.#{format}"
+    "#{@archive_file.folded_call_number}.#{format}"
   end
 
   def copy_icon

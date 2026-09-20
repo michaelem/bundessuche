@@ -13,7 +13,6 @@ gem "propshaft"
 # Database
 gem "sqlite3" # Use SQLite for production
 
-gem "bibtex-ruby" # Export bibtex citations
 gem "ruby_llm" # Talk to the local Ollama server when parsing source date texts
 gem "ruby_llm-schema" # Structured output schemas for ruby_llm
 gem "bootsnap", require: false # Reduces boot times through caching; required in config/boot.rb

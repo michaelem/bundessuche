@@ -106,7 +106,7 @@ class ResultComponentTest < ViewComponent::TestCase
   end
 
   def test_cite_filename_folds_the_call_number
-    @archive_file.expect(:call_number, "DC 20/797")
+    @archive_file.expect(:folded_call_number, "DC_20_797")
 
     component = ResultComponent.new(query: "", archive_file: @archive_file)
 

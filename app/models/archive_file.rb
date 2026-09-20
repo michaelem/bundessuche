@@ -273,6 +273,13 @@ class ArchiveFile < ApplicationRecord
     self.link_variant = self.class.link_variant_for(value)
   end
 
+  # The call number reduced to letters, digits and underscores. Call numbers
+  # carry spaces and slashes, which neither a file name nor a BibTeX citation
+  # key can hold.
+  def folded_call_number
+    call_number.to_s.gsub(/[^A-Za-z0-9]+/, "_").delete_prefix("_").delete_suffix("_")
+  end
+
   def source_dates
     if source_date_end.blank? || source_date_start == source_date_end
       return [source_date_start.to_s]

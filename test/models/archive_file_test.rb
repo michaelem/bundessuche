@@ -114,6 +114,12 @@ class ArchiveFileTest < ActiveSupport::TestCase
     assert_empty ArchiveFile.new.effective_source_dates
   end
 
+  test "folded_call_number keeps only letters, digits and underscores" do
+    assert_equal "DC_20_797", ArchiveFile.new(call_number: "DC 20/797").folded_call_number
+    assert_equal "B_106_1234", ArchiveFile.new(call_number: " B 106/1234 ").folded_call_number
+    assert_equal "", ArchiveFile.new.folded_call_number
+  end
+
   test "source_date_years" do
     archive_file = ArchiveFile.new(source_date_start: Date.new(2020, 1, 1))
     assert_equal ["2020"], archive_file.source_date_years
