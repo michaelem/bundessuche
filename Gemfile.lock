@@ -319,17 +319,17 @@ PLATFORMS
 
 DEPENDENCIES
   annotaterb
-  bibtex-ruby (~> 6.2)
+  bibtex-ruby
   bootsnap
   capybara
   cgi
   debug
-  htmlbeautifier (~> 1.4.3)
+  htmlbeautifier
   importmap-rails
   kaminari
   memory_profiler
   minitest-mock
-  progressbar (~> 1.13)
+  progressbar
   propshaft
   puma (~> 6.6)
   rack-mini-profiler
@@ -338,7 +338,7 @@ DEPENDENCIES
   ruby_llm-schema
   selenium-webdriver
   simplecov
-  sqlite3 (~> 2.9)
+  sqlite3
   stackprof
   syntax_tree
   tsort
