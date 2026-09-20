@@ -12,7 +12,6 @@ gem "propshaft"
 
 # Database
 gem "sqlite3", "~> 2.9" # Use SQLite for production
-gem "activerecord-enhancedsqlite3-adapter", "~> 0.8.0" # Performance improvements for SQLite
 
 gem "bibtex-ruby", "~> 6.2" # Export bibtex citations
 gem "ruby_llm" # Talk to the local Ollama server when parsing source date texts
