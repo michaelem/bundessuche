@@ -25,8 +25,8 @@
       <span class="search__filters-heading"><%= t("search_filters") %></span>
     </h3>
     <div class="search__filters-list <%= "search__filters-list--open" if filters_open %>" id="search_filters_list">
-      <%= render "date_filter", prefix: "from", legend: t("search_date_from"), parts: @from %>
-      <%= render "date_filter", prefix: "to", legend: t("search_date_to"), parts: @to %>
+      <%= render DateFilterComponent.new(prefix: "from", legend: t("search_date_from"), parts: @from) %>
+      <%= render DateFilterComponent.new(prefix: "to", legend: t("search_date_to"), parts: @to) %>
     </div>
     <p class="search__hints"><%= t("search_hint_fields") %></p>
     <p class="search__hints"><%= t("search_hint_wildcard") %></p>
