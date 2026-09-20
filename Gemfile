@@ -5,6 +5,7 @@ ruby file: ".ruby-version"
 # Framework
 gem "rails", "~> 8.1.0"
 gem "puma", "~> 8.0"
+gem "reactionview", "~> 0.4.1"
 
 # Assets
 gem "importmap-rails"
