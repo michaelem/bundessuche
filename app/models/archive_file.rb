@@ -105,7 +105,7 @@ class ArchiveFile < ApplicationRecord
   belongs_to :archive_node
   belongs_to :archive_location, optional: true
 
-  has_many :originations, inverse_of: :archive_file
+  has_many :originations, dependent: :delete_all, inverse_of: :archive_file
   has_many :origins, through: :originations
 
   belongs_to :parsed_source_date,

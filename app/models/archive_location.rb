@@ -14,5 +14,5 @@
 #  index_archive_locations_on_name  (name) UNIQUE
 #
 class ArchiveLocation < ApplicationRecord
-  has_many :archive_files
+  has_many :archive_files, dependent: :nullify
 end

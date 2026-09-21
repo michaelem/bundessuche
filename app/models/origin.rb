@@ -20,6 +20,6 @@ class Origin < ApplicationRecord
 
   enum :label, { 'pre' => 0, 'final' => 1, 'organisational unit' => 2 }
 
-  has_many :originations
+  has_many :originations, dependent: :delete_all
   has_many :archive_files, through: :originations
 end

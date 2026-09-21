@@ -19,9 +19,15 @@
 #  index_parsed_source_dates_on_source_text  (source_text) UNIQUE
 #
 class ParsedSourceDate < ApplicationRecord
+  # Joined on the caption text rather than owning anything: the archive files
+  # are the source data and a parsed date is derived from them, so deleting a
+  # parsed date must leave them untouched. :nullify would erase
+  # source_date_text, and the :restrict options would make a parsed date
+  # undeletable, since one always exists for a caption some file carries.
   has_many :archive_files,
            foreign_key: :source_date_text,
            primary_key: :source_text,
+           dependent: nil,
            inverse_of: :parsed_source_date
 
   validates :source_text, presence: true, uniqueness: true

@@ -22,8 +22,8 @@ class ArchiveNode < ApplicationRecord
 
   belongs_to :parent_node, class_name: 'ArchiveNode', optional: true
 
-  has_many :child_nodes, class_name: 'ArchiveNode', foreign_key: 'parent_node_id'
-  has_many :archive_files
+  has_many :child_nodes, class_name: 'ArchiveNode', foreign_key: 'parent_node_id', dependent: :destroy
+  has_many :archive_files, dependent: :destroy
 
   # The ancestor chain of every given node, root first and including the node
   # itself, as { node_id => [ArchiveNode, ...] }.
