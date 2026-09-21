@@ -150,6 +150,7 @@ GEM
       activerecord
       kaminari-core (= 1.2.2)
     kaminari-core (1.2.2)
+    language_server-protocol (3.17.0.6)
     logger (1.7.0)
     loofah (2.25.2)
       crass (~> 1.0.2)
@@ -259,6 +260,10 @@ GEM
     reline (0.7.0)
       io-console (~> 0.5)
     rexml (3.4.4)
+    ruby-lsp (0.26.11)
+      language_server-protocol (~> 3.17.0)
+      prism (>= 1.2, < 2.0)
+      rbs (>= 3, < 5)
     ruby_llm (2.0.0)
       base64
       event_stream_parser (~> 1)
@@ -334,6 +339,7 @@ DEPENDENCIES
   rack-mini-profiler
   rails (~> 8.1.0)
   reactionview (~> 0.4.1)
+  ruby-lsp
   ruby_llm
   ruby_llm-schema
   selenium-webdriver
