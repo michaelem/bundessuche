@@ -8,7 +8,7 @@ class SourceDateParser
   DEFAULT_MODEL = 'gemma4:26b-mxfp8'
   KEEP_ALIVE = '30m'
 
-  class Schema < RubyLLM::Schema
+  class Schema < Schematist::Schema
     string :start_date,
            description: 'First day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date.'
     string :end_date,

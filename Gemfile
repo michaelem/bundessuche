@@ -21,7 +21,7 @@ gem 'cgi'
 gem 'kaminari' # Pagination
 gem 'progressbar' # Used in the import task
 gem 'ruby_llm' # Talk to the local Ollama server when parsing source date texts
-gem 'ruby_llm-schema' # Structured output schemas for ruby_llm
+gem 'schematist' # Structured output schemas for ruby_llm
 gem 'view_component' # Reusable view components
 
 group :development, :test do

@@ -303,8 +303,6 @@ GEM
       marcel (>= 1.0, < 3)
       schematist (~> 1.1)
       zeitwerk (~> 2)
-    ruby_llm-schema (1.0.0)
-      schematist (~> 1.0)
     rubyzip (3.7.0)
     schematist (1.1.0)
     securerandom (0.4.1)
@@ -374,7 +372,7 @@ DEPENDENCIES
   rubocop-rails
   ruby-lsp
   ruby_llm
-  ruby_llm-schema
+  schematist
   selenium-webdriver
   simplecov
   sqlite3
