@@ -21,7 +21,6 @@ gem "kaminari" # Pagination
 gem "progressbar" # Used in the import task
 gem "view_component" # Reusable view components
 gem "cgi"
-gem "tsort"
 
 group :development, :test do
   gem "debug", ">= 1.0.0"
@@ -38,8 +37,6 @@ group :development do
 
   # Linters and annotations
   gem "annotaterb"
-  gem "syntax_tree"
-  gem "htmlbeautifier"
 end
 
 group :test do
