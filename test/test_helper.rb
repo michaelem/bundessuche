@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Started before anything else is required, so that the application code is
 # loaded with coverage already tracking it.
 require 'simplecov'

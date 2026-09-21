@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Shared behaviour for the small trigram tables that index a single name column
 # keyed by the record's own id: archive_node_trigrams and origin_trigrams.
 #

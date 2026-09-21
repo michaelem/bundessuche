@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Scores an Ollama model on the job SourceDateParser does, so the model can be picked with
 # numbers instead of a hunch.
 #

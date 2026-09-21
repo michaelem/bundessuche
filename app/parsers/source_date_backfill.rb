@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Turns every distinct ArchiveFile#source_date_text into a ParsedSourceDate. Unambiguous
 # captions are read by SourceDateMatcher, the rest goes to the much slower SourceDateParser.
 # Texts are processed most frequently used first, so an interrupted run still covers the bulk

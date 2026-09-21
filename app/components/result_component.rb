@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ResultComponent < ViewComponent::Base
   # The citation formats offered on every result, in tab order, mapped to the
   # label the reader sees. The keys double as the request format.

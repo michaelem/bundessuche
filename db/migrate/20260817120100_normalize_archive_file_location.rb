@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class NormalizeArchiveFileLocation < ActiveRecord::Migration[8.1]
   # The importer writes one of nine archive locations into every row as a
   # string, which costs about 60 MB for nine distinct values. A lookup table

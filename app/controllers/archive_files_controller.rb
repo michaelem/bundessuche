@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class ArchiveFilesController < ApplicationController
   def show
     @archive_file = ArchiveFile.find(params[:id])

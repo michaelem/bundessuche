@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class StoreSourceUuidAndLinkVariant < ActiveRecord::Migration[8.1]
   # source_id was "DE-1958_<uuid>" on every one of the four million rows and link
   # was one of two Invenio templates wrapped around that same uuid, so between

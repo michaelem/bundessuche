@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # A query typed into the search box. A "*" in it stands for any run of
 # characters, so "Chaussee*123" finds a Chaussee with a 123 somewhere after it.
 # Everything else is literal text, and a query without a "*" keeps meaning

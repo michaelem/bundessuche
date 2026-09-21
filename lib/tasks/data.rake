@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 namespace :data do
   desc 'Import data from XML files'
   task :import, [:dir] => [:environment] do |_task, args|

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DateFilterComponent < ViewComponent::Base
   # Every part of the date brings its own validation, its own width and its own
   # modifier. The modifiers are written out in full rather than built from the

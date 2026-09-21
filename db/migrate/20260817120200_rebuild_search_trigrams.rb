@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class RebuildSearchTrigrams < ActiveRecord::Migration[8.1]
   # The old trigram table indexed the ancestor path and the origin names once
   # per archive file. Both are shared by many files at a time, so the trigram

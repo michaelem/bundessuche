@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DropArchiveFileParents < ActiveRecord::Migration[8.1]
   # The parents column repeated the whole ancestor chain, names and all, as JSON
   # on every archive file: 1.4 GB for roughly half a million distinct chains

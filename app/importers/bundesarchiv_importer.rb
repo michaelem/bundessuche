@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BundesarchivImporter
   def initialize(dir)
     @dir = dir || 'data'

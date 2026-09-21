@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class DropRedundantArchiveFileIndexes < ActiveRecord::Migration[8.1]
   # Title and summary are only ever searched through the trigram index, never
   # through a WHERE or an ORDER BY on the table itself. The B-tree indexes over

@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BibTexExporter
   # BibTeX writes months as one of twelve macros rather than as a number.
   MONTHS = %w[jan feb mar apr may jun jul aug sep oct nov dec].freeze

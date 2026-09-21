@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Turns a free text date caption from a finding aid ("28. Mai 1948", "Febr.-März 1948",
 # "o. Dat.") into an ISO 8601 date range, using a local LLM.
 #

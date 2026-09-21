@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module ApplicationHelper
   # The current page in another language: same path, same search and filters,
   # only the locale swapped. Built from the path rather than from url_for, so

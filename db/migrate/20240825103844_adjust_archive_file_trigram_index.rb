@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class AdjustArchiveFileTrigramIndex < ActiveRecord::Migration[7.1]
   def up
     execute('DROP TABLE IF EXISTS archive_file_trigrams')

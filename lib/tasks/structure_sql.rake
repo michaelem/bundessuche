@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # FTS5 keeps a handful of shadow tables behind each virtual table. SQLite dumps
 # them alongside everything else, and once a table rebuild has shuffled the order
 # of sqlite_master they can land ahead of the CREATE VIRTUAL TABLE that owns

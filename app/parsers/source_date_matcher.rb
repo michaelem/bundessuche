@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 # Parses the unambiguous date captions ("1948", "28. Mai 1948", "Febr.-März 1948",
 # "o. Dat.") without asking an LLM. Returns nil for everything else, which is what
 # SourceDateBackfill hands to SourceDateParser.

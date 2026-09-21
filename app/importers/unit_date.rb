@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class UnitDate
   def initialize(text, normal)
     @text = text

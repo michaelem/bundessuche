@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SearchHelper
   # Filters are part of the key so that two searches for the same query but
   # different date ranges do not share a cache entry.

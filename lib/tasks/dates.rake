@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 namespace :dates do
   desc 'Parse source_date_text into date ranges using a local LLM'
   task :parse, [:limit] => [:environment] do |_task, args|

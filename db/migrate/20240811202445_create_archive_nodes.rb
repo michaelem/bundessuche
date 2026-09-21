@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class CreateArchiveNodes < ActiveRecord::Migration[7.1]
   def change
     create_table :archive_nodes do |t|

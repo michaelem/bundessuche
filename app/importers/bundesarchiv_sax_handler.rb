@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   BATCH_SIZE = 1000
 
