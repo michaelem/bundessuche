@@ -20,10 +20,8 @@ module Ngrok
       response = Net::HTTP.get(URI('http://localhost:4040/api/tunnels'))
       JSON.parse(response)['tunnels']
     rescue Errno::ECONNREFUSED
-      Rails.logger.debug 'No Ngrok instance available on localhost:4040'
       []
     rescue JSON::ParserError
-      Rails.logger.debug 'Failed to parse reponse from Ngrok internal API.'
       []
     end
   end

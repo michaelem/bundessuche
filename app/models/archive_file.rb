@@ -227,7 +227,11 @@ class ArchiveFile < ApplicationRecord
     archive_files
   end
 
-  attr_writer :preloaded_parents
+  # Hands the chain a bulk preload already worked out straight to the memo that
+  # parents reads, so that a preloaded page never goes back to the tree.
+  def preloaded_parents=(parents)
+    @parents = parents
+  end
 
   # The archive nodes above this file, root first and including the node holding
   # it. This used to be a JSON column repeating the names on every row, which
