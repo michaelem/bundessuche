@@ -31,7 +31,7 @@ class ArchiveFile < ApplicationRecord
   # text if it could be parsed, otherwise the dates the importer read from the
   # XML. Both expect parsed_source_dates to be joined in.
   EFFECTIVE_SOURCE_DATE_START =
-    "COALESCE(parsed_source_dates.start_date, archive_files.source_date_start)"
+    'COALESCE(parsed_source_dates.start_date, archive_files.source_date_start)'
   EFFECTIVE_SOURCE_DATE_END = <<~SQL.squish
     CASE WHEN parsed_source_dates.start_date IS NOT NULL
       THEN COALESCE(parsed_source_dates.end_date, parsed_source_dates.start_date)
@@ -53,19 +53,19 @@ class ArchiveFile < ApplicationRecord
   # source_id and link are generated columns that rebuild the original text in
   # SQL, so everything that reads them, including find_by(source_id:), carries on
   # working and neither string is stored anywhere.
-  SOURCE_ID_PREFIX = "DE-1958_"
-  UUID_FORMAT = "\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}"
+  SOURCE_ID_PREFIX = 'DE-1958_'
+  UUID_FORMAT = '\\h{8}-\\h{4}-\\h{4}-\\h{4}-\\h{12}'
   SOURCE_ID_PATTERN = /\A#{Regexp.escape(SOURCE_ID_PREFIX)}(#{UUID_FORMAT})\z/
   LINK_TEMPLATES = [
-    "https://invenio.bundesarchiv.de/invenio/direktlink/%s/",
-    "https://invenio.bundesarchiv.de/basys2-invenio/direktlink/%s/"
+    'https://invenio.bundesarchiv.de/invenio/direktlink/%s/',
+    'https://invenio.bundesarchiv.de/basys2-invenio/direktlink/%s/'
   ].freeze
   LINK_PATTERNS =
     LINK_TEMPLATES
-      .map do |template|
-        prefix, suffix = template.split("%s")
-        /\A#{Regexp.escape(prefix)}(#{UUID_FORMAT})#{Regexp.escape(suffix)}\z/
-      end
+    .map do |template|
+      prefix, suffix = template.split('%s')
+      /\A#{Regexp.escape(prefix)}(#{UUID_FORMAT})#{Regexp.escape(suffix)}\z/
+    end
       .freeze
 
   # Matching runs over three trigram tables at once: the files themselves, the
@@ -107,17 +107,17 @@ class ArchiveFile < ApplicationRecord
   has_many :origins, through: :originations
 
   belongs_to :parsed_source_date,
-    foreign_key: :source_date_text,
-    primary_key: :source_text,
-    optional: true,
-    inverse_of: :archive_files
+             foreign_key: :source_date_text,
+             primary_key: :source_text,
+             optional: true,
+             inverse_of: :archive_files
 
   after_create :insert_trigram
   after_update :update_trigram
   after_destroy :delete_trigram
 
   scope :search,
-        ->(query) do
+        lambda { |query|
           search_query = SearchQuery.new(query)
           return none unless search_query.indexable?
 
@@ -126,13 +126,13 @@ class ArchiveFile < ApplicationRecord
             match: search_query.fts_match,
             glob: search_query.glob_pattern
           ).order(:call_number)
-        end
+        }
 
   # Keeps the archive files whose effective source date range overlaps the given
   # range. Both boundaries are optional; without either one nothing is filtered
   # out. Files without any date at all never match a filtered search.
   scope :source_dated_between,
-        ->(from, to) do
+        lambda { |from, to|
           next all if from.blank? && to.blank?
 
           scope =
@@ -140,16 +140,12 @@ class ArchiveFile < ApplicationRecord
               "#{EFFECTIVE_SOURCE_DATE_START} IS NOT NULL"
             )
 
-          if from.present?
-            scope = scope.where("#{EFFECTIVE_SOURCE_DATE_END} >= ?", from)
-          end
+          scope = scope.where("#{EFFECTIVE_SOURCE_DATE_END} >= ?", from) if from.present?
 
-          if to.present?
-            scope = scope.where("#{EFFECTIVE_SOURCE_DATE_START} <= ?", to)
-          end
+          scope = scope.where("#{EFFECTIVE_SOURCE_DATE_START} <= ?", to) if to.present?
 
           scope
-        end
+        }
 
   # The sixteen raw bytes behind "DE-1958_<uuid>".
   def self.pack_source_id(source_id)
@@ -159,7 +155,7 @@ class ArchiveFile < ApplicationRecord
             "archive file id #{source_id.inspect} is not #{SOURCE_ID_PREFIX}<uuid>"
     end
 
-    [match[1].delete("-")].pack("H*")
+    [match[1].delete('-')].pack('H*')
   end
 
   # Which template a link uses, or nil when the file has no link at all.
@@ -167,44 +163,42 @@ class ArchiveFile < ApplicationRecord
     return nil if link.blank?
 
     variant = LINK_PATTERNS.index { |pattern| pattern.match?(link) }
-    if variant.nil?
-      raise UnexpectedSourceFormat, "archive file link #{link.inspect} matches no known template"
-    end
+    raise UnexpectedSourceFormat, "archive file link #{link.inspect} matches no known template" if variant.nil?
 
     variant
   end
 
   def self.update_cached_all_count
-    count = self.all.count
-    CachedCount.find_or_create_by(model: self.name, scope: :all).update(
+    count = all.count
+    CachedCount.find_or_create_by(model: name, scope: :all).update(
       count: count
     )
   end
 
   def self.cached_all_count
-    CachedCount.find_by(model: self.name, scope: :all)&.count
+    CachedCount.find_by(model: name, scope: :all)&.count
   end
 
-  def self.reindex(show_progress=false)
+  def self.reindex(show_progress = false)
     if show_progress
       start = Time.now
 
       progress_bar = ProgressBar.create(
-        title: "Reindexing",
+        title: 'Reindexing',
         total: ArchiveFile.count,
-        format: "%t %p%% %a %e |%B|",
+        format: '%t %p%% %a %e |%B|',
         output: $stdout
       )
     end
 
-    connection.execute("DELETE FROM archive_file_trigrams")
+    connection.execute('DELETE FROM archive_file_trigrams')
 
-    self.find_in_batches do |group|
+    find_in_batches do |group|
       attrs_list = group.map(&:trigram_attributes)
-      columns = attrs_list.first.keys.join(", ")
-      values = attrs_list.map { |attrs|
-        "(#{attrs.values.map { |v| connection.quote(v) }.join(", ")})"
-      }.join(", ")
+      columns = attrs_list.first.keys.join(', ')
+      values = attrs_list.map do |attrs|
+        "(#{attrs.values.map { |v| connection.quote(v) }.join(', ')})"
+      end.join(', ')
       connection.execute("INSERT INTO archive_file_trigrams(#{columns}) VALUES #{values}")
       group.size.times { progress_bar.increment } if show_progress
     end
@@ -212,9 +206,9 @@ class ArchiveFile < ApplicationRecord
     ArchiveNode.reindex
     Origin.reindex
 
-    if show_progress
-      puts "Reindexing took #{Time.now - start} seconds"
-    end
+    return unless show_progress
+
+    puts "Reindexing took #{Time.now - start} seconds"
   end
 
   # Fills in the ancestor chains for a whole page of files with one query, so
@@ -244,8 +238,8 @@ class ArchiveFile < ApplicationRecord
   def source_uuid_text
     return nil if source_uuid.blank?
 
-    hex = source_uuid.unpack1("H*")
-    [hex[0, 8], hex[8, 4], hex[12, 4], hex[16, 4], hex[20, 12]].join("-")
+    hex = source_uuid.unpack1('H*')
+    [hex[0, 8], hex[8, 4], hex[12, 4], hex[16, 4], hex[20, 12]].join('-')
   end
 
   # SQLite fills these in for saved rows. A record that has not been written yet
@@ -277,13 +271,11 @@ class ArchiveFile < ApplicationRecord
   # carry spaces and slashes, which neither a file name nor a BibTeX citation
   # key can hold.
   def folded_call_number
-    call_number.to_s.gsub(/[^A-Za-z0-9]+/, "_").delete_prefix("_").delete_suffix("_")
+    call_number.to_s.gsub(/[^A-Za-z0-9]+/, '_').delete_prefix('_').delete_suffix('_')
   end
 
   def source_dates
-    if source_date_end.blank? || source_date_start == source_date_end
-      return [source_date_start.to_s]
-    end
+    return [source_date_start.to_s] if source_date_end.blank? || source_date_start == source_date_end
 
     [source_date_start.to_s, source_date_end.to_s]
   end
@@ -309,9 +301,7 @@ class ArchiveFile < ApplicationRecord
   def source_date_years
     return [] if source_date_start.blank? && source_date_end.blank?
 
-    if source_date_end.blank? || source_date_start.year == source_date_end.year
-      return [source_date_start.year.to_s]
-    end
+    return [source_date_start.year.to_s] if source_date_end.blank? || source_date_start.year == source_date_end.year
 
     [source_date_start.year.to_s, source_date_end.year.to_s]
   end
@@ -327,14 +317,14 @@ class ArchiveFile < ApplicationRecord
 
     values = trigram_attrs.values.map { |v| ArchiveFile.connection.quote(v) }
     sql_insert = <<~SQL.strip
-      INSERT INTO archive_file_trigrams(#{trigram_attrs.keys.join(", ")}) VALUES(#{values.join(", ")});
+      INSERT INTO archive_file_trigrams(#{trigram_attrs.keys.join(', ')}) VALUES(#{values.join(', ')});
     SQL
     self.class.connection.execute(sql_insert)
   end
 
   def delete_trigram
     delete_statement =
-      "DELETE FROM archive_file_trigrams WHERE rowid = #{attributes["id"]}"
+      "DELETE FROM archive_file_trigrams WHERE rowid = #{attributes['id']}"
     self.class.connection.execute(delete_statement)
   end
 

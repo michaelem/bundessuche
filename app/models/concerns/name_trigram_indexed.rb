@@ -38,7 +38,7 @@ module NameTrigramIndexed
 
   def delete_trigram
     self.class.connection.execute(
-      "DELETE FROM #{self.class.trigram_table} WHERE rowid = #{attributes["id"]}"
+      "DELETE FROM #{self.class.trigram_table} WHERE rowid = #{attributes['id']}"
     )
   end
 

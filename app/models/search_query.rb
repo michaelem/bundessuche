@@ -9,7 +9,7 @@
 # pattern then checks that those pieces really do appear in one column and in
 # the right order. The index only proposes; the pattern decides.
 class SearchQuery
-  WILDCARD = "*"
+  WILDCARD = '*'
 
   # The trigram index cannot answer anything shorter than a trigram: a phrase of
   # one or two characters silently matches no rows at all. Pieces that short are
@@ -18,7 +18,7 @@ class SearchQuery
 
   # The characters GLOB reads as syntax, which a character class turns back into
   # plain text.
-  GLOB_SPECIAL = ["*", "?", "["].freeze
+  GLOB_SPECIAL = ['*', '?', '['].freeze
 
   # The literal pieces of the query, in the order they have to appear. Repeated
   # and trailing wildcards add nothing, so the empty pieces around them are
@@ -44,7 +44,7 @@ class SearchQuery
   # pieces in the wrong order, or spread across two columns, and the GLOB
   # pattern is what throws those out again.
   def fts_match
-    indexable_segments.map { |segment| %("#{segment.gsub('"', '""')}") }.join(" AND ")
+    indexable_segments.map { |segment| %("#{segment.gsub('"', '""')}") }.join(' AND ')
   end
 
   # The pattern the candidates are held against. Wrapped in wildcards at both

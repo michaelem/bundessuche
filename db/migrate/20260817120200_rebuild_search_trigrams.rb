@@ -23,7 +23,7 @@ class RebuildSearchTrigrams < ActiveRecord::Migration[8.1]
   SQL
 
   def up
-    execute("DROP TABLE IF EXISTS archive_file_trigrams")
+    execute('DROP TABLE IF EXISTS archive_file_trigrams')
 
     execute(<<~SQL.squish)
       CREATE VIRTUAL TABLE archive_file_trigrams USING fts5(
@@ -48,14 +48,14 @@ class RebuildSearchTrigrams < ActiveRecord::Migration[8.1]
       INSERT INTO archive_file_trigrams(rowid, title, summary, call_number)
       SELECT id, title, summary, call_number FROM archive_files
     SQL
-    execute("INSERT INTO archive_node_trigrams(rowid, name) SELECT id, name FROM archive_nodes")
-    execute("INSERT INTO origin_trigrams(rowid, name) SELECT id, name FROM origins")
+    execute('INSERT INTO archive_node_trigrams(rowid, name) SELECT id, name FROM archive_nodes')
+    execute('INSERT INTO origin_trigrams(rowid, name) SELECT id, name FROM origins')
   end
 
   def down
-    execute("DROP TABLE IF EXISTS archive_file_trigrams")
-    execute("DROP TABLE IF EXISTS archive_node_trigrams")
-    execute("DROP TABLE IF EXISTS origin_trigrams")
+    execute('DROP TABLE IF EXISTS archive_file_trigrams')
+    execute('DROP TABLE IF EXISTS archive_node_trigrams')
+    execute('DROP TABLE IF EXISTS origin_trigrams')
 
     execute(OLD_TRIGRAMS)
     execute(<<~SQL.squish)

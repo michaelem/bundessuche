@@ -10,19 +10,19 @@
 namespace :db do
   namespace :structure do
     task :drop_fts_shadow_tables do
-      path = Rails.root.join("db/structure.sql")
+      path = Rails.root.join('db/structure.sql')
       next unless File.exist?(path)
 
       shadow_table =
         /^CREATE TABLE (?:IF NOT EXISTS )?'[a-z_]+_trigrams_(?:data|idx|docsize|config|content)'[^\n]*\n/
 
       original = File.read(path)
-      cleaned = original.gsub(shadow_table, "")
+      cleaned = original.gsub(shadow_table, '')
       File.write(path, cleaned) unless cleaned == original
     end
   end
 end
 
-Rake::Task["db:schema:dump"].enhance do
-  Rake::Task["db:structure:drop_fts_shadow_tables"].invoke
+Rake::Task['db:schema:dump'].enhance do
+  Rake::Task['db:structure:drop_fts_shadow_tables'].invoke
 end

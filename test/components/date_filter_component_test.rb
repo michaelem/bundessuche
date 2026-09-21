@@ -1,8 +1,8 @@
-require "test_helper"
+require 'test_helper'
 
 class DateFilterComponentTest < ViewComponent::TestCase
   def test_render_names_every_field_after_its_half_of_the_filter
-    render_inline(component(prefix: "from"))
+    render_inline(component(prefix: 'from'))
 
     assert_selector "input#from_day[name='from_day']"
     assert_selector "input#from_month[name='from_month']"
@@ -28,20 +28,20 @@ class DateFilterComponentTest < ViewComponent::TestCase
   def test_render_separates_the_parts_but_does_not_lead_with_a_separator
     render_inline(component)
 
-    assert_selector ".search__date-separator", count: 2
+    assert_selector '.search__date-separator', count: 2
   end
 
   def test_render_labels_every_part_for_a_screen_reader
     render_inline(component)
 
-    assert_selector "label.visually-hidden[for='to_day']", text: "Tag"
+    assert_selector "label.visually-hidden[for='to_day']", text: 'Tag'
     assert_selector "input#to_day[title='Tag als Zahl von 1 bis 31']"
     assert_selector "input#to_day[placeholder='TT']"
   end
 
   private
 
-  def component(prefix: "to", legend: "To:", parts: {})
+  def component(prefix: 'to', legend: 'To:', parts: {})
     DateFilterComponent.new(prefix: prefix, legend: legend, parts: parts)
   end
 end

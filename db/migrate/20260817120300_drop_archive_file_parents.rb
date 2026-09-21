@@ -11,7 +11,7 @@ class DropArchiveFileParents < ActiveRecord::Migration[8.1]
   def up
     # The check constraint mentions the column, so SQLite refuses to drop the
     # column while it is still in place.
-    remove_check_constraint :archive_files, name: "parents_is_array"
+    remove_check_constraint :archive_files, name: 'parents_is_array'
     remove_column :archive_files, :parents
   end
 
@@ -44,6 +44,6 @@ class DropArchiveFileParents < ActiveRecord::Migration[8.1]
 
     add_check_constraint :archive_files,
                          "JSON_TYPE(parents) = 'array'",
-                         name: "parents_is_array"
+                         name: 'parents_is_array'
   end
 end

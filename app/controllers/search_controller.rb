@@ -14,26 +14,26 @@ class SearchController < ApplicationController
 
     @archive_files =
       ArchiveFile
-        .search(@query)
-        .preload(:parsed_source_date)
-        .source_dated_between(
-          ParsedSourceDate.start_boundary(@from_value),
-          ParsedSourceDate.end_boundary(@to_value)
-        )
-        .page(params[:page])
-        .per(500)
+      .search(@query)
+      .preload(:parsed_source_date)
+      .source_dated_between(
+        ParsedSourceDate.start_boundary(@from_value),
+        ParsedSourceDate.end_boundary(@to_value)
+      )
+      .page(params[:page])
+      .per(500)
 
     @pagination_cache =
       Rails
-        .cache
-        .fetch(
-          "controllers/search/pagination_cache_#{helpers.query_cache_key @query, @from_value, @to_value}"
-        ) do
-          {
-            total_count: @archive_files.total_count,
-            total_pages: @archive_files.total_pages
-          }
-        end
+      .cache
+      .fetch(
+        "controllers/search/pagination_cache_#{helpers.query_cache_key @query, @from_value, @to_value}"
+      ) do
+        {
+          total_count: @archive_files.total_count,
+          total_pages: @archive_files.total_pages
+        }
+      end
   end
 
   private

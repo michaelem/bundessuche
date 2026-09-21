@@ -52,19 +52,18 @@ class ArchiveNode < ApplicationRecord
         )
       )
 
-    nodes = where(id: rows.map { |row| row["id"] }.uniq).index_by(&:id)
+    nodes = where(id: rows.map { |row| row['id'] }.uniq).index_by(&:id)
 
     rows
-      .group_by { |row| row["start_id"] }
+      .group_by { |row| row['start_id'] }
       .transform_values do |group|
         # Deepest last: depth counts upwards from the node, so reversing it puts
         # the root in front.
-        group.sort_by { |row| -row["depth"] }.filter_map { |row| nodes[row["id"]] }
+        group.sort_by { |row| -row['depth'] }.filter_map { |row| nodes[row['id']] }
       end
   end
 
   def parents
     self.class.ancestor_chains(id).fetch(id, [])
   end
-
 end

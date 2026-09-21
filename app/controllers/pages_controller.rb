@@ -1,7 +1,5 @@
 class PagesController < ApplicationController
-  def about
-  end
+  def about; end
 
-  def imprint
-  end
+  def imprint; end
 end

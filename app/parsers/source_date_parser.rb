@@ -3,13 +3,15 @@
 #
 # Stateless and free of database access, so it can be unit tested with a stubbed chat.
 class SourceDateParser
-  DEFAULT_MODEL = "gemma4:26b-mxfp8"
-  KEEP_ALIVE = "30m"
+  DEFAULT_MODEL = 'gemma4:26b-mxfp8'
+  KEEP_ALIVE = '30m'
 
   class Schema < RubyLLM::Schema
-    string :start_date, description: "First day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date."
-    string :end_date, description: "Last day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date."
-    number :confidence, description: "Confidence in the extracted range, between 0.0 and 1.0."
+    string :start_date,
+           description: 'First day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date.'
+    string :end_date,
+           description: 'Last day covered by the caption, as YYYY-MM-DD. Empty string if the caption names no date.'
+    number :confidence, description: 'Confidence in the extracted range, between 0.0 and 1.0.'
   end
 
   # Not every Ollama model honours the JSON schema (gemma4:26b-mxfp8 ignores it and answers
@@ -57,7 +59,7 @@ class SourceDateParser
     {"start_date": "", "end_date": "", "confidence": 0.0}
   PROMPT
 
-  def initialize(model: ENV.fetch("OLLAMA_MODEL", DEFAULT_MODEL))
+  def initialize(model: ENV.fetch('OLLAMA_MODEL', DEFAULT_MODEL))
     @model = model
   end
 
@@ -98,7 +100,7 @@ class SourceDateParser
     dates = text.scan(/\d{4}-\d{2}-\d{2}/)
     return {} if dates.empty?
 
-    {"start_date" => dates.first, "end_date" => dates.last, "confidence" => text.scan(/\d*\.\d+/).last&.to_f}
+    { 'start_date' => dates.first, 'end_date' => dates.last, 'confidence' => text.scan(/\d*\.\d+/).last&.to_f }
   end
 
   # reasoning_effort "none" turns the model's thinking off, which is where nearly all of the
@@ -111,12 +113,12 @@ class SourceDateParser
       .with_temperature(0)
       .with_instructions(SYSTEM_PROMPT)
       .with_schema(Schema)
-      .with_params(reasoning_effort: "none", keep_alive: KEEP_ALIVE)
+      .with_params(reasoning_effort: 'none', keep_alive: KEEP_ALIVE)
   end
 
   def normalize(result)
-    start_date = parse_iso8601_string(result["start_date"])
-    end_date = parse_iso8601_string(result["end_date"])
+    start_date = parse_iso8601_string(result['start_date'])
+    end_date = parse_iso8601_string(result['end_date'])
     start_date, end_date = end_date, start_date if start_date && end_date && start_date > end_date
 
     if start_date.nil?
@@ -127,7 +129,7 @@ class SourceDateParser
     {
       start_date: start_date,
       end_date: start_date && (end_date || start_date),
-      confidence: clamp_confidence(result["confidence"], start_date)
+      confidence: clamp_confidence(result['confidence'], start_date)
     }
   end
 

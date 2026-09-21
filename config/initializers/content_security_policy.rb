@@ -12,7 +12,7 @@ Rails.application.configure do
     policy.object_src  :none
     # The TelemetryDeck SDK is the only script served from another host. Its
     # beacons go to a different host and fall back to default_src.
-    policy.script_src  :self, "https://cdn.telemetrydeck.com"
+    policy.script_src  :self, 'https://cdn.telemetrydeck.com'
     policy.style_src   :self
     # Specify URI for violation reports
     # policy.report_uri "/csp-violation-report-endpoint"
@@ -21,8 +21,8 @@ Rails.application.configure do
   # Generate nonces for permitted importmap, inline scripts, and inline styles.
   # Rails' default derives the nonce from the session id, but this app never
   # writes to the session, so that would emit an empty and unusable nonce.
-  config.content_security_policy_nonce_generator = ->(request) { SecureRandom.base64(16) }
-  config.content_security_policy_nonce_directives = %w(script-src style-src)
+  config.content_security_policy_nonce_generator = ->(_request) { SecureRandom.base64(16) }
+  config.content_security_policy_nonce_directives = %w[script-src style-src]
 
   # Automatically add `nonce` to `javascript_tag`, `javascript_include_tag`, and `stylesheet_link_tag`
   # if the corresponding directives are specified in `content_security_policy_nonce_directives`.

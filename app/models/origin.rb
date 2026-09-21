@@ -16,7 +16,7 @@
 class Origin < ApplicationRecord
   include NameTrigramIndexed
 
-  enum :label, ["pre", "final", "organisational unit"]
+  enum :label, ['pre', 'final', 'organisational unit']
 
   has_many :originations
   has_many :archive_files, through: :originations

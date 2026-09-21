@@ -18,32 +18,32 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
 
   attr_reader :total_count
 
-  def start_element_namespace(name, attrs = [], prefix = nil, uri = nil, ns = [])
+  def start_element_namespace(name, attrs = [], _prefix = nil, _uri = nil, _ns = [])
     attrs_hash = attrs.to_h { |a| [a.localname, a.value] }
     @element_stack.push([name, attrs_hash])
     @text_stack.push(String.new)
     return if @skip
 
     case name
-    when "archdesc"
-      @skip = attrs_hash["type"] != "inventory"
-    when "c"
+    when 'archdesc'
+      @skip = attrs_hash['type'] != 'inventory'
+    when 'c'
       start_c(attrs_hash)
-    when "origination"
-      @current_origination_label = attrs_hash["label"] if in_file?
-    when "unitdate"
-      @current_unitdate_normal = attrs_hash["normal"] if in_file?
-    when "unitid"
-      @current_unitid_type = attrs_hash["type"] if in_file?
-    when "scopecontent"
-      @in_summary_scopecontent = attrs_hash["encodinganalog"] == "summary"
-    when "language"
-      @current_file[:language_code] = attrs_hash["langcode"] if in_file? &&
-        parent_element == "langmaterial"
-    when "extref"
-      if in_file? && parent_element == "p" &&
-           grandparent_element == "otherfindaid"
-        @current_file[:link_variant] = ArchiveFile.link_variant_for(attrs_hash["href"])
+    when 'origination'
+      @current_origination_label = attrs_hash['label'] if in_file?
+    when 'unitdate'
+      @current_unitdate_normal = attrs_hash['normal'] if in_file?
+    when 'unitid'
+      @current_unitid_type = attrs_hash['type'] if in_file?
+    when 'scopecontent'
+      @in_summary_scopecontent = attrs_hash['encodinganalog'] == 'summary'
+    when 'language'
+      @current_file[:language_code] = attrs_hash['langcode'] if in_file? &&
+                                                                parent_element == 'langmaterial'
+    when 'extref'
+      if in_file? && parent_element == 'p' &&
+         grandparent_element == 'otherfindaid'
+        @current_file[:link_variant] = ArchiveFile.link_variant_for(attrs_hash['href'])
       end
     end
   end
@@ -52,38 +52,40 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
     @text_stack.last&.concat(string) unless @skip
   end
 
-  def end_element_namespace(name, prefix = nil, uri = nil)
+  def end_element_namespace(name, _prefix = nil, _uri = nil)
     if @skip
       @element_stack.pop
       @text_stack.pop
-      @skip = false if name == "archdesc"
+      @skip = false if name == 'archdesc'
       return
     end
 
-    text = @text_stack.pop || ""
+    text = @text_stack.pop || ''
     @text_stack.last&.concat(text)
 
     case name
-    when "archdesc"
+    when 'archdesc'
       flush_batch
-    when "c"
+    when 'c'
       end_c
-    when "did"
-      ensure_node_record if parent_element == "c" && !in_file?
-    when "unittitle"
+    when 'did'
+      ensure_node_record if parent_element == 'c' && !in_file?
+    when 'unittitle'
       end_unittitle(text) if in_did?
-    when "unitid"
+    when 'unitid'
       end_unitid(text) if in_file? && in_did?
-    when "unitdate"
+    when 'unitdate'
       end_unitdate(text) if in_file? && in_did?
-    when "origination"
+    when 'origination'
       end_origination(text) if in_file? && in_did?
-    when "physloc"
+    when 'physloc'
       @current_file[:archive_location_id] = archive_location_id(text) if in_file? && in_did?
-    when "p"
-      @current_file[:summary] = (@current_file[:summary] || "") +
-        text if in_file? && @in_summary_scopecontent
-    when "scopecontent"
+    when 'p'
+      if in_file? && @in_summary_scopecontent
+        @current_file[:summary] = (@current_file[:summary] || '') +
+                                  text
+      end
+    when 'scopecontent'
       @in_summary_scopecontent = false
     end
 
@@ -107,7 +109,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   end
 
   def in_did?
-    parent_element == "did"
+    parent_element == 'did'
   end
 
   def parent_element
@@ -119,9 +121,9 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   end
 
   def start_c(attrs_hash)
-    level = attrs_hash["level"]
-    source_id = attrs_hash["id"]
-    if level == "file"
+    level = attrs_hash['level']
+    source_id = attrs_hash['id']
+    if level == 'file'
       @current_file = new_file_entry(source_id, @node_stack.last&.dig(:record))
     else
       @node_stack.push({ source_id: source_id, level: level, record: nil })
@@ -170,10 +172,12 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   end
 
   def end_unitid(text)
-    @current_file[:call_number] = text.sub(
-      /\ABArch /,
-      ""
-    ) if @current_unitid_type == "call number"
+    if @current_unitid_type == 'call number'
+      @current_file[:call_number] = text.sub(
+        /\ABArch /,
+        ''
+      )
+    end
     @current_unitid_type = nil
   end
 
@@ -199,8 +203,9 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
   def ensure_node_record
     pending = @node_stack.last
     return unless pending && pending[:record].nil?
+
     pending[:record] = ArchiveNode.find_or_create_by(
-      name: "",
+      name: '',
       source_id: pending[:source_id],
       level: pending[:level],
       parent_node: @node_stack[-2]&.dig(:record)
@@ -209,6 +214,7 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
 
   def flush_batch
     return if @batch.empty?
+
     ActiveRecord::Base.transaction do
       archive_files =
         ArchiveFile.upsert_all(
@@ -218,12 +224,12 @@ class BundesarchivSaxHandler < Nokogiri::XML::SAX::Document
         )
       origination_data =
         @batch
-          .zip(archive_files)
-          .flat_map do |d, r|
-            d[:origins].map do |o|
-              { archive_file_id: r["id"], origin_id: o.id }
-            end
+        .zip(archive_files)
+        .flat_map do |d, r|
+          d[:origins].map do |o|
+            { archive_file_id: r['id'], origin_id: o.id }
           end
+        end
       if origination_data.any?
         Origination.upsert_all(
           origination_data,

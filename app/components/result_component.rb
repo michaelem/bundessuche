@@ -1,9 +1,9 @@
 class ResultComponent < ViewComponent::Base
   # The citation formats offered on every result, in tab order, mapped to the
   # label the reader sees. The keys double as the request format.
-  CITE_FORMATS = { ris: "RIS", bib: "BibTeX" }.freeze
+  CITE_FORMATS = { ris: 'RIS', bib: 'BibTeX' }.freeze
 
-  def initialize(archive_file:, query: "")
+  def initialize(archive_file:, query: '')
     @query = query
     @archive_file = archive_file
   end
@@ -12,7 +12,7 @@ class ResultComponent < ViewComponent::Base
     @parents ||=
       @archive_file.parents.map do |parent|
         text = highlight_query(CGI.escapeHTML(parent.name.to_s.strip))
-        text = link_to text, archive_node_path(parent), class: "parents__item__link"
+        text = link_to text, archive_node_path(parent), class: 'parents__item__link'
 
         "<div class=\"parents__item\">#{text}</div>"
       end.join '<div class="parents__separator">/</div>'
@@ -27,7 +27,7 @@ class ResultComponent < ViewComponent::Base
   def date
     return @archive_file.source_date_text if @archive_file.source_date_text.present?
 
-    @archive_file.source_date_years.join("-")
+    @archive_file.source_date_years.join('-')
   end
 
   # The dates behind the date text, shown when the reader unfolds it. Nil when
@@ -79,7 +79,7 @@ class ResultComponent < ViewComponent::Base
   end
 
   def format_date(date)
-    date.strftime("%d.%m.%Y")
+    date.strftime('%d.%m.%Y')
   end
 
   # Every literal piece of the query is marked up on its own, since a wildcard
@@ -93,7 +93,7 @@ class ResultComponent < ViewComponent::Base
     # Joined as a source string rather than with Regexp.union, whose result
     # carries its own flags and would swallow the case insensitivity below.
     pattern =
-      segments.map { |segment| Regexp.escape(CGI.escapeHTML(segment)) }.join("|")
+      segments.map { |segment| Regexp.escape(CGI.escapeHTML(segment)) }.join('|')
 
     text.gsub(
       /(#{pattern})/i,

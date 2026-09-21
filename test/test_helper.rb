@@ -1,11 +1,11 @@
 # Started before anything else is required, so that the application code is
 # loaded with coverage already tracking it.
-require "simplecov"
-SimpleCov.start "rails"
+require 'simplecov'
+SimpleCov.start 'rails'
 
-ENV["RAILS_ENV"] ||= "test"
-require_relative "../config/environment"
-require "rails/test_help"
+ENV['RAILS_ENV'] ||= 'test'
+require_relative '../config/environment'
+require 'rails/test_help'
 require 'minitest/mock'
 
 module ActiveSupport

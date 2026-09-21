@@ -2,7 +2,7 @@ class UnitDate
   def initialize(text, normal)
     @text = text
     @normal = normal
-    @start_string, @end_string = @normal&.split("/")
+    @start_string, @end_string = @normal&.split('/')
     @start_date = parse_iso8601_string(@start_string)
     @end_date = parse_iso8601_string(@end_string)
   end
@@ -23,9 +23,9 @@ class UnitDate
     return nil unless date_string.present?
 
     begin
-      return Date.iso8601(date_string)
+      Date.iso8601(date_string)
     rescue Date::Error
-      return nil
+      nil
     end
   end
 end

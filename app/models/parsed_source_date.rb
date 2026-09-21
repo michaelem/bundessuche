@@ -18,9 +18,9 @@
 #
 class ParsedSourceDate < ApplicationRecord
   has_many :archive_files,
-    foreign_key: :source_date_text,
-    primary_key: :source_text,
-    inverse_of: :parsed_source_date
+           foreign_key: :source_date_text,
+           primary_key: :source_text,
+           inverse_of: :parsed_source_date
 
   validates :source_text, presence: true, uniqueness: true
 
@@ -38,11 +38,11 @@ class ParsedSourceDate < ApplicationRecord
   # day stands for the whole month and a blank year for no filter at all.
   def self.compose(year: nil, month: nil, day: nil)
     year, month, day = [year, month, day].map { |part| part.to_s.strip }
-    return "" if year.blank?
+    return '' if year.blank?
     return year if month.blank?
-    return format("%s-%02d", year, month.to_i) if day.blank?
+    return format('%s-%02d', year, month.to_i) if day.blank?
 
-    format("%s-%02d-%02d", year, month.to_i, day.to_i)
+    format('%s-%02d-%02d', year, month.to_i, day.to_i)
   end
 
   # Accepts a date of any precision and returns the earliest date it can stand

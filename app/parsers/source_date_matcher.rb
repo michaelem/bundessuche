@@ -7,21 +7,21 @@
 # judgement call, and that is what the LLM is for.
 class SourceDateMatcher
   MONTHS = {
-    "januar" => 1, "jan" => 1,
-    "februar" => 2, "febr" => 2, "feb" => 2,
-    "märz" => 3, "marz" => 3, "maerz" => 3, "mrz" => 3, "mär" => 3,
-    "april" => 4, "apr" => 4,
-    "mai" => 5,
-    "juni" => 6, "jun" => 6,
-    "juli" => 7, "jul" => 7,
-    "august" => 8, "aug" => 8,
-    "september" => 9, "sept" => 9, "sep" => 9,
-    "oktober" => 10, "okt" => 10,
-    "november" => 11, "nov" => 11,
-    "dezember" => 12, "dez" => 12
+    'januar' => 1, 'jan' => 1,
+    'februar' => 2, 'febr' => 2, 'feb' => 2,
+    'märz' => 3, 'marz' => 3, 'maerz' => 3, 'mrz' => 3, 'mär' => 3,
+    'april' => 4, 'apr' => 4,
+    'mai' => 5,
+    'juni' => 6, 'jun' => 6,
+    'juli' => 7, 'jul' => 7,
+    'august' => 8, 'aug' => 8,
+    'september' => 9, 'sept' => 9, 'sep' => 9,
+    'oktober' => 10, 'okt' => 10,
+    'november' => 11, 'nov' => 11,
+    'dezember' => 12, 'dez' => 12
   }.freeze
 
-  MONTH = /(#{MONTHS.keys.sort_by { |name| -name.length }.join("|")})\.?/i
+  MONTH = /(#{MONTHS.keys.sort_by { |name| -name.length }.join('|')})\.?/i
   YEAR = /(1\d{3}|20\d{2})/
   DAY = /(\d{1,2})\.\s?/
   DASH = /\s*-{1,2}\s*/
@@ -37,7 +37,7 @@ class SourceDateMatcher
   BRACKETED_CONFIDENCE = 0.9
 
   def call(text)
-    caption = text.to_s.strip.gsub(/\s+/, " ")
+    caption = text.to_s.strip.gsub(/\s+/, ' ')
     bracketed = caption.match?(/\A\[.*\]\z/)
     caption = caption[1..-2].strip if bracketed
 
@@ -54,28 +54,33 @@ class SourceDateMatcher
   def match(caption)
     case caption
     when /\A#{YEAR}\z/o # 1948
-      year_range($1, $1)
+      year_range(::Regexp.last_match(1), ::Regexp.last_match(1))
     when /\A#{YEAR}#{DASH}#{YEAR}\z/o # 1946-1958
-      year_range($1, $2)
+      year_range(::Regexp.last_match(1), ::Regexp.last_match(2))
     when /\A#{DAY}#{MONTH}\s*#{YEAR}\z/o # 28. Mai 1948
-      day($3, MONTHS[month_key($2)], $1)
+      day(::Regexp.last_match(3), MONTHS[month_key(::Regexp.last_match(2))], ::Regexp.last_match(1))
     when /\A(\d{1,2})\.\s?(\d{1,2})\.\s?#{YEAR}\z/o # 1. 1. 1920
-      day($3, $2, $1)
+      day(::Regexp.last_match(3), ::Regexp.last_match(2), ::Regexp.last_match(1))
     when /\A#{MONTH}\s*#{YEAR}\z/o # Nov. 1949
-      month_range($2, MONTHS[month_key($1)], $2, MONTHS[month_key($1)])
+      month_range(::Regexp.last_match(2), MONTHS[month_key(::Regexp.last_match(1))], ::Regexp.last_match(2),
+                  MONTHS[month_key(::Regexp.last_match(1))])
     when /\A#{MONTH}#{DASH}#{MONTH}\s*#{YEAR}\z/o # Febr.-März 1948
-      month_range($3, MONTHS[month_key($1)], $3, MONTHS[month_key($2)])
+      month_range(::Regexp.last_match(3), MONTHS[month_key(::Regexp.last_match(1))], ::Regexp.last_match(3),
+                  MONTHS[month_key(::Regexp.last_match(2))])
     when /\A#{MONTH}\s*#{YEAR}#{DASH}#{MONTH}\s*#{YEAR}\z/o # Jan. 1950 - Juni 1950
-      month_range($2, MONTHS[month_key($1)], $4, MONTHS[month_key($3)])
+      month_range(::Regexp.last_match(2), MONTHS[month_key(::Regexp.last_match(1))], ::Regexp.last_match(4),
+                  MONTHS[month_key(::Regexp.last_match(3))])
     when /\A#{DAY}#{MONTH}#{DASH}#{DAY}#{MONTH}\s*#{YEAR}\z/o # 1. Jan. - 30. Juni 1943
-      day_range($5, MONTHS[month_key($2)], $1, $5, MONTHS[month_key($4)], $3)
+      day_range(::Regexp.last_match(5), MONTHS[month_key(::Regexp.last_match(2))], ::Regexp.last_match(1),
+                ::Regexp.last_match(5), MONTHS[month_key(::Regexp.last_match(4))], ::Regexp.last_match(3))
     when /\A#{DAY}#{MONTH}\s*#{YEAR}#{DASH}#{DAY}#{MONTH}\s*#{YEAR}\z/o # 1. Jan. 1943 - 30. Juni 1944
-      day_range($3, MONTHS[month_key($2)], $1, $6, MONTHS[month_key($5)], $4)
+      day_range(::Regexp.last_match(3), MONTHS[month_key(::Regexp.last_match(2))], ::Regexp.last_match(1),
+                ::Regexp.last_match(6), MONTHS[month_key(::Regexp.last_match(5))], ::Regexp.last_match(4))
     end
   end
 
   def month_key(name)
-    name.downcase.delete_suffix(".")
+    name.downcase.delete_suffix('.')
   end
 
   def year_range(start_year, end_year)

@@ -13,10 +13,10 @@ Rails.application.configure do
   # this is usually not necessary, and can slow down your test suite. However, it's
   # recommended that you enable it in continuous integration systems to ensure eager
   # loading is working properly before deploying your code.
-  config.eager_load = ENV["CI"].present?
+  config.eager_load = ENV['CI'].present?
 
   # Configure public file server for tests with cache-control for performance.
-  config.public_file_server.headers = { "cache-control" => "public, max-age=3600" }
+  config.public_file_server.headers = { 'cache-control' => 'public, max-age=3600' }
 
   # Show full error reports.
   config.consider_all_requests_local = true
@@ -24,7 +24,7 @@ Rails.application.configure do
 
   # Tests cache nothing, so the salt only has to exist. Reading it from the
   # credentials would tie the suite to the master key, which CI has not got.
-  config.cache_key_salt = "test"
+  config.cache_key_salt = 'test'
 
   # Render exception templates for rescuable exceptions and raise for other exceptions.
   config.action_dispatch.show_exceptions = :rescuable

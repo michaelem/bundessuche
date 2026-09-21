@@ -17,8 +17,8 @@ class StoreSourceUuidAndLinkVariant < ActiveRecord::Migration[8.1]
     substr(lower(hex(source_uuid)), 21, 12)
   SQL
 
-  INVENIO_LINK = "https://invenio.bundesarchiv.de/invenio/direktlink/"
-  BASYS2_LINK = "https://invenio.bundesarchiv.de/basys2-invenio/direktlink/"
+  INVENIO_LINK = 'https://invenio.bundesarchiv.de/invenio/direktlink/'
+  BASYS2_LINK = 'https://invenio.bundesarchiv.de/basys2-invenio/direktlink/'
 
   def up
     add_column :archive_files, :source_uuid, :binary
@@ -42,9 +42,7 @@ class StoreSourceUuidAndLinkVariant < ActiveRecord::Migration[8.1]
         WHERE source_uuid IS NULL OR length(source_uuid) <> 16
            OR (link IS NOT NULL AND link_variant IS NULL)
       SQL
-    if unconvertible.to_i > 0
-      raise "#{unconvertible} archive files do not match the expected id or link format"
-    end
+    raise "#{unconvertible} archive files do not match the expected id or link format" if unconvertible.to_i > 0
 
     remove_index :archive_files, :source_id
     remove_column :archive_files, :source_id
@@ -69,8 +67,8 @@ class StoreSourceUuidAndLinkVariant < ActiveRecord::Migration[8.1]
 
   def down
     remove_index :archive_files, :source_uuid
-    execute("ALTER TABLE archive_files DROP COLUMN source_id")
-    execute("ALTER TABLE archive_files DROP COLUMN link")
+    execute('ALTER TABLE archive_files DROP COLUMN source_id')
+    execute('ALTER TABLE archive_files DROP COLUMN link')
 
     add_column :archive_files, :source_id, :string
     add_column :archive_files, :link, :string

@@ -1,6 +1,6 @@
 class BundesarchivImporter
   def initialize(dir)
-    @dir = dir || "data"
+    @dir = dir || 'data'
   end
 
   def run(show_progress: false)
@@ -9,14 +9,14 @@ class BundesarchivImporter
     archive_file_count = 0
     origins_cache = {}
 
-    xml_files = Dir.glob("*.xml", base: @dir).sort
+    xml_files = Dir.glob('*.xml', base: @dir).sort
     total = xml_files.count
     if show_progress
       progress_bar =
         ProgressBar.create(
-          title: "Importing",
+          title: 'Importing',
           total: total,
-          format: "%t %p%% %a %e |%B|"
+          format: '%t %p%% %a %e |%B|'
         )
     end
 
@@ -33,8 +33,8 @@ class BundesarchivImporter
 
     ArchiveFile.update_cached_all_count
 
-    if show_progress
-      puts "Finished. Imported #{archive_file_count} archive files in #{Time.now - start} seconds."
-    end
+    return unless show_progress
+
+    puts "Finished. Imported #{archive_file_count} archive files in #{Time.now - start} seconds."
   end
 end

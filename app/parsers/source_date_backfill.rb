@@ -18,9 +18,9 @@ class SourceDateBackfill
       start = Time.now
 
       progress_bar = ProgressBar.create(
-        title: "Parsing dates",
+        title: 'Parsing dates',
         total: texts.size,
-        format: "%t %p%% %a %e |%B|",
+        format: '%t %p%% %a %e |%B|',
         output: $stdout
       )
     end
@@ -56,10 +56,10 @@ class SourceDateBackfill
     known = ParsedSourceDate.pluck(:source_text).to_set
 
     texts = ArchiveFile
-      .where.not(source_date_text: [nil, ""])
-      .group(:source_date_text)
-      .order(Arel.sql("COUNT(*) DESC"))
-      .pluck(:source_date_text)
+            .where.not(source_date_text: [nil, ''])
+            .group(:source_date_text)
+            .order(Arel.sql('COUNT(*) DESC'))
+            .pluck(:source_date_text)
 
     texts = texts.reject { |text| known.include?(text) }
     limit ? texts.first(limit) : texts

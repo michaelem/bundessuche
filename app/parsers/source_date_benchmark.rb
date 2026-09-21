@@ -13,22 +13,22 @@ class SourceDateBenchmark
   # Real captions from the corpus, with the answer SourceDateParser::SYSTEM_PROMPT asks for.
   # Captions used as examples in the prompt are left out: they would measure copying.
   HEDGED = {
-    "ca. 1944" => ["1944-01-01", "1944-12-31"],
-    "ca. 1939-1945" => ["1939-01-01", "1945-12-31"],
-    "ca. 1936-1938" => ["1936-01-01", "1938-12-31"],
-    "ca. 1900-1945" => ["1900-01-01", "1945-12-31"],
-    "um 1900" => ["1900-01-01", "1900-12-31"],
-    "1942, 1944" => ["1942-01-01", "1944-12-31"],
-    "1939, 1941" => ["1939-01-01", "1941-12-31"],
-    "1940/1941" => ["1940-01-01", "1941-12-31"],
-    "1943/1944" => ["1943-01-01", "1944-12-31"],
-    "1. - 31. Dez. 1943" => ["1943-12-01", "1943-12-31"],
-    "1. - 30. Juni 1943" => ["1943-06-01", "1943-06-30"],
-    "1946 - [vor 1958]" => ["1946-01-01", "1957-12-31"],
-    "1948 (Abschrift)" => ["1948-01-01", "1948-12-31"],
-    "1. Hälfte 1944" => ["1944-01-01", "1944-06-30"],
-    "ohne Datum; 19. Jahrh." => ["1801-01-01", "1900-12-31"], # no day, but the century counts
-    "Bd. 1" => [nil, nil]
+    'ca. 1944' => %w[1944-01-01 1944-12-31],
+    'ca. 1939-1945' => %w[1939-01-01 1945-12-31],
+    'ca. 1936-1938' => %w[1936-01-01 1938-12-31],
+    'ca. 1900-1945' => %w[1900-01-01 1945-12-31],
+    'um 1900' => %w[1900-01-01 1900-12-31],
+    '1942, 1944' => %w[1942-01-01 1944-12-31],
+    '1939, 1941' => %w[1939-01-01 1941-12-31],
+    '1940/1941' => %w[1940-01-01 1941-12-31],
+    '1943/1944' => %w[1943-01-01 1944-12-31],
+    '1. - 31. Dez. 1943' => %w[1943-12-01 1943-12-31],
+    '1. - 30. Juni 1943' => %w[1943-06-01 1943-06-30],
+    '1946 - [vor 1958]' => %w[1946-01-01 1957-12-31],
+    '1948 (Abschrift)' => %w[1948-01-01 1948-12-31],
+    '1. Hälfte 1944' => %w[1944-01-01 1944-06-30],
+    'ohne Datum; 19. Jahrh.' => %w[1801-01-01 1900-12-31], # no day, but the century counts
+    'Bd. 1' => [nil, nil]
   }.transform_values { |dates| dates.map { |date| date && Date.iso8601(date) } }.freeze
 
   # Captions the matcher reads, drawn from the corpus with a fixed seed so every model sees
@@ -37,15 +37,15 @@ class SourceDateBenchmark
   # through the matcher - running all 250k of them takes about a minute and buys nothing.
   def self.matched_captions(size:, seed: 42, matcher: SourceDateMatcher.new)
     ArchiveFile
-      .where.not(source_date_text: [nil, ""])
+      .where.not(source_date_text: [nil, ''])
       .distinct
       .pluck(:source_date_text)
       .shuffle(random: Random.new(seed))
       .lazy
-      .filter_map { |text|
+      .filter_map do |text|
         attributes = matcher.call(text)
         [text, [attributes[:start_date], attributes[:end_date]]] if attributes
-      }
+      end
       .first(size)
       .to_h
   end
@@ -69,19 +69,19 @@ class SourceDateBenchmark
       begin
         result = parser.call(caption)
       rescue StandardError => e
-        result = {start_date: nil, end_date: nil, raw_response: "#{e.class}: #{e.message}"}
+        result = { start_date: nil, end_date: nil, raw_response: "#{e.class}: #{e.message}" }
       end
 
       seconds = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started_at
       correct = result[:start_date] == start_date && result[:end_date] == end_date
-      print(correct ? "." : "x") if show_progress
+      print(correct ? '.' : 'x') if show_progress
 
       {
         caption: caption,
         expected: [start_date, end_date],
         actual: [result[:start_date], result[:end_date]],
         correct: correct,
-        json: result[:raw_response].to_s.strip.start_with?("{"),
+        json: result[:raw_response].to_s.strip.start_with?('{'),
         seconds: seconds
       }
     end
@@ -90,7 +90,7 @@ class SourceDateBenchmark
   # One throwaway call so that loading the model into memory is not charged to the first
   # caption, which would otherwise dominate its timing.
   def warm_up
-    parser.call("1948")
+    parser.call('1948')
   rescue StandardError
     nil
   end

@@ -39,6 +39,7 @@ group :development do
 
   # Linters and annotations
   gem 'annotaterb'
+  gem 'rubocop'
   gem 'ruby-lsp'
 end
 

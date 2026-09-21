@@ -1,7 +1,7 @@
-require "test_helper"
+require 'test_helper'
 
 class BundesarchivSaxHandlerTest < ActiveSupport::TestCase
-  test "skips archdesc with type other than inventory" do
+  test 'skips archdesc with type other than inventory' do
     xml = <<~XML
       <?xml version="1.0" encoding="UTF-8"?>
       <ead>

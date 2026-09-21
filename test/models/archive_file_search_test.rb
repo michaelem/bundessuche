@@ -1,97 +1,97 @@
-require "test_helper"
+require 'test_helper'
 
 class ArchiveFileSearchTest < ActiveSupport::TestCase
   def setup
-    BundesarchivImporter.new("test/fixtures/files/dataset-tiny").run
+    BundesarchivImporter.new('test/fixtures/files/dataset-tiny').run
     ArchiveFile.reindex
 
-    @example_archive_file = ArchiveFile.find_by(source_id: "DE-1958_8a0ff3f6-46b3-443a-9e48-946e790301e0")
-    @dated_archive_file = ArchiveFile.find_by(source_id: "DE-1958_a3f843cb-07dd-4d39-a8a3-fa5ede2f69ab")
+    @example_archive_file = ArchiveFile.find_by(source_id: 'DE-1958_8a0ff3f6-46b3-443a-9e48-946e790301e0')
+    @dated_archive_file = ArchiveFile.find_by(source_id: 'DE-1958_a3f843cb-07dd-4d39-a8a3-fa5ede2f69ab')
   end
 
-  test "reindex with show_progress does not raise" do
+  test 'reindex with show_progress does not raise' do
     capture_io { ArchiveFile.reindex(true) }
     assert ArchiveFile.search(@example_archive_file.title).count > 0
   end
 
-  test "search finds archive files by title" do
+  test 'search finds archive files by title' do
     assert_equal 1, ArchiveFile.search(@example_archive_file.title).count
   end
 
-  test "search finds archive files by call number" do
+  test 'search finds archive files by call number' do
     assert_equal 1, ArchiveFile.search(@example_archive_file.call_number).count
   end
 
-  test "search finds archive files by the name of the node holding them" do
+  test 'search finds archive files by the name of the node holding them' do
     node = @example_archive_file.archive_node
 
     assert_includes ArchiveFile.search(node.name).ids, @example_archive_file.id
   end
 
-  test "search finds archive files by the name of a node further up the tree" do
+  test 'search finds archive files by the name of a node further up the tree' do
     root = @example_archive_file.archive_node.parents.first
     assert_not_equal root, @example_archive_file.archive_node
 
     assert_includes ArchiveFile.search(root.name).ids, @example_archive_file.id
   end
 
-  test "search finds archive files by the name of one of their origins" do
+  test 'search finds archive files by the name of one of their origins' do
     origin = @example_archive_file.origins.first
-    assert_not_nil origin, "the fixture file is expected to have an origin"
+    assert_not_nil origin, 'the fixture file is expected to have an origin'
 
     assert_includes ArchiveFile.search(origin.name).ids, @example_archive_file.id
   end
 
-  test "search treats a quote in the query as text rather than as FTS syntax" do
+  test 'search treats a quote in the query as text rather than as FTS syntax' do
     assert_nothing_raised do
       ArchiveFile.search(%(Akte "mit" Anfuehrungszeichen)).count
       ArchiveFile.search(%(unbalanced " quote)).count
     end
   end
 
-  test "search matches across a wildcard" do
+  test 'search matches across a wildcard' do
     # The title is "Organisations- und Geschäftsverteilungspläne des BMFa".
-    assert_includes ArchiveFile.search("Organisations*BMFa").ids, @example_archive_file.id
+    assert_includes ArchiveFile.search('Organisations*BMFa').ids, @example_archive_file.id
   end
 
-  test "search keeps the pieces around a wildcard in order" do
-    assert_not_includes ArchiveFile.search("BMFa*Organisations").ids, @example_archive_file.id
+  test 'search keeps the pieces around a wildcard in order' do
+    assert_not_includes ArchiveFile.search('BMFa*Organisations').ids, @example_archive_file.id
   end
 
-  test "search keeps the pieces around a wildcard in one column" do
+  test 'search keeps the pieces around a wildcard in one column' do
     # "Organisations" is in the title, "153" in the call number B 153/386, so
     # the trigram index proposes this file and the glob pattern rejects it.
-    assert_not_includes ArchiveFile.search("Organisations*153").ids, @example_archive_file.id
+    assert_not_includes ArchiveFile.search('Organisations*153').ids, @example_archive_file.id
   end
 
-  test "search matches a wildcard against the name of a node above the file" do
+  test 'search matches a wildcard against the name of a node above the file' do
     node = @example_archive_file.archive_node
-    assert_equal "Personalwesen und Organisation", node.name
+    assert_equal 'Personalwesen und Organisation', node.name
 
-    assert_includes ArchiveFile.search("Personal*Organisation").ids, @example_archive_file.id
+    assert_includes ArchiveFile.search('Personal*Organisation').ids, @example_archive_file.id
   end
 
-  test "search matches a wildcard against the name of an origin" do
+  test 'search matches a wildcard against the name of an origin' do
     assert_includes(
-      ArchiveFile.search("Bundesministerium*(BMFa)").ids,
+      ArchiveFile.search('Bundesministerium*(BMFa)').ids,
       @example_archive_file.id
     )
   end
 
-  test "search folds case beyond ASCII" do
+  test 'search folds case beyond ASCII' do
     assert_includes(
-      ArchiveFile.search("GESCHÄFTSVERTEILUNGSPLÄNE*BMFA").ids,
+      ArchiveFile.search('GESCHÄFTSVERTEILUNGSPLÄNE*BMFA').ids,
       @example_archive_file.id
     )
   end
 
-  test "search finds nothing for a query the index cannot answer" do
-    assert_empty ArchiveFile.search("or*BM")
-    assert_empty ArchiveFile.search("")
+  test 'search finds nothing for a query the index cannot answer' do
+    assert_empty ArchiveFile.search('or*BM')
+    assert_empty ArchiveFile.search('')
     assert_empty ArchiveFile.search(nil)
   end
 
-  test "source_dated_between prefers the parsed date over the imported columns" do
+  test 'source_dated_between prefers the parsed date over the imported columns' do
     # The imported columns say 1958, the parsed date says 1966.
     ParsedSourceDate.create!(
       source_text: @dated_archive_file.source_date_text,
@@ -106,7 +106,7 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
     assert_equal 0, search.source_dated_between(Date.new(1958, 1, 1), Date.new(1958, 12, 31)).count
   end
 
-  test "source_dated_between falls back to the imported columns without a parsed date" do
+  test 'source_dated_between falls back to the imported columns without a parsed date' do
     # Imported as 1954 to 1967, its source date text is blank.
     search = ArchiveFile.search(@example_archive_file.title)
 
@@ -116,7 +116,7 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
     assert_equal 0, search.source_dated_between(nil, Date.new(1953, 12, 31)).count
   end
 
-  test "source_dated_between falls back to a start date without an end date" do
+  test 'source_dated_between falls back to a start date without an end date' do
     @example_archive_file.update!(source_date_end: nil)
     search = ArchiveFile.search(@example_archive_file.title)
 
@@ -124,17 +124,17 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
     assert_equal 0, search.source_dated_between(Date.new(1955, 1, 1), nil).count
   end
 
-  test "source_dated_between without boundaries filters nothing" do
+  test 'source_dated_between without boundaries filters nothing' do
     search = ArchiveFile.search(@dated_archive_file.title)
 
     assert_equal 1, search.source_dated_between(nil, nil).count
   end
 
-  test "source_dated_between drops files without any date" do
+  test 'source_dated_between drops files without any date' do
     undated = ArchiveFile.create!(
       archive_node: @example_archive_file.archive_node,
-      source_id: "DE-1958_22222222-2222-4222-8222-222222222222",
-      title: "Akte ohne jede Datierung"
+      source_id: 'DE-1958_22222222-2222-4222-8222-222222222222',
+      title: 'Akte ohne jede Datierung'
     )
     search = ArchiveFile.search(undated.title)
     assert_equal 1, search.count
