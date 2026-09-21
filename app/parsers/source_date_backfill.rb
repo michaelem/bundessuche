@@ -17,7 +17,7 @@ class SourceDateBackfill
     texts = pending_texts
 
     if show_progress
-      start = Time.now
+      start = Time.zone.now
 
       progress_bar = ProgressBar.create(
         title: 'Parsing dates',
@@ -45,9 +45,9 @@ class SourceDateBackfill
     end
 
     if show_progress
-      puts "Parsed #{texts.size - failures} of #{texts.size} date texts in #{Time.now - start} seconds"
-      puts "#{matched} of them without the LLM"
-      puts "#{failures} failed, see the log for details" if failures > 0
+      Rails.logger.debug "Parsed #{texts.size - failures} of #{texts.size} date texts in #{Time.zone.now - start} seconds"
+      Rails.logger.debug "#{matched} of them without the LLM"
+      Rails.logger.debug "#{failures} failed, see the log for details" if failures.positive?
     end
 
     texts.size - failures

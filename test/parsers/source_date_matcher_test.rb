@@ -10,7 +10,7 @@ class SourceDateMatcherTest < ActiveSupport::TestCase
   def assert_range(text, start_date, end_date, confidence: 1.0)
     result = @matcher.call(text)
 
-    refute_nil result, "expected #{text.inspect} to be matched"
+    assert_not_nil result, "expected #{text.inspect} to be matched"
     assert_equal start_date, result[:start_date], text
     assert_equal end_date, result[:end_date], text
     assert_equal confidence, result[:confidence], text
@@ -67,7 +67,7 @@ class SourceDateMatcherTest < ActiveSupport::TestCase
      'Laufzeit nicht ermittelt', 'Laufzeit automatisch generiert'].each do |text|
       result = @matcher.call(text)
 
-      refute_nil result, "expected #{text.inspect} to be matched"
+      assert_not_nil result, "expected #{text.inspect} to be matched"
       assert_nil result[:start_date]
       assert_nil result[:end_date]
       assert_equal 0.0, result[:confidence]

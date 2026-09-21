@@ -44,7 +44,7 @@ class StoreSourceUuidAndLinkVariant < ActiveRecord::Migration[8.1]
         WHERE source_uuid IS NULL OR length(source_uuid) <> 16
            OR (link IS NOT NULL AND link_variant IS NULL)
       SQL
-    raise "#{unconvertible} archive files do not match the expected id or link format" if unconvertible.to_i > 0
+    raise "#{unconvertible} archive files do not match the expected id or link format" if unconvertible.to_i.positive?
 
     remove_index :archive_files, :source_id
     remove_column :archive_files, :source_id

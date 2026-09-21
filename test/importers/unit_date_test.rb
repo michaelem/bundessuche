@@ -15,7 +15,7 @@ class UnitDateTest < ActiveSupport::TestCase
   test 'Parses a single date correctly' do
     date_parser = UnitDate.new('1. 1. 1920', '1920-01-01')
 
-    refute date_parser.range?
+    assert_not date_parser.range?
     assert_equal Date.new(1920, 1, 1), date_parser.start_date
     assert_equal Date.new(1920, 1, 1), date_parser.end_date
   end
@@ -23,7 +23,7 @@ class UnitDateTest < ActiveSupport::TestCase
   test 'Fails gracefully when the date is not parseable' do
     date_parser = UnitDate.new('Kein Datum', '')
 
-    refute date_parser.range?
+    assert_not date_parser.range?
     assert_nil date_parser.start_date
     assert_nil date_parser.end_date
   end
@@ -31,7 +31,7 @@ class UnitDateTest < ActiveSupport::TestCase
   test 'Fails gracefully when normal is not present' do
     date_parser = UnitDate.new('Kein Datum', nil)
 
-    refute date_parser.range?
+    assert_not date_parser.range?
     assert_nil date_parser.start_date
     assert_nil date_parser.end_date
   end

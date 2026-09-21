@@ -183,7 +183,7 @@ class ArchiveFile < ApplicationRecord
 
   def self.reindex(show_progress = false)
     if show_progress
-      start = Time.now
+      start = Time.zone.now
 
       progress_bar = ProgressBar.create(
         title: 'Reindexing',
@@ -210,7 +210,7 @@ class ArchiveFile < ApplicationRecord
 
     return unless show_progress
 
-    puts "Reindexing took #{Time.now - start} seconds"
+    Rails.logger.debug "Reindexing took #{Time.zone.now - start} seconds"
   end
 
   # Fills in the ancestor chains for a whole page of files with one query, so
@@ -233,7 +233,7 @@ class ArchiveFile < ApplicationRecord
   # it. This used to be a JSON column repeating the names on every row, which
   # cost 1.4 GB for something archive_nodes already describes.
   def parents
-    @preloaded_parents ||=
+    @parents ||=
       ArchiveNode.ancestor_chains(archive_node_id).fetch(archive_node_id, [])
   end
 

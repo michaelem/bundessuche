@@ -29,7 +29,7 @@ class SourceDateBenchmarkTest < ActiveSupport::TestCase
     )
 
     assert rows.first[:correct]
-    refute rows.second[:correct]
+    assert_not rows.second[:correct]
 
     summary = SourceDateBenchmark.summarize(rows)
     assert_equal 2, summary[:captions]
@@ -50,14 +50,14 @@ class SourceDateBenchmarkTest < ActiveSupport::TestCase
     )
 
     assert rows.first[:correct]
-    refute rows.first[:json]
+    assert_not rows.first[:json]
     assert_equal 0, SourceDateBenchmark.summarize(rows)[:json]
   end
 
   test 'a failing call counts as a wrong answer instead of aborting the run' do
     rows = benchmark({ '1948' => [Date.new(1948, 1, 1), Date.new(1948, 12, 31)] }, { '1948' => :raise })
 
-    refute rows.first[:correct]
+    assert_not rows.first[:correct]
     assert_equal 0.0, SourceDateBenchmark.summarize(rows)[:accuracy]
   end
 end

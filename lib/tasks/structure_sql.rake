@@ -11,7 +11,7 @@
 # safest thing is to keep them out of structure.sql entirely.
 namespace :db do
   namespace :structure do
-    task :drop_fts_shadow_tables do
+    task drop_fts_shadow_tables: :environment do
       path = Rails.root.join('db/structure.sql')
       next unless File.exist?(path)
 

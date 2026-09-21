@@ -22,7 +22,7 @@ class UnitDate
   private
 
   def parse_iso8601_string(date_string)
-    return nil unless date_string.present?
+    return nil if date_string.blank?
 
     begin
       Date.iso8601(date_string)

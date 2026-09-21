@@ -76,7 +76,7 @@ class SourceDateBenchmark
 
       seconds = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started_at
       correct = result[:start_date] == start_date && result[:end_date] == end_date
-      print(correct ? '.' : 'x') if show_progress
+      Rails.logger.debug(correct ? '.' : 'x') if show_progress
 
       {
         caption: caption,

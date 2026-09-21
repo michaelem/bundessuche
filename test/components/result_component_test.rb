@@ -129,7 +129,7 @@ class ResultComponentTest < ViewComponent::TestCase
   def test_render_labels_every_icon_only_control
     render_inline(ResultComponent.new(archive_file: citable_archive_file))
 
-    page.all('.cite__button').each do |button|
+    page.all('.cite__button').find_each do |button|
       assert button[:title].present?, 'a cite button is missing its title'
       assert_equal button[:title], button['aria-label']
     end

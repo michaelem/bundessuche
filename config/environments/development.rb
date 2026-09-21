@@ -62,5 +62,5 @@ Rails.application.configure do
   config.action_controller.raise_on_missing_callback_actions = true
 
   # Allow ngrok hosts in development.
-  config.hosts += Ngrok::Client.new(ENV.fetch('PORT') { 3000 }).public_urls
+  config.hosts += Ngrok::Client.new(ENV.fetch('PORT', 3000)).public_urls
 end

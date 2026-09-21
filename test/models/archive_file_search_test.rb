@@ -13,7 +13,7 @@ class ArchiveFileSearchTest < ActiveSupport::TestCase
 
   test 'reindex with show_progress does not raise' do
     capture_io { ArchiveFile.reindex(true) }
-    assert ArchiveFile.search(@example_archive_file.title).count > 0
+    assert ArchiveFile.search(@example_archive_file.title).count.positive?
   end
 
   test 'search finds archive files by title' do

@@ -40,6 +40,7 @@ group :development do
   # Linters and annotations
   gem 'annotaterb'
   gem 'rubocop'
+  gem 'rubocop-rails', require: false
   gem 'ruby-lsp'
 end
 

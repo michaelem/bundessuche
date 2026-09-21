@@ -6,8 +6,8 @@ class BundesarchivImporter
   end
 
   def run(show_progress: false)
-    puts "Importing data from XML files in #{@dir}..." if show_progress
-    start = Time.now
+    Rails.logger.debug "Importing data from XML files in #{@dir}..." if show_progress
+    start = Time.zone.now
     archive_file_count = 0
     origins_cache = {}
 
@@ -37,6 +37,6 @@ class BundesarchivImporter
 
     return unless show_progress
 
-    puts "Finished. Imported #{archive_file_count} archive files in #{Time.now - start} seconds."
+    Rails.logger.debug "Finished. Imported #{archive_file_count} archive files in #{Time.zone.now - start} seconds."
   end
 end

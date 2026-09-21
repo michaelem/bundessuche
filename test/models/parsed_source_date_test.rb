@@ -4,7 +4,7 @@ require 'test_helper'
 
 class ParsedSourceDateTest < ActiveSupport::TestCase
   test 'parsed?' do
-    refute ParsedSourceDate.new(source_text: 'o. Dat.').parsed?
+    assert_not ParsedSourceDate.new(source_text: 'o. Dat.').parsed?
     assert ParsedSourceDate.new(source_text: '1948', start_date: Date.new(1948, 1, 1)).parsed?
   end
 
@@ -14,7 +14,7 @@ class ParsedSourceDateTest < ActiveSupport::TestCase
       start_date: Date.new(1948, 5, 28),
       end_date: Date.new(1948, 5, 28)
     )
-    refute single_day.range?
+    assert_not single_day.range?
 
     span = ParsedSourceDate.new(
       source_text: '1948',
