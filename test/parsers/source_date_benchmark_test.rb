@@ -60,4 +60,27 @@ class SourceDateBenchmarkTest < ActiveSupport::TestCase
     assert_not rows.first[:correct]
     assert_equal 0.0, SourceDateBenchmark.summarize(rows)[:accuracy]
   end
+
+  test 'records the error of a failing call and counts it in the summary' do
+    rows = benchmark({ '1948' => [Date.new(1948, 1, 1), Date.new(1948, 12, 31)] }, { '1948' => :raise })
+
+    assert_equal 'Faraday::ConnectionFailed: boom', rows.first[:error]
+    assert_equal 1, SourceDateBenchmark.summarize(rows)[:errors]
+  end
+
+  # A broken server answers every caption with an empty range, which is the right answer for
+  # an undatable caption. Without the error count the run would look like a model that works.
+  test 'counts an error even when the empty range happens to be the expected one' do
+    rows = benchmark({ 'Bd. 1' => [nil, nil] }, { 'Bd. 1' => :raise })
+
+    assert rows.first[:correct]
+    assert_equal 1, SourceDateBenchmark.summarize(rows)[:errors]
+  end
+
+  test 'leaves the error empty when the call succeeds' do
+    rows = benchmark({ 'o. Dat.' => [nil, nil] }, { 'o. Dat.' => [nil, nil] })
+
+    assert_nil rows.first[:error]
+    assert_equal 0, SourceDateBenchmark.summarize(rows)[:errors]
+  end
 end

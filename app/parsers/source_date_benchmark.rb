@@ -60,18 +60,23 @@ class SourceDateBenchmark
 
   attr_reader :model, :captions, :parser
 
-  # Returns one row per caption: the expected and the parsed range, plus how long the call
-  # took.
+  # Returns one row per caption: the expected and the parsed range, how long the call took
+  # and, when the call raised, the error. An error and a caption the model declines both
+  # come out as an empty range, so only :error tells a broken server apart from a bad
+  # answer.
   def run(show_progress: false)
     warm_up
 
     captions.map do |caption, (start_date, end_date)|
       started_at = Process.clock_gettime(Process::CLOCK_MONOTONIC)
 
+      error = nil
+
       begin
         result = parser.call(caption)
       rescue StandardError => e
-        result = { start_date: nil, end_date: nil, raw_response: "#{e.class}: #{e.message}" }
+        error = "#{e.class}: #{e.message}"
+        result = { start_date: nil, end_date: nil, raw_response: error }
       end
 
       seconds = Process.clock_gettime(Process::CLOCK_MONOTONIC) - started_at
@@ -84,6 +89,7 @@ class SourceDateBenchmark
         actual: [result[:start_date], result[:end_date]],
         correct: correct,
         json: result[:raw_response].to_s.strip.start_with?('{'),
+        error: error,
         seconds: seconds
       }
     end
@@ -106,6 +112,7 @@ class SourceDateBenchmark
       correct: correct,
       accuracy: rows.empty? ? 0.0 : (100.0 * correct / rows.size).round(1),
       json: rows.count { |row| row[:json] },
+      errors: rows.count { |row| row[:error] },
       seconds_per_caption: rows.empty? ? 0.0 : (seconds / rows.size).round(1),
       total_seconds: seconds.round(1)
     }

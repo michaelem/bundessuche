@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-BENCHMARK_HEADER_FORMAT = "\n%<model>-28s %<set>-8s %<accuracy>9s %<correct>9s %<json>6s %<seconds>9s"
+BENCHMARK_HEADER_FORMAT = "\n%<model>-28s %<set>-8s %<accuracy>9s %<correct>9s %<json>6s %<errors>7s %<seconds>9s"
 BENCHMARK_ROW_FORMAT = '%<model>-28s %<set>-8s %<accuracy>8.1f%% %<correct>5d/%<captions>-3d ' \
-                       '%<json>3d/%<captions>-2d %<seconds>9.1f'
+                       '%<json>3d/%<captions>-2d %<errors>7d %<seconds>9.1f'
 
 namespace :dates do
   desc 'Parse source_date_text into date ranges using a local LLM'
@@ -28,7 +28,8 @@ namespace :dates do
         puts
 
         rows.reject { |row| row[:correct] }.each do |row|
-          puts "    #{row[:caption].inspect}: expected #{row[:expected].join('..')}, got #{row[:actual].join('..')}"
+          got = row[:error] || row[:actual].join('..')
+          puts "    #{row[:caption].inspect}: expected #{row[:expected].join('..')}, got #{got}"
         end
 
         SourceDateBenchmark.summarize(rows)
@@ -36,12 +37,13 @@ namespace :dates do
     end
 
     puts format(BENCHMARK_HEADER_FORMAT, model: 'model', set: 'set', accuracy: 'accuracy', correct: 'correct',
-                                         json: 'json', seconds: 's/caption')
+                                         json: 'json', errors: 'errors', seconds: 's/caption')
     summaries.each do |model, sets|
       sets.each do |set, summary|
         puts format(BENCHMARK_ROW_FORMAT, model: model, set: set, accuracy: summary[:accuracy],
                                           correct: summary[:correct], captions: summary[:captions],
-                                          json: summary[:json], seconds: summary[:seconds_per_caption])
+                                          json: summary[:json], errors: summary[:errors],
+                                          seconds: summary[:seconds_per_caption])
       end
     end
   end

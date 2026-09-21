@@ -115,7 +115,7 @@ class SourceDateParser
       .with_temperature(0)
       .with_instructions(SYSTEM_PROMPT)
       .with_schema(Schema)
-      .with_params(reasoning_effort: 'none', keep_alive: KEEP_ALIVE)
+      .with_provider_options(reasoning_effort: 'none', keep_alive: KEEP_ALIVE)
   end
 
   def normalize(result)
