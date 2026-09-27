@@ -33,8 +33,39 @@ jobs:
       - name: Run tests
         run: bin/rails test
 
+  system-test:
+    # The x64 images come with Chrome preinstalled, which the ARM ones do not.
+    # https://github.com/actions/runner-images/blob/main/images/ubuntu/Ubuntu2604-Arm64-Readme.md
+    runs-on: ubuntu-26.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v7
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Create database
+        run: bin/rails db:create
+
+      - name: Migrate database
+        run: bin/rails db:migrate
+
+      - name: Run system tests
+        run: bin/rails test:system
+
+      - name: Keep screenshots of failed tests
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: screenshots
+          path: tmp/screenshots
+          if-no-files-found: ignore
+
   build:
-    needs: [test]
+    needs: [test, system-test]
     runs-on: ubuntu-26.04-arm
     if: github.ref == 'refs/heads/main'
 
