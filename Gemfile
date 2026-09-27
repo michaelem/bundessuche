@@ -17,7 +17,6 @@ gem 'propshaft'
 gem 'sqlite3' # Use SQLite for production
 
 gem 'bootsnap', require: false # Reduces boot times through caching; required in config/boot.rb
-gem 'cgi'
 gem 'kaminari' # Pagination
 gem 'progressbar' # Used in the import task
 gem 'ruby_llm' # Talk to the local Ollama server when parsing source date texts
